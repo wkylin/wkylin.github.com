@@ -1,0 +1,247 @@
+html {
+    overflow: -moz-scrollbars-vertical;
+    min-height: 101%;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:link, a:visited, a:active {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(128, 128, 128);
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+    font: 12px/normal Arial;
+    color: rgb(102, 102, 102);
+    font-size-adjust: none;
+    font-stretch: normal;
+    /* 最小高度 */
+    min-height: 100px;
+    height:auto !important;
+    height:100px;
+}
+
+.ui-container {
+}
+
+.ui-header {
+    padding: 20px 0;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    z-index: 9999;
+}
+
+.ui-header-content {
+    width: 990px;
+    margin: 0 auto;
+}
+.ui-header-content .logo{
+    font-size:36px;
+    padding-top:10px;
+    color:#333;
+    -moz-text-shadow: 1px 1px 3px #666;
+    -webkit-text-shadow: 1px 1px 3px  #666;
+    text-shadow: 1px 1px 3px  #666;
+
+}
+
+.ui-gloable-search{
+    width:430px;
+
+}
+
+.ui-gloable-search .ui-tab-content{
+    background-color:#2566A0;
+    padding:5px;
+    height:30px;
+    _overflow: hidden;
+    _height:32px;
+}
+
+.ui-meta-left {
+    height: 30px;
+    float: left;
+    display:inline;
+    margin-right: 15px;
+}
+
+.ui-meta-right {
+    height: 30px;
+    float: right;
+    display:inline;
+    cursor: pointer;
+}
+
+.ui-input-text {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 295px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.ui-input-button {
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #eee;
+    color: #333;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width:90px;
+    height:30px;
+    font-family:"\5FAE\8F6F\96C5\9ED1";
+}
+
+input.ui-input-button:focus {
+    border: none;
+    outline: none;
+}
+
+.searh-menu li {
+    position: relative;
+    z-index: 999999;
+}
+
+.searh-menu .searh-more {
+    overflow: hidden;
+    clear: both;
+    line-height: 29px;
+    font-size: 14px;
+    position: relative;
+}
+
+.searh-menu .searh-more-hd {
+    border: 1px solid #eee;
+    left: 0px;
+    top: 29px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    width:93px;
+    z-index: 9999;
+}
+
+.searh-menu .searh-more-hd .ui-input-button {
+    border: 0 none;
+    background-color: #fff;
+    color: #4d4d4d;
+}
+
+.ui-gloable-search .ui-tab-trigger{
+    margin-left:5px;
+    height:30px;
+}
+.ui-gloable-search .ui-tab-trigger-item{
+    padding-left:10px;
+    line-height:30px
+}
+
+.ui-gloable-search .ui-tab-trigger-item span{
+    padding-right:10px;
+}
+
+.ui-gloable-search .ui-tab-trigger-item-current{
+    background-color:#2566A0;
+    bottom:0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ui-gloable-search .ui-tab-trigger-item-current span{
+   color:#eee;
+}
+
+.ui-content {
+    width: 990px;
+    margin: 20px auto 0;
+}
+/* 解决ie6下 z-index 问题 */
+.ui-content .ui-tab{
+   position: static;
+}
+.ui-content .ui-tab-trigger-item {
+    padding-left: 40px;
+    width: 80px;
+    bottom: 0;
+    _bottom:-1px;
+}
+
+.ui-content .ui-tab-trigger-item-current {
+    border: 1px solid #ccc;
+    border-bottom: 0 none;
+    background-color: #fff;
+    padding-left: 40px;
+    width: 80px;
+}
+
+.ui-content .ui-tab-content {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.ui-content .ui-title {
+    border-bottom: 1px solid #E1E1E1;
+    padding: 10px 0 5px 10px;
+    margin-bottom: 5px;
+}
+
+.ui-content .ui-title h2 {
+    font-size: 13px;
+    color: #333;
+}
+
+.ui-content .ui-list .ui-list-item {
+    float: left;
+    display: inline;
+    width: 82px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ui-footer {
+    background: #303030;
+    clear: both;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.ui-fotter-content {
+    width: 990px;
+    margin: 10px auto 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 10px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.ui-copyright {
+
+}
+
+.ui-gotop {
+
+}

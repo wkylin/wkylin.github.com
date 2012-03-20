@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wkylin</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/base.css" media="all">
+    <link rel="stylesheet" type="text/css" href="style/default.css" media="all">
+    <link rel="stylesheet" type="text/css" href="style/ui-tab.css" media="all">
+    <link rel="stylesheet" type="text/css" href="style/ui-title.css" media="all">
+    <link rel="stylesheet" type="text/css" href="style/ui-list.css" media="all">
+</head>
+<body>
+<div class="ui-container">
+
+    <div class="ui-header">
+        <div class="ui-header-content fn-clear">
+            <div class="ui-meta fn-left">
+                <div class="logo">
+                    write less do more
+                </div>
+            </div>
+            <div class="ui-gloable-search fn-right">
+                <div class="ui-tab">
+                    <div class="ui-tab-trigger">
+                        <ul id="J_uiTab">
+                            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                                <span>网页</span>
+                            </li>
+                            <li class="ui-tab-trigger-item">
+                                <span>视频</span>
+                            </li>
+                            <li class="ui-tab-trigger-item">
+                                <span>音乐</span>
+                            </li>
+                            <li class="ui-tab-trigger-item">
+                                <span>图片</span>
+                            </li>
+                            <li class="ui-tab-trigger-item">
+                                <span>购物</span>
+                            </li>
+                            <li class="ui-tab-trigger-item">
+                                <span>资源</span>
+                            </li>
+                            <li class="ui-tab-trigger-item">
+                                <span>地图</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="ui-tab-content">
+                        <form name="s" method="get" action="http://www.baidu.com/s">
+                            <div class="ui-meta-left" style="position:relative">
+                                <input id="q" class="ui-input-text" name="wd" type="text"/>
+                            </div>
+                            <div class="ui-meta-right">
+                                <!--网页-->
+                                <ul class="searh-menu">
+                                    <li>
+                                        <div class="searh-more">
+                                            <input class="ui-input-button" onclick="window.open('http://www.baidu.com/s?wd='+s.wd.value,'')" name="百度一下" value="百度一下 &#9830;" type="button">
+                                        </div>
+                                        <div class="searh-more-hd fn-hide">
+                                            <input class="ui-input-button" onclick="window.open('http://www.google.com.hk/search?q='+s.wd.value,'')" name="google" value="谷歌" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://www.sogou.com/web?query='+s.wd.value,'')" name="sogou" value="搜狗" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://www.soso.com/q?pid=s.idx&amp;ch=s.idx&amp;w='+s.wd.value,'')" name="soso" value="搜搜" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://cn.bing.com/search?q='+s.wd.value,'')" name="bing" value="必应" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://www.youdao.com/search?q='+s.wd.value,'')" name="youdao" value="有道" type="button">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!--视频-->
+                                <ul class="searh-menu fn-hide">
+                                    <li>
+                                        <div class="searh-more">
+                                            <input class="ui-input-button" onclick="window.open('http://video.baidu.com/?q='+s.wd.value,'')" name="百度视频" value="百度视频 &#9830;" type="button">
+                                        </div>
+                                        <div class="searh-more-hd fn-hide">
+                                            <input class="ui-input-button" onclick="window.open('http://so.tudou.com/isearch.do?kw='+s.wd.value,'')" name="土豆" value="土豆" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://www.soku.com/search_video/q_'+s.wd.value,'')" name="优酷" value="优酷" type="button">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!--音乐-->
+                                <ul class="searh-menu fn-hide">
+                                    <li>
+                                        <div class="searh-more">
+                                            <input class="ui-input-button" onclick="window.open('http://mp3.baidu.com/?q='+s.wd.value,'')" name="百度mp3" value="百度mp3 &#9830;" type="button">
+                                        </div>
+                                        <div class="searh-more-hd fn-hide">
+                                            <input class="ui-input-button" onclick="window.open('http://www.google.cn/music/search?q='+s.wd.value,'')" name="谷歌音乐" value="谷歌音乐" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://so.1ting.com/all.do?q='+s.wd.value,'')" name="一听音乐" value="一听音乐" type="button">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!--图片-->
+                                <ul class="searh-menu fn-hide">
+                                    <li>
+                                        <div class="searh-more">
+                                            <input class="ui-input-button" onclick="window.open('http://image.baidu.com/?q='+s.wd.value,'')" name="百度图片" value="百度图片 &#9830;" type="button">
+                                        </div>
+                                        <div class="searh-more-hd fn-hide">
+                                            <input class="ui-input-button" onclick="window.open('http://www.google.com.hk/images?q='+s.wd.value,'')" name="谷歌图片" value="谷歌图片" type="button">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!--购物-->
+                                <ul class="searh-menu fn-hide">
+                                    <li>
+                                        <div class="searh-more">
+                                            <input class="ui-input-button" onclick="window.open('http://s.taobao.com/search?q='+s.wd.value,'')" name="taobao" value="淘宝搜索 &#9830;" type="button">
+                                        </div>
+                                        <div class="searh-more-hd fn-hide">
+                                            <input class="ui-input-button" onclick="window.open('http://search.360buy.com/search?keyword='+s.wd.value,'')" name="360buy" value="京东" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://search.dangdang.com/search.php?key='+s.wd.value,'')" name="dangdang" value="当当" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://www.amazon.cn/s?ie=utf8&amp;keywords='+s.wd.value,'')" name="amazon" value="卓越" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://youa.baidu.com/search/s?search_domain=1&amp;category=0&amp;keyword='+s.wd.value,'')" name="youa" value="有啊" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://www.vancl.com/product/searchnew.aspx?new=1&amp;k='+s.wd.value,'')" name="vancl" value="凡客" type="button">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!--资源-->
+                                <ul class="searh-menu fn-hide">
+                                    <li>
+                                        <div class="searh-more">
+                                            <input class="ui-input-button" onclick="window.open('http://www.gougou.com/search?search='+s.wd.value,'')" name="gougou" value="迅雷搜索 &#9830;" type="button">
+                                        </div>
+                                        <div class="searh-more-hd fn-hide">
+                                            <input class="ui-input-button" onclick="window.open('http://www.verycd.com/search/folders/'+s.wd.value,'')" name="verycd" value="电驴搜索" type="button">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!--地图-->
+                                <ul class="searh-menu fn-hide">
+                                    <li>
+                                        <div class="searh-more">
+                                            <input class="ui-input-button" onclick="window.open('http://map.baidu.com/m?word='+s.wd.value,'')" name="google" value="百度地图 &#9830;" type="button">
+                                        </div>
+                                        <div class="fn-hide searh-more-hd">
+                                            <input class="ui-input-button" onclick="window.open('http://ditu.google.cn/maps?q='+s.wd.value,'')" name="google" value="谷歌地图" type="button">
+                                            <input class="ui-input-button" onclick="window.open('http://map.sogou.com/#lq='+s.wd.value,'')" name="sogou" value="搜狗地图" type="button">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui-content">
+        <div class="ui-tab">
+            <div class="ui-tab-trigger">
+                <ul id="J_uiTabTriUl">
+                    <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                        <span>门户</span>
+                    </li>
+                    <li class="ui-tab-trigger-item">
+                        <span>技术</span>
+                    </li>
+                    <li class="ui-tab-trigger-item">
+                        <span>生活</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="ui-tab-content" id="J_uiTabCntDiv">
+                <div class="ui-tab-content-item ui-tab-content-item-current">
+                    <div class="ui-title fn-clear">
+                        <h2>GOOGLE</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.google.com.hk" target="_blank">Google</a></li>
+                        <li class="ui-list-item"><a href="http://www.google.com/ig" target="_blank">iGoogle</a></li>
+                        <li class="ui-list-item"><a href="http://plus.google.com/" target="_blank">Google+</a></li>
+                        <li class="ui-list-item"><a href="https://mail.google.com/" target="_blank">Gmail</a></li>
+                        <li class="ui-list-item"><a href="http://www.google.com/notebook/" target="_blank">Notebook</a></li>
+                        <li class="ui-list-item"><a href="https://www.google.com/accounts/" target="_blank">Accounts</a>
+                        </li>
+                        <li class="ui-list-item"><a href="https://developers.google.com/" target="_blank">Developers</a>
+                        </li>
+                        <li class="ui-list-item">
+                            <a href="https://www.google.com/analytics/home/" target="_blank">Analytics</a></li>
+                        <li class="ui-list-item"><a href="http://www.google.com/webmasters/tools/" target="_blank">Webmasters</a>
+                        </li>
+                        <li class="ui-list-item"><a href="http://ditu.google.cn/" target="_blank">GOOGLE地图</a>
+                        </li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>百度</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.baidu.com/" target="_blank">百度</a></li>
+                        <li class="ui-list-item"><a href="http://mp3.baidu.com/" target="_blank">MP3</a></li>
+                        <li class="ui-list-item"><a href="http://video.baidu.com/" target="_blank">视频</a></li>
+                        <li class="ui-list-item"><a href="http://map.baidu.com/" target="_blank">地图</a></li>
+                        <li class="ui-list-item"><a href="http://tongji.baidu.com" target="_blank">统计</a></li>
+                        <li class="ui-list-item"><a href="http://index.baidu.com/" target="_blank">指数</a></li>
+                        <li class="ui-list-item"><a href="http://file.baidu.com/" target="_blank">文档</a></li>
+                        <li class="ui-list-item"><a href="http://zhidao.baidu.com/" target="_blank">知道</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>门户</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.sina.com.cn/" target="_blank">新浪</a></li>
+                        <li class="ui-list-item"><a href="http://www.sohu.com/" target="_blank">搜狐</a></li>
+                        <li class="ui-list-item"><a href="http://www.163.com/" target="_blank">网易</a></li>
+                        <li class="ui-list-item"><a href="http://www.qq.com/" target="_blank">QQ</a></li>
+                        <li class="ui-list-item"><a href="http://www.tom.com/" target="_blank">TOM</a></li>
+                        <li class="ui-list-item"><a href="http://www.china.com/" target="_blank">中华网</a></li>
+                        <li class="ui-list-item"><a href="http://www.cctv.com/" target="_blank">中央电视台</a></li>
+                        <li class="ui-list-item"><a href="http://www.ifeng.com/" target="_blank">凤凰网</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>信箱</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://mail.163.com/" target="_blank">163邮箱</a></li>
+                        <li class="ui-list-item"><a href="http://www.126.com/" target="_blank">126邮箱</a></li>
+                        <li class="ui-list-item"><a href="http://www.yeah.net/" target="_blank">Yeah</a></li>
+                        <li class="ui-list-item"><a href="http://mail.sina.com.cn/" target="_blank">新浪邮箱</a></li>
+                        <li class="ui-list-item"><a href="http://mail.sohu.com/" target="_blank">搜狐邮箱</a></li>
+                        <li class="ui-list-item"><a href="http://mail.qq.com/" target="_blank">QQ邮箱</a></li>
+                        <li class="ui-list-item"><a href="http://www.hotmail.com/" target="_blank">hotmail邮箱</a></li>
+                        <li class="ui-list-item"><a href="http://mail.yahoo.com/" target="_blank">雅虎邮箱</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>IT资讯</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.cnbeta.com/" target="_blank">Cnbeta</a></li>
+                        <li class="ui-list-item"><a href="http://www.alibuybuy.com/" target="_blank">Alibuybuy</a></li>
+                        <li class="ui-list-item"><a href="http://tech2ipo.com/" target="_blank">tech2ipo</a></li>
+                        <li class="ui-list-item"><a href="http://www.36kr.com/" target="_blank">36kr</a></li>
+                        <li class="ui-list-item"><a href="http://www.donews.com/" target="_blank">Donews</a></li>
+                        <li class="ui-list-item"><a href="http://www.socialbeta.cn/" target="_blank">SocialBeta</a></li>
+                        <li class="ui-list-item"><a href="http://www.pcpop.com/" target="_blank">泡泡网</a></li>
+                        <li class="ui-list-item"><a href="http://www.pconline.com.cn/" target="_blank">太平洋电脑</a></li>
+                        <li class="ui-list-item"><a href="http://it.com.cn/" target="_blank">IT世界</a></li>
+                        <li class="ui-list-item"><a href="http://www.it168.com/" target="_blank">It168</a></li>
+                        <li class="ui-list-item"><a href="http://www.yesky.com/" target="_blank">天极</a></li>
+                        <li class="ui-list-item"><a href="http://www.zol.com.cn/" target="_blank">中关村</a></li>
+                        <li class="ui-list-item"><a href="http://www.beareyes.com.cn/" target="_blank">小熊在线</a></li>
+                        <li class="ui-list-item"><a href="http://www.enet.com.cn/" target="_blank">eNet</a></li>
+                        <li class="ui-list-item"><a href="http://www.pchome.net/" target="_blank">电脑之家</a></li>
+                        <li class="ui-list-item"><a href="http://www.cnmo.com/" target="_blank">手机中国</a></li>
+                        <li class="ui-list-item"><a href="http://www.chinabyte.com/" target="_blank">比特网</a></li>
+                        <li class="ui-list-item"><a href="http://www.ITeye.com/" target="_blank">ITEye</a></li>
+                        <li class="ui-list-item"><a href="http://www.csdn.net/" target="_blank">CSDN</a></li>
+                        <li class="ui-list-item"><a href="http://www.itpub.net/" target="_blank">ITpub</a></li>
+                        <li class="ui-list-item"><a href="http://www.techweb.com.cn/" target="_blank">Techweb</a></li>
+                        <li class="ui-list-item"><a href="http://www.weamax.com/" target="_blank">Weamax</a></li>
+                        <li class="ui-list-item"><a href="http://www.iresearch.com.cn" target="_blank">iResearch</a></li>
+                        <li class="ui-list-item"><a href="http://www.iwebchoice.com/" target="_blank">iWebchoice</a></li>
+                        <li class="ui-list-item"><a href="http://www.itbulo.com/" target="_blank">IT部落</a></li>
+                        <li class="ui-list-item"><a href="http://www.verycd.com/" target="_blank">VeryCD</a></li>
+                        <li class="ui-list-item"><a href="http://www.xunlei.com/" target="_blank">迅雷</a></li>
+                        <li class="ui-list-item"><a href="http://www.appinn.com/" target="_blank">小众软件</a></li>
+                        <li class="ui-list-item"><a href="http://wangyueblog.com/" target="_blank">望月的博客</a></li>
+                        <li class="ui-list-item"><a href="http://www.williamlong.info/" target="_blank">月光博客</a></li>
+                        <li class="ui-list-item"><a href="http://lusongsong.com/" target="_blank">卢松松</a></li>
+                        <li class="ui-list-item"><a href="http://www.199it.com/" target="_blank">199IT</a></li>
+                        <li class="ui-list-item"><a href="http://www.geekpark.net/" target="_blank">极客公园</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>站长</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.blueidea.com/" target="_blank">蓝色理想</a></li>
+                        <li class="ui-list-item"><a href="http://www.im286.com" target="_blank">落伍者</a></li>
+                        <li class="ui-list-item"><a href="http://www.domain.cn" target="_blank">域名城</a></li>
+                        <li class="ui-list-item"><a href="http://www.ename.cn" target="_blank">易名</a></li>
+                        <li class="ui-list-item"><a href="http://www.zunmi.com/" target="_blank">尊米</a></li>
+                        <li class="ui-list-item"><a href="http://www.admin5.com/" target="_blank">站长网</a></li>
+                        <li class="ui-list-item"><a href="http://www.chinaz.com/" target="_blank">中国站长</a></li>
+                        <li class="ui-list-item"><a href="http://www.webmasterhome.cn/" target="_blank">中国站长之家</a></li>
+                        <li class="ui-list-item"><a href="http://www.236z.com/" target="_blank">236Z</a></li>
+                        <li class="ui-list-item"><a href="http://www.chinahtml.com/" target="_blank">站长资讯</a></li>
+                        <li class="ui-list-item"><a href="http://bbs.5a.com/" target="_blank">5A站长论坛</a></li>
+                        <li class="ui-list-item"><a href="http://difang.cc/" target="_blank">地方站长</a></li>
+                        <li class="ui-list-item"><a href="http://zz.comsenz.com/" target="_blank">站长俱乐部</a></li>
+                        <li class="ui-list-item"><a href="http://www.aizhan.com/" target="_blank">爱站</a></li>
+                        <li class="ui-list-item"><a href="http://www.linkhelper.cn/" target="_blank">Linkhelper</a></li>
+                        <li class="ui-list-item"><a href="http://www.shfor.com/" target="_blank">上否</a></li>
+                        <li class="ui-list-item"><a href="http://www.seowhy.com/" target="_blank">SeoWhy</a></li>
+                        <li class="ui-list-item"><a href="http://www.28tui.com/" target="_blank">28Tui</a></li>
+                        <li class="ui-list-item"><a href="http://www.adsem.cn/" target="_blank">adsem</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>社区</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li class="ui-list-item"><a href="http://www.myspace.com/" target="_blank">Myspace</a></li>
+                        <li class="ui-list-item"><a href="http://www.kaixin001.com/" target="_blank">开心网</a></li>
+                        <li class="ui-list-item"><a href="http://www.zhanzuo.com/" target="_blank">占座网</a></li>
+                        <li class="ui-list-item"><a href="http://www.51.com/" target="_blank">51.com</a></li>
+                        <li class="ui-list-item"><a href="http://www.hainei.com/" target="_blank">海内</a></li>
+                        <li class="ui-list-item"><a href="http://www.yiqi.com/" target="_blank">一起</a></li>
+                        <li class="ui-list-item"><a href="http://www.tianya.cn/" target="_blank">天涯</a></li>
+                        <li class="ui-list-item"><a href="http://www.mop.com/" target="_blank">猫扑</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>照片</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.yupoo.com/" target="_blank">Yupoo</a></li>
+                        <li class="ui-list-item"><a href="http://www.footbig.com/" target="_blank">Footbig</a></li>
+                        <li class="ui-list-item"><a href="https://www.photoshop.com/" target="_blank">Photoshop</a></li>
+                        <li class="ui-list-item"><a href="http://www.bababian.com/" target="_blank">巴巴变</a></li>
+                        <li class="ui-list-item"><a href="http://www.haokanbu.com/" target="_blank">好看簿</a></li>
+                        <li class="ui-list-item"><a href="http://www.youtube.com/" target="_blank">趣多</a></li>
+                        <li class="ui-list-item"><a href="http://www.fotolog.com.cn/" target="_blank">Fotolog</a></li>
+                        <li class="ui-list-item"><a href="http://www.886.cn/" target="_blank">拍拍乐</a></li>
+                        <li class="ui-list-item"><a href="http://www.udooo.com/" target="_blank">悠都网</a></li>
+                        <li class="ui-list-item"><a href="http://cn.hypo.cc/" target="_blank">Hypo</a></li>
+                        <li class="ui-list-item"><a href="http://www.youlianxi.com" target="_blank">有联系</a></li>
+                        <li class="ui-list-item"><a href="http://photo.vnet.cn/" target="_blank">爱冲印</a></li>
+                        <li class="ui-list-item"><a href="http://www.kachayu.com/" target="_blank">喀嚓鱼</a></li>
+                        <li class="ui-list-item"><a href="http://www.yanzi-vision.com/" target="_blank">燕子视觉</a></li>
+                        <li class="ui-list-item"><a href="http://blog.sina.com.cn/chenman" target="_blank">ChenMan</a>
+                        <li class="ui-list-item"><a href="http://blog.sina.com.cn/chengjun616" target="_blank">吴承峻</a></li>
+                        <li class="ui-list-item"><a href="http://blog.sina.com.cn/daxiong700" target="_blank">大熊700</a></li>
+                        <li class="ui-list-item"><a href="http://sikuquan.photo.pconline.com.cn" target="_blank">Sikuquan</a></li>
+                        <li class="ui-list-item"><a href="http://yocc.poco.cn/" target="_blank">Yoc</a></li>
+                        <li class="ui-list-item"><a href="http://tnt2.poco.cn/" target="_blank">TNT2</a></li>
+                        <li class="ui-list-item"><a href="http://www.streetchic.cn/" target="_blank">街拍</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>电影</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.meijumi.com/" target="_blank">美剧迷</a></li>
+                        <li class="ui-list-item"><a href="http://www.pogdesign.co.uk/cat/" target="_blank">美剧时间表</a></li>
+                        <li class="ui-list-item"><a href="http://www.shooter.cn/" target="_blank">射手</a></li>
+                        <li class="ui-list-item"><a href="http://www.dy2018.com/" target="_blank">电影天堂</a></li>
+                        <li class="ui-list-item"><a href="http://www.dream2008.cn" target="_blank">圣城家园</a></li>
+                        <li class="ui-list-item"><a href="http://www.yyets.net/" target="_blank">YYets</a></li>
+                        <li class="ui-list-item"><a href="http://bt.ydy.com/" target="_blank">伊甸园BT</a></li>
+                        <li class="ui-list-item"><a href="http://sfile.ydy.com/bbs/" target="_blank">伊甸园美剧</a></li>
+                        <li class="ui-list-item"><a href="http://www.2kk.cc/" target="_blank">2KK</a></li>
+                        <li class="ui-list-item"><a href="http://www.xxjy.org" target="_blank">小晓家园</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>视频</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.zhibo8.com/" target="_blank">直播吧</a></li>
+                        <li class="ui-list-item"><a href="http://www.tudou.com/" target="_blank">土豆</a></li>
+                        <li class="ui-list-item"><a href="http://www.56.com/" target="_blank">我乐</a></li>
+                        <li class="ui-list-item"><a href="http://www.ku6.com/" target="_blank">酷6</a></li>
+                        <li class="ui-list-item"><a href="http://www.youku.com/" target="_blank">优酷</a></li>
+                        <li class="ui-list-item"><a href="http://www.6.cn/" target="_blank">六间房</a></li>
+                        <li class="ui-list-item"><a href="http://www.joy.cn/" target="_blank">激动</a></li>
+                        <li class="ui-list-item"><a href="http://www.openv.com/" target="_blank">天线视频</a></li>
+                        <li class="ui-list-item"><a href="http://www.pplive.com" target="_blank">PPlive</a></li>
+                        <li class="ui-list-item"><a href="http://www.ppstream.com" target="_blank">PPstream</a></li>
+                        <li class="ui-list-item"><a href="http://www.tvunetworks.com/" target="_blank">TVU</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>下载</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.mydrivers.com/" target="_blank">驱动之家</a></li>
+                        <li class="ui-list-item"><a href="http://www.drivergenius.com/" target="_blank">驱动精灵</a></li>
+                        <li class="ui-list-item"><a href="http://www.skycn.com/" target="_blank">天空软件站</a></li>
+                        <li class="ui-list-item"><a href="http://www.newhua.com/" target="_blank">华军</a></li>
+                        <li class="ui-list-item"><a href="http://www.greendown.cn/" target="_blank">绿色下载</a></li>
+                        <li class="ui-list-item"><a href="http://www.xdowns.com/" target="_blank">Xdowns</a></li>
+                        <li class="ui-list-item"><a href="http://www.crsky.com/" target="_blank">非凡</a></li>
+                        <li class="ui-list-item"><a href="http://www.iplaysoft.com/" target="_blank">异次元</a></li>
+                        <li class="ui-list-item"><a href="http://www.x-beta.cn" target="_blank">x-Beta</a></li>
+                        <li class="ui-list-item"><a href="http://www.portablesoft.cn" target="_blank">精品绿色</a></li>
+                        <li class="ui-list-item"><a href="http://www.oyksoft.com/" target="_blank">快乐无极</a></li>
+                        <li class="ui-list-item"><a href="http://www.wmzhe.com/" target="_blank">完美者</a></li>
+                        <li class="ui-list-item"><a href="http://www.downkr.com/" target="_blank">当客网</a></li>
+                        <li class="ui-list-item"><a href="http://www.winzheng.com/" target="_blank">赢政天下</a></li>
+                        <li class="ui-list-item"><a href="http://www.long-jf.com/" target="_blank">龙卷风</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>DIY</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.360mart.com/" target="_blank">买特网</a></li>
+                        <li class="ui-list-item"><a href="http://www.newegg.com.cn" target="_blank">新蛋</a></li>
+                        <li class="ui-list-item"><a href="http://www.xgou.com/" target="_blank">xgou</a></li>
+                        <li class="ui-list-item"><a href="http://www.itgonow.com/" target="_blank">itgonow</a></li>
+                        <li class="ui-list-item"><a href="http://www.shudoo.com/" target="_blank">电脑报</a></li>
+                        <li class="ui-list-item"><a href="http://bbs.cfan.com.cn/" target="_blank">cfan</a></li>
+                        <li class="ui-list-item"><a href="http://diybbs.it168.com/" target="_blank">It168硬件</a></li>
+                        <li class="ui-list-item"><a href="http://www.mydigit.cn/" target="_blank">mydigit</a></li>
+                        <li class="ui-list-item"><a href="http://www.itocp.com/" target="_blank">itocp</a></li>
+                        <li class="ui-list-item"><a href="http://intohard.com/" target="_blank">intohard</a></li>
+                        <li class="ui-list-item"><a href="http://www.pcshow.net/" target="_blank">电脑秀</a></li>
+                        <li class="ui-list-item"><a href="http://www.icson.com" target="_blank">icson</a></li>
+                        <li class="ui-list-item"><a href="http://bbs.52hardware.com/" target="_blank">52hardware</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>数码</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.aray.cn/" target="_blank">Digital</a></li>
+                        <li class="ui-list-item"><a href="http://www.geekg.com/" target="_blank">Geekg</a></li>
+                        <li class="ui-list-item"><a href="http://www.wangtam.com/" target="_blank">Wangtam</a></li>
+                        <li class="ui-list-item"><a href="http://techeblog.com/" target="_blank">Techeblog</a></li>
+                        <li class="ui-list-item"><a href="http://www.engadget.com/" target="_blank">Engadget</a></li>
+                        <li class="ui-list-item"><a href="http://consumerist.com/" target="_blank">Consumerist</a></li>
+                        <li class="ui-list-item"><a href="http://gizmodo.com/" target="_blank">Gizmodo</a></li>
+                        <li class="ui-list-item"><a href="http://www.wired.com/" target="_blank">Wired</a></li>
+                        <li class="ui-list-item"><a href="http://arstechnica.com/" target="_blank">Arstechnica</a></li>
+                        <li class="ui-list-item"><a href="http://www.mobileburn.com/" target="_blank">Mobileburn</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>美化</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.pcpchina.com/" target="_blank">先锋</a></li>
+                        <li class="ui-list-item"><a href="http://www.themex.net/" target="_blank">极限主题</a></li>
+                        <li class="ui-list-item"><a href="http://www.iconfans.com/" target="_blank">IconFans</a></li>
+                        <li class="ui-list-item"><a href="http://www.iconhouse.cn/" target="_blank">iconhouse</a></li>
+                        <li class="ui-list-item"><a href="http://www.aqua-soft.org/" target="_blank">Aqua-soft</a></li>
+                        <li class="ui-list-item"><a href="http://www.guistyles.com/" target="_blank">GuiStyles</a></li>
+                        <li class="ui-list-item"><a href="http://www.iconspedia.com/" target="_blank">Iconspedia</a></li>
+                        <li class="ui-list-item"><a href="http://www.foood.net/" target="_blank">Foood</a></li>
+                        <li class="ui-list-item"><a href="http://wallpaperstock.com/" target="_blank">Wallpaperstock</a></li>
+                        <li class="ui-list-item"><a href="http://interfacelift.com/" target="_blank">InterfaceLIFT</a></li>
+                        <li class="ui-list-item"><a href="http://www.socksoff.co.uk/" target="_blank">Socksoff</a></li>
+                        <li class="ui-list-item"><a href="http://www.studiotwentyeight.com/" target="_blank">studio28</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>Job</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.chinahr.com/" target="_blank">中华英才</a></li>
+                        <li class="ui-list-item"><a href="http://www.zhaopin.com/" target="_blank">智联招聘</a></li>
+                        <li class="ui-list-item"><a href="http://www.51job.com/" target="_blank">前程无忧</a></li>
+                        <li class="ui-list-item"><a href="http://www.guolairen.com/" target="_blank">过来人</a></li>
+                        <li class="ui-list-item"><a href="http://hr.baidu.com/" target="_blank">百度招聘</a></li>
+                        <li class="ui-list-item"><a href="http://job.taobao.com/" target="_blank">淘宝招聘</a></li>
+                        <li class="ui-list-item"><a href="http://career.sina.com.cn/" target="_blank">新浪招聘</a></li>
+                        <li class="ui-list-item"><a href="http://hr.sohu.com/" target="_blank">搜狐招聘</a></li>
+                        <li class="ui-list-item"><a href="http://hr.tencent.com/" target="_blank">腾讯招聘</a></li>
+                        <li class="ui-list-item"><a href="http://hr.163.com/" target="_blank">网易招聘</a></li>
+                    </ul>
+
+                    <div class="ui-title fn-clear"><h2>English</h2></div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.listeningexpress.com/" target="_blank">听力特快</a></li>
+                        <li class="ui-list-item"><a href="http://www.hjenglish.com/" target="_blank">沪江网</a></li>
+                        <li class="ui-list-item"><a href="http://www.wwenglish.com/" target="_blank">旺旺英语</a></li>
+                        <li class="ui-list-item"><a href="http://www.51test.net/" target="_blank">无忧考网</a></li>
+                        <li class="ui-list-item"><a href="http://gb.cri.cn/" target="_blank">Cri</a></li>
+                        <li class="ui-list-item"><a href="http://www.iciba.net/" target="_blank">爱词霸</a></li>
+                        <li class="ui-list-item"><a href="http://www.nciku.com/" target="_blank">n词酷</a></li>
+                        <li class="ui-list-item"><a href="http://translate.google.cn/" target="_blank">谷歌翻译</a></li>
+                        <li class="ui-list-item"><a href="http://dict.baidu.com/" target="_blank">百度词典</a></li>
+                        <li class="ui-list-item"><a href="http://dict.youdao.com/" target="_blank">有道词典</a></li>
+                    </ul>
+                </div>
+                <div class="ui-tab-content-item">
+                    <div class="ui-title fn-clear">
+                        <h2>UED</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.slideshare.net" target="_blank">SlideShare</a></li>
+                        <li class="ui-list-item"><a href="http://ucdchina.com/" target="_blank">UCD大社区</a></li>
+                        <li class="ui-list-item"><a href="http://www.baiduux.com/blog/" target="_blank">BaiDuUX</a></li>
+                        <li class="ui-list-item"><a href="http://fed.renren.com/" target="_blank">人人FED</a></li>
+                        <li class="ui-list-item"><a href="http://cdc.tencent.com/" target="_blank">腾讯CDC</a></li>
+                        <li class="ui-list-item"><a href="http://isd.tencent.com/" target="_blank">腾讯ISD</a></li>
+                        <li class="ui-list-item"><a href="http://wsd.tencent.com/" target="_blank">腾讯WSD</a></li>
+                        <li class="ui-list-item"><a href="http://ued.sohu.com/" target="_blank">搜狐UED</a></li>
+                        <li class="ui-list-item"><a href="http://www.sndaued.com/blog/" target="_blank">盛大UED</a></li>
+                        <li class="ui-list-item"><a href="http://uedc.163.com/" target="_blank">网易Uedc</a></li>
+                        <li class="ui-list-item"><a href="http://ued.alipay.com/" target="_blank">支付宝UED</a></li>
+                        <li class="ui-list-item"><a href="http://ued.taobao.com/blog/" target="_blank">淘宝网UED</a></li>
+                        <li class="ui-list-item"><a href="http://www.uedblog.com/" target="_blank">YahooUED</a></li>
+                        <li class="ui-list-item"><a href="http://ued.koubei.com/" target="_blank">口碑网UED</a></li>
+                        <li class="ui-list-item"><a href="http://www.kdued.com/" target="_blank">KDUED</a></li>
+                        <li class="ui-list-item"><a href="http://ued.alimama.com/" target="_blank">阿里妈妈UED</a></li>
+                        <li class="ui-list-item"><a href="http://www.aliued.cn/" target="_blank">阿里中国UED</a></li>
+                        <li class="ui-list-item"><a href="http://www.aliued.com/" target="_blank">阿里巴巴UED</a></li>
+                        <li class="ui-list-item"><a href="http://www.alisoftued.com/" target="_blank">阿里软件UED</a></li>
+                        <li class="ui-list-item"><a href="http://blog.mycolorway.com/" target="_blank">彩程UCD</a></li>
+                        <li class="ui-list-item"><a href="http://tgideas.qq.com/" target="_blank">TGideas</a></li>
+                        <li class="ui-list-item"><a href="http://flashteam.tencent.com/" target="_blank">Flashteam</a></li>
+                        <li class="ui-list-item"><a href="http://yangtai.xunlei.com/" target="_blank">迅雷阳台</a></li>
+                        <li class="ui-list-item"><a href="http://www.aoao.org.cn" target="_blank">嗷嗷</a></li>
+                        <li class="ui-list-item"><a href="http://hikejun.com/" target="_blank">张克军</a></li>
+                        <li class="ui-list-item"><a href="http://www.chencheng.org" target="_blank">陈成</a></li>
+                        <li class="ui-list-item"><a href="http://www.gracecode.com/" target="_blank">吕峰军</a></li>
+                        <li class="ui-list-item"><a href="http://www.fool2fish.cn/" target="_blank">Fool2fish</a></li>
+                        <li class="ui-list-item"><a href="http://lifesinger.org" target="_blank">Lifesinger</a></li>
+                        <li class="ui-list-item"><a href="http://ooxx.me/" target="_blank">ooxx</a></li>
+                        <li class="ui-list-item"><a href="http://dancewithnet.com/" target="_blank">Dancewithnet</a></li>
+                        <li class="ui-list-item"><a href="http://www.qianduan.net/" target="_blank">前端观察</a></li>
+                        <li class="ui-list-item"><a href="http://www.xiaoxiao.com.cn/" target="_blank">Xiaoxiao</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssrain.cn/" target="_blank">Cssrain</a></li>
+                        <li class="ui-list-item"><a href="http://www.52css.com/" target="_blank">52css</a></li>
+                        <li class="ui-list-item"><a href="http://uicss.cn/" target="_blank">UIcss</a></li>
+                        <li class="ui-list-item"><a href="http://www.css8.cn/" target="_blank">CSS8</a></li>
+                        <li class="ui-list-item"><a href="http://www.css88.com" target="_blank">CSS88</a></li>
+                        <li class="ui-list-item"><a href="http://www.csslong.cn" target="_blank">CSSlong</a></li>
+                        <li class="ui-list-item"><a href="http://alite.aliued.cn" target="_blank">Alite</a></li>
+                        <li class="ui-list-item"><a href="http://blog.gulu77.com/" target="_blank">Gulu77</a></li>
+                        <li class="ui-list-item"><a href="http://blog.sina.com.cn/wangying1347" target="_blank">王影</a></li>
+                        <li class="ui-list-item"><a href="http://www.99css.com/" target="_blank">99css</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssbox.net/" target="_blank">cssbox</a></li>
+                        <li class="ui-list-item"><a href="http://www.itanx.cn/" target="_blank">itanx</a></li>
+                        <li class="ui-list-item"><a href="http://5key.net" target="_blank">5key</a></li>
+                        <li class="ui-list-item"><a href="http://css9.net/" target="_blank">css9</a></li>
+                        <li class="ui-list-item"><a href="http://wlog.com.cn" target="_blank">Wlog</a></li>
+                        <li class="ui-list-item"><a href="http://yekai.net" target="_blank">Catge</a></li>
+                        <li class="ui-list-item"><a href="http://blog.artskin.cn/" target="_blank">Artskin</a></li>
+                        <li class="ui-list-item"><a href="http://wi2ard.com" target="_blank">李白</a></li>
+                        <li class="ui-list-item"><a href="http://www.bbon.cn" target="_blank">菠菜博</a></li>
+                        <li class="ui-list-item"><a href="http://www.ueren.net/" target="_blank">UERen</a></li>
+                        <li class="ui-list-item"><a href="http://www.52ue.net/" target="_blank">52UE</a></li>
+                        <li class="ui-list-item"><a href="http://www.planabc.net/" target="_blank">怿飞</a></li>
+                        <li class="ui-list-item"><a href="http://www.happinesz.cn/" target="_blank">Sofish</a></li>
+                        <li class="ui-list-item"><a href="http://www.d2forum.org/" target="_blank">D2forum</a></li>
+                        <li class="ui-list-item"><a href="http://linxz.cn/" target="_blank">小志</a></li>
+                        <li class="ui-list-item"><a href="http://benhuoer.com/" target="_blank">笨活儿</a></li>
+                        <li class="ui-list-item"><a href="http://www.uedmagazine.com" target="_blank">UEDmagazine</a></li>
+                        <li class="ui-list-item"><a href="http://adamlu.com/" target="_blank">AdamLu</a></li>
+                        <li class="ui-list-item"><a href="http://haslayout.net/" target="_blank">Haslayout</a></li>
+                        <li class="ui-list-item"><a href="http://www.ueren.net/" target="_blank">UERen</a></li>
+                        <li class="ui-list-item"><a href="http://www.playw3c.com" target="_blank">Playw3c</a></li>
+                        <li class="ui-list-item"><a href="http://www.miaov.com/" target="_blank">Miaov</a></li>
+                        <li class="ui-list-item"><a href="http://xiebiji.com" target="_blank">Joe</a></li>
+                        <li class="ui-list-item"><a href="http://yimi.name/" target="_blank">壹米</a></li>
+                        <li class="ui-list-item"><a href="http://www.htmlwind.com/" target="_blank">HtmlWind</a></li>
+                        <li class="ui-list-item"><a href="http://www.nickli.cn/" target="_blank">NickLi</a></li>
+                        <li class="ui-list-item"><a href="http://www.mikkolee.com/" target="_blank">MikkoLee</a></li>
+                        <li class="ui-list-item"><a href="http://www.axure.com/" target="_blank">Axure.com</a></li>
+                        <li class="ui-list-item"><a href="http://www.axure.org" target="_blank">Axure.org</a></li>
+                        <li class="ui-list-item"><a href="http://www.daqianduan.com/" target="_blank">大前端</a></li>
+                        <li class="ui-list-item"><a href="http://developer.yahoo.com/yui/" target="_blank">YUI</a></li>
+                        <li class="ui-list-item"><a href="http://www.w3ctech.com" target="_blank">W3ctech</a></li>
+                        <li class="ui-list-item"><a href="http://ued.ctrip.com/blog/" target="_blank">携程UED</a></li>
+                        <li class="ui-list-item"><a href="http://blog.b3inside.com/" target="_blank">B3inside</a></li>
+                        <li class="ui-list-item"><a href="http://www.missage.com/ " target="_blank">Missage</a></li>
+                        <li class="ui-list-item"><a href="http://www.mangguo.org/" target="_blank">芒果</a></li>
+                        <li class="ui-list-item"><a href="http://ivane.net/blog/" target="_blank">iVane</a></li>
+                        <li class="ui-list-item"><a href="http://www.planeart.cn/" target="_blank">Plane Art</a></li>
+                        <li class="ui-list-item"><a href="http://www.the9ued.com/" target="_blank">The9UED</a></li>
+                        <li class="ui-list-item"><a href="http://www.14px.com/" target="_blank">14px</a></li>
+                        <li class="ui-list-item"><a href="http://live.ebf.cc/" target="_blank">Ebf</a></li>
+                        <li class="ui-list-item"><a href="http://www.zreading.cn/" target="_blank">Zreading</a></li>
+                        <li class="ui-list-item"><a href="http://www.webchina110.cn/" target="_blank">Webchina110</a></li>
+                        <li class="ui-list-item"><a href="http://www.html-js.com" target="_blank">Html-js</a></li>
+                        <li class="ui-list-item"><a href="http://www.cnblogs.com/wiky/" target="_blank">Wiky</a></li>
+                        <li class="ui-list-item"><a href="http://directguo.com/blog/" target="_blank">Directguo</a></li>
+                        <li class="ui-list-item"><a href="http://www.jandesign.org/" target="_blank">Jandesign</a></li>
+                        <li class="ui-list-item"><a href="http://d2.sodao.com/ " target="_blank">SoDao</a></li>
+                        <li class="ui-list-item"><a href="http://mrthink.net/" target="_blank">Mrthink</a></li>
+                        <li class="ui-list-item"><a href="http://dangbao.net/" target="_blank">Dangbao</a></li>
+                        <li class="ui-list-item"><a href="http://uicom.net/blog/" target="_blank">白鸦</a></li>
+                        <li class="ui-list-item"><a href="http://dudo.org/" target="_blank">dudo</a></li>
+                        <li class="ui-list-item"><a href="http://tension.name" target="_blank">Tension</a></li>
+                        <li class="ui-list-item"><a href="http://www.zhangxinxu.com" target="_blank">张鑫旭</a></li>
+                        <li class="ui-list-item"><a href="http://www.xzshxd.com/" target="_blank">xzshxd</a></li>
+                        <li class="ui-list-item"><a href="http://www.redcss.com/" target="_blank">Redcss</a></li>
+                        <li class="ui-list-item"><a href="http://www.artcss.com/" target="_blank">Artcss</a></li>
+                        <li class="ui-list-item"><a href="http://www.kekaku.com/" target="_blank">kekaku</a></li>
+                        <li class="ui-list-item"><a href="http://www.fooldy.cn" target="_blank">Fooldy</a></li>
+                        <li class="ui-list-item"><a href="http://kuangfu.com/" target="_blank">匡扶</a></li>
+                        <li class="ui-list-item"><a href="http://chengis.me/" target="_blank">chengis</a></li>
+                        <li class="ui-list-item"><a href="http://josephj.com/" target="_blank">Josephj</a></li>
+                        <li class="ui-list-item"><a href="http://tutorialzine.com/" target="_blank">tutorialzine</a></li>
+                        <li class="ui-list-item"><a href="http://blog.webshuo.com/" target="_blank">编码者说</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>UI</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.uitimes.com/" target="_blank">Uitimes</a></li>
+                        <li class="ui-list-item"><a href="http://www.chinaui.com/" target="_blank">ChinaUI</a></li>
+                        <li class="ui-list-item"><a href="http://www.uirss.com/" target="_blank">UIRSS</a></li>
+                        <li class="ui-list-item"><a href="http://www.eicodesign.com/" target="_blank">Eicodesign</a></li>
+                        <li class="ui-list-item"><a href="http://www.cpluv.com/" target="_blank">Computerlove</a></li>
+                        <li class="ui-list-item"><a href="http://www.newwebpick.com/" target="_blank">Newwebpick</a></li>
+                        <li class="ui-list-item"><a href="http://www.simpleart.com.ua" target="_blank">Simpleart</a></li>
+                        <li class="ui-list-item"><a href="http://www.moosee.net" target="_blank">摩色网</a></li>
+                        <li class="ui-list-item"><a href="http://dlanham.com" target="_blank">DLanham</a></li>
+                        <li class="ui-list-item"><a href="http://www.behance.net/" target="_blank">Behance</a></li>
+                        <li class="ui-list-item"><a href="http://www.blog.exxcorpio.com/" target="_blank">exxcorpio</a></li>
+                        <li class="ui-list-item"><a href="http://www.maxspeeds.com/" target="_blank">Maxspeeds</a></li>
+                        <li class="ui-list-item"><a href="http://thedesigninspiration.com/" target="_blank">the d i</a></li>
+                        <li class="ui-list-item"><a href="http://www.rologo.com/" target="_blank">Rologo</a></li>
+                        <li class="ui-list-item"><a href="http://www.designfabrika.com/" target="_blank">Fabrika</a></li>
+                        <li class="ui-list-item"><a href="http://www.skydesign.cn/blog/" target="_blank">skydesign</a></li>
+                        <li class="ui-list-item"><a href="http://artdesigner.lv/" target="_blank">Artdesigner</a></li>
+                        <li class="ui-list-item"><a href="http://www.teehanlax.com" target="_blank">teehan+lax</a></li>
+                        <li class="ui-list-item"><a href="http://www.ndesign-studio.com/" target="_blank">Ndesign-studio</a></li>
+                        <li class="ui-list-item"><a href="http://www.bartelme.at/" target="_blank">bartelme</a></li>
+                        <li class="ui-list-item"><a href="http://envato.com/" target="_blank">Envato</a></li>
+                        <li class="ui-list-item"><a href="http://www.volll.com/" target="_blank">Volll</a></li>
+                        <li class="ui-list-item"><a href="http://www.reooo.com/" target="_blank">Reooo</a></li>
+                        <li class="ui-list-item"><a href="http://icon.cn/" target="_blank">Icon.cn</a></li>
+                        <li class="ui-list-item"><a href="http://icondock.com/" target="_blank">Icondock</a></li>
+                        <li class="ui-list-item"><a href="http://www.uxbooth.com/" target="_blank">Uxbooth</a></li>
+                        <li class="ui-list-item"><a href="http://www.tutorial9.net/" target="_blank">Tutorial9</a></li>
+                        <li class="ui-list-item"><a href="http://fabiosasso.com/" target="_blank">Fabio sasso</a></li>
+                        <li class="ui-list-item"><a href="http://abduzeedo.com/" target="_blank">Abduzeedo</a></li>
+                        <li class="ui-list-item"><a href="http://www.webdesignerwall.com/" target="_blank">Web d wall</a></li>
+                        <li class="ui-list-item"><a href="http://bestwebgallery.com/ " target="_blank">Best web ga</a></li>
+                        <li class="ui-list-item"><a href="http://tutsplus.com/" target="_blank">Tutsplus</a></li>
+                        <li class="ui-list-item"><a href="http://www.smashingmagazine.com/" target="_blank">Smashing</a></li>
+                        <li class="ui-list-item"><a href="http://www.duoda.net/blog/" target="_blank">多达</a></li>
+                        <li class="ui-list-item"><a href="http://www.style-force.net/" target="_blank">Style-force</a></li>
+                        <li class="ui-list-item"><a href="http://www.softfacade.com/" target="_blank">Softfacade</a></li>
+                        <li class="ui-list-item"><a href="http://speckyboy.com/" target="_blank">Speckyboy</a></li>
+                        <li class="ui-list-item"><a href="http://www.shaoc.cn/" target="_blank">邵闯</a></li>
+                        <li class="ui-list-item"><a href="http://www.unmatchedstyle.com/" target="_blank">Unmatched</a></li>
+                        <li class="ui-list-item"><a href="http://factoryjoe.com/" target="_blank">Factoryjoe</a></li>
+                        <li class="ui-list-item"><a href="http://logopond.com/" target="_blank">LogoPond</a></li>
+                        <li class="ui-list-item"><a href="http://www.webcreme.com/" target="_blank">Web Creme</a></li>
+                        <li class="ui-list-item"><a href="http://patterntap.com/" target="_blank">Pattern Tap</a></li>
+                        <li class="ui-list-item"><a href="http://www.cgsociety.org/" target="_blank">CG Society</a></li>
+                        <li class="ui-list-item"><a href="http://ffffound.com/" target="_blank">FFFFound</a></li>
+                        <li class="ui-list-item"><a href="http://joshspear.com/" target="_blank">Joshspear</a></li>
+                        <li class="ui-list-item"><a href="http://www.veer.com/" target="_blank">Veer</a></li>
+                        <li class="ui-list-item"><a href="http://hi.baidu.com/niuniu20068" target="_blank">妞妞</a></li>
+                        <li class="ui-list-item"><a href="http://www.kaven115.com/blog/" target="_blank">Kaven</a></li>
+                        <li class="ui-list-item"><a href="http://www.f-i.com" target="_blank">Fi</a></li>
+                        <li class="ui-list-item"><a href="http://www.fireworksguruforum.com/" target="_blank">Fireworksguru</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>CSS</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.w3.org/" target="_blank">W3C</a></li>
+                        <li class="ui-list-item"><a href="http://www.w3schools.com/" target="_blank">W3schools</a></li>
+                        <li class="ui-list-item"><a href="http://www.html.net/" target="_blank">Html.net</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssbasics.com/" target="_blank">CssBasics</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssremix.com/" target="_blank">CSSRemix</a></li>
+                        <li class="ui-list-item"><a href="http://forum.stylegala.com/" target="_blank">StyleGala</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssmania.com/" target="_blank">CSSmania</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssmoon.com/" target="_blank">Cssmoon</a></li>
+                        <li class="ui-list-item"><a href="http://bestcss.net/" target="_blank">BestCSS</a></li>
+                        <li class="ui-list-item"><a href="http://www.sitepoint.com/" target="_blank">SitePoint</a></li>
+                        <li class="ui-list-item"><a href="http://www.w3school.com.cn" target="_blank">W3school</a></li>
+                        <li class="ui-list-item"><a href="http://www.w3cn.org/" target="_blank">W3CN</a></li>
+                        <li class="ui-list-item"><a href="http://www.my3w.org/" target="_blank">My3w</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssbeauty.com/" target="_blank">CSSBeauty</a></li>
+                        <li class="ui-list-item"><a href="http://www.13styles.com/" target="_blank">13styles</a></li>
+                        <li class="ui-list-item"><a href="http://bestwebgallery.com/" target="_blank">Bestwebgallery</a></li>
+                        <li class="ui-list-item"><a href="http://www.webappers.com/" target="_blank">Webappers</a></li>
+                        <li class="ui-list-item"><a href="http://browsershots.org/" target="_blank">Browsershots</a></li>
+                        <li class="ui-list-item"><a href="http://www.w3csites.com/" target="_blank">W3CSites</a></li>
+                        <li class="ui-list-item"><a href="http://www.webw3c.org/" target="_blank">Webw3c</a></li>
+                        <li class="ui-list-item"><a href="http://webrsque.com/" target="_blank">Webrsque</a></li>
+                        <li class="ui-list-item"><a href="http://validator.w3.org/" target="_blank">W3C验证</a></li>
+                        <li class="ui-list-item"><a href="http://jigsaw.w3.org/css-validator/" target="_blank">CSS验证</a></li>
+                        <li class="ui-list-item"><a href="http://getfirebug.com/" target="_blank">Firebug</a></li>
+                        <li class="ui-list-item"><a href="http://www.css3.info/" target="_blank">Css3.info</a></li>
+                        <li class="ui-list-item"><a href="http://cssglobe.com/" target="_blank">Cssglobe</a></li>
+                        <li class="ui-list-item"><a href="http://www.div-css.com/" target="_blank">Div-Css</a></li>
+                        <li class="ui-list-item"><a href="http://www.csszengarden.com" target="_blank">CSSZenGarden</a></li>
+                        <li class="ui-list-item"><a href="http://www.csselite.com/" target="_blank">CSSelite</a></li>
+                        <li class="ui-list-item"><a href="http://www.htmldog.com/" target="_blank">HtmlDog</a></li>
+                        <li class="ui-list-item"><a href="http://css-tricks.com/" target="_blank">Css-tricks</a></li>
+                        <li class="ui-list-item"><a href="http://www.cssnewbie.com/" target="_blank">Cssnewbie</a></li>
+                        <li class="ui-list-item"><a href="http://www.w3cgroup.com/" target="_blank">W3cgroup</a></li>
+                        <li class="ui-list-item"><a href="http://reeoo.com/" target="_blank">Reeoo</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>JS</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.extjs.com/" target="_blank">ExtJS</a></li>
+                        <li class="ui-list-item"><a href="http://www.cnblogs.com/cloudgamer/" target="_blank">Cloudgamer</a></li>
+                        <li class="ui-list-item"><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+                        <li class="ui-list-item"><a href="http://mootools.net/" target="_blank">Mootools</a></li>
+                        <li class="ui-list-item"><a href="http://bbs.jquery.org.cn/" target="_blank">jQuery中文</a></li>
+                        <li class="ui-list-item"><a href="http://www.ajaxmatters.com/" target="_blank">Ajaxmatters</a></li>
+                        <li class="ui-list-item"><a href="http://www.ajaxian.com/" target="_blank">Ajaxian</a></li>
+                        <li class="ui-list-item"><a href="http://ajaxpatterns.org/" target="_blank">Ajaxpatterns</a></li>
+                        <li class="ui-list-item"><a href="http://www.ajaxblog.com/" target="_blank">Ajaxblog</a></li>
+                        <li class="ui-list-item"><a href="http://51js.com/" target="_blank">51JS</a></li>
+                        <li class="ui-list-item"><a href="http://www.ajax.org/" target="_blank">Ajax.org</a></li>
+                        <li class="ui-list-item"><a href="http://www.51ajax.com/" target="_blank">51ajax</a></li>
+                        <li class="ui-list-item"><a href="http://www.ajaxa.cn/" target="_blank">AjaxA</a></li>
+                        <li class="ui-list-item"><a href="http://www.okajax.com/" target="_blank">Okajax</a></li>
+                        <li class="ui-list-item"><a href="http://www.javascriptkit.com/" target="_blank">Jskit</a></li>
+                        <li class="ui-list-item"><a href="http://www.hotajax.org/" target="_blank">Hotajax</a></li>
+                        <li class="ui-list-item"><a href="http://www.panic.com" target="_blank">Panic</a></li>
+                        <li class="ui-list-item"><a href="http://www.quirksmode.org/" target="_blank">Quirksmode</a></li>
+                        <li class="ui-list-item"><a href="http://www.crockford.com/" target="_blank">Crockford</a></li>
+                        <li class="ui-list-item"><a href="http://ejohn.org/" target="_blank">Ejohn</a></li>
+                        <li class="ui-list-item"><a href="http://www.ijavascript.cn/" target="_blank">iJavascript</a></li>
+                        <li class="ui-list-item"><a href="http://www.brothercake.com/" target="_blank">Brothercake</a></li>
+                        <li class="ui-list-item"><a href="http://flowplayer.org/" target="_blank">Flowplayer</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                    <h2>素材</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.lanrentuku.com/" target="_blank">懒人图库</a></li>
+                        <li class="ui-list-item"><a href="http://www.68design.net/" target="_blank">68Design</a></li>
+                        <li class="ui-list-item"><a href="http://www.deskcity.com/" target="_blank">Deskcity</a></li>
+                        <li class="ui-list-item"><a href="http://www.wallcoo.com/" target="_blank">wallcoo</a></li>
+                        <li class="ui-list-item"><a href="http://www.nipic.com/" target="_blank">昵图</a></li>
+                        <li class="ui-list-item"><a href="http://www.sccnn.com/" target="_blank">素材中国</a></li>
+                        <li class="ui-list-item"><a href="http://www.iecool.com/" target="_blank">E库素材</a></li>
+                        <li class="ui-list-item"><a href="http://sc.chinaz.com/" target="_blank">ChinaZ素材</a></li>
+                        <li class="ui-list-item"><a href="http://www.psd.cn/" target="_blank">PSD.CN</a></li>
+                        <li class="ui-list-item"><a href="http://www.zcool.com.cn/" target="_blank">站酷</a></li>
+                        <li class="ui-list-item"><a href="http://www.aiimg.com/" target="_blank">爱图</a></li>
+                        <li class="ui-list-item"><a href="http://www.tuluo.com/" target="_blank">图罗</a></li>
+                        <li class="ui-list-item"><a href="http://www.veeqi.com/" target="_blank">维奇</a></li>
+                        <li class="ui-list-item"><a href="http://www.sinker.cn/" target="_blank">sinker</a></li>
+                        <li class="ui-list-item"><a href="http://www.51flash.cn/" target="_blank">51flash</a></li>
+                        <li class="ui-list-item"><a href="http://www.ziyuan8.com/" target="_blank">资源吧</a></li>
+                        <li class="ui-list-item"><a href="http://www.dafont.com/" target="_blank">dafont</a></li>
+                        <li class="ui-list-item"><a href="http://www.showfont.net/" target="_blank">showfont</a></li>
+                        <li class="ui-list-item"><a href="http://www.zhaozi.cn/" target="_blank">Zhaozi</a></li>
+                        <li class="ui-list-item"><a href="http://www.enfont.cn/" target="_blank">enFont</a></li>
+                        <li class="ui-list-item"><a href="http://www.sucaiw.com/" target="_blank">素材屋</a></li>
+                        <li class="ui-list-item"><a href="http://www.3lian.com/" target="_blank">3Lian</a></li>
+                        <li class="ui-list-item"><a href="http://www.colourlovers.com/" target="_blank">Colourlovers</a></li>
+                        <li class="ui-list-item"><a href="http://960.gs/" target="_blank">960.gs</a></li>
+                        <li class="ui-list-item"><a href="http://www.ie139.com" target="_blank">ie139</a></li>
+                        <li class="ui-list-item"><a href="http://www.design63.com.cn/" target="_blank">Design63</a></li>
+                        <li class="ui-list-item"><a href="http://www.ucdcom.com/" target="_blank">UcdCom</a></li>
+                        <li class="ui-list-item"><a href="http://bbs.redocn.com" target="_blank">红动中国</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>Web2.0</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.turingbook.com/" target="_blank">Turing</a></li>
+                        <li class="ui-list-item"><a href="http://dribbble.com" target="_blank">Dribbble</a></li>
+                        <li class="ui-list-item"><a href="http://zhihu.com" target="_blank">知乎</a></li>
+                        <li class="ui-list-item"><a href="http://ifttt.com" target="_blank">iFttt</a></li>
+                        <li class="ui-list-item"><a href="http://hoohua.com" target="_blank">Hoohua</a></li>
+                        <li class="ui-list-item"><a href="http://ikeepu.com" target="_blank">ikeepu</a></li>
+                        <li class="ui-list-item"><a href="http://twitter.com/" target="_blank">Twitter</a></li>
+                        <li class="ui-list-item"><a href="http://www.douban.com/" target="_blank">Douban</a></li>
+                        <li class="ui-list-item"><a href="http://www.flickr.com/" target="_blank">Flickr</a></li>
+                        <li class="ui-list-item"><a href="http://last.fm/" target="_blank">Last.fm</a></li>
+                        <li class="ui-list-item"><a href="http://del.icio.us/" target="_blank">Delicious</a></li>
+                        <li class="ui-list-item"><a href="http://www.linkedin.com/" target="_blank">Linkedin</a></li>
+                        <li class="ui-list-item"><a href="http://www.deviantart.com/" target="_blank">DeviantART</a></li>
+                        <li class="ui-list-item"><a href="http://www.boxcn.net/" target="_blank">Box</a></li>
+                        <li class="ui-list-item"><a href="http://www.digg.com/" target="_blank">Digg</a></li>
+                        <li class="ui-list-item"><a href="http://web2.qq.com/" target="_blank">WebQQ2</a></li>
+                        <li class="ui-list-item"><a href="https://webim.feixin.10086.cn/" target="_blank">Fetion</a></li>
+                        <li class="ui-list-item"><a href="http://www.netvibes.com/" target="_blank">Netvibes</a></li>
+                        <li class="ui-list-item"><a href="http://www.technorati.com/" target="_blank">Technorati</a></li>
+                        <li class="ui-list-item"><a href="http://start.io" target="_blank">start.io</a></li>
+                        <li class="ui-list-item"><a href="http://hi.baidu.com/mashable/" target="_blank">CnMashable</a></li>
+                        <li class="ui-list-item"><a href="http://mashable.com/" target="_blank">Mashable</a></li>
+                        <li class="ui-list-item"><a href="http://zooomr.com" target="_blank">Zooomr</a></li>
+                        <li class="ui-list-item"><a href="http://www.neobinaries.com/" target="_blank">Neobinaries</a></li>
+                        <li class="ui-list-item"><a href="http://www.go2web20.net/" target="_blank">go2web20</a></li>
+                        <li class="ui-list-item"><a href="http://simplespark.com" target="_blank">Simplespark</a></li>
+                        <li class="ui-list-item"><a href="http://www.web20share.com/" target="_blank">天涯海阁</a></li>
+                        <li class="ui-list-item"><a href="http://www.dexly.com/" target="_blank">Dexly</a></li>
+                        <li class="ui-list-item"><a href="http://blog.sina.com.cn/pulipulipu" target="_blank">扑离谱离谱</a></li>
+                        <li class="ui-list-item"><a href="http://www.showeb20.com/" target="_blank">Showeb20</a></li>
+                        <li class="ui-list-item"><a href="http://enjoyweb20.cn/" target="_blank">EnjoyWeb2.0</a></li>
+                        <li class="ui-list-item"><a href="http://www.webspot.net.cn/" target="_blank">webspot</a></li>
+                        <li class="ui-list-item"><a href="http://diglog.com/" target="_blank">Diglog</a></li>
+                        <li class="ui-list-item"><a href="http://www.wodig.com" target="_blank">Wodig</a></li>
+                        <li class="ui-list-item"><a href="http://www.mywowo.com" target="_blank">窝窝网</a></li>
+                        <li class="ui-list-item"><a href="http://www.20ju.com/" target="_blank">草根</a></li>
+                        <li class="ui-list-item"><a href="http://riku.me/" target="_blank">Riku.me</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear"><h2>博客</h2></div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://joyep.net/" target="_blank">Explon</a></li>
+                        <li class="ui-list-item"><a href="http://www.keso.cn/" target="_blank">Keso</a></li>
+                        <li class="ui-list-item"><a href="http://paranimage.com/" target="_blank">帕兰映像</a></li>
+                        <li class="ui-list-item"><a href="http://blog.sina.com.cn/qilixiang" target="_blank">李想</a></li>
+                        <li class="ui-list-item"><a href="http://www.dbanotes.net" target="_blank">DBAnotes</a></li>
+                        <li class="ui-list-item"><a href="http://www.rokey.net" target="_blank">Rokey</a></li>
+                        <li class="ui-list-item"><a href="http://www.v2ex.com/" target="_blank">V2EX</a></li>
+                        <li class="ui-list-item"><a href="http://www.free8.com/" target="_blank">Free8</a></li>
+                        <li class="ui-list-item"><a href="http://jandan.net/" target="_blank">煎蛋</a></li>
+                        <li class="ui-list-item"><a href="http://www.moko.cc" target="_blank">MoKo</a></li>
+                        <li class="ui-list-item"><a href="http://www.lxl.cn/" target="_blank">林兴陆</a></li>
+                        <li class="ui-list-item"><a href="http://blog.tudou.com/" target="_blank">王微</a></li>
+                        <li class="ui-list-item"><a href="http://www.livid.cn/" target="_blank">Livid's</a></li>
+                        <li class="ui-list-item"><a href="http://www.inseek.cn/" target="_blank">inSeek</a></li>
+                        <li class="ui-list-item"><a href="http://woooh.com/" target="_blank">Aether</a></li>
+                        <li class="ui-list-item"><a href="http://www.we17.com/" target="_blank">we17</a></li>
+                        <li class="ui-list-item"><a href="http://dash.cn/" target="_blank">Dash</a></li>
+                        <li class="ui-list-item"><a href="http://www.laogui.com/" target="_blank">Laogui</a></li>
+                        <li class="ui-list-item"><a href="http://blog.x-force.cn/" target="_blank">x-force</a></li>
+                        <li class="ui-list-item"><a href="http://www.ifanr.com" target="_blank">iFanr</a></li>
+                        <li class="ui-list-item"><a href="http://dudo.org/" target="_blank">Dudo Says</a></li>
+                        <li class="ui-list-item"><a href="http://www.hoofei.com/" target="_blank">Hoofei</a></li>
+                        <li class="ui-list-item"><a href="http://ahbei.com/" target="_blank">阿北</a></li>
+                        <li class="ui-list-item"><a href="http://www.afei.cn/" target="_blank">阿飞</a></li>
+                        <li class="ui-list-item"><a href="http://morcha.blogbus.com/" target="_blank">Morcha</a></li>
+                        <li class="ui-list-item"><a href="http://www.dancemoon.net/" target="_blank">Dancemoon</a></li>
+                        <li class="ui-list-item"><a href="http://www.flypig.org/" target="_blank">Flypig</a></li>
+                        <li class="ui-list-item"><a href="http://www.henshiyong.com/" target="_blank">很实用</a></li>
+                        <li class="ui-list-item"><a href="http://www.kenengba.com/" target="_blank">可能吧</a></li>
+                        <li class="ui-list-item"><a href="http://www.bianworld.com/" target="_blank">bianworld</a></li>
+                        <li class="ui-list-item"><a href="http://www.alexhill.cn/" target="_blank">Alexhill</a></li>
+                        <li class="ui-list-item"><a href="http://hi.baidu.com/ofree/blog" target="_blank">StormEyes</a></li>
+                        <li class="ui-list-item"><a href="http://www.hicode.org/" target="_blank">Hicode</a></li>
+                        <li class="ui-list-item"><a href="http://webleon.org" target="_blank">Webleon</a></li>
+                        <li class="ui-list-item"><a href="http://www.zzidc.org.cn" target="_blank">楠桦</a></li>
+                        <li class="ui-list-item"><a href="http://www.1o3o.com/" target="_blank">1O3O</a></li>
+                        <li class="ui-list-item"><a href="http://www.iis.name/" target="_blank">远锋</a></li>
+                        <li class="ui-list-item"><a href="http://spaces.msn.com/members/zinph/" target="_blank">Zinph</a></li>
+                        <li class="ui-list-item"><a href="http://www.yangyan.cc/" target="_blank">YangYan</a></li>
+                        <li class="ui-list-item"><a href="http://www.storyday.com/" target="_blank">生活点滴</a></li>
+                        <li class="ui-list-item"><a href="http://yuhaibo.com/" target="_blank">Yuhaibo</a></li>
+                        <li class="ui-list-item"><a href="http://blakkey.blog.sohu.com/" target="_blank">哈米饽饽</a></li>
+                        <li class="ui-list-item"><a href="http://plod.popoever.com/" target="_blank">plod</a></li>
+                        <li class="ui-list-item"><a href="http://www.guimod.com/blog/" target="_blank">布罗特</a></li>
+                        <li class="ui-list-item"><a href="http://www.wugaoyuan.com/" target="_blank">吴高远</a></li>
+                        <li class="ui-list-item"><a href="http://www.cnblogs.com/caca/" target="_blank">咔咔</a></li>
+                        <li class="ui-list-item"><a href="http://www.allcoolmen.com/" target="_blank">全型男</a></li>
+                        <li class="ui-list-item"><a href="http://www.achome.cn/blog/" target="_blank">Achome</a></li>
+                        <li class="ui-list-item"><a href="http://www.yaosansi.com/" target="_blank">YaoSanS</a></li>
+                        <li class="ui-list-item"><a href="http://www.jjying.cn" target="_blank">JJ.Ying</a></li>
+                        <li class="ui-list-item"><a href="http://www.2s-space.com/blog/" target="_blank">2s-space</a></li>
+                        <li class="ui-list-item"><a href="http://pengjiayou.com/blog/" target="_blank">嘉佑</a></li>
+                        <li class="ui-list-item"><a href="http://coolshell.cn/" target="_blank">Coolshell</a></li>
+                    </ul>
+                </div>
+                <div class="ui-tab-content-item">
+                    <div class="ui-title fn-clear">
+                        <h2>购物&amp;银行</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.taobao.com/" target="_blank">淘宝网</a></li>
+                        <li class="ui-list-item"><a href="http://www.360buy.com/" target="_blank">京东</a></li>
+                        <li class="ui-list-item"><a href="http://www.dangdang.com/" target="_blank">当当书店</a></li>
+                        <li class="ui-list-item"><a href="http://www.ikea.com" target="_blank">宜家</a></li>
+                        <li class="ui-list-item"><a href="http://www.ccb.com/" target="_blank">建设银行</a></li>
+                        <li class="ui-list-item"><a href="http://www.spdb.com.cn/" target="_blank">浦发银行</a></li>
+                        <li class="ui-list-item"><a href="http://www.cmbchina.com" target="_blank">招商银行</a></li>
+                    </ul>
+                    <div class="ui-title fn-clear">
+                        <h2>实用</h2>
+                    </div>
+                    <ul class="ui-list fn-clear">
+                        <li class="ui-list-item"><a href="http://www.aizhan.com/" target="_blank">爱站网</a></li>
+                        <li class="ui-list-item"><a href="http://www.huoche.com/" target="_blank">火车网</a></li>
+                        <li class="ui-list-item"><a href="http://www.99pto.com/" target="_blank">火车票预定网</a></li>
+                        <li class="ui-list-item"><a href="http://xian.edushi.com/" target="_blank">西安地图</a></li>
+                        <li class="ui-list-item"><a href="http://xian.bus84.com/" target="_blank">西安公交网</a></li>
+                        <li class="ui-list-item"><a href="http://map.baidu.com/subways/index.html?c=shanghai" target="_blank">上海地铁图</a></li>
+                        <li class="ui-list-item"><a href="http://tool.114la.com/gb2big.html" target="_blank">114查询</a></li>
+                        <li class="ui-list-item"><a href="http://shanghai.edushi.com/" target="_blank">上海三维地图</a></li>
+                        <li class="ui-list-item"><a href="http://www.ddmap.com/" target="_blank">丁丁网</a></li>
+                        <li class="ui-list-item"><a href="http://tool.chinaz.com/" target="_blank">站长工具</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui-footer">
+        <div class="ui-fotter-content fn-clear">
+            <span class="ui-copyright fn-left"> DESIGNED BY WKYLIN&nbsp&nbsp;&amp;&nbsp;&nbsp&copy; 2010 wkylin</span>
+            <span class="ui-gotop fn-right"><a href="#header">TOP</a></span>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ui-tab.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#J_uiTab li").click(function () {
+            $(this).addClass("ui-tab-trigger-item-current").siblings().removeClass("ui-tab-trigger-item-current");
+            $(".ui-meta-right > ul").eq($("#J_uiTab li").index(this)).show().siblings().hide();
+        });
+
+        $(".searh-menu > li").hover(function () {
+                    $(this).find(".searh-more-hd").animate({ opacity:"show", height:"show"}, 300);
+                    $(this).find(".searh-more").addClass("navhover");
+                },
+                function () {
+                    $(".searh-more-hd").stop(true, true).hide();
+                    $(".searh-more").removeClass("navhover");
+                });
+        new Tab("J_uiTabTriUl", "J_uiTabCntDiv", {
+            activeTriggerClass:'ui-tab-trigger-item-current',
+            activeTriggerHoverClass:'ui-tab-trigger-item-hover',
+            activeViewClass:'ui-tab-content-item-current',
+            defaultShow:true,
+            triggerEvent:"onclick"
+        });
+    });
+</script>
+
+</body>
+</html>
