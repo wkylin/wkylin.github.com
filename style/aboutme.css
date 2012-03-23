@@ -1,0 +1,69 @@
+.ui-main-box {
+    width: 720px;
+    float: left;
+    height: 300px;
+}
+
+.ui-aside {
+    float: right;
+    width: 230px;
+    border-left: 1px solid #eee;
+    height: 300px;
+    padding-left: 8px
+}
+
+.ui-aside h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    border-bottom: 3px double #DDDDDD;
+    color: #2566A0;
+    line-height: 24px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 1px rgba(100, 100, 100, 0.5), 1px 1px 1px rgba(100, 100, 100, 0.8),;
+}
+
+.aside-box {
+    padding-left: 15px;
+}
+
+.aside-box ul li {
+    margin-bottom: 5px;
+    background: url("../images/icons.png") 0 0 no-repeat transparent;
+    padding-left: 25px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 13px;
+}
+
+.aside-box ul li a {
+    color: #AAAAAA;
+    font: italic 15px Tahoma, Arial, Helvetica, "SimSun", "Arial Narrow", Geneva, sans-serif;
+    padding: 3px 0 3px 0;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.aside-box ul li a:hover {
+    color: #068abe;
+}
+
+.aside-box ul li.t_qq {
+    background-position: 0 -440px;
+}
+
+.aside-box ul li.t_sina {
+    background-position: 0 -542px;
+}
+
+.aside-box ul li.qq {
+    background-position: 0 -498px;
+}
+
+.aside-box ul li.qqv {
+    background-position: 0 0;
+}
+
+.aside-box ul li.email {
+    background-position: 0 -97px;
+}
