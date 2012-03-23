@@ -23,7 +23,7 @@ body {
     color: rgb(102, 102, 102);
     font-size-adjust: none;
     font-stretch: normal;
-    /* 最小高度 */
+    /* 锟斤拷小锟竭讹拷 */
     min-height: 100px;
     height:auto !important;
     height:100px;
@@ -175,7 +175,7 @@ input.ui-input-button:focus {
     width: 990px;
     margin: 20px auto 0;
 }
-/* 解决ie6下 z-index 问题 */
+
 .ui-content .ui-tab{
    position: static;
 }
