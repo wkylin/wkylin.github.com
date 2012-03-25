@@ -1,18 +1,18 @@
 .ui-main-box {
-    width: 720px;
+    width: 700px;
     float: left;
-    height: 300px;
+    border-right:1px solid #eee;
+    padding-right:20px;
 }
-
+.ui-main-box-cnt{
+    height:100px;
+}
 .ui-aside {
     float: right;
     width: 230px;
-    border-left: 1px solid #eee;
-    height: 300px;
-    padding-left: 8px
 }
 
-.ui-aside h3 {
+ h3 {
     font-size: 16px;
     margin-top: 10px;
     border-bottom: 3px double #DDDDDD;
