@@ -45,6 +45,9 @@
                             <li class="ui-tab-trigger-item">
                                 <span>地图</span>
                             </li>
+                            <li class="ui-tab-trigger-item">
+                                <span>维基</span>
+                            </li>
                         </ul>
                     </div>
 
@@ -66,6 +69,7 @@
                                             <input class="ui-input-button" onclick="window.open('http://www.soso.com/q?pid=s.idx&amp;ch=s.idx&amp;w='+s.wd.value,'')" name="soso" value="搜搜" type="button">
                                             <input class="ui-input-button" onclick="window.open('http://cn.bing.com/search?q='+s.wd.value,'')" name="bing" value="必应" type="button">
                                             <input class="ui-input-button" onclick="window.open('http://www.youdao.com/search?q='+s.wd.value,'')" name="youdao" value="有道" type="button">
+                                            <input class="ui-input-button" onclick="window.open('https://developers.google.com/search?q='+s.wd.value,'')" name="javacode" value="Gcode" type="button">
                                         </div>
                                     </li>
                                 </ul>
@@ -142,6 +146,18 @@
                                         </div>
                                     </li>
                                 </ul>
+                                <!--维基-->
+                               <ul class="searh-menu fn-hide">
+                                   <li>
+                                       <div class="searh-more">
+                                           <input class="ui-input-button" onclick="window.open('http://zh.wikipedia.org/wiki/Special:Search?search='+s.wd.value,'')" value="维基百科" type="button" name="wiki" />
+                                       </div>
+                                       <div class="fn-hide searh-more-hd">
+                                           <input class="ui-input-button" onclick="window.open('http://baike.baidu.com/w?ct=17&lm=0&tn=baiduWikiSearch&pn=0&rn=10&word='+s.wd.value,'')" name="google" value="百度百科" type="button">
+                                           <input class="ui-input-button" onclick="window.open('http://so.hudong.com/s/doc/'+s.wd.value,'')" name="sogou" value="互动百科" type="button">
+                                       </div>
+                                   </li>
+                               </ul>
                             </div>
                         </form>
                     </div>
