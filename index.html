@@ -66,8 +66,8 @@
                                         <div class="searh-more">
                                             <input class="ui-input-button" onclick="window.open('http://www.baidu.com/s?wd='+s.wd.value,'')" name="百度一下" value="百度一下" type="button">
                                         </div>
-                                        <div class="searh-more-hd fn-hide">
-                                            <input class="ui-input-button" onclick="window.open('http://www.google.com.hk/search?q='+s.wd.value,'')" name="google" value="谷歌" type="button">
+                                        <div class="searh-more-hd">
+                                            <input class="ui-input-button ui-input-button-hover" onclick="window.open('http://www.google.com.hk/search?q='+s.wd.value,'')" name="google" value="谷歌" type="button">
                                             <input class="ui-input-button" onclick="window.open('http://www.sogou.com/web?query='+s.wd.value,'')" name="sogou" value="搜狗" type="button">
                                             <input class="ui-input-button" onclick="window.open('http://www.soso.com/q?pid=s.idx&amp;ch=s.idx&amp;w='+s.wd.value,'')" name="soso" value="搜搜" type="button">
                                             <input class="ui-input-button" onclick="window.open('http://cn.bing.com/search?q='+s.wd.value,'')" name="bing" value="必应" type="button">
@@ -1002,7 +1002,14 @@
            $(".searh-more").append("<div class='ui-arrow'></div>");
         $(".searh-menu > li").hover(function () {
                     $(this).find(".searh-more-hd").animate({ opacity:"show", height:"show"}, 300);
-                    $(this).find(".searh-more").addClass("navhover");
+                    $(this).find(".searh-more-hd input").hover(
+                            function(){
+                                $(this).addClass("ui-input-button-hover").siblings().removeClass("ui-input-button-hover");
+                            },
+                            function(){
+                                $(this).removeClass("ui-input-button-hover");
+                            }
+                    );
                 },
                 function () {
                     $(".searh-more-hd").stop(true, true).hide();
