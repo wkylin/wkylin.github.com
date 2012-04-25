@@ -78,7 +78,17 @@ body {
     display:inline;
     cursor: pointer;
 }
-
+.ui-arrow{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    font-size: 0;
+    border-width: 8px;
+    border-color:  #080 transparent transparent;
+    border-style: solid dashed dashed ;
+}
 .ui-input-text {
     padding: 5px;
     border: 1px solid #ccc;
@@ -94,14 +104,14 @@ body {
     outline: none;
     vertical-align: middle;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 0;
     cursor: pointer;
     background-color: #eee;
     color: #333;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    width:90px;
+    width:98px;
     height:30px;
     font-family:"\5FAE\8F6F\96C5\9ED1";
 }
@@ -133,7 +143,7 @@ input.ui-input-button:focus {
     position: absolute;
     text-align: center;
     background-color: #fff;
-    width:93px;
+    width:101px;
     z-index: 9999;
 }
 
