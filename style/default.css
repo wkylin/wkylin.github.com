@@ -24,8 +24,8 @@ body {
     font-size-adjust: none;
     font-stretch: normal;
     min-height: 100px;
-    height:auto !important;
-    height:100px;
+    height: auto !important;
+    height: 100px;
 }
 
 .ui-container {
@@ -42,43 +42,45 @@ body {
     width: 990px;
     margin: 0 auto;
 }
-.ui-header-content .logo{
-    font-size:36px;
-    padding-top:10px;
-    color:#333;
+
+.ui-header-content .logo {
+    font-size: 36px;
+    padding-top: 10px;
+    color: #333;
     -moz-text-shadow: 1px 1px 3px #666;
-    -webkit-text-shadow: 1px 1px 3px  #666;
-    text-shadow: 1px 1px 3px  #666;
+    -webkit-text-shadow: 1px 1px 3px #666;
+    text-shadow: 1px 1px 3px #666;
 
 }
 
-.ui-gloable-search{
-    width:430px;
+.ui-gloable-search {
+    width: 430px;
 
 }
 
-.ui-gloable-search .ui-tab-content{
-    background-color:#2566A0;
-    padding:5px;
-    height:30px;
+.ui-gloable-search .ui-tab-content {
+    background-color: #2566A0;
+    padding: 5px;
+    height: 30px;
     _overflow: hidden;
-    _height:32px;
+    _height: 32px;
 }
 
 .ui-meta-left {
     height: 30px;
     float: left;
-    display:inline;
+    display: inline;
     margin-right: 15px;
 }
 
 .ui-meta-right {
     height: 30px;
     float: right;
-    display:inline;
+    display: inline;
     cursor: pointer;
 }
-.ui-arrow{
+
+.ui-arrow {
     width: 0;
     height: 0;
     position: absolute;
@@ -86,9 +88,10 @@ body {
     top: 15px;
     font-size: 0;
     border-width: 8px;
-    border-color:  #080 transparent transparent;
-    border-style: solid dashed dashed ;
+    border-color: #080 transparent transparent;
+    border-style: solid dashed dashed;
 }
+
 .ui-input-text {
     padding: 5px;
     border: 1px solid #ccc;
@@ -111,9 +114,9 @@ body {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    width:98px;
-    height:30px;
-    font-family:"\5FAE\8F6F\96C5\9ED1";
+    width: 98px;
+    height: 30px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
 }
 
 input.ui-input-button:focus {
@@ -143,7 +146,7 @@ input.ui-input-button:focus {
     position: absolute;
     text-align: center;
     background-color: #fff;
-    width:101px;
+    width: 101px;
     z-index: 9999;
 }
 
@@ -153,22 +156,23 @@ input.ui-input-button:focus {
     color: #4d4d4d;
 }
 
-.ui-gloable-search .ui-tab-trigger{
-    margin-left:5px;
-    height:30px;
-}
-.ui-gloable-search .ui-tab-trigger-item{
-    padding-left:10px;
-    line-height:30px
+.ui-gloable-search .ui-tab-trigger {
+    margin-left: 5px;
+    height: 30px;
 }
 
-.ui-gloable-search .ui-tab-trigger-item span{
-    padding-right:10px;
+.ui-gloable-search .ui-tab-trigger-item {
+    padding-left: 10px;
+    line-height: 30px
 }
 
-.ui-gloable-search .ui-tab-trigger-item-current{
-    background-color:#2566A0;
-    bottom:0;
+.ui-gloable-search .ui-tab-trigger-item span {
+    padding-right: 10px;
+}
+
+.ui-gloable-search .ui-tab-trigger-item-current {
+    background-color: #2566A0;
+    bottom: 0;
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-top-left-radius: 5px;
@@ -176,8 +180,9 @@ input.ui-input-button:focus {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.ui-gloable-search .ui-tab-trigger-item-current span{
-   color:#eee;
+
+.ui-gloable-search .ui-tab-trigger-item-current span {
+    color: #eee;
 }
 
 .ui-content {
@@ -185,14 +190,15 @@ input.ui-input-button:focus {
     margin: 20px auto 0;
 }
 
-.ui-content .ui-tab{
-   position: static;
+.ui-content .ui-tab {
+    position: static;
 }
+
 .ui-content .ui-tab-trigger-item {
     padding-left: 40px;
     width: 80px;
     bottom: 0;
-    _bottom:-1px;
+    _bottom: -1px;
 }
 
 .ui-content .ui-tab-trigger-item-current {
@@ -253,4 +259,17 @@ input.ui-input-button:focus {
 
 .ui-gotop {
 
+}
+
+/* code  */
+h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.code {
+    font-size: 14px;
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 5px;
 }
