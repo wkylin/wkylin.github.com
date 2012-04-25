@@ -84,14 +84,14 @@ body {
     width: 0;
     height: 0;
     position: absolute;
-    right: 5px;
-    top: 15px;
+    right:5px;
+    top: 13px;
     font-size: 0;
     border-width: 8px;
     border-color: #080 transparent transparent;
     border-style: solid dashed dashed;
+    background-color:transparent;
 }
-
 .ui-input-text {
     padding: 5px;
     border: 1px solid #ccc;
@@ -270,6 +270,6 @@ h4 {
 .code {
     font-size: 14px;
     background-color: #eee;
-    border: 1px solid #999;
+    border: 1px solid #aaa;
     padding: 5px;
 }
