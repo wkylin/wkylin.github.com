@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="577" column="88" selection-start="37075" selection-end="37075" vertical-scroll-proportion="0.51361865">
+            <state line="676" column="18" selection-start="45041" selection-end="45041" vertical-scroll-proportion="0.2801724">
               <folding />
             </state>
           </provider>
@@ -139,15 +139,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="854" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="180" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="168" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -208,7 +208,11 @@
       <created>1337318488918</created>
       <updated>1337318488918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add">
+      <created>1337321030242</created>
+      <updated>1337321030242</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,7 +341,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="577" column="88" selection-start="37075" selection-end="37075" vertical-scroll-proportion="0.51361865">
+        <state line="676" column="18" selection-start="45041" selection-end="45041" vertical-scroll-proportion="0.2801724">
           <folding />
         </state>
       </provider>
