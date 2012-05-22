@@ -16,7 +16,10 @@ a:hover {
     color: rgb(128, 128, 128);
     text-decoration: underline;
 }
-
+/* 字体 */
+.ft-red{
+    color:#d34c4d;
+}
 body {
     background-color: rgb(221, 221, 221);
     font: 12px/normal Arial;
