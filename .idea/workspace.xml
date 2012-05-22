@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="add">
+    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="691" column="81" selection-start="46563" selection-end="46563" vertical-scroll-proportion="0.52380955">
+            <state line="671" column="88" selection-start="44829" selection-end="44829" vertical-scroll-proportion="0.6064982">
               <folding />
             </state>
           </provider>
@@ -63,8 +63,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="3" />
+    <option name="x" value="-94" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
@@ -139,15 +138,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="854" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="854" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="180" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="168" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -224,11 +223,15 @@
       <created>1337657643712</created>
       <updated>1337657643712</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add">
+      <created>1337672683408</created>
+      <updated>1337672683408</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="3" width="1382" height="784" extended-state="0" />
+    <frame x="-94" y="0" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -353,7 +356,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="691" column="81" selection-start="46563" selection-end="46563" vertical-scroll-proportion="0.52380955">
+        <state line="671" column="88" selection-start="44829" selection-end="44829" vertical-scroll-proportion="0.6064982">
           <folding />
         </state>
       </provider>
