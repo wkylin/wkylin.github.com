@@ -4,7 +4,6 @@
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/default.css" afterPath="$PROJECT_DIR$/style/default.css" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="565" column="53" selection-start="36379" selection-end="36379" vertical-scroll-proportion="0.15086207">
+            <state line="682" column="47" selection-start="45738" selection-end="45738" vertical-scroll-proportion="0.30603448">
               <folding />
             </state>
           </provider>
@@ -269,7 +268,11 @@
       <created>1337678248010</created>
       <updated>1337678248010</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add">
+      <created>1337679796726</created>
+      <updated>1337679796726</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +410,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="565" column="53" selection-start="36379" selection-end="36379" vertical-scroll-proportion="0.15086207">
+        <state line="682" column="47" selection-start="45738" selection-end="45738" vertical-scroll-proportion="0.30603448">
           <folding />
         </state>
       </provider>
