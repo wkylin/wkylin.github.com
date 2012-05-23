@@ -5,7 +5,11 @@
     padding-right:20px;
 }
 .ui-main-box-cnt{
-    height:100px;
+    /*height:100px;*/
+}
+
+.ui-main-box-cnt .code{
+    margin:10px 0;
 }
 .ui-aside {
     float: right;
