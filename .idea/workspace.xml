@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="967" selection-end="967" vertical-scroll-proportion="0.44720498">
+            <state line="666" column="88" selection-start="42723" selection-end="42723" vertical-scroll-proportion="0.6102941">
               <folding />
             </state>
           </provider>
@@ -363,7 +363,11 @@
       <created>1337835584090</created>
       <updated>1337835584090</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add">
+      <created>1337835696051</created>
+      <updated>1337835696051</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,7 +524,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="967" selection-end="967" vertical-scroll-proportion="0.44720498">
+        <state line="666" column="88" selection-start="42723" selection-end="42723" vertical-scroll-proportion="0.6102941">
           <folding />
         </state>
       </provider>
