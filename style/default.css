@@ -55,7 +55,9 @@ body {
     text-shadow: 1px 1px 3px #666;
 
 }
-
+.ui-header-content .blessing{
+    margin-top:5px;
+}
 .ui-gloable-search {
     width: 430px;
 

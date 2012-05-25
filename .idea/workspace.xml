@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="add">
+    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/default.css" afterPath="$PROJECT_DIR$/style/default.css" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,64 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="644" column="93" selection-start="40451" selection-end="40451" vertical-scroll-proportion="0.6163793">
+            <state line="28" column="24" selection-start="1215" selection-end="1223" vertical-scroll-proportion="-4.4827585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google8fab3d4e9a31da7f.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google8fab3d4e9a31da7f.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prettify.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/prettify.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="4" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prettify.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/prettify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aboutme.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/aboutme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="11" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="holmes.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/holmes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="57" column="31" selection-start="980" selection-end="980" vertical-scroll-proportion="0.60431653">
               <folding />
             </state>
           </provider>
@@ -110,11 +66,11 @@
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/style/ui-title.css" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/style/default.css" />
         <option value="$PROJECT_DIR$/style/prettify.css" />
         <option value="$PROJECT_DIR$/style/aboutme.css" />
         <option value="$PROJECT_DIR$/js/prettify.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/default.css" />
       </list>
     </option>
   </component>
@@ -178,6 +134,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -195,15 +165,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="854" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="180" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="168" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -391,7 +361,11 @@
       <created>1337930141361</created>
       <updated>1337930141361</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add">
+      <created>1337937973444</created>
+      <updated>1337937973444</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -513,11 +487,6 @@
         <state line="49" column="21" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.3327338" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google8fab3d4e9a31da7f.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/prettify.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="4" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0" />
@@ -538,14 +507,21 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/default.css">
+    <entry file="file://$PROJECT_DIR$/google8fab3d4e9a31da7f.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" />
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="644" column="93" selection-start="40451" selection-end="40451" vertical-scroll-proportion="0.6163793">
+        <state line="28" column="24" selection-start="1215" selection-end="1223" vertical-scroll-proportion="-4.4827585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="31" selection-start="980" selection-end="980" vertical-scroll-proportion="0.60431653">
           <folding />
         </state>
       </provider>
