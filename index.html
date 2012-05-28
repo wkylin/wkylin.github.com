@@ -720,7 +720,7 @@
     <li class="ui-list-item"><a href="http://www.mhtml5.com/" target="_blank">HTLM中国</a></li>
     <li class="ui-list-item"><a href="http://www.w3.org/TR/html-markup/Overview.html" target="_blank">HtmlMarkup</a>
     </li>
-    <li class="ui-list-item"><a href="http://www.google.com/webfonts#" target="_blank">GoogleWebFonts</a></li>
+
     <li class="ui-list-item"><a href="http://www.html5test.com/" target="_blank">HTML5test</a></li>
     <li class="ui-list-item"><a href="http://haz.io/" target="_blank">hazIO</a></li>
     <li class="ui-list-item"><a href="http://htmlshell.com//" target="_blank">HtmlShell</a></li>
@@ -777,6 +777,17 @@
     <li class="ui-list-item"><a href="http://www.ijavascript.cn/" target="_blank">iJavascript</a></li>
     <li class="ui-list-item"><a href="http://www.brothercake.com/" target="_blank">Brothercake</a></li>
     <li class="ui-list-item"><a href="http://flowplayer.org/" target="_blank">Flowplayer</a></li>
+</ul>
+<div class="ui-title fn-clear">
+    <h2>Web 字体 </h2>
+</div>
+<ul class="ui-list fn-clear">
+    <li class="ui-list-item"><a href="http://webfonts.fonts.com/en-US" target="_blank">webfonts</a></li>
+    <li class="ui-list-item"><a href="https://typekit.com/" target="_blank">typekit</a></li>
+    <li class="ui-list-item"><a href="http://kernest.com/" target="_blank">kernest</a></li>
+    <li class="ui-list-item"><a href="http://www.google.com/webfonts" target="_blank">GoogleWebFonts</a></li>
+    <li class="ui-list-item"><a href="http://www.dafont.com/" target="_blank">dafont</a></li>
+    <li class="ui-list-item"><a href="http://nicewebtype.com/" target="_blank">nicewebtype</a></li>
 </ul>
 <div class="ui-title fn-clear">
     <h2>素材</h2>
@@ -984,7 +995,17 @@
                 <pre class="prettyprint linenums ">&lt;!--[if IE]&gt;
 &lt;script src=”http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js”&gt;&lt;/script&gt;
 &lt;![endif]--&gt;</pre>
-
+                <h4>@font-face(<a href="http://www.fontsquirrel.com/fontface/generator">生成各种字体格式</a>)</h4>
+                <pre class="prettyprint linenums">@font-face {
+    font-family: 'YourWebFontName';
+    src: url('YourWebFontName.eot'); /* IE9 Compat Modes */
+    src: url('YourWebFontName.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('YourWebFontName.woff') format('woff'), /* Modern Browsers */
+        url('YourWebFontName.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('YourWebFontName.svg#YourWebFontName') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}</pre>
             </div>
             <h3>
                 个人作品秀
