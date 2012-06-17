@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="295" column="60" selection-start="15811" selection-end="15811" vertical-scroll-proportion="0.22222222">
+            <state line="1113" column="22" selection-start="73113" selection-end="73113" vertical-scroll-proportion="0.25925925">
               <folding />
             </state>
           </provider>
@@ -138,15 +138,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="854" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="854" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="180" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="168" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -546,7 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="60" selection-start="15811" selection-end="15811" vertical-scroll-proportion="0.22222222">
+        <state line="1113" column="22" selection-start="73113" selection-end="73113" vertical-scroll-proportion="0.25925925">
           <folding />
         </state>
       </provider>
