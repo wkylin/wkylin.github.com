@@ -1,7 +1,7 @@
 #layout {
     overflow: hidden;
 }
-#help-notice .alert{
+.alert{
     display: none;
 }
 
