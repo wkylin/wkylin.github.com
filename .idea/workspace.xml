@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/disqus.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -28,7 +29,25 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1069" column="30" selection-start="71014" selection-end="71014" vertical-scroll-proportion="0.2375189">
+            <state line="16" column="79" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.580938">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui-tab.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/ui-tab.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="10" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="disqus.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/disqus.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="18" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,6 +82,8 @@
         <option value="$PROJECT_DIR$/style/aboutme.css" />
         <option value="$PROJECT_DIR$/js/prettify.js" />
         <option value="$PROJECT_DIR$/style/default.css" />
+        <option value="$PROJECT_DIR$/style/ui-tab.css" />
+        <option value="$PROJECT_DIR$/style/disqus.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -118,6 +139,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,7 +496,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mbalib&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add disqus &#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -488,16 +523,12 @@
     <MESSAGE value="delete some sites" />
     <MESSAGE value="add" />
     <MESSAGE value="add mbalib&#10;" />
+    <MESSAGE value="add disqus &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/ui-tab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="573" selection-end="586" vertical-scroll-proportion="0.045351475" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/ui-title.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.79130435" />
@@ -548,9 +579,23 @@
         <state line="62" column="0" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.034782607" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/ui-tab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/disqus.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1069" column="30" selection-start="71014" selection-end="71014" vertical-scroll-proportion="0.2375189">
+        <state line="16" column="79" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.580938">
           <folding />
         </state>
       </provider>
