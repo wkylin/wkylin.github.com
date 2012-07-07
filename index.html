@@ -1108,7 +1108,9 @@ _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.off
             $(".ui-meta-right > ul").eq($("#J_uiTab li").index(this)).show().siblings().hide();
         });
         $(".searh-more").append("<div class='ui-arrow'></div>");
+
         $(".searh-menu > li").hover(function () {
+                    $(".ui-arrow").addClass("ui-arrow-hover");
                     $(this).find(".searh-more-hd").animate({ opacity:"show", height:"show"}, 300);
                     $(this).find(".searh-more-hd input").hover(
                             function () {
@@ -1120,6 +1122,7 @@ _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.off
                     );
                 },
                 function () {
+                    $(".ui-arrow").removeClass("ui-arrow-hover");
                     $(".searh-more-hd").stop(true, true).hide();
                     $(".searh-more").removeClass("navhover");
                 });

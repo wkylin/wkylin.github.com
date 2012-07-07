@@ -93,10 +93,31 @@ body {
     right: 3px;
     top: 14px;
     font-size: 0;
+    line-height:0;
     border-width: 8px;
     border-color: #080 transparent transparent;
     border-style: solid dashed dashed;
     background-color:transparent;
+    -webkit-transition:-webkit-transform .2s ease-in;
+    -webkit-backface-visibility:hidden;
+    -moz-transition:-moz-transform .2s ease-in;
+    -o-transition:-o-transform .2s ease-in;
+    transition:transform .2s ease-in;
+}
+
+.ui-arrow-hover{
+    border-color: transparent transparent #080;
+    border-style: dashed dashed solid;
+    background-color:transparent;
+    -moz-transform:rotate(180deg);
+    -moz-transform-origin:50% 50%;
+    -webkit-transform:rotate(180deg);
+    -webkit-transform-origin:50% 50%;
+    -o-transform:rotate(180deg);
+    -o-transform-origin:50% 50%;
+    transform:rotate(180deg);
+    transform-origin:50% 50%;
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 .ui-input-text {
     padding: 5px;
