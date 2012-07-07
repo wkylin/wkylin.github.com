@@ -726,6 +726,7 @@
     <li class="ui-list-item"><a href="http://www.sitecatalyst.com.cn/" target="_blank">SiteCatalyst</a>
     </li>
     <li class="ui-list-item"><a href="http://www.chinawebanalytics.cn/" target="_blank">WebAnalytics</a></li>
+    <li class="ui-list-item"><a href="http://developer.yahoo.com/performance/rules.html" target="_blank">前端性能优化</a></li>
 </ul>
 
 <div class="ui-title fn-clear">
@@ -1014,8 +1015,9 @@
                         <li>1. Responsive Web Design</li>
                         <li>2. 响应式Web设计：HTML5和CSS3</li>
                         <li>3. 众妙之门2</li>
-                        <li>4. Ant与前端开发</li>
+                        <li>4. Maven-Ant与前端开发</li>
                         <li>5. 软件工程</li>
+                        <li>6. 网站性能优化</li>
                     </ol>
                 </div>
                 <h4>让IE浏览器支持HTML5标准的方法</h4>
@@ -1040,6 +1042,20 @@
     font-weight: normal;
     font-style: normal;
 }</pre>
+                <h4>五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题</h4>
+                <pre class="prettyprint linenums">
+html{
+_background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
+}
+
+/* 你的图层 */
+.positionFixedLayer{
+position:fixed;
+_position: absolute;
+_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
+_left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
+}
+                </pre>
             </div>
             <h3>
                 个人作品秀
