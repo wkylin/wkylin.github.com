@@ -22,7 +22,17 @@
     <favorites_list name="wkylin.github.com" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="tech.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tech.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="102" selection-start="733" selection-end="733" vertical-scroll-proportion="0.3267776">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -53,6 +63,7 @@
         <option value="$PROJECT_DIR$/style/disqus.css" />
         <option value="$PROJECT_DIR$/style/default.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tech.html" />
       </list>
     </option>
   </component>
@@ -133,15 +144,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="854" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="180" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="168" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="wkylin" serverId="607f2acd-58fb-4f92-90bd-bc98db620efd">
     <servers>
@@ -408,13 +419,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1450" height="870" extended-state="6" />
-    <editor active="false" />
+    <frame x="-5" y="-5" width="1450" height="870" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1383204" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06774876" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -505,16 +516,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="657" column="83" selection-start="41557" selection-end="41557" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="657" column="83" selection-start="41557" selection-end="41557" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="298" column="0" selection-start="5659" selection-end="5659" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="298" column="0" selection-start="5659" selection-end="5659" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/google8fab3d4e9a31da7f.html">
@@ -539,14 +546,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="298" column="0" selection-start="5659" selection-end="5659" vertical-scroll-proportion="0.37391305">
-          <folding />
-        </state>
+        <state line="298" column="0" selection-start="5659" selection-end="5659" vertical-scroll-proportion="0.37391305" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="82" selection-end="82" vertical-scroll-proportion="0.14814815">
+        <state line="4" column="37" selection-start="82" selection-end="82" vertical-scroll-proportion="0.14814815" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="102" selection-start="733" selection-end="733" vertical-scroll-proportion="0.3267776">
           <folding />
         </state>
       </provider>
