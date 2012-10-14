@@ -1,0 +1,14 @@
+---
+layout: page
+title: PAGES
+#header: Pages
+#group: navigation
+info: 所有页面
+---
+{% include JB/setup %}
+
+<h2>All Pages</h2>
+<ul>
+{% assign pages_list = site.pages %}
+{% include JB/pages_list %}
+</ul>

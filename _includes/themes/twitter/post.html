@@ -1,0 +1,43 @@
+<div class="ui-main">
+    <div class="page-header">
+        <h3>{{ page.title }} {% if page.tagline %}
+            <small>{{ page.tagline }}</small>
+            {% endif %}
+        </h3>
+
+        <h3>{{ page.names }}</h3>
+        <!--
+        <h4>{{ page.headers }}</h4>
+        -->
+    </div>
+    {{ content }}
+    <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
+         <p style="text-align: right; color:#aaa;">Published by {{ site.author.name }} <span>{{ page.date | date_to_long_string }}</span></p>
+    </div>
+    <div class="pagination">
+        <ul>
+            {% if page.previous %}
+            <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">上一篇【{{ page.previous.title }}】</a></li>
+            {% else %}
+            <li class="prev disabled"><a>上一篇</a></li>
+            {% endif %}
+            <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+            {% if page.next %}
+            <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一篇【{{ page.next.title }}】</a></li>
+            {% else %}
+            <li class="next disabled"><a>下一篇</a>
+            {% endif %}
+        </ul>
+    </div>
+    <hr style="margin-bottom:10px;">
+    {% include JB/comments %}
+</div>
+<div class="ui-aside">
+    {% unless page.tags == empty %}
+    <h2 class="tags-sort">Tags</h2>
+    <ul class="tag_box">
+        {% assign tags_list = page.tags %}
+        {% include JB/tags_list %}
+    </ul>
+    {% endunless %}
+</div>

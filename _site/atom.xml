@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>I love kax</title>
+ <link href="http://wkylin.github.com/atom.xml" rel="self"/>
+ <link href="http://wkylin.github.com"/>
+ <updated>2012-10-14T19:43:02+08:00</updated>
+ <id>http://wkylin.github.com</id>
+ <author>
+   <name>wkylin</name>
+   <email>wkylin@qq.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>MediaQueries for IE</title>
+   <link href="http://wkylin.github.com/Tech/2012/10/06/MediaQueriesforIE"/>
+   <updated>2012-10-06T00:00:00+08:00</updated>
+   <id>http://wkylin.github.com/Tech/2012/10/06/MediaQueriesforIE</id>
+   <content type="html">&lt;pre&gt;
+    &lt;code&gt;
+    &amp;lt;!--[if IE]&amp;gt;
+    &amp;lt;script src=&quot;http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;![endif]--&amp;gt;
+    &lt;/code&gt;
+&lt;/pre&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>HTML5 for IE</title>
+   <link href="http://wkylin.github.com/Web Front/2012/09/05/htlm5js"/>
+   <updated>2012-09-05T00:00:00+08:00</updated>
+   <id>http://wkylin.github.com/Web Front/2012/09/05/htlm5js</id>
+   <content type="html">&lt;p&gt;下面是引用Google的html5.js文件，好处就不说了： &lt;pre&gt;
+    &lt;code&gt;
+    &amp;lt;!--[if IE]&amp;gt;
+    &amp;lt;script src=&quot;http://html5shiv.googlecode.com/svn/trunk/html5.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;![endif]--&amp;gt;
+    &lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;当然，你也可以把代码拿出来自己看着办： &lt;pre&gt;
+     &lt;code&gt;
+     (function(){if(!/*@cc_on!@*/0)return;var e = &quot;abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video&quot;.split(','),i=e.length;while(i--){document.createElement(e[i])}})()
+     &lt;/code&gt;
+ &lt;/pre&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>@font-face</title>
+   <link href="http://wkylin.github.com/Tech/2011/10/06/%40font-face"/>
+   <updated>2011-10-06T00:00:00+08:00</updated>
+   <id>http://wkylin.github.com/Tech/2011/10/06/@font-face</id>
+   <content type="html">&lt;pre&gt;
+    &lt;code&gt;
+    @font-face {
+        font-family: 'YourWebFontName';
+        src: url('YourWebFontName.eot'); /* IE9 Compat Modes */
+        src:local('fontName Regular'),
+            local('fontName'),
+            url('YourWebFontName.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('YourWebFontName.woff') format('woff'), /* Modern Browsers */
+            url('YourWebFontName.ttf')  format('truetype'), /* Safari, Android, iOS */
+            url('YourWebFontName.svg#YourWebFontName') format('svg'); /* Legacy iOS */
+        font-weight: normal;
+        font-style: normal;
+    }
+    &lt;/code&gt;
+&lt;/pre&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>position-fixed</title>
+   <link href="http://wkylin.github.com/Css/2011/09/05/position-fixed"/>
+   <updated>2011-09-05T00:00:00+08:00</updated>
+   <id>http://wkylin.github.com/Css/2011/09/05/position-fixed</id>
+   <content type="html">&lt;pre&gt;
+    &lt;code&gt;
+    html{
+    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
+    }
+    /* 你的图层 */
+    .positionFixedLayer{
+    position:fixed;
+    _position: absolute;
+    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
+    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
+    }
+    &lt;/code&gt;
+&lt;/pre&gt;</content>
+ </entry>
+ 
+ 
+</feed>

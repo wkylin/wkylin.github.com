@@ -1,13 +1,12 @@
 ---
 layout: page
-title : 首页
+title : Posts All
 header : |
 #group: navigation
-nav: 首页
-info: 最新博文
+info: 简短的介绍
+nav: Index
 ---
 {% include JB/setup %}
 
 {% assign posts_all = site.posts %}
-{% assign count = 5 %}
 {% include JB/posts_all %}
