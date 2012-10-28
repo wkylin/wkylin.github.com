@@ -35,9 +35,15 @@
 <div class="ui-aside">
     {% unless page.tags == empty %}
     <h2 class="tags-sort">Tags</h2>
-    <ul class="tag_box">
+    <ul class="tag_box" style="margin-left:15px;">
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
     </ul>
     {% endunless %}
+    <h2 class="tags-sort" style="margin-top:10px;">最近发表</h2>
+    <ul id="recent_posts" style="margin-left:15px;">{% for rpost in site.posts limit: 5 %}
+        <li class="post" >
+            <a href="{{ BASE_PATH }}{{ rpost.url }}">{{ rpost.title }}</a>
+        </li>{% endfor %}
+    </ul>
 </div>

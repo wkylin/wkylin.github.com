@@ -5,12 +5,12 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
-
+paginate: 5
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : I love kax
-tagline: Site Tagline
+title : wkylin
+tagline: wkylin
 author :
   name : wkylin
   email : wkylin@qq.com
