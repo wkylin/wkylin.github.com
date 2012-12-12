@@ -154,16 +154,22 @@ info: 原始JSON代码格式化及着色
         background-color:#ECECEC ;
     }
     #RawJson{
-        width:780px;
+        width:800px;
         height:200px;
         margin:20px 0;
+    }
+    .json-parse{
+       margin-bottom:20px;
+       height:30px;
+       line-height: 30px;
+       width:80px;
     }
 </style>
 
 <div class="ui-container">
     <div>请在下方输入你的JSON:</div>
     <div><textarea id="RawJson" cols="100" rows="8"></textarea></div>
-    <div><input type="button" value="格式化" onClick="Process()" style="padding:10px 0;margin-bottom:20px"/></div>
+    <div><input type="button" value="格式化" onClick="Process()" class="json-parse"/></div>
     <div id="Canvas" class="Canvas"></div>
 </div>
 
