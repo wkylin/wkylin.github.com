@@ -2,7 +2,7 @@
 layout: page
 title : JsonFormat
 group: navigation
-info: json formatting
+info: 原始JSON代码格式化及着色
 ---
 {% include JB/setup %}
 
@@ -151,14 +151,17 @@ info: json formatting
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    #RawJson{
+        width:780px;
+        height:200px;
+        margin:20px 0;
+    }
 </style>
 
 <div class="ui-container">
-    <h3>原始JSON代码格式化及着色</h3>
     <div>请在下方输入你的JSON:</div>
-    <textarea id="RawJson" cols="100" rows="8">
-    </textarea><BR/>
-    <input type="Button" value="格式化" onClick="Process()"/>
+    <div><textarea id="RawJson" cols="100" rows="8"></textarea></div>
+    <div><input type="button" value="格式化" onClick="Process()" style="padding:10px 0;margin-bottom:20px"/></div>
     <div id="Canvas" class="Canvas"></div>
 </div>
 
