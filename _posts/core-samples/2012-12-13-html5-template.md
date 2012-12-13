@@ -8,7 +8,7 @@ description: |
 ---
 <pre>
     <code>
-        &lt;!DOCTYPE html&gt;
+    &lt;!DOCTYPE html&gt;
 	&lt;html lang="en"&gt;
 	&lt;head&gt;
 	&lt;meta charset="utf-8"&gt;
@@ -36,16 +36,16 @@ description: |
 	&lt;/head&gt;
 	&lt;body&gt;
 	&lt;div class="ui-container"&gt;
-		&lt;div class="ui-content"&gt;
-			&lt;div class="ui-grid"&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
+	&lt;div class="ui-content"&gt;
+	&lt;div class="ui-grid"&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;/body&gt;
 	&lt;script src="http://wkylin.github.com/assets/js/jquery-1.8.3.min.js" type="text/javascript"&gt;&lt;/script&gt;
 	&lt;script type="text/javascript"&gt; !window.jQuery && document.write('&lt;script src="assets/js/jquery-1.8.3.min.js"&gt; 
 	&lt;script type="text/javascript"&gt;
-	    $(document).ready({})
+	$(document).ready({})
 	&lt;/script&gt;
 	&lt;/html&gt;
     </code>
