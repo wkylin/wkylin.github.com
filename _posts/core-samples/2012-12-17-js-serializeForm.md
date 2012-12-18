@@ -17,51 +17,7 @@ description: |
     function serializeForm(form, flag) {
         var isBase64 = flag;
         var parts = [], field = null, i, len, j, optLen, option, optValue;
-        for (i = 0, len = form.elements.length; i &lt; len; i++) {
-            field = form.elements[i];
-            switch (field.type) {
-                case "select-one":
-                case "select-multiple":
-                    if (field.name.length) {
-                        for (j = 0, optLen = field.options.length; j &lt; optLen; j++) {
-                            option = field.options[j];
-                            if (option.selected) {
-                                optValue = "";
-                                if (option.hasAttribute) {
-                                    optValue = (option.hasAttribute("value") ? option.value : option.text);
-                                } else {
-                                    optValue = (option.attributes["value"].specified ? option.value : option.text);
-                                }
-                                if (isBase64) {
-                                    parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(Base64.encode(optValue)));
-                                } else {
-                                    parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
-                                }
-                            }
-                        }
-                    }
-                    break;
-                case "undefined":
-                case "file":
-                case "submit":
-                case "reset":
-                case "button":
-                    break;
-                case "radio":
-                case "checkbox":
-                    if (!field.checked) {
-                        break;
-                    }
-                default:
-                    if (field.name.length) {
-                        if (isBase64) {
-                            parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(Base64.encode(field.value)));
-                        } else {
-                            parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(field.value));
-                        }
-                    }
-            }
-        }
+        
         return parts.join("&");
     }
     </code>
