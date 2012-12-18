@@ -15,18 +15,15 @@ description: |
 <pre>
     <code>
     function serializeForm(form, flag) {
-        if (!form || form.nodeName !== "FORM") {
-            return false;
-        }
         var isBase64 = flag;
         var parts = [], field = null, i, len, j, optLen, option, optValue;
-        for (i = 0, len = form.elements.length; i < len; i++) {
+        for (i = 0, len = form.elements.length; i &lt; len; i++) {
             field = form.elements[i];
             switch (field.type) {
                 case "select-one":
                 case "select-multiple":
                     if (field.name.length) {
-                        for (j = 0, optLen = field.options.length; j < optLen; j++) {
+                        for (j = 0, optLen = field.options.length; j &lt; optLen; j++) {
                             option = field.options[j];
                             if (option.selected) {
                                 optValue = "";
