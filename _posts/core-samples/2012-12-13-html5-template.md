@@ -19,10 +19,9 @@ description: |
 ###引入css及js文件：
 <pre>
     <code>
-	   &lt;!-- Le styles --&gt;
+	    &lt;!-- Le styles --&gt;
 	    &lt;link href="http://wkylin.github.com/assets/css/base.min.css" rel="stylesheet"&gt;
 	    &lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements & CSS3 --&gt;
-	    &lt;!--[if lt IE 9]&gt;
 	    &lt;script src="http://wkylin.github.com/assets/js/html5.js" type="text/javascript"&gt;&lt;/script&gt;
 	    &lt;script src="http://wkylin.github.com/assets/js/IE9.js" type="text/javascript"&gt;&lt;/script&gt;
 	    &lt;script src="http://wkylin.github.com/assets/js/css3-mediaqueries.js" type="text/javascript"&gt;&lt;/script&gt;
@@ -65,9 +64,9 @@ description: |
 ###引入jQuery及base64：
 <pre>
     <code>
-	&lt;cript src="http://wkylin.github.com/assets/js/jquery-1.8.3.min.js" type="text/javascript"&gt;&lt;/script&gt;
-	&lt;cript src="http://wkylin.github.com/assets/js/base64.js" type="text/javascript"&gt;&lt;/script&gt;
-	&lt;cript type="text/javascript"&gt;
+	&lt;script src="http://wkylin.github.com/assets/js/jquery-1.8.3.min.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;script src="http://wkylin.github.com/assets/js/base64.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript"&gt;
 	    window.jQuery || document.write('&lt;script type="text/javascript" src="static/js/jquery-1.8.3.min.js"&gt;&lt;\/script&gt;');
 	&lt;/script&gt;
 	&lt;script type="text/javascript"&gt;
