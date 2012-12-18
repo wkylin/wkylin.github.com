@@ -8,7 +8,7 @@ description: |
 ---
 <pre>
     <code>
-        &lt;!DOCTYPE html&gt;
+    &lt;!DOCTYPE html&gt;
 	&lt;html lang="en"&gt;
 	&lt;head&gt;
 	&lt;meta charset="utf-8"&gt;
