@@ -8,6 +8,7 @@ description: |
 ---
 
 ###meta元素：
+
 <pre>
     <code>
 	    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt;
@@ -16,9 +17,12 @@ description: |
 	    &lt;meta name="author" content=""&gt;
     </code>
 </pre>
-###引入css及js文件：
+
+###引入css及js文件,低版本浏览器兼容HTML5 及CSS3：
+
 <pre>
     <code>
+	    &lt;!-- Le css &amp; HTML5 shim &amp; CSS3 for IE6-8 support of HTML5 elements &amp; CSS3 --&gt;
 	    &lt;link href="http://wkylin.github.com/assets/css/base.min.css" rel="stylesheet"&gt;
 	    &lt;!--[if lt IE 9]&gt;
 	    &lt;script src="http://wkylin.github.com/assets/js/html5.js" type="text/javascript"&gt;&lt;/script&gt;
@@ -28,7 +32,9 @@ description: |
 	    &lt;![endif]--&gt;
     </code>
 </pre>
+
 ###引入touch icons 及favicon.ico：
+
 <pre>
     <code>
 	   &lt;!-- Le fav and touch icons --&gt;
@@ -44,7 +50,9 @@ description: |
 	    &lt;link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/&gt;
     </code>
 </pre>
+
 ###引入touch icons 及favicon.ico：
+
 <pre>
     <code>
 	   &lt;!-- Le fav and touch icons --&gt;
@@ -60,7 +68,9 @@ description: |
 	    &lt;link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/&gt;
     </code>
 </pre>
+
 ###引入jQuery及base64：
+
 <pre>
     <code>
 	&lt;script src="http://wkylin.github.com/assets/js/jquery-1.8.3.min.js" type="text/javascript"&gt;&lt;/script&gt;
