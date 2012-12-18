@@ -18,7 +18,6 @@ description: |
         var isBase64 = flag;
         var parts = [], field = null, i, len, j, optLen, option, optValue;
         
-        return parts.join("&");
     }
     </code>
 </pre>
