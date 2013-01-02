@@ -96,7 +96,7 @@ description: |
                 break;
         }
     }
-    return q.join("&");
+    return q.join("&amp;");
 }
     </code>
 </pre>
