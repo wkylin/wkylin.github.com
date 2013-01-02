@@ -14,59 +14,90 @@ description: |
 
 <pre>
     <code>
-    function serializeForm(form, flag) {
-        if (!form || form.nodeName !== "FORM") {
-            return false;
+    function serializeForm(form,flag){
+    var isBase64 = flag;
+    if (!form || form.nodeName !== "FORM") {
+        return;
+    }
+    var i, j, q = [];
+    for (i = form.elements.length - 1; i >= 0; i = i - 1) {
+        if (form.elements[i].name === "") {
+            continue;
         }
-        var isBase64 = flag;
-        var parts = [], field = null, i, len, j, optLen, option, optValue;
-        for (i = 0, len = form.elements.length; i &lt; len; i++) {
-            field = form.elements[i];
-            switch (field.type) {
-                case "select-one":
-                case "select-multiple":
-                    if (field.name.length) {
-                        for (j = 0, optLen = field.options.length; j &lt; optLen; j++) {
-                            option = field.options[j];
-                            if (option.selected) {
-                                optValue = "";
-                                if (option.hasAttribute) {
-                                    optValue = (option.hasAttribute("value") ? option.value : option.text);
-                                } else {
-                                    optValue = (option.attributes["value"].specified ? option.value : option.text);
-                                }
-                                if (isBase64) {
-                                    parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(Base64.encode(optValue)));
-                                } else {
-                                    parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(optValue));
+        switch (form.elements[i].nodeName) {
+            case 'INPUT':
+                switch (form.elements[i].type) {
+                    case 'text':
+                    case 'hidden':
+                    case 'password':
+                        if (isBase64) {
+                            q.push(form.elements[i].name + "=" + encodeURIComponent(encoded(form.elements[i].value)));
+                        }else {
+                            q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                        }
+
+                        break;
+                    case 'button':
+                    case 'reset':
+                    case 'submit':
+                        break;
+                    case 'checkbox':
+                    case 'radio':
+                        if (form.elements[i].checked) {
+                            if (isBase64) {
+                                q.push(form.elements[i].name + "=" + encodeURIComponent(encoded(form.elements[i].value)));
+                            }else {
+                                q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                            }
+                        }
+                        break;
+                    case 'file':
+                        break;
+                }
+                break;
+            case 'TEXTAREA':
+                if (isBase64) {
+                    q.push(form.elements[i].name + "=" + encodeURIComponent(encoded(form.elements[i].value)));
+                } else {
+                    q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                }
+                break;
+            case 'SELECT':
+                switch (form.elements[i].type) {
+                    case 'select-one':
+                        if (isBase64) {
+                            q.push(form.elements[i].name + "=" + encodeURIComponent(encoded(form.elements[i].value)));
+                        } else {
+                            q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                        }
+
+                        break;
+                    case 'select-multiple':
+                        for (j = form.elements[i].options.length - 1; j >= 0; j = j - 1) {
+                            if (form.elements[i].options[j].selected) {
+
+                                if(isBase64){
+                                    q.push(form.elements[i].name + "=" + encodeURIComponent(encoded(form.elements[i].options[j].value)));
+                                } else{
+                                    q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].options[j].value));
                                 }
                             }
                         }
-                    }
-                    break;
-                case "undefined":
-                case "file":
-                case "submit":
-                case "reset":
-                case "button":
-                    break;
-                case "radio":
-                case "checkbox":
-                    if (!field.checked) {
                         break;
-                    }
-                default:
-                    if (field.name.length) {
-                        if (isBase64) {
-                            parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(Base64.encode(field.value)));
-                        } else {
-                            parts.push(encodeURIComponent(field.name) + "=" + encodeURIComponent(field.value));
-                        }
-                    }
-            }
+                }
+                break;
+            case 'BUTTON':
+                switch (form.elements[i].type) {
+                    case 'reset':
+                    case 'submit':
+                    case 'button':
+                        break;
+                }
+                break;
         }
-        return parts.join("&amp;");
     }
+    return q.join("&");
+}
     </code>
 </pre>
 
