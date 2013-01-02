@@ -20,7 +20,7 @@ description: |
         return;
     }
     var i, j, q = [];
-    for (i = form.elements.length - 1; i >= 0; i = i - 1) {
+    for (i = form.elements.length - 1; i &glt;= 0; i = i - 1) {
         if (form.elements[i].name === "") {
             continue;
         }
@@ -73,7 +73,7 @@ description: |
 
                         break;
                     case 'select-multiple':
-                        for (j = form.elements[i].options.length - 1; j >= 0; j = j - 1) {
+                        for (j = form.elements[i].options.length - 1; j &glt;= 0; j = j - 1) {
                             if (form.elements[i].options[j].selected) {
 
                                 if(isBase64){
