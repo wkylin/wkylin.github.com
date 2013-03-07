@@ -32,8 +32,6 @@ description: |
 	    &lt;![endif]--&gt;
     </code>
 </pre>
-
-###
 ###引入touch icons 及favicon.ico：
 <pre>
     <code>
@@ -59,7 +57,6 @@ description: |
 &lt;![endif]--&gt;
     </code>
 </pre>
-####
 ###引入jQuery及base64：
 
 <pre>
