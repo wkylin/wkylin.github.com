@@ -33,8 +33,8 @@ description: |
     </code>
 </pre>
 
+###
 ###引入touch icons 及favicon.ico：
-
 <pre>
     <code>
 	   &lt;!-- Le fav and touch icons --&gt;
@@ -51,24 +51,15 @@ description: |
     </code>
 </pre>
 
-###引入touch icons 及favicon.ico：
-
+###IE6浏览器相关提示
 <pre>
     <code>
-	   &lt;!-- Le fav and touch icons --&gt;
-	    &lt;link rel="apple-touch-icon-precomposed" sizes="144x144"
-		  href="http://wkylin.github.com/assets/ico/apple-touch-icon-144-precomposed.png"&gt;
-	    &lt;link rel="apple-touch-icon-precomposed" sizes="114x114"
-		  href="http://wkylin.github.com/assets/ico/apple-touch-icon-114-precomposed.png"&gt;
-	    &lt;link rel="apple-touch-icon-precomposed" sizes="72x72"
-		  href="http://wkylin.github.com/assets/ico/apple-touch-icon-72-precomposed.png"&gt;
-	    &lt;link rel="apple-touch-icon-precomposed"
-		  href="http://wkylin.github.com/assets/ico/apple-touch-icon-57-precomposed.png"&gt;
-	    &lt;link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/&gt;
-	    &lt;link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/&gt;
+&lt;!--[if lt IE 7]&gt;
+&lt;p class="chromeframe"&gt;You are using an outdated browser. &lt;a href="http://browsehappy.com/"&gt;Upgrade your browser today&lt;/a&gt; or &lt;a href="http://www.google.com/chromeframe/?redirect=true"&gt;install Google Chrome Frame&lt;/a&gt; to better experience this site.&lt;/p&gt;
+&lt;![endif]--&gt;
     </code>
 </pre>
-
+####
 ###引入jQuery及base64：
 
 <pre>
