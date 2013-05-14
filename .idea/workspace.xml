@@ -7,7 +7,7 @@
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1368072310501" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1368433762476" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1368072336621" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1367896198243" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1365568534189" ignored="false" />
@@ -35,10 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="74" selection-start="2813" selection-end="2813" vertical-scroll-proportion="0.40688577">
+            <state line="126" column="31" selection-start="8187" selection-end="8187" vertical-scroll-proportion="-45.846153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uedlink.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uedlink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="34" selection-start="9140" selection-end="9140" vertical-scroll-proportion="0.58435583">
               <folding />
             </state>
           </provider>
@@ -118,6 +127,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,16 +153,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="wkylin.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -542,7 +551,11 @@
       <created>1367896203800</created>
       <updated>1367896203800</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="add &#10;">
+      <created>1368072347144</created>
+      <updated>1368072347144</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -760,14 +773,16 @@
         <state line="84" column="38" selection-start="5833" selection-end="5833" vertical-scroll-proportion="0.09202454" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uedlink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.030674847" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="74" selection-start="2813" selection-end="2813" vertical-scroll-proportion="0.40688577">
+        <state line="126" column="31" selection-start="8187" selection-end="8187" vertical-scroll-proportion="-45.846153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uedlink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="34" selection-start="9140" selection-end="9140" vertical-scroll-proportion="0.58435583">
           <folding />
         </state>
       </provider>
