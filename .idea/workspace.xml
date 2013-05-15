@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3link.html" afterPath="$PROJECT_DIR$/css3link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csserlink.html" afterPath="$PROJECT_DIR$/csserlink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1368433762476" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1368593063137" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1368072336621" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1367896198243" ignored="false" />
-    <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1365568534189" ignored="false" />
+    <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1368496553828" ignored="false" />
     <file path="/a.dummy" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1363793608218" ignored="false" />
     <file path="/homelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1367811778733" ignored="false" />
     <file path="/lifelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1365060733919" ignored="false" />
@@ -38,16 +39,52 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="31" selection-start="8187" selection-end="8187" vertical-scroll-proportion="-45.846153">
+            <state line="126" column="31" selection-start="8187" selection-end="8187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uedlink.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css3link.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="25" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jslink.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jslink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="-5.3846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csserlink.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csserlink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="105" selection-start="273" selection-end="273" vertical-scroll-proportion="0.2760736">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uedlink.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uedlink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="34" selection-start="9140" selection-end="9140" vertical-scroll-proportion="0.58435583">
+            <state line="99" column="102" selection-start="8306" selection-end="8306" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tech.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="38" selection-start="5833" selection-end="5833" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,14 +121,14 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-18-uri-code.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-18-hasLayout.md" />
         <option value="$PROJECT_DIR$/lifelink.html" />
-        <option value="$PROJECT_DIR$/csserlink.html" />
-        <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/website.html" />
         <option value="$PROJECT_DIR$/uedlink.html" />
         <option value="$PROJECT_DIR$/homelink.html" />
         <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/html5.html" />
+        <option value="$PROJECT_DIR$/css3link.html" />
+        <option value="$PROJECT_DIR$/csserlink.html" />
       </list>
     </option>
   </component>
@@ -127,16 +164,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,6 +180,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="wkylin.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -555,7 +592,11 @@
       <created>1368072347144</created>
       <updated>1368072347144</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="add &#10;">
+      <created>1368495926192</created>
+      <updated>1368495926192</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -599,7 +640,7 @@
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.46078432" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1718529" sideWeight="0.67366946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1718529" sideWeight="0.6713681" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.37535015" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.4950495" order="7" side_tool="true" content_ui="tabs" />
@@ -700,11 +741,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/website/Js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/website.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -728,11 +764,6 @@
     <entry file="file://$PROJECT_DIR$/_includes/JB/setup">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="34" selection-start="8786" selection-end="8786" vertical-scroll-proportion="0.44785276" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/website.html">
@@ -763,26 +794,44 @@
         <state line="6" column="18" selection-start="76" selection-end="76" vertical-scroll-proportion="0.18404908" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslink.html">
+    <entry file="file://$PROJECT_DIR$/uedlink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="83" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.032863848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="38" selection-start="5833" selection-end="5833" vertical-scroll-proportion="0.09202454" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="31" selection-start="8187" selection-end="8187" vertical-scroll-proportion="-45.846153">
+        <state line="99" column="102" selection-start="8306" selection-end="8306" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uedlink.html">
+    <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="34" selection-start="9140" selection-end="9140" vertical-scroll-proportion="0.58435583">
+        <state line="84" column="38" selection-start="5833" selection-end="5833" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="31" selection-start="8187" selection-end="8187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="25" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="-5.3846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csserlink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="105" selection-start="273" selection-end="273" vertical-scroll-proportion="0.2760736">
           <folding />
         </state>
       </provider>
