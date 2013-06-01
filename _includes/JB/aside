@@ -3,7 +3,7 @@
 </div>
 
 <div>
-<img  style="cursor: pointer" onclick="javascript:window.open('http://b.qq.com/webc.htm?new=0&sid=270917337&o=wkylin.github.io&q=7', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');"  border="0" src=http://wpa.qq.com/pa?p=1:270917337:3 alt="点击这里给我发消息">
+<a target=blank href=tencent://message/?uin=270917337&Site=wkylin.github.io&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=1:270917337:13 alt="点击这里给我发消息"></a>
 {% assign pages_rss = site.pages %}
 {% assign group = 'rss' %}
 {% include JB/pages_rss %}
