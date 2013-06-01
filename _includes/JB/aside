@@ -3,7 +3,7 @@
 </div>
 
 <div>
-<a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=aff91a86d8614a8dda89170e8578f3dcd61e8acb2343532e"><img border="0"  src="http://wpa.qq.com/imgd?IDKEY=aff91a86d8614a8dda89170e8578f3dcd61e8acb2343532e&pic=50" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+<img  style="cursor: pointer" onclick="javascript:window.open('http://b.qq.com/webc.htm?new=0&sid=270917337&o=wkylin.github.io&q=7', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');"  border="0" src=http://wpa.qq.com/pa?p=1:270917337:3 alt="点击这里给我发消息">
 {% assign pages_rss = site.pages %}
 {% assign group = 'rss' %}
 {% include JB/pages_rss %}
