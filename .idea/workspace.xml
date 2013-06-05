@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="qq online">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3link.html" afterPath="$PROJECT_DIR$/css3link.html" />
+    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homelink.html" afterPath="$PROJECT_DIR$/homelink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370401089157" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370405208347" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369977126507" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369380435508" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370400997733" ignored="false" />
     <file path="/a.dummy" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1363793608218" ignored="false" />
-    <file path="/homelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369970286210" ignored="false" />
+    <file path="/homelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370405242940" ignored="false" />
     <file path="/lifelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1365060733919" ignored="false" />
     <file path="/jslink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370241098276" ignored="false" />
     <file path="/uedlink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369198356514" ignored="false" />
@@ -35,10 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="css3link.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="6" selection-start="10520" selection-end="10520" vertical-scroll-proportion="0.72392637">
+            <state line="140" column="6" selection-start="10520" selection-end="10520" vertical-scroll-proportion="-52.76923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homelink.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homelink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="79" selection-start="5408" selection-end="5408" vertical-scroll-proportion="0.42944786">
               <folding />
             </state>
           </provider>
@@ -47,7 +56,7 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="101" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+            <state line="16" column="31" selection-start="726" selection-end="726" vertical-scroll-proportion="-12.307693">
               <folding />
             </state>
           </provider>
@@ -56,7 +65,7 @@
       <file leaf-file-name="jslink.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jslink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="-4.6153846">
+            <state line="6" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,11 +105,11 @@
         <option value="$PROJECT_DIR$/csserlink.html" />
         <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/uedlink.html" />
-        <option value="$PROJECT_DIR$/homelink.html" />
         <option value="$PROJECT_DIR$/_includes/JB/aside" />
         <option value="$PROJECT_DIR$/html5.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/css3link.html" />
+        <option value="$PROJECT_DIR$/homelink.html" />
       </list>
     </option>
   </component>
@@ -136,6 +145,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,16 +175,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,13 +182,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="156" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="I:/wwwphp/jquery-easyui-1.3.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="182" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
@@ -616,7 +625,11 @@
       <created>1370241123037</created>
       <updated>1370241123037</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="cssom">
+      <created>1370401107877</created>
+      <updated>1370401107877</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -725,7 +738,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="qq online" />
+    <option name="LAST_COMMIT_MESSAGE" value="cssom" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -759,6 +772,7 @@
     <MESSAGE value="scanv.html 网络安全检查&#10;" />
     <MESSAGE value="css framework&#10;" />
     <MESSAGE value="qq online" />
+    <MESSAGE value="cssom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -807,11 +821,6 @@
         <state line="19" column="34" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homelink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="34" selection-start="4227" selection-end="4227" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scanv.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.0" />
@@ -832,23 +841,30 @@
         <state line="37" column="52" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.030674847" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5.html">
+    <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="101" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+        <state line="6" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslink.html">
+    <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="-4.6153846">
+        <state line="16" column="31" selection-start="726" selection-end="726" vertical-scroll-proportion="-12.307693">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="6" selection-start="10520" selection-end="10520" vertical-scroll-proportion="0.72392637">
+        <state line="140" column="6" selection-start="10520" selection-end="10520" vertical-scroll-proportion="-52.76923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homelink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="79" selection-start="5408" selection-end="5408" vertical-scroll-proportion="0.42944786">
           <folding />
         </state>
       </provider>
