@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsonformatting.html" afterPath="$PROJECT_DIR$/jsonformatting.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1371086833621" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1372306867592" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1371086871845" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369380435508" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370012776829" ignored="false" />
@@ -16,6 +16,7 @@
     <file path="/lifelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1365060733919" ignored="false" />
     <file path="/jslink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369199328184" ignored="false" />
     <file path="/uedlink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369198356514" ignored="false" />
+    <file path="/jsonformatting.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1372306900380" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +39,25 @@
       <file leaf-file-name="uedlink.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uedlink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="52" selection-start="2619" selection-end="2619" vertical-scroll-proportion="-0.7692308">
+            <state line="37" column="52" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="33" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.5007825">
+            <state line="7" column="32" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsonformatting.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jsonformatting.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsonformatting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="29" selection-start="5446" selection-end="5446" vertical-scroll-proportion="0.0">
+            <state line="185" column="16" selection-start="5971" selection-end="5971" vertical-scroll-proportion="0.702454">
               <folding />
             </state>
           </provider>
@@ -65,7 +66,7 @@
       <file leaf-file-name="homelink.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homelink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="32" selection-start="6561" selection-end="6561" vertical-scroll-proportion="-10.769231">
+            <state line="111" column="32" selection-start="6561" selection-end="6561" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/js/IE9.js" />
         <option value="$PROJECT_DIR$/assets/css/base.min.css" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-18-uri-code.md" />
@@ -128,6 +128,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/homelink.html" />
         <option value="$PROJECT_DIR$/html5.html" />
+        <option value="$PROJECT_DIR$/jsonformatting.html" />
       </list>
     </option>
   </component>
@@ -163,6 +164,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,16 +204,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -242,9 +243,6 @@
   <component name="PublishConfig" serverName="www" serverId="66007d09-7988-4099-a91b-f461dff8a330">
     <servers>
       <server id="af5a6ae6-bfe8-49db-9935-68a366bc12d1">
-        <serverdata />
-      </server>
-      <server id="c8d58702-2ba6-4d0c-9914-441f2e0b131a">
         <serverdata />
       </server>
     </servers>
@@ -665,7 +663,11 @@
       <created>1370740699326</created>
       <updated>1370740699326</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="qq online">
+      <created>1371086895012</created>
+      <updated>1371086895012</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -702,7 +704,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -877,30 +879,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsonformatting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="29" selection-start="5446" selection-end="5446" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homelink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="32" selection-start="6561" selection-end="6561" vertical-scroll-proportion="-10.769231">
+        <state line="111" column="32" selection-start="6561" selection-end="6561" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uedlink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="52" selection-start="2619" selection-end="2619" vertical-scroll-proportion="-0.7692308">
+        <state line="37" column="52" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.5007825">
+        <state line="7" column="32" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonformatting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="16" selection-start="5971" selection-end="5971" vertical-scroll-proportion="0.702454">
           <folding />
         </state>
       </provider>
