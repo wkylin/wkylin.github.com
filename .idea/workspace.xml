@@ -7,14 +7,14 @@
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1372670888002" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1373344747597" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1371086871845" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369380435508" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370012776829" ignored="false" />
     <file path="/a.dummy" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1363793608218" ignored="false" />
     <file path="/homelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370740352439" ignored="false" />
     <file path="/lifelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1365060733919" ignored="false" />
-    <file path="/jslink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1372670949861" ignored="false" />
+    <file path="/jslink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1373344791198" ignored="false" />
     <file path="/uedlink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369198356514" ignored="false" />
     <file path="/jsonformatting.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1372306900380" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,7 +66,7 @@
       <file leaf-file-name="jslink.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jslink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="33" selection-start="5707" selection-end="5707" vertical-scroll-proportion="0.5872757">
+            <state line="54" column="6" selection-start="3852" selection-end="3852" vertical-scroll-proportion="0.46655792">
               <folding />
             </state>
           </provider>
@@ -191,20 +191,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -224,13 +210,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="156" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="I:/wwwphp/jquery-easyui-1.3.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="182" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
@@ -683,7 +669,11 @@
       <created>1372306914368</created>
       <updated>1372306914368</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="qq online">
+      <created>1372670957057</created>
+      <updated>1372670957057</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -920,7 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="33" selection-start="5707" selection-end="5707" vertical-scroll-proportion="0.5872757">
+        <state line="54" column="6" selection-start="3852" selection-end="3852" vertical-scroll-proportion="0.46655792">
           <folding />
         </state>
       </provider>
