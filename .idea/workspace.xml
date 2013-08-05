@@ -7,7 +7,7 @@
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1374221410135" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1375676028494" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1371086871845" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369380435508" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370012776829" ignored="false" />
@@ -48,7 +48,7 @@
       <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="56" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.83067095">
+            <state line="44" column="88" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.6070288">
               <folding />
             </state>
           </provider>
@@ -66,7 +66,7 @@
       <file leaf-file-name="jslink.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jslink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="35" selection-start="4912" selection-end="4912" vertical-scroll-proportion="-0.7692308">
+            <state line="65" column="35" selection-start="4912" selection-end="4912" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,16 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +193,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,13 +210,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="156" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="I:/wwwphp/jquery-easyui-1.3.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IDE" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="182" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
@@ -677,7 +677,11 @@
       <created>1373346699981</created>
       <updated>1373346699981</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="http://www.ico.la/&#10;">
+      <created>1374221444576</created>
+      <updated>1374221444576</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -786,7 +790,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="jquery 17shucai&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="http://www.ico.la/&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -821,6 +825,7 @@
     <MESSAGE value="css framework&#10;" />
     <MESSAGE value="qq online" />
     <MESSAGE value="jquery 17shucai&#10;" />
+    <MESSAGE value="http://www.ico.la/&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -908,14 +913,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="35" selection-start="4912" selection-end="4912" vertical-scroll-proportion="-0.7692308">
+        <state line="65" column="35" selection-start="4912" selection-end="4912" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="56" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.83067095">
+        <state line="44" column="88" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.6070288">
           <folding />
         </state>
       </provider>
