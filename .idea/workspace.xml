@@ -7,7 +7,7 @@
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1375676028494" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1375924751625" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1371086871845" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369380435508" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370012776829" ignored="false" />
@@ -48,7 +48,7 @@
       <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="88" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.6070288">
+            <state line="34" column="20" selection-start="2444" selection-end="2444" vertical-scroll-proportion="0.47923324">
               <folding />
             </state>
           </provider>
@@ -173,6 +173,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,16 +203,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,13 +210,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="156" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IDE" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="182" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
@@ -681,7 +681,11 @@
       <created>1374221444576</created>
       <updated>1374221444576</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="http://www.ico.la/&#10;">
+      <created>1375676083489</created>
+      <updated>1375676083489</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -920,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="88" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.6070288">
+        <state line="34" column="20" selection-start="2444" selection-end="2444" vertical-scroll-proportion="0.47923324">
           <folding />
         </state>
       </provider>
