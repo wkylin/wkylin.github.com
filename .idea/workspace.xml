@@ -7,7 +7,7 @@
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1377146510551" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1377146945502" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1371086871845" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369380435508" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370012776829" ignored="false" />
@@ -120,7 +120,7 @@
       <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.32626426">
+            <state line="9" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29363784">
               <folding />
             </state>
           </provider>
@@ -788,7 +788,11 @@
       <created>1377146515180</created>
       <updated>1377146515180</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="&lt;meta name=&quot;google-site-verification&quot; content=&quot;W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0&quot; /&gt;">
+      <created>1377146948740</created>
+      <updated>1377146948740</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -897,7 +901,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="cnzz.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;meta name=&quot;google-site-verification&quot; content=&quot;W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0&quot; /&gt;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -934,6 +938,7 @@
     <MESSAGE value="jquery 17shucai&#10;" />
     <MESSAGE value="http://www.ico.la/&#10;" />
     <MESSAGE value="cnzz.com" />
+    <MESSAGE value="&lt;meta name=&quot;google-site-verification&quot; content=&quot;W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0&quot; /&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1034,7 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.32626426">
+        <state line="9" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29363784">
           <folding />
         </state>
       </provider>
