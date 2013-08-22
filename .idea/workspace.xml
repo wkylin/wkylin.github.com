@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1377146945502" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1377147175068" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1371086871845" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369380435508" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370012776829" ignored="false" />
@@ -120,7 +119,7 @@
       <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29363784">
+            <state line="8" column="29" selection-start="241" selection-end="241" vertical-scroll-proportion="0.26101142">
               <folding />
             </state>
           </provider>
@@ -792,7 +791,11 @@
       <created>1377146948740</created>
       <updated>1377146948740</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="&lt;meta name=&quot;google-site-verification&quot; content=&quot;W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0&quot; /&gt;">
+      <created>1377147177901</created>
+      <updated>1377147177901</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -1039,7 +1042,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29363784">
+        <state line="8" column="29" selection-start="241" selection-end="241" vertical-scroll-proportion="0.26101142">
           <folding />
         </state>
       </provider>
