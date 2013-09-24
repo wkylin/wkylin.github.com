@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homelink.html" afterPath="$PROJECT_DIR$/homelink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslink.html" afterPath="$PROJECT_DIR$/jslink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1379390811779" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1380034273885" ignored="false" />
     <file path="/html5.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1377751539339" ignored="false" />
     <file path="/tech.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1377750101433" ignored="false" />
     <file path="/css3link.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1370012776829" ignored="false" />
     <file path="/a.dummy" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1363793608218" ignored="false" />
     <file path="/homelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1379390838613" ignored="false" />
     <file path="/lifelink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1365060733919" ignored="false" />
-    <file path="/jslink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1373344791198" ignored="false" />
+    <file path="/jslink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1380034388723" ignored="false" />
     <file path="/uedlink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1369198356514" ignored="false" />
     <file path="/jsonformatting.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1372306900380" ignored="false" />
     <file path="/csserlink.html" changelist="a4a053fa-2e5d-4dde-8d3b-128620533d6b" time="1377832560934" ignored="false" />
@@ -67,16 +67,25 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="33" selection-start="4160" selection-end="4160" vertical-scroll-proportion="-0.7692308">
+            <state line="60" column="33" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homelink.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="homelink.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homelink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="80" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.25039124">
+            <state line="59" column="32" selection-start="2858" selection-end="2858" vertical-scroll-proportion="-0.7692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jslink.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jslink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="50" selection-start="4945" selection-end="4945" vertical-scroll-proportion="0.31669536">
               <folding />
             </state>
           </provider>
@@ -113,7 +122,6 @@
         <option value="$PROJECT_DIR$/_includes/JB/aside" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/jsonformatting.html" />
-        <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/_includes/JB/topsearchjs" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/tech.html" />
@@ -121,6 +129,7 @@
         <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/html5.html" />
         <option value="$PROJECT_DIR$/homelink.html" />
+        <option value="$PROJECT_DIR$/jslink.html" />
       </list>
     </option>
   </component>
@@ -156,6 +165,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,16 +195,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,13 +202,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="156" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IDE" />
+    <property name="last_opened_file_path" value="I:/wwwphp/IM" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="182" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
@@ -724,7 +733,11 @@
       <created>1379305564703</created>
       <updated>1379305564703</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="procssor">
+      <created>1379390846627</created>
+      <updated>1379390846627</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -903,11 +916,6 @@
         <state line="50" column="71" selection-start="4349" selection-end="4349" vertical-scroll-proportion="0.16313213" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="35" selection-start="4912" selection-end="4912" vertical-scroll-proportion="0.031948883" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="26" selection-start="166" selection-end="166" vertical-scroll-proportion="0.30674848" />
@@ -956,14 +964,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="4160" selection-end="4160" vertical-scroll-proportion="-0.7692308">
+        <state line="60" column="33" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homelink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="80" selection-start="3321" selection-end="3321" vertical-scroll-proportion="0.25039124">
+        <state line="59" column="32" selection-start="2858" selection-end="2858" vertical-scroll-proportion="-0.7692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="50" selection-start="4945" selection-end="4945" vertical-scroll-proportion="0.31669536">
           <folding />
         </state>
       </provider>
