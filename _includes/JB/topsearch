@@ -60,6 +60,9 @@
                             <input class="ui-input-button"
                                    onclick="window.open('https://developers.google.com/search?q='+s.wd.value,'')"
                                    name="javacode" value="Gcode" type="button"/>
+                            <input class="ui-input-button"
+                                   onclick="window.open('http://search.panguso.com/pagesearch.htm?q='+s.wd.value,'')"
+                                   name="javacode" value="盘古" type="button"/>
                         </div>
                     </li>
                 </ul>
