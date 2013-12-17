@@ -1,3 +1,16 @@
+<ul id="J_tab" class="nav nav-pills">
+     {% assign tab_list = site.pages %}
+     {% assign tab = 'tab' %}
+     {% include JB/tab_list %}
+</ul>
+<div class="searchbox" style="margin:10px 0;">
+     {% include JB/searchbox %}
+</div>
+
+<div class="weibo-sina" style="margin-bottom:20px;">
+<iframe width="295" height="120" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=295&height=120&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=1769114241&verifier=8de36448&dpc=1"></iframe>
+</div>
+
 <div class="share fn-clear">
     {% include custom/sharing %}
 </div>
@@ -8,21 +21,6 @@
 {% assign group = 'rss' %}
 {% include JB/pages_rss %}
 </div>
-<div class="searchbox" style="margin:10px 0;">
-     {% include JB/searchbox %}
-</div>
-<ul id="J_tab" class="nav nav-pills">
-     {% assign tab_list = site.pages %}
-     {% assign tab = 'tab' %}
-     {% include JB/tab_list %}
-</ul>
-<div class="weibo-sina" style="margin-bottom:20px;">
-<iframe width="295" height="120" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=295&height=120&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=1769114241&verifier=8de36448&dpc=1"></iframe>
-</div>
-<div id="recentcomments" class="dsq-widget">
-    <h2 class="dsq-widget-title categories-sort">Recent Comments</h2>
-    <script type="text/javascript" src="http://wkylin.disqus.com/recent_comments_widget.js?num_items=12&hide_avatars=0&avatar_size=24&excerpt_length=200"></script>
-</div>
 
 <h2 class="tags-sort" style="margin-top:10px;">最近发表</h2>
 <ul id="recent_posts" style="margin-left:15px;">{% for rpost in site.posts limit: 5 %}
@@ -30,3 +28,8 @@
         <a href="{{ BASE_PATH }}{{ rpost.url }}">{{ rpost.title }}</a>
     </li>{% endfor %}
 </ul>
+
+<div id="recentcomments" class="dsq-widget">
+    <h2 class="dsq-widget-title categories-sort">Recent Comments</h2>
+    <script type="text/javascript" src="http://wkylin.disqus.com/recent_comments_widget.js?num_items=12&hide_avatars=0&avatar_size=24&excerpt_length=200"></script>
+</div>
