@@ -29,7 +29,7 @@
     </li>{% endfor %}
 </ul>
 
-<div id="recentcomments" class="dsq-widget">
+<div id="recentcomments" class="dsq-widget" style="margin-top:10px;">
     <h2 class="dsq-widget-title categories-sort" style="background-color:#0088CC;color:#fff;">Recent Comments</h2>
     <script type="text/javascript" src="http://wkylin.disqus.com/recent_comments_widget.js?num_items=12&hide_avatars=0&avatar_size=24&excerpt_length=200"></script>
 </div>
