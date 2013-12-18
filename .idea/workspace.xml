@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
+      <change type="DELETED" beforePath="I:\Github\wkylin.github.com\wkylin.github.com\_posts\core-samples\2011-08-06-html5.md" afterPath="" />
       <change type="DELETED" beforePath="I:\Github\wkylin.github.com\wkylin.github.com\_posts\core-samples\2011-08-06-html5js.md" afterPath="" />
+      <change type="DELETED" beforePath="I:\Github\wkylin.github.com\wkylin.github.com\_posts\core-samples\2012-12-17-js-serializeForm.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -26,13 +28,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="10" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.15882353" vertical-offset="639" max-vertical-offset="1320">
+            <state line="39" column="34" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-10.24138" vertical-offset="639" max-vertical-offset="1320">
               <folding>
                 <element signature="n#style#0;n#h2#1;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="104.27586" vertical-offset="3024" max-vertical-offset="3552">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tech.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="29" selection-start="6285" selection-end="6285" vertical-scroll-proportion="-4.137931" vertical-offset="2232" max-vertical-offset="4608">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2012-12-13-html5-template.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="19" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.37662336" vertical-offset="1213" max-vertical-offset="1992">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,9 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/uedlink.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/jsonformatting.html" />
         <option value="$PROJECT_DIR$/csserlink.html" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/website.html" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
@@ -79,12 +105,15 @@
         <option value="$PROJECT_DIR$/homelink.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/html5.html" />
-        <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_includes/JB/topsearchjs" />
         <option value="$PROJECT_DIR$/_includes/JB/aside" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/post.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-09-05-htlm5js.md" />
+        <option value="$PROJECT_DIR$/tech.html" />
+        <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-17-js-serializeForm.md" />
+        <option value="$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md" />
+        <option value="$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5.md" />
       </list>
     </option>
   </component>
@@ -195,7 +224,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="preferences.customizations" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -922,7 +951,75 @@
       <created>1387331743707</created>
       <updated>1387331743707</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="delete html5js&#10;">
+      <created>1387331832226</created>
+      <updated>1387331832226</updated>
+    </task>
+    <task id="LOCAL-00164" summary="MarkdownPad&#10;">
+      <created>1387332177259</created>
+      <updated>1387332177259</updated>
+    </task>
+    <task id="LOCAL-00165" summary="MarkdownPad&#10;">
+      <created>1387333123675</created>
+      <updated>1387333123675</updated>
+    </task>
+    <task id="LOCAL-00166" summary="MarkdownPad&#10;">
+      <created>1387333227725</created>
+      <updated>1387333227725</updated>
+    </task>
+    <task id="LOCAL-00167" summary="post html5js&#10;">
+      <created>1387333330429</created>
+      <updated>1387333330429</updated>
+    </task>
+    <task id="LOCAL-00168" summary="post html5js&#10;">
+      <created>1387333430563</created>
+      <updated>1387333430563</updated>
+    </task>
+    <task id="LOCAL-00169" summary="post html5js&#10;">
+      <created>1387333604141</created>
+      <updated>1387333604142</updated>
+    </task>
+    <task id="LOCAL-00170" summary="post html5js&#10;">
+      <created>1387333815061</created>
+      <updated>1387333815061</updated>
+    </task>
+    <task id="LOCAL-00171" summary="post html5js&#10;">
+      <created>1387334004436</created>
+      <updated>1387334004436</updated>
+    </task>
+    <task id="LOCAL-00172" summary="post html5js&#10;">
+      <created>1387334074575</created>
+      <updated>1387334074575</updated>
+    </task>
+    <task id="LOCAL-00173" summary="post html5js&#10;">
+      <created>1387334249588</created>
+      <updated>1387334249588</updated>
+    </task>
+    <task id="LOCAL-00174" summary="post html5js&#10;">
+      <created>1387334311830</created>
+      <updated>1387334311830</updated>
+    </task>
+    <task id="LOCAL-00175" summary="post html5js&#10;">
+      <created>1387334811888</created>
+      <updated>1387334811888</updated>
+    </task>
+    <task id="LOCAL-00176" summary="post html5js&#10;">
+      <created>1387334865024</created>
+      <updated>1387334865024</updated>
+    </task>
+    <task id="LOCAL-00177" summary="post html5js&#10;">
+      <created>1387334964578</created>
+      <updated>1387334964578</updated>
+    </task>
+    <task id="LOCAL-00178" summary="post html5js&#10;">
+      <created>1387335030992</created>
+      <updated>1387335030992</updated>
+    </task>
+    <task id="LOCAL-00179" summary="post html5js&#10;">
+      <created>1387335419773</created>
+      <updated>1387335419773</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1014,9 +1111,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="add mbalib&#10;" />
-    <MESSAGE value="add disqus &#10;" />
-    <MESSAGE value="add jekyll&#10;" />
     <MESSAGE value="add &#10;" />
     <MESSAGE value="scanv.html 网络安全检查&#10;" />
     <MESSAGE value="css framework&#10;" />
@@ -1039,23 +1133,16 @@
     <MESSAGE value="rpost limit" />
     <MESSAGE value="delete &#10;" />
     <MESSAGE value="html5js&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="html5js&#10;" />
+    <MESSAGE value="delete html5js&#10;" />
+    <MESSAGE value="MarkdownPad&#10;" />
+    <MESSAGE value="post html5js&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="post html5js&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/JB/analytics-providers/mixpanel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/analytics-providers/google">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/analytics-providers/getclicky">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644" />
@@ -1115,10 +1202,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.15882353" vertical-offset="639" max-vertical-offset="1320">
+        <state line="39" column="34" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-10.24138" vertical-offset="639" max-vertical-offset="1320">
           <folding>
             <element signature="n#style#0;n#h2#1;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="104.27586" vertical-offset="3024" max-vertical-offset="3552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="29" selection-start="6285" selection-end="6285" vertical-scroll-proportion="-4.137931" vertical-offset="2232" max-vertical-offset="4608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="19" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.37662336" vertical-offset="1213" max-vertical-offset="1992">
+          <folding />
         </state>
       </provider>
     </entry>
