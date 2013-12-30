@@ -46,7 +46,8 @@ description: |
 
 目录： C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli\bin\grunt C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli
 
-成功：grunt --version
+成功：
+    grunt --version
 
 特定目录下安装
 
