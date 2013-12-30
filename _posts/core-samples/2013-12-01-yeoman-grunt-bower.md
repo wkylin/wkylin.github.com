@@ -55,13 +55,13 @@ description: |
 http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/
 
 ###Grunt contrib
-<https://github.com/gruntjs/grunt-contrib>
+https://github.com/gruntjs/grunt-contrib
 
 ###Bower ----A package manager for the web
 
-<http://bower.io/>
+http://bower.io/
 
-<http://sindresorhus.com/bower-components/>
+http://sindresorhus.com/bower-components/
 
 命令：npm install -g bower
 
@@ -71,9 +71,9 @@ http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt
 
 参考文章：http://blog.fens.me/nodejs-bower-intro/
 
-###Yeoman----modern workflows for modern webapps
+###Yeoman ----MODERN WORKFLOWS FOR MODERN WEBAPPS
 
-<http://yeoman.io/>
+http://yeoman.io/
 
 命令：npm install -g yo
 目录：C:\Users\Administrator\AppData\Roaming\npm\yo -> C:\Users\Administrator\AppData\Roaming\npm\node_modules\yo\cli.js
