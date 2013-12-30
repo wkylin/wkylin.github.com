@@ -11,10 +11,10 @@ description: |
 
 利用Yeman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.
 
-+ 1.Yeoman:Modern workflows for modern webapps.
-+ 2.GruntJs:The JavaScript Task Runner.
-+ 3.Bower:A package manager for the web.
-+ 4.PhantomJS-----A headless WebKit scriptable with a JavaScript API
++ 1.**Yeoman**:Modern workflows for modern webapps.
++ 2.**GruntJs**:The JavaScript Task Runner.
++ 3.**Bower**:A package manager for the web.
++ 4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
 
 ###Node.js
 
