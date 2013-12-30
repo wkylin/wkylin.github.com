@@ -25,8 +25,8 @@ description: |
 <http://nodejs.org/download/>
 
 2.安装成功：
-    node -v
-    npm -v
+>node -v
+>npm -v
 
 ###Github for windows
 
@@ -35,7 +35,6 @@ description: |
 <http://msysgit.github.io/>
 
 注意：Run Git from the Windows Command Prompt
-
 
 ###Grunt---The JavaScript Task Runner
 
