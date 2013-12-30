@@ -37,15 +37,13 @@ description: |
 
 ###Grunt---The JavaScript Task Runner
 
-http://gruntjs.cn/
+<http://gruntjs.cn/>
 
-http://www.gruntjs.org
+<http://www.gruntjs.org>
 
-命令：
-    npm uninstall -g grunt
-    npm install -g grunt-cli
-目录： C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli\bin\grunt
-      C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli
+命令：npm uninstall -g grunt npm install -g grunt-cli
+
+目录： C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli\bin\grunt C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli
 
 成功：grunt --version
 
@@ -57,13 +55,13 @@ http://www.gruntjs.org
 http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/
 
 ###Grunt contrib
-https://github.com/gruntjs/grunt-contrib
+<https://github.com/gruntjs/grunt-contrib>
 
 ###Bower ----A package manager for the web
 
-http://bower.io/
+<http://bower.io/>
 
-http://sindresorhus.com/bower-components/
+<http://sindresorhus.com/bower-components/>
 
 命令：npm install -g bower
 
@@ -73,9 +71,9 @@ http://sindresorhus.com/bower-components/
 
 参考文章：http://blog.fens.me/nodejs-bower-intro/
 
-###Yeoman ----MODERN WORKFLOWS FOR MODERN WEBAPPS
+###Yeoman ----modern workflows for modern webapps
 
-http://yeoman.io/
+<http://yeoman.io/>
 
 命令：npm install -g yo
 目录：C:\Users\Administrator\AppData\Roaming\npm\yo -> C:\Users\Administrator\AppData\Roaming\npm\node_modules\yo\cli.js
@@ -84,7 +82,7 @@ http://yeoman.io/
 
 8.PhantomJS-----A headless WebKit scriptable with a JavaScript API
 
-http://phantomjs.org/
+<http://phantomjs.org/>
 
 http://www.tuicool.com/articles/beeMNj
 
@@ -99,12 +97,12 @@ http://www.tuicool.com/articles/yIbeii
 
 ###Gradle---Build automation evolved
 
-http://www.gradle.org/
+<http://www.gradle.org/>
 
 ###Livereload
 
-http://livereload.com/
+<http://livereload.com/>
 
-http://blog.csdn.net/xiongzhengxiang/article/details/12843615
+<http://blog.csdn.net/xiongzhengxiang/article/details/12843615>
 
 http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde
