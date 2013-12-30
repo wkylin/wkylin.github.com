@@ -1,17 +1,24 @@
 ---
 layout: post
-title: MODERN WORKFLOWS FOR MODERN WEBAPPS
+title: 构建自动化的前端开发流程
 category: HTML5
 tags: [HTML5]
 description: |
-  Yeoman:MODERN WORKFLOWS FOR MODERN WEBAPPS.GruntJs:The JavaScript Task Runner.Bower:A package manager for the web.
+  利用Yeman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.Yeoman:MODERN WORKFLOWS FOR MODERN WEBAPPS.GruntJs:The JavaScript Task Runner.Bower:A package manager for the web.
 ---
+
+利用Yeman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.
+
+*Yeoman:MODERN WORKFLOWS FOR MODERN WEBAPPS.
+*GruntJs:The JavaScript Task Runner.
+*Bower:A package manager for the web.
+*PhantomJS-----A headless WebKit scriptable with a JavaScript API
 
 ###Node.js
 
 1.下载
 
-http://nodejs.org/
+<http://nodejs.org/> "http://nodejs.org/"
 
 http://nodejs.org/download/
 
