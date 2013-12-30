@@ -59,7 +59,7 @@ https://github.com/gruntjs/grunt-contrib
 
 ###Bower ----A package manager for the web
 
-http://bower.io/
+<http://bower.io/>
 
 http://sindresorhus.com/bower-components/
 
@@ -73,7 +73,7 @@ http://sindresorhus.com/bower-components/
 
 ###Yeoman ----MODERN WORKFLOWS FOR MODERN WEBAPPS
 
-http://yeoman.io/
+<http://yeoman.io/>
 
 命令：npm install -g yo
 目录：C:\Users\Administrator\AppData\Roaming\npm\yo -> C:\Users\Administrator\AppData\Roaming\npm\node_modules\yo\cli.js
@@ -82,7 +82,7 @@ http://yeoman.io/
 
 8.PhantomJS-----A headless WebKit scriptable with a JavaScript API
 
-http://phantomjs.org/
+<http://phantomjs.org/>
 
 http://www.tuicool.com/articles/beeMNj
 
@@ -101,7 +101,7 @@ http://www.gradle.org/
 
 ###Livereload
 
-http://livereload.com/
+<http://livereload.com/>
 
 http://blog.csdn.net/xiongzhengxiang/article/details/12843615
 
