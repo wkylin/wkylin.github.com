@@ -82,7 +82,7 @@ http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt
 
 8.PhantomJS-----A headless WebKit scriptable with a JavaScript API
 
-<http://phantomjs.org/>
+http://phantomjs.org/
 
 http://www.tuicool.com/articles/beeMNj
 
@@ -97,7 +97,7 @@ http://www.tuicool.com/articles/yIbeii
 
 ###Gradle---Build automation evolved
 
-<http://www.gradle.org/>
+http://www.gradle.org/
 
 ###Livereload
 
