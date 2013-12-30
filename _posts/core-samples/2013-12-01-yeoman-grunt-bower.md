@@ -28,9 +28,10 @@ description: |
 
 ###Github for windows
 
-http://windows.github.com/
+<http://windows.github.com/>
 
-http://msysgit.github.io/
+<http://msysgit.github.io/>
+
 注意：Run Git from the Windows Command Prompt
 
 
