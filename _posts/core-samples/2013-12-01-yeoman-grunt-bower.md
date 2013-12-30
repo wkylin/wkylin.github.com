@@ -101,8 +101,8 @@ http://www.tuicool.com/articles/yIbeii
 
 ###Livereload
 
-<http://livereload.com/>
+http://livereload.com/
 
-<http://blog.csdn.net/xiongzhengxiang/article/details/12843615>
+http://blog.csdn.net/xiongzhengxiang/article/details/12843615
 
 http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde
