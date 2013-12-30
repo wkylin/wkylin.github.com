@@ -71,7 +71,7 @@ http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt
 
 参考文章：http://blog.fens.me/nodejs-bower-intro/
 
-###Yeoman ----modern workflows for modern webapps
+###Yeoman----modern workflows for modern webapps
 
 <http://yeoman.io/>
 
