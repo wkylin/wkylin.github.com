@@ -4,43 +4,40 @@ title: 构建自动化的前端开发流程
 category: HTML5
 tags: [HTML5]
 description: |
-  利用Yeman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.Yeoman:MODERN WORKFLOWS FOR MODERN WEBAPPS.GruntJs:The JavaScript Task Runner.Bower:A package manager for the web.
+  利用Yeman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.Yeoman:Modern workflows for modern webapps.GruntJs:The JavaScript Task Runner.Bower:A package manager for the web.
 ---
 
 利用Yeman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.
 
-*Yeoman:MODERN WORKFLOWS FOR MODERN WEBAPPS.
-*GruntJs:The JavaScript Task Runner.
-*Bower:A package manager for the web.
-*PhantomJS-----A headless WebKit scriptable with a JavaScript API
+* Yeoman:Modern workflows for modern webapps.
+* GruntJs:The JavaScript Task Runner.
+* Bower:A package manager for the web.
+* PhantomJS-----A headless WebKit scriptable with a JavaScript API
 
 ###Node.js
 
 1.下载
 
-<http://nodejs.org/> "http://nodejs.org/"
+[http://nodejs.org]: http://nodejs.org/
 
-http://nodejs.org/download/
+[http://nodejs.org/download/]: http://nodejs.org/download/
 
 2.安装成功：node -v npm -v
 
 ###Github for windows
-http://windows.github.com/
-http://msysgit.github.io/
+<http://windows.github.com/>
+<http://msysgit.github.io/>
 注意：Run Git from the Windows Command Prompt
 
 
 ###Grunt---The JavaScript Task Runner
 
-http://gruntjs.cn/
+<http://gruntjs.cn/>
 
-http://www.gruntjs.org
+<http://www.gruntjs.org>
 
-命令：npm uninstall -g grunt
-
-      npm install -g grunt-cli
-目录： C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli\bin\grunt
-      C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli
+命令：npm uninstall -g grunt npm install -g grunt-cli
+目录：C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli\bin\grunt C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli
 
 成功：grunt --version
 
@@ -49,16 +46,16 @@ http://www.gruntjs.org
 命令：npm install grunt --save-dev
 
 参考资料：
-http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/
+<http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/>
 
 ###Grunt contrib
-https://github.com/gruntjs/grunt-contrib
+<https://github.com/gruntjs/grunt-contrib>
 
 ###Bower ----A package manager for the web
 
-http://bower.io/
+<http://bower.io/>
 
-http://sindresorhus.com/bower-components/
+<http://sindresorhus.com/bower-components/>
 
 命令：npm install -g bower
 
@@ -68,9 +65,9 @@ http://sindresorhus.com/bower-components/
 
 参考文章：http://blog.fens.me/nodejs-bower-intro/
 
-###Yeoman ----MODERN WORKFLOWS FOR MODERN WEBAPPS
+###Yeoman ----Modern workflows for modern webapps.
 
-http://yeoman.io/
+<http://yeoman.io/>
 
 命令：npm install -g yo
 目录：C:\Users\Administrator\AppData\Roaming\npm\yo -> C:\Users\Administrator\AppData\Roaming\npm\node_modules\yo\cli.js
