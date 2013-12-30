@@ -2,7 +2,7 @@
 layout: post
 title: 构建自动化的前端开发流程
 category: HTML5
-tags: [HTML5]
+tags: [yeoman, grunt, bower]
 description: |
   利用Yeman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.Yeoman:Modern workflows for modern webapps.GruntJs:The JavaScript Task Runner.Bower:A package manager for the web.
 ---
