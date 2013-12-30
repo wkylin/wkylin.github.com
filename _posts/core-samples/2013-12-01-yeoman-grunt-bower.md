@@ -18,9 +18,9 @@ description: |
 
 1.下载
 
-[http://nodejs.org]: http://nodejs.org/
+<http://nodejs.org/>
 
-[http://nodejs.org/download/]: http://nodejs.org/download/
+<http://nodejs.org/download/>
 
 2.安装成功：node -v npm -v
 
