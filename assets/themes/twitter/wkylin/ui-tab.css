@@ -1,18 +1,6 @@
-/**
- * 通用tab
- * @name ui-tab 
- * @example
-    <div class="ui-tab">
-        <ul class="ui-tab-trigger">
-            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">选项一</li>
-            <li class="ui-tab-trigger-item">选项二</li>
-        </ul>
-    </div>
-    <div class="ui-tab-cnt">
-        <div class="ui-tab-cnt-item ui-tab-cnt-item-current">内容一</div>
-        <div class="ui-tab-cnt-item">内容二</div>
-    </div>
- */
+ol, ul {
+    list-style: none;
+}
 .ui-tab {
     position: relative;
     *zoom: 1;
