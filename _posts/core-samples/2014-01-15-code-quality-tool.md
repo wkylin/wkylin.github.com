@@ -4,13 +4,8 @@ title: Code Quality Tool
 category: Code Quality Tool
 tags: [HTML5, JS]
 description: |
-  Code Quality Tool
+  规范开发文档,提高代码质量，不能缺少代码质量控制工具，在这篇文章中简单介绍一下以下几个工具：HTMLHint/JSLint/JSHint/PDM/ReviewBoard
 ---
-
-+ 1.**Yeoman**:Modern workflows for modern webapps.
-+ 2.**GruntJs**:The JavaScript Task Runner.
-+ 3.**Bower**:A package manager for the web.
-+ 4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
 
 ###Jascript规范
 + 1.Gooogle JavaScript规范：
