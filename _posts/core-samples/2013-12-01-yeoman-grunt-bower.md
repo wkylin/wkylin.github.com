@@ -16,6 +16,7 @@ description: |
 + 3.**Bower**:A package manager for the web.Web 开发的包管理器，概念上类似 npm，npm 专注于 NodeJs 模块，而 bower 专注于 CSS、JavaScript、图像等前端相关内容的管理。
 + 4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
 
+
 以下为安装时需要的相关工具：
 
 ###Node.js
