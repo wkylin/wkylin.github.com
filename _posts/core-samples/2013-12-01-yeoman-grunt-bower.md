@@ -9,15 +9,12 @@ description: |
 
 ![workflows](http://wkylin.github.io/assets/images/workflows.png "workflows")
 
-Yeoman 是由三个工具的组成：YO、GRUNT、BOWER
+利用Yeoman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.
 
-1.**YO**:Modern workflows for modern webapps.Yeoman核心工具，项目工程依赖目录和文件生成工具，项目生产环境和编译环境生成工具。
-
-2.**GRUNT**:The JavaScript Task Runner.前端构建工具，jQuery就是使用这个工具打包的。
-
-3.**BOWER**:A package manager for the web. Web 开发的包管理器，概念上类似 npm，npm 专注于 NodeJs 模块，而 bower 专注于 CSS、JavaScript、图像等前端相关内容的管理。
-
-4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
++ 1.**Yeoman**:Modern workflows for modern webapps.
++ 2.**GruntJs**:The JavaScript Task Runner.
++ 3.**Bower**:A package manager for the web.
++ 4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
 
 ###Node.js
 
@@ -60,17 +57,17 @@ Yeoman 是由三个工具的组成：YO、GRUNT、BOWER
 
 参考资料：
 
-<http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/>
+http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/
 
 ###Grunt contrib
 
-<https://github.com/gruntjs/grunt-contrib>
+https://github.com/gruntjs/grunt-contrib
 
 ###Bower ----A package manager for the web
 
 <http://bower.io/>
 
-<http://sindresorhus.com/bower-components/>
+http://sindresorhus.com/bower-components/
 
 命令：npm install -g bower
 
@@ -79,8 +76,6 @@ Yeoman 是由三个工具的组成：YO、GRUNT、BOWER
 成功：bower --version
 
 参考文章：
-
-<http://blog.fens.me/nodejs-bower-intro/>
 
 ###Yeoman ----MODERN WORKFLOWS FOR MODERN WEBAPPS
 
@@ -96,9 +91,9 @@ Yeoman 是由三个工具的组成：YO、GRUNT、BOWER
 
 <http://phantomjs.org/>
 
-<http://www.tuicool.com/articles/beeMNj>
+http://www.tuicool.com/articles/beeMNj
 
-<http://www.tuicool.com/articles/yIbeii>
+http://www.tuicool.com/articles/yIbeii
 
 命令：npm install -g phantomjs
 
@@ -109,12 +104,12 @@ Yeoman 是由三个工具的组成：YO、GRUNT、BOWER
 
 ###Gradle---Build automation evolved
 
-<http://www.gradle.org/>
+http://www.gradle.org/
 
 ###Livereload
 
 <http://livereload.com/>
 
-<http://blog.csdn.net/xiongzhengxiang/article/details/12843615>
+http://blog.csdn.net/xiongzhengxiang/article/details/12843615
 
-<http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde>
+http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde
