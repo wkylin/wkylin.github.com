@@ -12,10 +12,13 @@ description: |
 
 Yeoman 是由三个工具的组成：YO、GRUNT、BOWER
 
-+ 1.**YO**:Modern workflows for modern webapps.Yeoman核心工具，项目工程依赖目录和文件生成工具，项目生产环境和编译环境生成工具。
-+ 2.**GRUNT**:The JavaScript Task Runner.前端构建工具，jQuery就是使用这个工具打包的。
-+ 3.**BOWER**:A package manager for the web. Web 开发的包管理器，概念上类似 npm，npm 专注于 NodeJs 模块，而 bower 专注于 CSS、JavaScript、图像等前端相关内容的管理。
-+ 4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
+1.**YO**:Modern workflows for modern webapps.Yeoman核心工具，项目工程依赖目录和文件生成工具，项目生产环境和编译环境生成工具。
+
+2.**GRUNT**:The JavaScript Task Runner.前端构建工具，jQuery就是使用这个工具打包的。
+
+3.**BOWER**:A package manager for the web. Web 开发的包管理器，概念上类似 npm，npm 专注于 NodeJs 模块，而 bower 专注于 CSS、JavaScript、图像等前端相关内容的管理。
+
+4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
 
 ###Node.js
 
