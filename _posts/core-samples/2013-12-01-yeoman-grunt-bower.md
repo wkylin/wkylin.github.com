@@ -16,6 +16,8 @@ description: |
 + 3.**BOWER**:A package manager for the web.Web 开发的包管理器，概念上类似 npm，npm 专注于 NodeJs 模块，而 bower 专注于 CSS、JavaScript、图像等前端相关内容的管理。
 + 4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
 
+以下为安装时需要的相关工具：
+
 ###Node.js
 
 1.下载
@@ -42,7 +44,7 @@ description: |
 
 <http://gruntjs.cn/>
 
-<http://www.gruntjs.org>
+<http://www.gruntjs.org/>
 
 命令：npm uninstall -g grunt npm install -g grunt-cli
 
@@ -61,7 +63,7 @@ description: |
 
 ###Grunt contrib
 
-<https://github.com/gruntjs/grunt-contrib>
+<https://github.com/gruntjs/grunt-contrib/>
 
 ###Bower ----A package manager for the web
 
@@ -91,9 +93,9 @@ description: |
 
 <http://phantomjs.org/>
 
-<http://www.tuicool.com/articles/beeMNj>
+<http://www.tuicool.com/articles/beeMNj/>
 
-<http://www.tuicool.com/articles/yIbeii>
+<http://www.tuicool.com/articles/yIbeii/>
 
 命令：npm install -g phantomjs
 
@@ -110,6 +112,6 @@ description: |
 
 <http://livereload.com/>
 
-<http://blog.csdn.net/xiongzhengxiang/article/details/12843615>
+<http://blog.csdn.net/xiongzhengxiang/article/details/12843615/>
 
-<http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde>
+<http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde/>
