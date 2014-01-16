@@ -57,17 +57,17 @@ description: |
 
 参考资料：
 
-http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/
+<http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/>
 
 ###Grunt contrib
 
-https://github.com/gruntjs/grunt-contrib
+<https://github.com/gruntjs/grunt-contrib>
 
 ###Bower ----A package manager for the web
 
 <http://bower.io/>
 
-http://sindresorhus.com/bower-components/
+<http://sindresorhus.com/bower-components/>
 
 命令：npm install -g bower
 
@@ -91,9 +91,9 @@ http://sindresorhus.com/bower-components/
 
 <http://phantomjs.org/>
 
-http://www.tuicool.com/articles/beeMNj
+<http://www.tuicool.com/articles/beeMNj>
 
-http://www.tuicool.com/articles/yIbeii
+<http://www.tuicool.com/articles/yIbeii>
 
 命令：npm install -g phantomjs
 
@@ -104,12 +104,12 @@ http://www.tuicool.com/articles/yIbeii
 
 ###Gradle---Build automation evolved
 
-http://www.gradle.org/
+<http://www.gradle.org/>
 
 ###Livereload
 
 <http://livereload.com/>
 
-http://blog.csdn.net/xiongzhengxiang/article/details/12843615
+<http://blog.csdn.net/xiongzhengxiang/article/details/12843615>
 
-http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde
+<http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde>
