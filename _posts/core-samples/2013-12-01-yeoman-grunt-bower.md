@@ -38,6 +38,8 @@ description: |
 
 ###Grunt---The JavaScript Task Runner
 
+<http://gruntjs.com/>
+
 <http://gruntjs.cn/>
 
 <http://www.gruntjs.org>
@@ -54,16 +56,17 @@ description: |
 命令：npm install grunt --save-dev
 
 参考资料：
-http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/
+<http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/>
 
 ###Grunt contrib
-https://github.com/gruntjs/grunt-contrib
+
+<https://github.com/gruntjs/grunt-contrib>
 
 ###Bower ----A package manager for the web
 
 <http://bower.io/>
 
-http://sindresorhus.com/bower-components/
+<http://sindresorhus.com/bower-components/>
 
 命令：npm install -g bower
 
@@ -71,11 +74,14 @@ http://sindresorhus.com/bower-components/
 
 成功：bower --version
 
-参考文章：http://blog.fens.me/nodejs-bower-intro/
+参考文章：
+
+<http://blog.fens.me/nodejs-bower-intro/>
 
 ###Yeoman ----MODERN WORKFLOWS FOR MODERN WEBAPPS
 
 <http://yeoman.io/>
+<http://yeomanjs.org/>
 
 命令：npm install -g yo
 目录：C:\Users\Administrator\AppData\Roaming\npm\yo -> C:\Users\Administrator\AppData\Roaming\npm\node_modules\yo\cli.js
@@ -86,9 +92,9 @@ http://sindresorhus.com/bower-components/
 
 <http://phantomjs.org/>
 
-http://www.tuicool.com/articles/beeMNj
+<http://www.tuicool.com/articles/beeMNj>
 
-http://www.tuicool.com/articles/yIbeii
+<http://www.tuicool.com/articles/yIbeii>
 
 命令：npm install -g phantomjs
 
@@ -99,12 +105,12 @@ http://www.tuicool.com/articles/yIbeii
 
 ###Gradle---Build automation evolved
 
-http://www.gradle.org/
+<http://www.gradle.org/>
 
 ###Livereload
 
 <http://livereload.com/>
 
-http://blog.csdn.net/xiongzhengxiang/article/details/12843615
+<http://blog.csdn.net/xiongzhengxiang/article/details/12843615>
 
-http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde
+<http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde>
