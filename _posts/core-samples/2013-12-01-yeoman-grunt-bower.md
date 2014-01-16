@@ -64,7 +64,7 @@ http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt
 
 ###Grunt contrib
 
-https://github.com/gruntjs/grunt-contrib
+<https://github.com/gruntjs/grunt-contrib/>
 
 ###Bower ----A package manager for the web
 
