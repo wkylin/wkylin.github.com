@@ -10,7 +10,7 @@ description: |
 ###Jascript规范
 + 1.Gooogle JavaScript规范：
 
-<http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>
+[Gooogle JS 规范]: <http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>
 
 + 2.JQuery Core Style Guidelines
 
