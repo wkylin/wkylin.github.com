@@ -10,7 +10,7 @@ description: |
 ###Jascript规范
 + 1.Gooogle JavaScript规范：
 
-[Gooogle JS 规范]: <http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>
+<http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>
 
 + 2.JQuery Core Style Guidelines
 
@@ -54,7 +54,7 @@ Javascript代码验证工具 - JSHint介绍
 
 JSHint 使用说明
 
-<http://www.zipeng.info/archives/jshint-intro.html/>
+<http://zhang.zipeng.info/vimwiki/Entries/Reference/Tools/jshint.html>
 
 JSLint4Java
 
@@ -82,6 +82,8 @@ CodeReview工具
 
 <http://www.reviewboard.org/>
 
+<http://blog.csdn.net/jack0511/article/details/5260751/>
+
 Java代码质量检测评估工具
 
-<http://bal1212.iteye.com/blog/511384>
+<http://bal1212.iteye.com/blog/511384/>
