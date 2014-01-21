@@ -38,7 +38,7 @@ description: |
 
 <http://jslint.it/>
 
-+ 7.jslint-a-guide-to-jslint-messages/
++ 7.jslint-a-guide-to-jslint-messages
 
 <http://www.jameswiseman.com/blog/2011/01/17/jslint-a-guide-to-jslint-messages/>
 
