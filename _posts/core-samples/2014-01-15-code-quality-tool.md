@@ -56,9 +56,6 @@ Javascript代码验证工具 - JSHint介绍
 
 <http://www.open-open.com/lib/view/open1354349336991.html/>
 
-携程UED--JSHint
-
-<http://ued.ctrip.com/blog/?p=2733#more-2733/>
 
 JSHint 使用说明
 
