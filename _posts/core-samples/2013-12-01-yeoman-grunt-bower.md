@@ -11,9 +11,9 @@ description: |
 
 利用Yeoman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.Yeoman 是由三个工具的组成：YO、GRUNT、BOWER.
 
-+ 1.**YO**:Modern workflows for modern webapps.Yeoman核心工具,项目工程依赖目录和文件生成工具,项目生产环境和编译环境生成工具.
-+ 2.**GruntJs**:The JavaScript Task Runner.前端构建工具，jQuery就是使用这个工具打包的.
-+ 3.**Bower**:A package manager for the web.Web 开发的包管理器，概念上类似 npm，npm 专注于 NodeJs 模块，而 bower 专注于 CSS、JavaScript、图像等前端相关内容的管理。
++ 1.**YO**:Modern workflows for modern webapps.新应用的脚手架，编写你自己的grunt配置文件，并且获取你项目build过程当中可能使用到的grunt tasks。
++ 2.**GruntJs**:The JavaScript Task Runner.主要用来build，预览和测试你的项目，已经内置了很多由Yeoman团队和grunt-contrib提供的task。功能就是前端的ant。
++ 3.**Bower**:A package manager for the web.Web 开发的包管理器，bower 专注于 CSS、JavaScript、图像等前端相关内容的管理,主要用于依赖管理，开发人员不需要手动去管理和下载相应的包，以及处理他们之间的依赖关系。我的理解，就是前端的maven。
 + 4.**PhantomJS**:A headless WebKit scriptable with a JavaScript API
 
 
