@@ -16,6 +16,10 @@ description: |
 
 <http://docs.jquery.com/JQuery_Core_Style_Guidelines>
 
++ 3.前端开发团队(17173)通用规范文档
+
+<https://github.com/wkylin/javascript-style-reference/>
+
 ###代码质量工具
 
 + 3.JSLint：The JavaScript Code Quality Tool
@@ -54,7 +58,7 @@ Javascript代码验证工具 - JSHint介绍
 
 JSHint 使用说明
 
-<http://zhang.zipeng.info/vimwiki/Entries/Reference/Tools/jshint.html>
+<http://www.zipeng.info/archives/jshint-intro.html/>
 
 JSLint4Java
 
