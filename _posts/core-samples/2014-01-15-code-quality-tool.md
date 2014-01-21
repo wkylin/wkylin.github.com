@@ -54,7 +54,7 @@ Javascript代码验证工具 - JSHint介绍
 
 JSHint 使用说明
 
-<http://zhang.zipeng.info/vimwiki/Entries/Reference/Tools/jshint.html>
+<http://www.zipeng.info/archives/jshint-intro.html/>
 
 JSLint4Java
 
