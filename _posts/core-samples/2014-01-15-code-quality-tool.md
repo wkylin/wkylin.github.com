@@ -10,15 +10,15 @@ description: |
 ###Jascript规范
 + 1.Gooogle JavaScript规范：
 
-<http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>
+<http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml/>
 
 + 2.JQuery Core Style Guidelines
 
-<http://docs.jquery.com/JQuery_Core_Style_Guidelines>
+<http://docs.jquery.com/JQuery_Core_Style_Guidelines/>
 
 + 3.17173前端开发团队通用规范文档
 
-<https://github.com/wkylin/javascript-style-reference>
+<https://github.com/wkylin/javascript-style-reference/>
 
 ###代码质量工具
 
@@ -50,7 +50,7 @@ description: |
 
 JSLint 百度百科
 
-<http://baike.baidu.com/view/2575488.htm>
+<http://baike.baidu.com/view/2575488.htm/>
 
 Javascript代码验证工具 - JSHint介绍
 
@@ -74,20 +74,20 @@ CodeReview工具
 
 JSLint4Java
 
-<http://jslint4java.googlecode.com/svn/docs/1.4.2/ant.html>
+<http://jslint4java.googlecode.com/svn/docs/1.4.2/ant.html/>
 
 在 Eclipse 中使用 JSHint 检查 JavaScript 代码
 
-<http://www.cnblogs.com/lhb25/archive/2012/04/05/javascript-validation-with-jshint-eclipse.html>
+<http://www.cnblogs.com/lhb25/archive/2012/04/05/javascript-validation-with-jshint-eclipse.html/>
 
 Hudson 中集成 jsHint 方法
 
-<http://www.cnblogs.com/enein/archive/2012/11/28/2792275.html>
+<http://www.cnblogs.com/enein/archive/2012/11/28/2792275.html/>
 
 Java代码检测工具PMD规则集翻译合集
 
-<http://blog.csdn.net/jack0511/article/details/5260751>
+<http://blog.csdn.net/jack0511/article/details/5260751/>
 
 Java代码质量检测评估工具
 
-<http://bal1212.iteye.com/blog/511384>
+<http://bal1212.iteye.com/blog/511384/>
