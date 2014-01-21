@@ -18,7 +18,7 @@ description: |
 
 + 3.前端开发团队(17173)通用规范文档
 
-<https://github.com/wkylin/javascript-style-reference/>
+<https://github.com/wkylin/javascript-style-reference>
 
 ###代码质量工具
 
