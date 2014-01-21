@@ -54,16 +54,15 @@ JSLint 百度百科
 
 Javascript代码验证工具 - JSHint介绍
 
-<http://www.open-open.com/lib/view/open1354349336991.html>
+<http://www.open-open.com/lib/view/open1354349336991.html/>
 
 携程UED--JSHint
 
-<http://ued.ctrip.com/blog/?p=2733#more-2733>
-
+<http://ued.ctrip.com/blog/?p=2733#more-2733/>
 
 JSHint 使用说明
 
-<http://www.zipeng.info/archives/jshint-intro.html>
+<http://www.zipeng.info/archives/jshint-intro.html/>
 
 
 ###JAVA相关
