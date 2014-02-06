@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -26,10 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.3313253" vertical-offset="1140" max-vertical-offset="3360">
+            <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="-7.586207" vertical-offset="1140" max-vertical-offset="3360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2012-12-13-html5-template.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="22" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.32934132" vertical-offset="720" max-vertical-offset="1400">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-08-06-html5js.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="500">
               <folding />
             </state>
           </provider>
@@ -77,6 +95,7 @@
         <option value="$PROJECT_DIR$/_includes/themes/twitter/page.html" />
         <option value="$PROJECT_DIR$/jsonformatting.html" />
         <option value="$PROJECT_DIR$/html5.html" />
+        <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
       </list>
     </option>
   </component>
@@ -130,6 +149,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core-samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -169,7 +206,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -1121,7 +1158,11 @@
       <created>1391694773582</created>
       <updated>1391694773583</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="json&#10;">
+      <created>1391695455467</created>
+      <updated>1391695455467</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1218,7 +1259,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="http://www.ico.la/&#10;" />
     <MESSAGE value="cnzz.com" />
     <MESSAGE value="&lt;meta name=&quot;google-site-verification&quot; content=&quot;W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0&quot; /&gt;" />
     <MESSAGE value="http://www.tmtpost.com/" />
@@ -1243,7 +1283,8 @@
     <MESSAGE value="shikee&#10;" />
     <MESSAGE value="jsonformat&#10;" />
     <MESSAGE value="delete jsonformatting.html&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete jsonformatting.html&#10;" />
+    <MESSAGE value="json&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="json&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1328,11 +1369,6 @@
         <state line="114" column="16" selection-start="7498" selection-end="7498" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4300">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="19" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.37662336" vertical-offset="1213" max-vertical-offset="1992" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/analytics">
@@ -1470,7 +1506,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.3313253" vertical-offset="1140" max-vertical-offset="3360">
+        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="-7.586207" vertical-offset="1140" max-vertical-offset="3360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="22" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.32934132" vertical-offset="720" max-vertical-offset="1400">
           <folding />
         </state>
       </provider>
