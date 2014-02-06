@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
+      <change type="DELETED" beforePath="D:\github\wkylin.github.com\jsonformatting.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -38,16 +38,7 @@
       <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="23" selection-start="4462" selection-end="4462" vertical-scroll-proportion="0.37617555" vertical-offset="960" max-vertical-offset="3360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jsonformatting.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsonformatting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="63" selection-start="160" selection-end="342" vertical-scroll-proportion="-8.965517" vertical-offset="0" max-vertical-offset="540">
+            <state line="59" column="31" selection-start="4438" selection-end="4438" vertical-scroll-proportion="0.3448276" vertical-offset="960" max-vertical-offset="3360">
               <folding />
             </state>
           </provider>
@@ -1244,7 +1235,11 @@
       <created>1391694504675</created>
       <updated>1391694504675</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="jsonformat&#10;">
+      <created>1391694720330</created>
+      <updated>1391694720330</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1591,16 +1586,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsonformatting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="63" selection-start="160" selection-end="342" vertical-scroll-proportion="-8.965517" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="23" selection-start="4462" selection-end="4462" vertical-scroll-proportion="0.37617555" vertical-offset="960" max-vertical-offset="3360">
+        <state line="59" column="31" selection-start="4438" selection-end="4438" vertical-scroll-proportion="0.3448276" vertical-offset="960" max-vertical-offset="3360">
           <folding />
         </state>
       </provider>
