@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\github\wkylin.github.com\jsonformatting.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -26,82 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="212" selection-end="212" vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="31" selection-start="4438" selection-end="4438" vertical-scroll-proportion="0.3448276" vertical-offset="960" max-vertical-offset="3360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3link.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="10" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="3740">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csserlink.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csserlink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="55" selection-end="59" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="1680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts_all" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/posts_all">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab_list" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/tab_list">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="880">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sharing" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/sharing">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/setup">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="website.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/website.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="29.655172" vertical-offset="1140" max-vertical-offset="1880">
+            <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.3313253" vertical-offset="1140" max-vertical-offset="3360">
               <folding />
             </state>
           </provider>
@@ -199,56 +127,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1239,7 +1117,11 @@
       <created>1391694720330</created>
       <updated>1391694720330</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="delete jsonformatting.html&#10;">
+      <created>1391694773582</created>
+      <updated>1391694773583</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1336,7 +1218,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="jquery 17shucai&#10;" />
     <MESSAGE value="http://www.ico.la/&#10;" />
     <MESSAGE value="cnzz.com" />
     <MESSAGE value="&lt;meta name=&quot;google-site-verification&quot; content=&quot;W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0&quot; /&gt;" />
@@ -1361,7 +1242,8 @@
     <MESSAGE value="YSlow&#10;" />
     <MESSAGE value="shikee&#10;" />
     <MESSAGE value="jsonformat&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsonformat&#10;" />
+    <MESSAGE value="delete jsonformatting.html&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete jsonformatting.html&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1453,13 +1335,6 @@
         <state line="59" column="19" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.37662336" vertical-offset="1213" max-vertical-offset="1992" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uedlink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="3260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/analytics">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
@@ -1516,20 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/tab_list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/sharing">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/website.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="29.655172" vertical-offset="1140" max-vertical-offset="1880">
@@ -1540,13 +1401,6 @@
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="33" selection-start="206" selection-end="206" vertical-scroll-proportion="0.21943574" vertical-offset="0" max-vertical-offset="1100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="3740">
           <folding />
         </state>
       </provider>
@@ -1567,28 +1421,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/setup">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+        <state line="12" column="34" selection-start="445" selection-end="445" vertical-scroll-proportion="0.3529412" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/JB/sharing">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/JB/tab_list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="304" selection-end="304" vertical-scroll-proportion="0.065155804" vertical-offset="174" max-vertical-offset="880">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/posts_all">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="800">
+        <state line="16" column="8" selection-start="552" selection-end="552" vertical-scroll-proportion="0.46176046" vertical-offset="0" max-vertical-offset="800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uedlink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-3.5199409" vertical-offset="2583" max-vertical-offset="3260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="58" selection-end="58" vertical-scroll-proportion="0.12048193" vertical-offset="0" max-vertical-offset="3740">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="212" selection-end="212" vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="440">
+        <state line="6" column="7" selection-start="212" selection-end="212" vertical-scroll-proportion="0.17725259" vertical-offset="0" max-vertical-offset="677">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="31" selection-start="4438" selection-end="4438" vertical-scroll-proportion="0.3448276" vertical-offset="960" max-vertical-offset="3360">
+        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.3313253" vertical-offset="1140" max-vertical-offset="3360">
           <folding />
         </state>
       </provider>
