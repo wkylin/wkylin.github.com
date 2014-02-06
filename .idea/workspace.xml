@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
+    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="html layout css js&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -29,19 +28,19 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="3360">
+            <state line="60" column="23" selection-start="4462" selection-end="4462" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="3360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2012-12-13-html5-template.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2012-12-13-html5-template.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.42684767" vertical-offset="617" max-vertical-offset="1280">
+            <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1280">
               <folding />
             </state>
           </provider>
@@ -53,7 +52,25 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
+            <state line="13" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notOpenJsAndCookie.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/notOpenJsAndCookie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.19830029" vertical-offset="0" max-vertical-offset="706">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn-kill-ie.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="20" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -175,11 +192,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core-samples" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -195,7 +226,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="D:/www/VPOS" />
+    <property name="last_opened_file_path" value="D:/www/HTMLLayOut" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
@@ -220,11 +251,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\wkylin.github.com\assets\css" />
+      <recent name="D:\github\wkylin.github.com\assets\js" />
       <recent name="I:\Github\wkylin.github.com\wkylin.github.com\_posts\core-samples" />
       <recent name="I:\Github\wkylin.github.com" />
       <recent name="I:\Github\wkylin.github.com\_posts\core-samples" />
-      <recent name="I:\Github\wkylin.github.com\assets\css" />
-      <recent name="I:\Github\wkylin.github.com\assets\ico" />
     </key>
   </component>
   <component name="RunManager">
@@ -1051,7 +1082,15 @@
       <created>1391695939109</created>
       <updated>1391695939110</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="pre&#10;">
+      <created>1391696245101</created>
+      <updated>1391696245101</updated>
+    </task>
+    <task id="LOCAL-00192" summary="html layout css js&#10;">
+      <created>1391698822763</created>
+      <updated>1391698822763</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1148,7 +1187,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="&lt;meta name=&quot;google-site-verification&quot; content=&quot;W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0&quot; /&gt;" />
     <MESSAGE value="http://www.tmtpost.com/" />
     <MESSAGE value="http://www.oseye.net/" />
     <MESSAGE value="karma test case" />
@@ -1173,13 +1211,82 @@
     <MESSAGE value="delete jsonformatting.html&#10;" />
     <MESSAGE value="json&#10;" />
     <MESSAGE value="pre&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="pre&#10;" />
+    <MESSAGE value="html layout css js&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="html layout css js&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="23" selection-start="4462" selection-end="4462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/notOpenJsAndCookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="23" selection-start="4462" selection-end="4462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360">
@@ -1368,17 +1475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="3360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+        <state line="60" column="23" selection-start="4462" selection-end="4462" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="3360">
           <folding />
         </state>
       </provider>
@@ -1388,7 +1485,31 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.42684767" vertical-offset="617" max-vertical-offset="1280">
+        <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/notOpenJsAndCookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.19830029" vertical-offset="0" max-vertical-offset="706">
           <folding />
         </state>
       </provider>
