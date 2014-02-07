@@ -94,9 +94,9 @@ http://sindresorhus.com/bower-components/
 
 <http://phantomjs.org/>
 
-http://www.tuicool.com/articles/beeMNj
+<http://www.tuicool.com/articles/beeMNj>
 
-http://www.tuicool.com/articles/yIbeii
+<http://www.tuicool.com/articles/yIbeii>
 
 命令：npm install -g phantomjs
 
@@ -107,12 +107,15 @@ http://www.tuicool.com/articles/yIbeii
 
 ###Gradle---Build automation evolved
 
-http://www.gradle.org/
+<http://www.gradle.org/>
 
 ###Livereload
 
 <http://livereload.com/>
 
-http://blog.csdn.net/xiongzhengxiang/article/details/12843615
+<http://blog.csdn.net/xiongzhengxiang/article/details/12843615>
 
-http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde
+<http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde>
+
+###外文参考文档
+<http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow>
