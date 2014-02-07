@@ -10,7 +10,13 @@ description: |
 ###Jascript规范
 + 1.Gooogle JavaScript规范：
 
+原文：
+
 <http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>
+
+中文译文：
+
+<http://alloyteam.github.io/JX/doc/specification/google-javascript.xml>
 
 + 2.JQuery Core Style Guidelines
 
