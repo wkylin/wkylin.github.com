@@ -121,4 +121,6 @@ http://sindresorhus.com/bower-components/
 
 <http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow>
 
-<http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js//>
+<http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js/>
+
+<http://chemzqm.me/v/6>
