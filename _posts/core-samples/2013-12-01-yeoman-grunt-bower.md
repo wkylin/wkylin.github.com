@@ -118,4 +118,7 @@ http://sindresorhus.com/bower-components/
 <http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde>
 
 ###外文参考文档
+
 <http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow>
+
+<http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js//>
