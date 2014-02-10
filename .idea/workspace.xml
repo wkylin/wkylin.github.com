@@ -38,7 +38,7 @@
       <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="6" selection-start="13116" selection-end="13116" vertical-scroll-proportion="-109.655174" vertical-offset="0" max-vertical-offset="3980">
+            <state line="159" column="6" selection-start="13116" selection-end="13116" vertical-scroll-proportion="0.0" vertical-offset="3180" max-vertical-offset="3980">
               <folding />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name="tech.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tech.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="31" selection-start="3647" selection-end="3647" vertical-scroll-proportion="0.21084337" vertical-offset="920" max-vertical-offset="4540">
+            <state line="59" column="61" selection-start="4033" selection-end="4033" vertical-scroll-proportion="0.3313253" vertical-offset="960" max-vertical-offset="4620">
               <folding />
             </state>
           </provider>
@@ -207,14 +207,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -225,15 +217,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -1106,7 +1106,11 @@
       <created>1392037613412</created>
       <updated>1392037613412</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="impress&#10;">
+      <created>1392039076953</created>
+      <updated>1392039076953</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1163,8 +1167,8 @@
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Assets" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Assets" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.59383756" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.4950495" order="9" side_tool="true" content_ui="tabs" />
@@ -1203,7 +1207,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="rpost limit" />
     <MESSAGE value="delete &#10;" />
     <MESSAGE value="html5js&#10;" />
     <MESSAGE value="delete html5js&#10;" />
@@ -1228,7 +1231,8 @@
     <MESSAGE value="gruntjs参考文档&#10;" />
     <MESSAGE value="jekyll&#10;" />
     <MESSAGE value="animate.css&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="animate.css&#10;" />
+    <MESSAGE value="impress&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="impress&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1514,14 +1518,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="6" selection-start="13116" selection-end="13116" vertical-scroll-proportion="-109.655174" vertical-offset="0" max-vertical-offset="3980">
+        <state line="159" column="6" selection-start="13116" selection-end="13116" vertical-scroll-proportion="0.0" vertical-offset="3180" max-vertical-offset="3980">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="31" selection-start="3647" selection-end="3647" vertical-scroll-proportion="0.21084337" vertical-offset="920" max-vertical-offset="4540">
+        <state line="59" column="61" selection-start="4033" selection-end="4033" vertical-scroll-proportion="0.3313253" vertical-offset="960" max-vertical-offset="4620">
           <folding />
         </state>
       </provider>
