@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/selectivizr-min.js" afterPath="$PROJECT_DIR$/assets/js/selectivizr-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3link.html" afterPath="$PROJECT_DIR$/css3link.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -28,19 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5.html">
+      <file leaf-file-name="2013-12-01-yeoman-grunt-bower.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="11" selection-start="10697" selection-end="10697" vertical-scroll-proportion="0.0" vertical-offset="3019" max-vertical-offset="4032">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014-01-15-code-quality-tool.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="2424">
+            <state line="100" column="27" selection-start="2373" selection-end="2373" vertical-scroll-proportion="-2.1" vertical-offset="1937" max-vertical-offset="2640">
               <folding />
             </state>
           </provider>
@@ -49,46 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="css3link.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="4584">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fn-kill-ie.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notOpenJsAndCookie.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/notOpenJsAndCookie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectivizr-min.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/selectivizr-min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jslink.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jslink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="78" selection-start="3865" selection-end="3865" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="4728">
+            <state line="160" column="29" selection-start="13146" selection-end="13146" vertical-scroll-proportion="0.14771049" vertical-offset="3100" max-vertical-offset="3980">
               <folding />
             </state>
           </provider>
@@ -97,30 +50,9 @@
       <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tech.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="84" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5184">
+            <state line="29" column="6" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-2.7586207" vertical-offset="500" max-vertical-offset="4500">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homelink.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homelink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="31" selection-start="19631" selection-end="19631" vertical-scroll-proportion="0.0" vertical-offset="6715" max-vertical-offset="7392">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2013-12-01-yeoman-grunt-bower.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="40" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="3024">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -165,16 +97,17 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
         <option value="$PROJECT_DIR$/homelink.html" />
+        <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" />
-        <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
+        <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/css3link.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-35" />
+    <option name="y" value="67" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
@@ -204,6 +137,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,66 +165,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -294,7 +177,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="179" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="D:/www/impressJs" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="167" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="853" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
@@ -1198,7 +1081,31 @@
       <created>1391746384232</created>
       <updated>1391746384232</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="gruntjs配置文件&#10;">
+      <created>1391945986140</created>
+      <updated>1391945986140</updated>
+    </task>
+    <task id="LOCAL-00204" summary="gruntjs参考文档">
+      <created>1391946139324</created>
+      <updated>1391946139325</updated>
+    </task>
+    <task id="LOCAL-00205" summary="gruntjs参考文档&#10;">
+      <created>1391947626128</created>
+      <updated>1391947626128</updated>
+    </task>
+    <task id="LOCAL-00206" summary="jekyll&#10;">
+      <created>1391948015777</created>
+      <updated>1391948015777</updated>
+    </task>
+    <task id="LOCAL-00207" summary="jekyll&#10;">
+      <created>1391951946039</created>
+      <updated>1391951946040</updated>
+    </task>
+    <task id="LOCAL-00208" summary="jekyll&#10;">
+      <created>1391952040700</created>
+      <updated>1391952040700</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1222,16 +1129,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="-35" y="67" width="1456" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.46078432" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30861583" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1375" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.37535015" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17789757" sideWeight="0.4950495" order="9" side_tool="true" content_ui="tabs" />
@@ -1241,12 +1146,14 @@
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.59383756" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32658568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5128901" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32633054" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1295,10 +1202,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="zeptoJs" />
-    <MESSAGE value="website" />
-    <MESSAGE value="wkylin--copyright" />
-    <MESSAGE value="js 在线工具" />
     <MESSAGE value="weibo" />
     <MESSAGE value="rpost limit" />
     <MESSAGE value="delete &#10;" />
@@ -1320,46 +1223,35 @@
     <MESSAGE value="csstv&#10;" />
     <MESSAGE value="cdnjs&#10;" />
     <MESSAGE value="kill ie&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="kill ie&#10;" />
+    <MESSAGE value="gruntjs配置文件&#10;" />
+    <MESSAGE value="gruntjs参考文档" />
+    <MESSAGE value="gruntjs参考文档&#10;" />
+    <MESSAGE value="jekyll&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="jekyll&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css3link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="4584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="78" selection-start="3865" selection-end="3865" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="4728">
-          <folding />
-        </state>
+        <state line="60" column="78" selection-start="3865" selection-end="3865" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="4728" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="84" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5184">
-          <folding />
-        </state>
+        <state line="30" column="84" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5184" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homelink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="31" selection-start="19631" selection-end="19631" vertical-scroll-proportion="0.0" vertical-offset="6715" max-vertical-offset="7392">
-          <folding />
-        </state>
+        <state line="289" column="31" selection-start="19631" selection-end="19631" vertical-scroll-proportion="0.0" vertical-offset="6715" max-vertical-offset="7392" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="40" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="3024">
-          <folding />
-        </state>
+        <state line="98" column="40" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="3024" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1367,9 +1259,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4032">
-          <folding />
-        </state>
+        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4032" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
@@ -1390,9 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360">
-          <folding />
-        </state>
+        <state line="68" column="44" selection-start="4863" selection-end="4863" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
@@ -1418,9 +1306,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
@@ -1445,9 +1331,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2888">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2888" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
@@ -1573,16 +1457,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="11" selection-start="10697" selection-end="10697" vertical-scroll-proportion="0.0" vertical-offset="3019" max-vertical-offset="4032">
-          <folding />
-        </state>
+        <state line="142" column="11" selection-start="10697" selection-end="10697" vertical-scroll-proportion="0.0" vertical-offset="3019" max-vertical-offset="4032" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="2424">
-          <folding />
-        </state>
+        <state line="10" column="25" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="2424" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1590,14 +1470,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homelink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="31" selection-start="19631" selection-end="19631" vertical-scroll-proportion="0.0" vertical-offset="6715" max-vertical-offset="7392">
+        <state line="289" column="31" selection-start="19631" selection-end="19631" vertical-scroll-proportion="0.42771083" vertical-offset="5496" max-vertical-offset="6160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/selectivizr-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/notOpenJsAndCookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="513" selection-end="513" vertical-scroll-proportion="0.4815864" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="3960">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="40" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="3024">
+        <state line="18" column="12" selection-start="459" selection-end="459" vertical-scroll-proportion="0.39668176" vertical-offset="97" max-vertical-offset="5100">
           <folding />
         </state>
       </provider>
@@ -1607,42 +1507,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="84" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5184">
+        <state line="29" column="6" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-2.7586207" vertical-offset="500" max-vertical-offset="4500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslink.html">
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="78" selection-start="3865" selection-end="3865" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="4728">
+        <state line="100" column="27" selection-start="2373" selection-end="2373" vertical-scroll-proportion="-2.1" vertical-offset="1937" max-vertical-offset="2640">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="4584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/notOpenJsAndCookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/selectivizr-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+        <state line="160" column="29" selection-start="13146" selection-end="13146" vertical-scroll-proportion="0.14771049" vertical-offset="3100" max-vertical-offset="3980">
           <folding />
         </state>
       </provider>
