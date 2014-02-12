@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tech.html" afterPath="$PROJECT_DIR$/tech.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -30,7 +29,16 @@
       <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tech.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="87" selection-start="5344" selection-end="5344" vertical-scroll-proportion="-10.344828" vertical-offset="1200" max-vertical-offset="4700">
+            <state line="78" column="5" selection-start="5577" selection-end="5577" vertical-scroll-proportion="43.448277" vertical-offset="2820" max-vertical-offset="4700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css3link.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-13.24138" vertical-offset="276" max-vertical-offset="4000">
               <folding />
             </state>
           </provider>
@@ -42,7 +50,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="25" selection-start="600" selection-end="600" vertical-scroll-proportion="0.57315236" vertical-offset="180" max-vertical-offset="2220">
+            <state line="30" column="33" selection-start="635" selection-end="635" vertical-scroll-proportion="0.6213018" vertical-offset="180" max-vertical-offset="2320">
               <folding />
             </state>
           </provider>
@@ -91,8 +99,8 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" />
         <option value="$PROJECT_DIR$/jslink.html" />
-        <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/tech.html" />
+        <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
       </list>
     </option>
@@ -182,10 +190,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core-samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1141,7 +1145,11 @@
       <created>1392039758296</created>
       <updated>1392039758296</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="code quality&#10;">
+      <created>1392211082596</created>
+      <updated>1392211082596</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1168,12 +1176,13 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32633054" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5128901" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.46078432" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27083334" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13958333" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.37535015" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17789757" sideWeight="0.4950495" order="9" side_tool="true" content_ui="tabs" />
@@ -1190,7 +1199,6 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32633054" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1238,7 +1246,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="delete &#10;" />
     <MESSAGE value="html5js&#10;" />
     <MESSAGE value="delete html5js&#10;" />
     <MESSAGE value="MarkdownPad&#10;" />
@@ -1263,7 +1270,8 @@
     <MESSAGE value="jekyll&#10;" />
     <MESSAGE value="animate.css&#10;" />
     <MESSAGE value="impress&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="impress&#10;" />
+    <MESSAGE value="code quality&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="code quality&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1529,11 +1537,6 @@
         <state line="18" column="12" selection-start="459" selection-end="459" vertical-scroll-proportion="0.39668176" vertical-offset="97" max-vertical-offset="5100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="6" selection-start="13123" selection-end="13123" vertical-scroll-proportion="0.0" vertical-offset="3200" max-vertical-offset="4000" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1546,7 +1549,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="87" selection-start="5344" selection-end="5344" vertical-scroll-proportion="-10.344828" vertical-offset="1200" max-vertical-offset="4700">
+        <state line="78" column="5" selection-start="5577" selection-end="5577" vertical-scroll-proportion="43.448277" vertical-offset="2820" max-vertical-offset="4700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-13.24138" vertical-offset="276" max-vertical-offset="4000">
           <folding />
         </state>
       </provider>
@@ -1556,7 +1566,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="600" selection-end="600" vertical-scroll-proportion="0.57315236" vertical-offset="180" max-vertical-offset="2220">
+        <state line="30" column="33" selection-start="635" selection-end="635" vertical-scroll-proportion="0.6213018" vertical-offset="180" max-vertical-offset="2320">
           <folding />
         </state>
       </provider>
