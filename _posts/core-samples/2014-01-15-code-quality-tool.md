@@ -34,6 +34,10 @@ description: |
 
 <http://segmentfault.com/a/1190000000388784/>
 
++ 6.WIKI 极简化
+
+<http://zh.wikipedia.org/wiki/%E6%A5%B5%E7%B0%A1%E5%8C%96/>
+
 
 ###代码质量工具
 
