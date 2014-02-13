@@ -40,7 +40,7 @@ description: |
 
 + 7. HTML CSS Guidelines
 
-<http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml/>
+http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 
 
 ###代码质量工具
