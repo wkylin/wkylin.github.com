@@ -38,6 +38,10 @@ description: |
 
 <http://zh.wikipedia.org/wiki/%E6%A5%B5%E7%B0%A1%E5%8C%96/>
 
++ 7. HTML CSS Guidelines
+
+<http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml/>
+
 
 ###代码质量工具
 
