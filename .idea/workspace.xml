@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslink.html" afterPath="$PROJECT_DIR$/jslink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3link.html" afterPath="$PROJECT_DIR$/css3link.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -36,37 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="149" selection-end="149" vertical-scroll-proportion="0.20547946" vertical-offset="120" max-vertical-offset="3400">
+            <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="40.0" vertical-offset="1320" max-vertical-offset="3400">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="css3link.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="6" selection-start="326" selection-end="333" vertical-scroll-proportion="-0.6896552" vertical-offset="280" max-vertical-offset="4020">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/yo/node_modules/yeoman-generator/node_modules/cheerio/benchmark/documents/jquery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="449" selection-end="449" vertical-scroll-proportion="-2.7586207" vertical-offset="60" max-vertical-offset="23940">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jslink.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jslink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="91" selection-start="2139" selection-end="2240" vertical-scroll-proportion="-0.6896552" vertical-offset="820" max-vertical-offset="4100">
+            <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.75342464" vertical-offset="3520" max-vertical-offset="4140">
               <folding />
             </state>
           </provider>
@@ -115,9 +96,9 @@
         <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
         <option value="$PROJECT_DIR$/homelink.html" />
-        <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/html5.html" />
+        <option value="$PROJECT_DIR$/css3link.html" />
       </list>
     </option>
   </component>
@@ -1145,7 +1126,11 @@
       <created>1392212022338</created>
       <updated>1392212022338</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="css doc&#10;">
+      <created>1392545502788</created>
+      <updated>1392545502788</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1172,6 +1157,7 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32633054" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1194,7 +1180,6 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32633054" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1534,23 +1519,9 @@
         <state line="98" column="29" selection-start="5604" selection-end="5604" vertical-scroll-proportion="0.25728154" vertical-offset="1854" max-vertical-offset="6180" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/yo/node_modules/yeoman-generator/node_modules/cheerio/benchmark/documents/jquery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="449" selection-end="449" vertical-scroll-proportion="-2.7586207" vertical-offset="60" max-vertical-offset="23940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="91" selection-start="2139" selection-end="2240" vertical-scroll-proportion="-0.6896552" vertical-offset="820" max-vertical-offset="4100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="326" selection-end="333" vertical-scroll-proportion="-0.6896552" vertical-offset="280" max-vertical-offset="4020">
           <folding />
         </state>
       </provider>
@@ -1564,7 +1535,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="149" selection-end="149" vertical-scroll-proportion="0.20547946" vertical-offset="120" max-vertical-offset="3400">
+        <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="40.0" vertical-offset="1320" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/yo/node_modules/yeoman-generator/node_modules/cheerio/benchmark/documents/jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="449" selection-end="449" vertical-scroll-proportion="0.2739726" vertical-offset="60" max-vertical-offset="23940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.75342464" vertical-offset="3520" max-vertical-offset="4140">
           <folding />
         </state>
       </provider>
