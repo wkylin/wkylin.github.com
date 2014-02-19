@@ -28,7 +28,7 @@ description: |
 
 + 4.Drupal CSS Guidelines
 
-<https://drupal.org/node/302199/>
+https://drupal.org/node/302199/
 
 + 5.编写可维护的CSS
 
