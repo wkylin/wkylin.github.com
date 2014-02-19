@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homelink.html" afterPath="$PROJECT_DIR$/homelink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tech.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="16" selection-start="8701" selection-end="8718" vertical-scroll-proportion="0.0" vertical-offset="2288" max-vertical-offset="4700">
+            <state line="127" column="16" selection-start="8701" selection-end="8718" vertical-scroll-proportion="0.0" vertical-offset="3048" max-vertical-offset="5640">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="3400">
+            <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="4080">
               <folding />
             </state>
           </provider>
@@ -47,21 +47,30 @@
       <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="-9.551724" vertical-offset="3463" max-vertical-offset="4140">
+            <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="4968">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2013-12-30-grunt-js.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2013-12-30-grunt-js.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.39668176" vertical-offset="3177" max-vertical-offset="5180">
+            <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="-0.0" vertical-offset="4128" max-vertical-offset="6216">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homelink.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homelink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="21" selection-start="7759" selection-end="7759" vertical-scroll-proportion="0.3625" vertical-offset="2696" max-vertical-offset="7440">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -106,11 +115,11 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" />
         <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
-        <option value="$PROJECT_DIR$/homelink.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/html5.html" />
         <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" />
+        <option value="$PROJECT_DIR$/homelink.html" />
       </list>
     </option>
   </component>
@@ -146,6 +155,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,34 +181,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="wkylin.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core-samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1188,14 +1179,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.46078432" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31041667" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31002825" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.37535015" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17789757" sideWeight="0.4950495" order="9" side_tool="true" content_ui="tabs" />
@@ -1205,8 +1198,6 @@
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.59383756" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1293,6 +1284,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="6216">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="84" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5184" />
@@ -1540,11 +1541,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homelink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="29" selection-start="5604" selection-end="5604" vertical-scroll-proportion="0.25728154" vertical-offset="1854" max-vertical-offset="6180" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="91" selection-start="2139" selection-end="2240" vertical-scroll-proportion="-0.6896552" vertical-offset="820" max-vertical-offset="4100" />
@@ -1564,26 +1560,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/yo/node_modules/yeoman-generator/node_modules/cheerio/benchmark/documents/jquery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="449" selection-end="449" vertical-scroll-proportion="0.2739726" vertical-offset="60" max-vertical-offset="23940" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="-9.551724" vertical-offset="3463" max-vertical-offset="4140">
+        <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="4968">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.39668176" vertical-offset="3177" max-vertical-offset="5180">
+        <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="6216">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homelink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="21" selection-start="7759" selection-end="7759" vertical-scroll-proportion="0.3625" vertical-offset="2696" max-vertical-offset="7440">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
