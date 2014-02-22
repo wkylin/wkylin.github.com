@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homelink.html" afterPath="$PROJECT_DIR$/homelink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tech.html" afterPath="$PROJECT_DIR$/tech.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tech.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tech.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="16" selection-start="8701" selection-end="8718" vertical-scroll-proportion="0.0" vertical-offset="3048" max-vertical-offset="5640">
+            <state line="8" column="25" selection-start="143" selection-end="143" vertical-scroll-proportion="0.2601626" vertical-offset="0" max-vertical-offset="4720">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="4080">
+            <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="3400">
               <folding />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="4968">
+            <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.0" vertical-offset="3740" max-vertical-offset="4140">
               <folding />
             </state>
           </provider>
@@ -56,19 +56,16 @@
       <file leaf-file-name="2013-12-30-grunt-js.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="-0.0" vertical-offset="4128" max-vertical-offset="6216">
+            <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.0" vertical-offset="3440" max-vertical-offset="5180">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="homelink.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="homelink.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homelink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="21" selection-start="7759" selection-end="7759" vertical-scroll-proportion="0.3625" vertical-offset="2696" max-vertical-offset="7440">
+            <state line="141" column="0" selection-start="9389" selection-end="9389" vertical-scroll-proportion="-13.103448" vertical-offset="2440" max-vertical-offset="6220">
               <folding />
             </state>
           </provider>
@@ -113,13 +110,13 @@
         <option value="$PROJECT_DIR$/jsonformatting.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" />
-        <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/html5.html" />
         <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" />
         <option value="$PROJECT_DIR$/homelink.html" />
+        <option value="$PROJECT_DIR$/tech.html" />
       </list>
     </option>
   </component>
@@ -155,16 +152,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,6 +168,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="wkylin.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1155,7 +1152,11 @@
       <created>1392549094211</created>
       <updated>1392549094211</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="javascriptoo&#10;">
+      <created>1392817549761</created>
+      <updated>1392817549762</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1179,16 +1180,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.46078432" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31002825" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08958333" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.37535015" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17789757" sideWeight="0.4950495" order="9" side_tool="true" content_ui="tabs" />
@@ -1198,6 +1197,8 @@
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.59383756" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1252,7 +1253,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="delete html5js&#10;" />
     <MESSAGE value="MarkdownPad&#10;" />
     <MESSAGE value="post html5js&#10;" />
     <MESSAGE value="acid3&#10;" />
@@ -1277,7 +1277,8 @@
     <MESSAGE value="impress&#10;" />
     <MESSAGE value="code quality&#10;" />
     <MESSAGE value="css doc&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="css doc&#10;" />
+    <MESSAGE value="javascriptoo&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascriptoo&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1546,13 +1547,6 @@
         <state line="42" column="91" selection-start="2139" selection-end="2240" vertical-scroll-proportion="-0.6896552" vertical-offset="820" max-vertical-offset="4100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tech.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="16" selection-start="8701" selection-end="8718" vertical-scroll-proportion="0.0" vertical-offset="2288" max-vertical-offset="4700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="3400">
@@ -1579,7 +1573,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homelink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="21" selection-start="7759" selection-end="7759" vertical-scroll-proportion="0.3625" vertical-offset="2696" max-vertical-offset="7440">
+        <state line="141" column="0" selection-start="9389" selection-end="9389" vertical-scroll-proportion="-13.103448" vertical-offset="2440" max-vertical-offset="6220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="143" selection-end="143" vertical-scroll-proportion="0.2601626" vertical-offset="0" max-vertical-offset="4720">
           <folding />
         </state>
       </provider>
