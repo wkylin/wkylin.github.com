@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
+    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="gruntjs ppt">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3link.html" afterPath="$PROJECT_DIR$/css3link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslink.html" afterPath="$PROJECT_DIR$/jslink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tech.html" afterPath="$PROJECT_DIR$/tech.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,7 +31,7 @@
       <file leaf-file-name="tech.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tech.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="143" selection-end="143" vertical-scroll-proportion="0.2601626" vertical-offset="0" max-vertical-offset="4720">
+            <state line="148" column="83" selection-start="10742" selection-end="10742" vertical-scroll-proportion="0.49019608" vertical-offset="2710" max-vertical-offset="4740">
               <folding />
             </state>
           </provider>
@@ -38,7 +40,7 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="3400">
+            <state line="79" column="9" selection-start="5730" selection-end="5730" vertical-scroll-proportion="39.86207" vertical-offset="2736" max-vertical-offset="3400">
               <folding />
             </state>
           </provider>
@@ -47,25 +49,16 @@
       <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.0" vertical-offset="3740" max-vertical-offset="4140">
+            <state line="176" column="6" selection-start="14345" selection-end="14345" vertical-scroll-proportion="-0.44827586" vertical-offset="3507" max-vertical-offset="4180">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2013-12-30-grunt-js.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
+      <file leaf-file-name="jslink.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jslink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.0" vertical-offset="3440" max-vertical-offset="5180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homelink.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homelink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="0" selection-start="9389" selection-end="9389" vertical-scroll-proportion="-13.103448" vertical-offset="2440" max-vertical-offset="6220">
+            <state line="31" column="31" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-6.8965516" vertical-offset="420" max-vertical-offset="4240">
               <folding />
             </state>
           </provider>
@@ -111,11 +104,14 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
-        <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/html5.html" />
-        <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" />
         <option value="$PROJECT_DIR$/homelink.html" />
+        <option value="$PROJECT_DIR$/assets/GruntJsPpt/css/grunt.css" />
+        <option value="$PROJECT_DIR$/assets/GruntJsPpt/js/impress.js" />
+        <option value="$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html" />
+        <option value="$PROJECT_DIR$/css3link.html" />
+        <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/tech.html" />
       </list>
     </option>
@@ -152,6 +148,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,16 +174,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="wkylin.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1156,7 +1152,15 @@
       <created>1392817549761</created>
       <updated>1392817549762</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="git github">
+      <created>1393055964059</created>
+      <updated>1393055964059</updated>
+    </task>
+    <task id="LOCAL-00219" summary="gruntjs ppt">
+      <created>1393079056678</created>
+      <updated>1393079056679</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1186,8 +1190,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20895523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.46078432" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08958333" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24513888" sideWeight="0.8176796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16478077" sideWeight="0.37535015" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17789757" sideWeight="0.4950495" order="9" side_tool="true" content_ui="tabs" />
@@ -1204,8 +1209,7 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.504749" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32633054" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19538671" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1253,8 +1257,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="MarkdownPad&#10;" />
-    <MESSAGE value="post html5js&#10;" />
     <MESSAGE value="acid3&#10;" />
     <MESSAGE value="YSlow&#10;" />
     <MESSAGE value="shikee&#10;" />
@@ -1278,39 +1280,21 @@
     <MESSAGE value="code quality&#10;" />
     <MESSAGE value="css doc&#10;" />
     <MESSAGE value="javascriptoo&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="javascriptoo&#10;" />
+    <MESSAGE value="git github" />
+    <MESSAGE value="gruntjs ppt" />
+    <option name="LAST_COMMIT_MESSAGE" value="gruntjs ppt" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="6216">
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tech.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="84" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5184" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homelink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="31" selection-start="19631" selection-end="19631" vertical-scroll-proportion="0.0" vertical-offset="6715" max-vertical-offset="7392" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="40" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="3024" />
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
@@ -1319,19 +1303,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1536" />
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
@@ -1340,19 +1324,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="13" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0" vertical-offset="649" max-vertical-offset="1280" />
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500" />
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
@@ -1496,19 +1480,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="19" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.3006135" vertical-offset="884" max-vertical-offset="1536" />
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.14723927" vertical-offset="0" max-vertical-offset="652" />
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.14723927" vertical-offset="0" max-vertical-offset="652" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
@@ -1527,60 +1511,83 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="27" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.15829146" vertical-offset="1937" max-vertical-offset="2640" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="714" selection-end="737" vertical-scroll-proportion="1.1192214" vertical-offset="280" max-vertical-offset="2380" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="91" selection-start="2139" selection-end="2240" vertical-scroll-proportion="-0.6896552" vertical-offset="820" max-vertical-offset="4100" />
+        <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="6216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homelink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="0" selection-start="9389" selection-end="9389" vertical-scroll-proportion="0.56129986" vertical-offset="2440" max-vertical-offset="6220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/GruntJsPpt/css/grunt.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="10197" selection-start="10595" selection-end="10595" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/GruntJsPpt/js/impress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="297" column="58" selection-start="10316" selection-end="10316" vertical-scroll-proportion="0.35240963" vertical-offset="5706" max-vertical-offset="6680">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="3400">
+        <state line="79" column="9" selection-start="5730" selection-end="5730" vertical-scroll-proportion="39.86207" vertical-offset="2736" max-vertical-offset="3400">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="4" selection-start="14916" selection-end="14916" vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="4968">
+        <state line="176" column="6" selection-start="14345" selection-end="14345" vertical-scroll-proportion="-0.44827586" vertical-offset="3507" max-vertical-offset="4180">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md">
+    <entry file="file://$PROJECT_DIR$/jslink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="14" selection-start="5960" selection-end="5960" vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="6216">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homelink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="0" selection-start="9389" selection-end="9389" vertical-scroll-proportion="-13.103448" vertical-offset="2440" max-vertical-offset="6220">
+        <state line="31" column="31" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-6.8965516" vertical-offset="420" max-vertical-offset="4240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="143" selection-end="143" vertical-scroll-proportion="0.2601626" vertical-offset="0" max-vertical-offset="4720">
+        <state line="148" column="83" selection-start="10742" selection-end="10742" vertical-scroll-proportion="0.49019608" vertical-offset="2710" max-vertical-offset="4740">
           <folding />
         </state>
       </provider>
