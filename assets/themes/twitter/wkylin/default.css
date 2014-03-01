@@ -143,7 +143,7 @@ body {
     width: 102px;
     height: 30px;
     _padding-top: 4px;
-    font-family: "\5FAE\8F6F\96C5\9ED1";
+    font-family: "\5FAE\8F6F\96C5\9ED1",arial, helvetica, sans-serif;
 }
 
 input.ui-input-button:focus {
@@ -186,6 +186,7 @@ input.ui-input-button:focus {
     background-color: #fff;
     color: #4d4d4d;
     width: 100px;
+    margin-bottom: 0;
 }
 
 .search-menu .search-more-hd .ui-input-button-hover {
@@ -309,9 +310,10 @@ input.ui-input-button:focus {
     float:right;
     display:inline;
     width:295px;
-    border-left: 3px double #DDDDDD;
+    border-left: 2px double #DDDDDD;
     margin-bottom:-10000px;
     padding-bottom:10000px;
+    padding-left: 10px;
 }
 .ui-footer {
     background: #303030;
