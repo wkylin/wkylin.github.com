@@ -271,7 +271,7 @@ input.ui-input-button:focus {
 }
 
 .ui-content .ui-title {
-    border-bottom: 2px double #DDDDDD;
+    border-bottom: 3px double #DDDDDD;
     margin-bottom: 10px;
     padding: 10px 0 5px 10px;
 }
@@ -310,7 +310,7 @@ input.ui-input-button:focus {
     float:right;
     display:inline;
     width:295px;
-    border-left: 2px double #DDDDDD;
+    border-left: 3px double #DDDDDD;
     margin-bottom:-10000px;
     padding-bottom:10000px;
     padding-left: 10px;
