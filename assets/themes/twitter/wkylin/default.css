@@ -431,3 +431,7 @@ a.home {
     overflow: hidden;
     display: block;
 }
+
+.post{
+    font-size:16px;
+}
