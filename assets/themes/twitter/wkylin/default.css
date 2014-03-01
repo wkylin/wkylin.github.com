@@ -165,7 +165,7 @@ input.ui-input-button:focus {
     position: relative;
 }
 
-.searh-menu .searh-more-hd {
+.search-menu .search-more-hd {
     border: 1px solid #eee;
     left: 0px;
     top: 30px;
@@ -181,14 +181,14 @@ input.ui-input-button:focus {
     border-radius: 3px;
 }
 
-.searh-menu .searh-more-hd .ui-input-button {
+.search-menu .search-more-hd .ui-input-button {
     border: 0 none;
     background-color: #fff;
     color: #4d4d4d;
     width: 100px;
 }
 
-.searh-menu .searh-more-hd .ui-input-button-hover {
+.search-menu .search-more-hd .ui-input-button-hover {
     border: 1px solid #aaa;
     background-color: #eee;
     color: #2566A0;
