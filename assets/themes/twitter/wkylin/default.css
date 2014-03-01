@@ -295,10 +295,9 @@ input.ui-input-button:focus {
     padding: 0 15px;
     text-align: center;
     font-size: 18px;
-}
-.ui-content .ui-list .ui-list-item a{
     color:#333;
 }
+
 .ui-main{
     width:800px;
     padding-right:5px;
