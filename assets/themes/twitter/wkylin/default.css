@@ -260,6 +260,7 @@ input.ui-input-button:focus {
     padding: 0 30px;
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .ui-nav .ui-nav-item-hover a,
@@ -421,7 +422,7 @@ a.home {
     padding: 0 30px;
     height: 60px;
     display: block;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .dsq-widget-comment p {
