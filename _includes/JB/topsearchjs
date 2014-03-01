@@ -5,11 +5,11 @@
             $(this).addClass("ui-tab-trigger-item-current").siblings().removeClass("ui-tab-trigger-item-current");
             $(".ui-meta-right > ul").eq($("#J_uiTab li").index(this)).show().siblings().hide();
         });
-        $(".searh-more").append("<div class='ui-arrow'></div>");
-        $(".searh-menu > li").hover(function () {
+        $(".search-more").append("<div class='ui-arrow'></div>");
+        $(".search-menu > li").hover(function () {
                     $(".ui-arrow").addClass("ui-arrow-hover");
-                    $(this).find(".searh-more-hd").animate({ opacity:"show", height:"show"}, 300);
-                    $(this).find(".searh-more-hd input").hover(
+                    $(this).find(".search-more-hd").animate({ opacity:"show", height:"show"}, 300);
+                    $(this).find(".search-more-hd input").hover(
                             function () {
                                 $(this).addClass("ui-input-button-hover").siblings().removeClass("ui-input-button-hover");
                             },
@@ -20,8 +20,8 @@
                 },
                 function () {
                     $(".ui-arrow").removeClass("ui-arrow-hover");
-                    $(".searh-more-hd").stop(true, true).hide();
-                    $(".searh-more").removeClass("navhover");
+                    $(".search-more-hd").stop(true, true).hide();
+                    $(".search-more").removeClass("navhover");
                 });
         //导航
           $("#J_uiNavUl li").hover(function(){

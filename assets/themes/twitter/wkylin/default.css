@@ -21,9 +21,8 @@ body {
     color: rgb(102, 102, 102);
     font-size-adjust: none;
     font-stretch: normal;
-    min-height: 100px;
-    height: auto !important;
     height: 100px;
+    min-height: 100px;
 }
 
 .ui-container {
@@ -152,7 +151,7 @@ input.ui-input-button:focus {
     outline: none;
 }
 
-.searh-menu li {
+.search-menu li {
     position: relative;
     z-index: 999999;
     width: 102px;
@@ -310,7 +309,6 @@ input.ui-input-button:focus {
     float:right;
     display:inline;
     width:295px;
-    padding:0 0 0 10px;
     border-left: 3px double #DDDDDD;
     margin-bottom:-10000px;
     padding-bottom:10000px;
@@ -322,7 +320,7 @@ input.ui-input-button:focus {
     width: 100%;
 }
 
-.ui-fotter-content {
+.ui-footer-content {
     width: 1140px;
     margin: 10px auto 0;
     color: #666;
@@ -336,9 +334,7 @@ input.ui-input-button:focus {
 
 }
 
-.ui-gotop {
 
-}
 .page-header{
     background:none repeat scroll 0 0 #0088CC;
     padding:10px 0 0px 10px;

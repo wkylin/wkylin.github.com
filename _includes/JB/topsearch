@@ -34,14 +34,14 @@
             </div>
             <div class="ui-meta-right">
                 <!--网页-->
-                <ul class="searh-menu">
+                <ul class="search-menu">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.baidu.com/s?wd='+s.wd.value,'')"
                                    name="百度一下" value="百度一下" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button ui-input-button-hover"
                                    onclick="window.open('http://www.google.com.hk/search?q='+s.wd.value,'')"
                                    name="google" value="谷歌" type="button"/>
@@ -67,14 +67,14 @@
                     </li>
                 </ul>
                 <!--视频-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://video.baidu.com/?q='+s.wd.value,'')"
                                    name="百度视频" value="百度视频" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://so.tudou.com/isearch.do?kw='+s.wd.value,'')"
                                    name="土豆" value="土豆" type="button"/>
@@ -85,14 +85,14 @@
                     </li>
                 </ul>
                 <!--音乐-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://mp3.baidu.com/?q='+s.wd.value,'')"
                                    name="百度mp3" value="百度mp3" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.google.cn/music/search?q='+s.wd.value,'')"
                                    name="谷歌音乐" value="谷歌音乐" type="button"/>
@@ -103,14 +103,14 @@
                     </li>
                 </ul>
                 <!--图片-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://image.baidu.com/?q='+s.wd.value,'')"
                                    name="百度图片" value="百度图片" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.google.com.hk/images?q='+s.wd.value,'')"
                                    name="谷歌图片" value="谷歌图片" type="button"/>
@@ -118,14 +118,14 @@
                     </li>
                 </ul>
                 <!--购物-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://s.taobao.com/search?q='+s.wd.value,'')"
                                    name="taobao" value="淘宝搜索" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://search.360buy.com/search?keyword='+s.wd.value,'')"
                                    name="360buy" value="京东" type="button"/>
@@ -145,14 +145,14 @@
                     </li>
                 </ul>
                 <!--资源-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.gougou.com/search?search='+s.wd.value,'')"
                                    name="gougou" value="迅雷搜索" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.verycd.com/search/folders/'+s.wd.value,'')"
                                    name="verycd" value="电驴搜索" type="button"/>
@@ -160,14 +160,14 @@
                     </li>
                 </ul>
                 <!-- 地图 -->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://map.baidu.com/m?word='+s.wd.value,'')"
                                    name="google" value="百度地图" type="button">
                         </div>
-                        <div class="fn-hide searh-more-hd">
+                        <div class="fn-hide search-more-hd">
                             <input class="ui-input-button"
                                    onclick="window.open('http://ditu.google.cn/maps?q='+s.wd.value,'')"
                                    name="google" value="谷歌地图" type="button"/>
@@ -178,14 +178,14 @@
                     </li>
                 </ul>
                 <!--维基-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://zh.wikipedia.org/wiki/Special:Search?search='+s.wd.value,'')"
                                    value="维基百科" type="button" name="wiki"/>
                         </div>
-                        <div class="fn-hide searh-more-hd">
+                        <div class="fn-hide search-more-hd">
                             <input class="ui-input-button"
                                    onclick="window.open('http://baike.baidu.com/w?ct=17&lm=0&tn=baiduWikiSearch&pn=0&rn=10&word='+s.wd.value,'')"
                                    name="google" value="百度百科" type="button"/>
