@@ -57,14 +57,15 @@ body {
 
 .ui-header-content .blessing {
     margin-top: 5px;
+    color: rgb(0, 136, 204);
 }
 
-.ui-gloable-search {
+.ui-global-search {
     width: 430px;
 
 }
 
-.ui-gloable-search .ui-tab-content {
+.ui-global-search .ui-tab-content {
     background-color: #0782C0;
     padding: 5px 3px 5px 5px;
     height: 30px;
@@ -197,21 +198,21 @@ input.ui-input-button:focus {
     color: #2566A0;
 }
 
-.ui-gloable-search .ui-tab-trigger {
+.ui-global-search .ui-tab-trigger {
     margin-left: 5px;
     height: 30px;
 }
 
-.ui-gloable-search .ui-tab-trigger-item {
+.ui-global-search .ui-tab-trigger-item {
     padding-left: 10px;
     line-height: 30px
 }
 
-.ui-gloable-search .ui-tab-trigger-item span {
+.ui-global-search .ui-tab-trigger-item span {
     padding-right: 10px;
 }
 
-.ui-gloable-search .ui-tab-trigger-item-current {
+.ui-global-search .ui-tab-trigger-item-current {
     background-color: #0782C0;
     bottom: 0;
     -webkit-border-top-left-radius: 5px;
@@ -222,7 +223,7 @@ input.ui-input-button:focus {
     border-top-right-radius: 5px;
 }
 
-.ui-gloable-search .ui-tab-trigger-item-current span {
+.ui-global-search .ui-tab-trigger-item-current span {
     color: #fff;
 }
 
