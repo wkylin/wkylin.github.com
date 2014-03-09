@@ -61,8 +61,8 @@
                                    onclick="window.open('https://developers.google.com/search?q='+s.wd.value,'')"
                                    name="javacode" value="Gcode" type="button"/>
                             <input class="ui-input-button"
-                                   onclick="window.open('http://search.panguso.com/pagesearch.htm?q='+s.wd.value,'')"
-                                   name="javacode" value="盘古" type="button"/>
+                                   onclick="window.open('http://www.chinaso.com/search/pagesearch.htm?q='+s.wd.value,'')"
+                                   name="chinaso" value="中国搜索" type="button"/>
                         </div>
                     </li>
                 </ul>
@@ -75,12 +75,10 @@
                                    name="百度视频" value="百度视频" type="button"/>
                         </div>
                         <div class="search-more-hd fn-hide">
+
                             <input class="ui-input-button"
-                                   onclick="window.open('http://so.tudou.com/isearch.do?kw='+s.wd.value,'')"
-                                   name="土豆" value="土豆" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.soku.com/search_video/q_'+s.wd.value,'')"
-                                   name="优酷" value="优酷" type="button"/>
+                                   onclick="window.open('http://www.soku.com/v?keyword='+s.wd.value,'')"
+                                   name="soku" value="优酷" type="button"/>
                         </div>
                     </li>
                 </ul>
@@ -93,9 +91,6 @@
                                    name="百度mp3" value="百度mp3" type="button"/>
                         </div>
                         <div class="search-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.google.cn/music/search?q='+s.wd.value,'')"
-                                   name="谷歌音乐" value="谷歌音乐" type="button"/>
                             <input class="ui-input-button"
                                    onclick="window.open('http://so.1ting.com/all.do?q='+s.wd.value,'')"
                                    name="一听音乐" value="一听音乐" type="button"/>
