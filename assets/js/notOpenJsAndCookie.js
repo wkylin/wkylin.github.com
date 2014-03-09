@@ -8,11 +8,8 @@
 
     var flag = isDisableCookie();
 
-    if (flag) {
-        document.getElementById("J_notOpenCookie").style.display = "block";
-    } else {
-        document.getElementById("J_notOpenCookie").style.display = "none";
-    }
+    var noCookie = document.getElementById("J_notOpenCookie")
+    flag ? (noCookie.style.display= "block") : (noCookie.style.display = "none");
 
     document.getElementById("J_notOpenJs").style.display = "none";
 })();
