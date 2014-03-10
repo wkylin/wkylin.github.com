@@ -124,3 +124,7 @@ http://sindresorhus.com/bower-components/
 <http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js/>
 
 <http://chemzqm.me/v/6>
+
+<http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/>
+
+<http://wkylin.github.io/assets/GruntJsPpt/gruntJs.html/>
