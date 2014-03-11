@@ -41,11 +41,13 @@ description: |
 
 ###Grunt---The JavaScript Task Runner
 
-<http://gruntjs.com/>
+<http://gruntjs.com>
 
-<http://gruntjs.cn/>
+<http://gruntjs.cn>
 
 <http://www.gruntjs.org>
+
+<http://www.gruntjs.net>
 
 命令：npm uninstall -g grunt npm install -g grunt-cli
 
@@ -83,6 +85,7 @@ http://sindresorhus.com/bower-components/
 ###Yeoman ----MODERN WORKFLOWS FOR MODERN WEBAPPS
 
 <http://yeoman.io/>
+
 <http://yeomanjs.org/>
 
 命令：npm install -g yo
@@ -127,4 +130,4 @@ http://sindresorhus.com/bower-components/
 
 <http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/>
 
-
+<http://wkylin.github.io/assets/GruntJsPpt/gruntJs.html#/title>
