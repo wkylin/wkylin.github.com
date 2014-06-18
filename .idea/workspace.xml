@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="site link&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3link.html" afterPath="$PROJECT_DIR$/css3link.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslink.html" afterPath="$PROJECT_DIR$/jslink.html" />
+    <list default="true" id="a4a053fa-2e5d-4dde-8d3b-128620533d6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -1273,7 +1271,11 @@
       <created>1403070867805</created>
       <updated>1403070867805</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="site link&#10;">
+      <created>1403071887669</created>
+      <updated>1403071887669</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
