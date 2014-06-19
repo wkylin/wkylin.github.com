@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Code Quality Tool
-category: Code Quality Tool
+title: web optimization tool
+category: web optimization tool
 tags: [SEO, optimization]
 description: | 
    网站优化在线工具-----免费在线的 Web 网站性能测试工具 

@@ -32,8 +32,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38343558" vertical-offset="0" max-vertical-offset="1250">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.34509203" vertical-offset="0" max-vertical-offset="1250">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -1312,7 +1312,11 @@
       <created>1403165128681</created>
       <updated>1403165128681</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="website optimization&#10;">
+      <created>1403165281121</created>
+      <updated>1403165281121</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -1438,9 +1442,9 @@
     <MESSAGE value="web app" />
     <MESSAGE value="web app&#10;" />
     <MESSAGE value="site link&#10;" />
-    <MESSAGE value="website optimization&#10;" />
     <MESSAGE value="markdown: kramdown &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="markdown: kramdown &#10;" />
+    <MESSAGE value="website optimization&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="website optimization&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1810,8 +1814,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38343558" vertical-offset="0" max-vertical-offset="1250">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.34509203" vertical-offset="0" max-vertical-offset="1250">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
