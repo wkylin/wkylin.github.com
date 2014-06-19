@@ -2,12 +2,12 @@
 layout: post
 title: Code Quality Tool
 category: Code Quality Tool
-tags: [HTML5, JS]
-description: | 网站优化在线工具 
+tags: [SEO, optimization]
+description: | 
+   网站优化在线工具-----免费在线的 Web 网站性能测试工具 
 ---
 
 ###免费在线的 Web 网站性能测试工具
-
 
 <http://www.webpagetest.org/>
 
