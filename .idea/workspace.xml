@@ -32,8 +32,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34509203" vertical-offset="0" max-vertical-offset="1250">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state vertical-scroll-proportion="-0.4601227" vertical-offset="375" max-vertical-offset="1250">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -1316,7 +1316,11 @@
       <created>1403165281121</created>
       <updated>1403165281121</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <task id="LOCAL-00250" summary="website optimization&#10;">
+      <created>1403166813843</created>
+      <updated>1403166813843</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <option name="searchClosedTasks" value="true" />
     <servers />
   </component>
@@ -1814,8 +1818,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34509203" vertical-offset="0" max-vertical-offset="1250">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state vertical-scroll-proportion="-0.4601227" vertical-offset="375" max-vertical-offset="1250">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
         </state>
       </provider>
