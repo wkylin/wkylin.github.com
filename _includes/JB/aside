@@ -23,7 +23,7 @@
 </div>
 
 <h2 class="tags-sort" style="margin-top:10px; background-color:#0088CC;color:#fff;">最近发表</h2>
-<ul id="recent_posts" style="margin-left:15px;">{% for rpost in site.posts limit: 10 %}
+<ul id="recent_posts" style="margin-left:15px;">{% for rpost in site.posts limit: 20 %}
     <li class="post" >
         <a href="{{ BASE_PATH }}{{ rpost.url }}">{{ rpost.title }}</a>
     </li>{% endfor %}
