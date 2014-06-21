@@ -9,149 +9,151 @@ description: |
 
 ###1. 布局框架：
 
-Bootstrap: http://getbootstrap.com/
+Bootstrap: <http://getbootstrap.com/>
     
-Foundation: http://foundation.zurb.com/
+Foundation: <http://foundation.zurb.com/>
     
-Uikit: http://www.getuikit.com/
+Uikit: <http://www.getuikit.com/>
     
 
 ###2. 构建工具及包管理器：
 
-Grunt: http://gruntjs.com/
+Grunt: <http://gruntjs.com/>
 
-Yeoman: http://yeoman.io/
+Yeoman: <http://yeoman.io/>
 
-Bower:  http://bower.io/
+Bower: <http://bower.io/>
 
-NPM: https://www.npmjs.org/
+NPM: <https://www.npmjs.org/>
 
 ###3. 代码优化：
 
 Google Closure Compiler:
 
-CSS Lint:  http://csslint.net/
+CSS Lint:  <http://csslint.net/>
 
-JSHint: http://www.jshint.com/
+JSHint: <http://www.jshint.com/>
+
+JSLint: <http://www.jslint.com/>
 
 ###4. CSS预处理器
 
-Less: http://lesscss.org/
+Less: <http://lesscss.org/>
 
-Sass: http://sass-lang.com/
+Sass: <http://sass-lang.com/>
 
 ###5. 调试工具：
 
-Chrome：https://developers.google.com/chrome-developer-tools/
+Chrome：<https://developers.google.com/chrome-developer-tools/>
 
-Firebug: https://getfirebug.com/
+Firebug: <https://getfirebug.com/>
 
-HTTPWatch: http://www.httpwatch.com/
+HTTPWatch: <http://www.httpwatch.com/>
 
-Fiddler: http://www.telerik.com/fiddler
+Fiddler: <http://www.telerik.com/fiddler>
 
 IE Developer Toolbar: 
 
-Weinre: http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html
+Weinre: <http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html>
 
 ###6. 文档工具：
 
-JSDoc: https://github.com/jsdoc3/jsdoc
+JSDoc: <https://github.com/jsdoc3/jsdoc>
 
-Jekyll: http://jekyllrb.com/
+Jekyll: <http://jekyllrb.com/>
 
 ###7. IDE/文本编辑器
 
-WebStorm: http://www.jetbrains.com/webstorm/
+WebStorm: <http://www.jetbrains.com/webstorm/>
 
 ###8. 移动端 手势事件库：
 
-GMU: http://gmu.baidu.com/
+GMU: <http://gmu.baidu.com/>
 
-Hammer.js: http://eightmedia.github.io/hammer.js/
+Hammer.js:< http://eightmedia.github.io/hammer.js/>
 
-QuoJS: http://quojs.tapquo.com/
+QuoJS: <http://quojs.tapquo.com/>
 
-Zepto: http://zeptojs.com/
+Zepto: <http://zeptojs.com/>
 
-Swipe: http://swipejs.com/
+Swipe: <http://swipejs.com/>
 
-jQuery Mobile: http://jquerymobile.com/
+jQuery Mobile: <http://jquerymobile.com/>
 
 ###9. 思维导图
 
-XMind: http://www.xmind.net/
+XMind:<http://www.xmind.net/>
 
 ###10.模块加载器：
 
-ESL: https://github.com/ecomfe/esl
+ESL:< https://github.com/ecomfe/esl>
 
-RequireJS: http://requirejs.org/
+RequireJS: <http://requirejs.org/>
 
-SeaJS: http://seajs.org/docs/
+SeaJS:<http://seajs.org/docs/>
 
 ###11. 项目管理:
 
-Github: https://github.com/
+Github: <https://github.com/>
 
-GitLab: 
+GitLab: <https://about.gitlab.com/>
 
-Redmine: http://www.redmine.org/
+Redmine: <http://www.redmine.org/>
     
 
 ###12. 原型设计:
 
-Axure RP: http://www.axure.com/
+Axure RP: <http://www.axure.com/>
 
 ###13. 富互联网应用框架
 
- AngularJs: http://www.angularjs.org
+ AngularJs: <http://www.angularjs.org>
  
- Backbone: http://backbonejs.org/
+ Backbone: <http://backbonejs.org/>
  
- Knockout: http://knockoutjs.com/
+ Knockout: <http://knockoutjs.com/>
  
- Underscore: http://underscorejs.org/
+ Underscore: <http://underscorejs.org/>
 
 ###14. 模板引擎
 
- EJS: http://www.embeddedjs.com/
+ EJS: <http://www.embeddedjs.com/>
  
- Handlebars: http://handlebarsjs.com/
+ Handlebars: <http://handlebarsjs.com/>
  
- Jade: http://jade-lang.com/
+ Jade: <http://jade-lang.com/>
  
- Velocity: http://velocity.apache.org/
+ Velocity: <http://velocity.apache.org/>
 
 ###15. 测试框架
 
-Jasmine: http://pivotal.github.io/jasmine/
+Jasmine: <http://pivotal.github.io/jasmine/>
 
-QUnit: http://qunitjs.com/
+QUnit: <http://qunitjs.com/>
 
-mocha: http://visionmedia.github.io/mocha/
+mocha: <http://visionmedia.github.io/mocha/>
 
 ###16. 版本控制
 
-Git: http://git-scm.com/
+Git: <http://git-scm.com/>
 
-Subversion: http://subversion.apache.org/
+Subversion: <http://subversion.apache.org/>
 
-Mercurial(Hg):  http://mercurial.selenic.com/
+Mercurial(Hg):  <http://mercurial.selenic.com/>
 
 ###17. WEB框架/服务器
 
-Node: http://nodejs.org/
+Node: <http://nodejs.org/>
 
-Express:  http://expressjs.com/
+Express:  <http://expressjs.com/>
 
-Apache: http://httpd.apache.org/
+Apache: <http://httpd.apache.org/>
 
-Nginx: http://nginx.org/
+Nginx: <http://nginx.org/>
 
 ###18. CommonJS
 
-Component: http://component.io/
+Component: <http://component.io/>
 
 ###19. WEB安全
 
@@ -165,10 +167,10 @@ Clickjacking安全漏洞:
 
 ###20. 代码规范
 
-Code Guide: http://alloyteam.github.io/code-guide/
+Code Guide: <http://alloyteam.github.io/code-guide/>
 
-编写可维护的CSS: http://segmentfault.com/a/1190000000388784/
+编写可维护的CSS: <http://segmentfault.com/a/1190000000388784/>
 
-GJS编码规范指南: http://alloyteam.github.io/JX/doc/specification/google-javascript.xml
+GJS编码规范指南: <http://alloyteam.github.io/JX/doc/specification/google-javascript.xml>
 
-jQueryJS规范: http://contribute.jquery.org/style-guide/js/
+jQueryJS规范: <http://contribute.jquery.org/style-guide/js/>
