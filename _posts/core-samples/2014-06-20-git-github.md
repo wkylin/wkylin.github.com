@@ -97,4 +97,6 @@ http://marklodato.github.io/visual-git-guide/index-zh-cn.html#commit>
 
 ###Git Magic
 
-<https://github.com/blynn/gitmagic/tree/master/zh_cn>
+<http://www-cs-students.stanford.edu/~blynn/gitmagic/>
+
+<http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/index.html>
