@@ -94,3 +94,7 @@ http://marklodato.github.io/visual-git-guide/index-zh-cn.html#commit>
 ###最新的托管服务列表
 
 <http://git.or.cz/gitwiki/GitHosting>
+
+###Git Magic
+
+<https://github.com/blynn/gitmagic/tree/master/zh_cn>
