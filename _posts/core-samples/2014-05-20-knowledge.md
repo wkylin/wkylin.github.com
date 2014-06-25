@@ -174,3 +174,16 @@ Code Guide: <http://alloyteam.github.io/code-guide/>
 GJS编码规范指南: <http://alloyteam.github.io/JX/doc/specification/google-javascript.xml>
 
 jQueryJS规范: <http://contribute.jquery.org/style-guide/js/>
+
+
+###21. HTML模块化
+
+html5boilerplate: <http://html5boilerplate.com/>
+
+###22. CSS模块化
+
+Normalize.css: <http://necolas.github.io/normalize.css/>
+
+LESS:<http://www.lesscss.net/>
+
+OOCSS:<http://www.oocss.cc/>
