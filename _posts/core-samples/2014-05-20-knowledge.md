@@ -80,6 +80,8 @@ Swipe: <http://swipejs.com/>
 
 jQuery Mobile: <http://jquerymobile.com/>
 
+KendoUI:<http://www.telerik.com/kendo-ui>
+
 ###9. 思维导图
 
 XMind:<http://www.xmind.net/>
