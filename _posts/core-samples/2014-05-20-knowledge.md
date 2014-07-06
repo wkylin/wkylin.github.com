@@ -193,3 +193,9 @@ Normalize.css: <http://necolas.github.io/normalize.css/>
 LESS:<http://www.lesscss.net/>
 
 OOCSS:<http://www.oocss.cc/>
+
+###23. HTML5 Canvas
+
+D3:<http://d3js.org/>
+
+KINETIC:<http://kineticjs.com/>
