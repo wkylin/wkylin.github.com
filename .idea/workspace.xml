@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homelink.html" afterPath="$PROJECT_DIR$/homelink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="2014-05-20-knowledge.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7783688" vertical-offset="4586" max-vertical-offset="5175">
-              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4219858" vertical-offset="2737" max-vertical-offset="5225">
+              <caret line="119" column="12" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -292,7 +291,11 @@
       <created>1404615579462</created>
       <updated>1404615579462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="36kr">
+      <created>1404620057028</created>
+      <updated>1404620057028</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7783688" vertical-offset="4586" max-vertical-offset="5175">
-          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4219858" vertical-offset="2737" max-vertical-offset="5225">
+          <caret line="119" column="12" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="12" />
           <folding />
         </state>
       </provider>
