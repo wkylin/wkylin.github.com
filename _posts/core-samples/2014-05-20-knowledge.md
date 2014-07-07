@@ -194,7 +194,7 @@ Normalize.css: <http://necolas.github.io/normalize.css/>
 
 LESS:<http://www.lesscss.net/>
 
-OOCSS:<http://www.oocss.cc/>
+OOCSS:<http://www.oocss.cc/> <http://oocss.org/>
 
 ###23. HTML5 Canvas
 
