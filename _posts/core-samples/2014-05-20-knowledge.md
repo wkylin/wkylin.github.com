@@ -196,6 +196,8 @@ LESS:<http://www.lesscss.net/>
 
 OOCSS:<http://www.oocss.cc/> <http://oocss.org/>
 
+CssReset:<http://www.cssreset.com/>
+
 ###23. HTML5 Canvas
 
 D3:<http://d3js.org/>
