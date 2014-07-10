@@ -131,3 +131,5 @@ http://sindresorhus.com/bower-components/
 <http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/>
 
 <http://wkylin.github.io/assets/GruntJsPpt/gruntJs.html#/title>
+
+<http://www.w3c.com.cn/yeoman-grunt-bower%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/>
