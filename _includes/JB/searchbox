@@ -1,7 +1,7 @@
 <form method="get" action="http://www.google.com/search" target="google_window" style="margin-bottom: 0px;">
    <div>
         <input type="text" value="" name="q" style="width:200px;height:20px;padding:3px;"/>
-        <input type="submit" name=”btnG” id="searchsubmit" value=" 站内搜索 "style="width:60px;height:26px;line-height:26px;" />
+        <input type="submit" name=”btnG” id="searchsubmit" value=" 站内搜索 "style="width:60px;height:26px;line-height:18px;" />
     </div>
     <input type="hidden" name="ie" value="UTF-8" />
     <input type="hidden" name="oe" value="UTF-8" />
