@@ -49,8 +49,8 @@
       <file leaf-file-name="css3link.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.525" vertical-offset="288" max-vertical-offset="6168">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.9" vertical-offset="3888" max-vertical-offset="6096">
+              <caret line="186" column="99" selection-start-line="186" selection-start-column="99" selection-end-line="186" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -413,7 +413,11 @@
       <created>1406624077658</created>
       <updated>1406624077658</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="modify css">
+      <created>1406624236951</created>
+      <updated>1406624236951</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -881,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.525" vertical-offset="288" max-vertical-offset="6168">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.9" vertical-offset="3888" max-vertical-offset="6096">
+          <caret line="186" column="99" selection-start-line="186" selection-start-column="99" selection-end-line="186" selection-end-column="99" />
           <folding />
         </state>
       </provider>
