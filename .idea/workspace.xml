@@ -59,8 +59,8 @@
       <file leaf-file-name="css3link.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24913494" vertical-offset="1512" max-vertical-offset="6048">
-              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.396875" vertical-offset="1474" max-vertical-offset="6048">
+              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -363,7 +363,11 @@
       <created>1406596918330</created>
       <updated>1406596918330</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="amaze ui">
+      <created>1406598487321</created>
+      <updated>1406598487321</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -426,7 +430,8 @@
     <MESSAGE value="幽竹前端" />
     <MESSAGE value="smart git" />
     <MESSAGE value="服务端的模块加载器" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务端的模块加载器" />
+    <MESSAGE value="amaze ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="amaze ui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -839,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24913494" vertical-offset="1512" max-vertical-offset="6048">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.396875" vertical-offset="1474" max-vertical-offset="6048">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
           <folding />
         </state>
       </provider>
