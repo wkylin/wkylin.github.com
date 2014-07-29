@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csserlink.html" afterPath="$PROJECT_DIR$/csserlink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="csserlink.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csserlink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56852794" vertical-offset="144" max-vertical-offset="1152">
-              <caret line="20" column="90" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.893401" vertical-offset="144" max-vertical-offset="1176">
+              <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -425,7 +424,11 @@
       <created>1406619905854</created>
       <updated>1406619905854</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="delete some">
+      <created>1406620384339</created>
+      <updated>1406620384339</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -891,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csserlink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56852794" vertical-offset="144" max-vertical-offset="1152">
-          <caret line="20" column="90" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.893401" vertical-offset="144" max-vertical-offset="1176">
+          <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
           <folding />
         </state>
       </provider>
