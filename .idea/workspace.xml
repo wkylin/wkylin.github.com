@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homelink.html" afterPath="$PROJECT_DIR$/homelink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uedlink.html" afterPath="$PROJECT_DIR$/uedlink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -90,8 +89,8 @@
       <file leaf-file-name="uedlink.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uedlink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.330781" vertical-offset="576" max-vertical-offset="3960">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.29402757" vertical-offset="1368" max-vertical-offset="3408">
+              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -470,7 +469,11 @@
       <created>1406773345135</created>
       <updated>1406773345135</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="modify ued">
+      <created>1406775708845</created>
+      <updated>1406775708845</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +519,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="ignore .idea" />
     <MESSAGE value="web components" />
     <MESSAGE value="36kr" />
     <MESSAGE value="AmpersandJS" />
@@ -541,7 +543,8 @@
     <MESSAGE value="modify css" />
     <MESSAGE value="modify js" />
     <MESSAGE value="modify nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify nav" />
+    <MESSAGE value="modify ued" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify ued" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -926,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uedlink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.330781" vertical-offset="576" max-vertical-offset="3960">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.29402757" vertical-offset="1368" max-vertical-offset="3408">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
           <folding />
         </state>
       </provider>
