@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uedlink.html" afterPath="$PROJECT_DIR$/uedlink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +30,8 @@
       <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="4728">
-              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            <state vertical-scroll-proportion="1.6551725" vertical-offset="1440" max-vertical-offset="4776">
+              <caret line="58" column="95" selection-start-line="58" selection-start-column="95" selection-end-line="58" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -89,8 +90,8 @@
       <file leaf-file-name="uedlink.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uedlink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29402757" vertical-offset="1368" max-vertical-offset="3408">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.55895865" vertical-offset="1579" max-vertical-offset="2352">
+              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -116,7 +117,6 @@
         <option value="$PROJECT_DIR$/_includes/JB/searchbox" />
         <option value="$PROJECT_DIR$/assets/css/base.min.css" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-        <option value="$PROJECT_DIR$/html5.html" />
         <option value="$PROJECT_DIR$/csserlink.html" />
         <option value="$PROJECT_DIR$/lifelink.html" />
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
@@ -124,6 +124,7 @@
         <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/homelink.html" />
+        <option value="$PROJECT_DIR$/html5.html" />
         <option value="$PROJECT_DIR$/uedlink.html" />
       </list>
     </option>
@@ -473,7 +474,11 @@
       <created>1406775708845</created>
       <updated>1406775708845</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="modify ued">
+      <created>1406776384967</created>
+      <updated>1406776384967</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -879,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="4728">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2088" max-vertical-offset="6840">
@@ -927,10 +924,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6551725" vertical-offset="1440" max-vertical-offset="4776">
+          <caret line="58" column="95" selection-start-line="58" selection-start-column="95" selection-end-line="58" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uedlink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29402757" vertical-offset="1368" max-vertical-offset="3408">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.55895865" vertical-offset="1579" max-vertical-offset="2352">
+          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
           <folding />
         </state>
       </provider>
