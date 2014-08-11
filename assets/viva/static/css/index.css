@@ -304,6 +304,7 @@ header {
     width: 95%;
     background-color: #fbfbf1;
     margin: 0 auto 13px;
+    padding-bottom: 15px;
 }
 
 .ui-grape-item .ui-circle {
