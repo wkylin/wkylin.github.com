@@ -295,9 +295,47 @@ header {
     margin-top: 15px;
     position: absolute;
     right: 0;
-
 }
 
+.ui-activity{
+    width:100%;
+}
+
+.ui-activity-img{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.ui-activity-box{
+    text-align:left;
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+    width:95%;
+    margin:0 auto;
+}
+.ui-activity-box h2{
+    font-size:14px;
+    color:#000;
+    text-align:left;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding:5px 0;
+}
+
+.ui-activity-box a{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    display:inline-block;
+    text-align:right;
+    padding:5px 20px;
+    background-color:#ef6130;
+    color:#fff;
+    font-size:14px;
+    text-decoration: none;
+}
 /* ui-grape-item */
 
 .ui-grape-item {
