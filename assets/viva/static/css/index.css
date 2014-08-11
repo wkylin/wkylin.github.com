@@ -194,7 +194,6 @@ header {
     -webkit-box-flex: 1;
     box-flex: 1;
     text-align: left;
-    padding: 0 10px;
     margin: 0 10px;
 }
 
@@ -415,7 +414,7 @@ header {
 
 .ui-copyright {
     font-family: arial, verdana, helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #8f8f8f;
     text-align: center;
     padding: 5px 0 10px 0;
