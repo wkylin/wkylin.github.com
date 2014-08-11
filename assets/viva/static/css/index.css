@@ -182,10 +182,10 @@ header {
     display: -webkit-box;
     display: box;
     width: 95%;
+    margin: 0 auto;
 }
 
 .ui-figure figure {
-    border-bottom: 2px solid #b8b8b8;
 
 }
 
@@ -195,6 +195,8 @@ header {
     box-flex: 1;
     text-align: left;
     margin: 0 10px;
+    border:1px solid #eee;
+    box-shadow:0 2px  2px #333;
 }
 
 .ui-figure img {
