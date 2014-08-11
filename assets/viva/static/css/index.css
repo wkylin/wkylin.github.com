@@ -183,6 +183,7 @@ header {
     box-flex: 1;
     text-align: left;
     padding: 0 10px;
+    margin: 0 10px;
 }
 
 .ui-figure img {
@@ -281,7 +282,7 @@ header {
     height: 26px;
     display: block;
     background: url(../images/arrow.png) 0 0 no-repeat transparent;
-    margin-top: 20px;
+    margin-top: 15px;
     position: absolute;
     right: 0;
 
@@ -317,6 +318,7 @@ header {
 .ui-grape-item img {
     width: 120px;
     padding-right: 10px;
+    margin-right: 10px;
 }
 
 
