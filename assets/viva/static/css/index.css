@@ -303,7 +303,6 @@ header {
 }
 
 .ui-grape-item figure {
-    width: 100%;
     display: -moz-box;
     display: -webkit-box;
     display: box;
@@ -317,7 +316,6 @@ header {
 }
 .ui-grape-item img {
     width: 120px;
-    padding-right: 10px;
     margin-right: 10px;
 }
 
