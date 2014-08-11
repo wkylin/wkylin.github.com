@@ -199,9 +199,6 @@ header {
     box-shadow:0 2px  2px #333;
 }
 
-.ui-figure img {
-    width: 140px;
-}
 
 .ui-figure .figure-text {
     padding: 4px;
@@ -367,11 +364,6 @@ header {
     margin-right: 10px;
     min-width:120px;
 }
-.ui-grape-item img {
-    width:120px;
-}
-
-
 
 .ui-grape-item .ui-grape-text {
     -moz-box-flex: 1;
