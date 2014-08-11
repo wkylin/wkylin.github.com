@@ -313,10 +313,11 @@ header {
     -moz-box-flex: 1;
     -webkit-box-flex: 1;
     box-flex: 1;
+    margin-right: 10px;
 }
 .ui-grape-item img {
     width: 120px;
-    margin-right: 10px;
+    height:120px;
 }
 
 
