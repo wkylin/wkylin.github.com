@@ -237,13 +237,10 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $("#J_uiNav").on("click",function(){
-
-            $("#J_uiNavBox").slideDown();
+            $("#J_uiNavBox").toggle(600);
             return false;
         });
-        $(document).on("click",function(){
-            $("#J_uiNavBox").slideUp();
-        });
+
     });
 </script>
 </body>

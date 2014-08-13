@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25358853" vertical-offset="4910" max-vertical-offset="6120">
-              <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.4258373" vertical-offset="5558" max-vertical-offset="6048">
+              <caret line="239" column="41" selection-start-line="239" selection-start-column="41" selection-end-line="239" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -634,7 +634,11 @@
       <created>1407913841438</created>
       <updated>1407913841438</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="add viva">
+      <created>1407913938342</created>
+      <updated>1407913938342</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1020,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25358853" vertical-offset="4910" max-vertical-offset="6120">
-          <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.4258373" vertical-offset="5558" max-vertical-offset="6048">
+          <caret line="239" column="41" selection-start-line="239" selection-start-column="41" selection-end-line="239" selection-end-column="41" />
           <folding />
         </state>
       </provider>
