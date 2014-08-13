@@ -403,15 +403,19 @@ header {
 .ui-master-list {
     background-color: #fff;
     padding: 10px 0;
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
 }
 
 .ui-master-list li {
-    margin: 5px;
-    float: left;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
 }
 
 .ui-master-list li img {
-    border-radius: 100;
+    border-radius: 50;
     width: 50px;
 }
 
