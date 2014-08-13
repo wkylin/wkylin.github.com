@@ -334,9 +334,7 @@ header {
 }
 
 .ui-grape-item .ui-circle {
-    height: 32px;
     clear: both;
-    background: url(../images/circle.png) 0 center repeat-x transparent;
 }
 
 .ui-grape-item figure {
@@ -347,12 +345,9 @@ header {
 }
 
 .ui-grape-item .ui-grape-img {
-    -moz-box-flex: 1;
-    -webkit-box-flex: 1;
-    box-flex: 1;
-    margin-right: 10px;
     width: 120px;
     height: 120px;
+    padding-right:10px;
 }
 
 .ui-grape-item .ui-grape-text {
@@ -360,6 +355,7 @@ header {
     -webkit-box-flex: 1;
     box-flex: 1;
     text-align: left;
+    word-wrap: break-word;
 }
 
 .ui-grape-item h2 {
@@ -533,11 +529,11 @@ header {
     top: 10px;
     left: 90px;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 20px;
     height: 20px;
     background-color: #ef6130;
-    font-size: 16px;
+    font-size: 14px;
     line-height: normal;
     text-align: center;
 }

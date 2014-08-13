@@ -27,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7703349" vertical-offset="5510" max-vertical-offset="6096">
-              <caret line="243" column="39" selection-start-line="243" selection-start-column="39" selection-end-line="243" selection-end-column="39" />
+            <state vertical-scroll-proportion="-2.8275862" vertical-offset="4286" max-vertical-offset="6120">
+              <caret line="182" column="28" selection-start-line="182" selection-start-column="28" selection-end-line="182" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="10171" max-vertical-offset="14544">
-              <caret line="438" column="17" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.54809844" vertical-offset="7891" max-vertical-offset="14448">
+              <caret line="339" column="23" selection-start-line="339" selection-start-column="23" selection-end-line="339" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
         <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_site/assets/themes/twitter/wkylin/default.css" />
-        <option value="$PROJECT_DIR$/assets/viva/static/css/index.css" />
         <option value="$PROJECT_DIR$/assets/viva/static/index.html" />
+        <option value="$PROJECT_DIR$/assets/viva/static/css/index.css" />
       </list>
     </option>
   </component>
@@ -619,7 +619,11 @@
       <created>1407911817605</created>
       <updated>1407911817606</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="add viva">
+      <created>1407912200525</created>
+      <updated>1407912200526</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -997,18 +1001,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/css/index.css">
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10171" max-vertical-offset="14544">
-          <caret line="438" column="17" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
+        <state vertical-scroll-proportion="-2.8275862" vertical-offset="4286" max-vertical-offset="6120">
+          <caret line="182" column="28" selection-start-line="182" selection-start-column="28" selection-end-line="182" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7703349" vertical-offset="5510" max-vertical-offset="6096">
-          <caret line="243" column="39" selection-start-line="243" selection-start-column="39" selection-end-line="243" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.54809844" vertical-offset="7891" max-vertical-offset="14448">
+          <caret line="339" column="23" selection-start-line="339" selection-start-column="23" selection-end-line="339" selection-end-column="23" />
           <folding />
         </state>
       </provider>
