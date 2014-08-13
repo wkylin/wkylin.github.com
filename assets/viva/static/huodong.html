@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>VIVA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content=”yes” name=”apple-mobile-web-app-capable”/>
+    <meta content=”black” name=”apple-mobile-web-app-status-bar-style”/>
+    <meta content=”telephone=no” name=”format-detection”/>
+    <meta content=”email=no” name=”format-detection”/>
+
+    <link rel="apple-touch-icon-precomposed" href="logo.png">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <meta name="description" content="VIVA">
+    <meta name="keywords" content="VIVA">
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div class="ui-container">
+    <!-- header -->
+    <header>
+        <div class="ui-header">
+            <div class="ui-nav" id="J_uiNav">
+                <img src="images/icons35.png" alt=""/>
+            </div>
+            <div class="channel">
+                <span class="sub-chanel">芊色</span><span class="fn-bar">|</span><span class="sub-info">活动多多</span>
+            </div>
+
+            <div class="ui-account">
+                <a href="#"></a><img src="images/icons37.png" alt=""/></a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- nav-box -->
+    <div class="ui-nav-box" id="J_uiNavBox">
+        <div class="ui-avatar">
+            <figure>
+                <img src="upImg/picture3.png" alt=""/>
+
+                <p>Isabella</p>
+                <span>2</span>
+            </figure>
+        </div>
+        <div class="ui-search">
+            <div class="ui-search-box">
+                <img src="images/search-bg.png" width="20" height="20"/><input type="text" class="ui-input"/>
+            </div>
+        </div>
+        <ul class="ui-nav-list">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">致食|新品上市</a></li>
+            <li class="current"><a href="#">悠享|乐活故事</a></li>
+            <li><a href="#">食记|美味新关系</a></li>
+            <li><a href="#">芊色|活动多多</a></li>
+            <li><a href="#">购物车<span>2</span></a></li>
+        </ul>
+    </div>
+    <!-- section -->
+    <section>
+        <div class="ui-activity fn-mt60">
+            <div class="ui-activity-img">
+                <a href="#"><img src="upImg/pic2.png" width="100%"/></a>
+            </div>
+            <div class="ui-activity-box">
+                <h2><img src="images/icons40.png"  alt="" /> 283个用户参与</h2>
+                <a href="#">立刻加入></a>
+            </div>
+        </div>
+
+        <div class="ui-activity">
+            <div class="ui-activity-img">
+                <a href="#"><img src="upImg/pic8.png" width="100%"/></a>
+            </div>
+            <div class="ui-activity-box">
+                <h2><img src="images/icons40.png"  alt="" /> 283个用户参与</h2>
+                <a href="#">立刻加入></a>
+            </div>
+        </div>
+
+        <div class="ui-activity-more">
+            <a href="#"><img src="upImg/pic9.png" width="100%" height="100%" alt=""/></a>
+        </div>
+    </section>
+
+</div>
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#J_uiNav").on("click", function () {
+            $("#J_uiNavBox").toggle(600);
+            return false;
+        });
+
+    });
+</script>
+</body>
+</html>
