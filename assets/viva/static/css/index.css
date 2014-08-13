@@ -436,6 +436,7 @@ header {
     left: 0;
     top: 56px;
     z-index: 10000;
+    display:none;
 }
 
 .ui-avatar {
