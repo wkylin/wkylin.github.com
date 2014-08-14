@@ -95,7 +95,7 @@ body {
 }
 
 .ui-return a{
-    font-size:14px;
+    font-size:18px;
     color:#9b9b9b;
     font-weight: bold;
 }
@@ -109,10 +109,10 @@ body {
 
 .ui-comment img,
 .ui-favorites img{
-    width:23px;
+    width:30px;
 }
 .ui-get-go img{
-    width:20px;
+    width:30px;
 }
 
 .ui-title-hd{
