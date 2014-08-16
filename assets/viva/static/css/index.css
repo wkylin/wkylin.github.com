@@ -68,6 +68,7 @@ body {
 
 .ui-header .ui-nav img {
     width: 20px;
+    margin-top:5px;
 }
 
 .ui-header .ui-account {
@@ -79,6 +80,7 @@ body {
 
 .ui-header .ui-account img {
     width: 23px;
+    margin-top:5px;
 }
 
 .ui-return{
