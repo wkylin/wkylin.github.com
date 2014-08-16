@@ -7,7 +7,7 @@ body {
     font-size: 12px;
     font-family: "SimSun", arial narrow, helvetica, sans-serif;
     text-align: center;
-    max-width: 640px;
+    
 }
 
 .ui-header {
@@ -242,7 +242,7 @@ body {
     text-align: left;
     margin: 0 10px;
     border: 1px solid #eee;
-    box-shadow: 0 2px 2px #333;
+    /*box-shadow: 0 2px 2px #333;*/
 }
 
 .ui-figure .figure-text {
@@ -522,7 +522,7 @@ body .no-border-bottom{
 }
 
 .ui-sort-list li {
-    font-size:18px;
+    font-size:14px;
     line-height: 23px;
 }
 .ui-sort-list li img{
@@ -569,12 +569,12 @@ body .no-border-bottom{
     border-left:none;
 }
 .ui-recipe .ui-recipe-img{
-    width:150px;
+    width:130px;
     text-align:right;
 }
 
 .ui-recipe .ui-recipe-img img{
-    max-width:150px;
+    max-width:130px;
     text-align:left;
 }
 
@@ -596,8 +596,8 @@ body .no-border-bottom{
 }
 
 .ui-recipe .ui-recipe-dd  img{
-    width:50px;
-    border-radius: 50px;
+    width:40px;
+    border-radius: 40px;
 }
 
 .ui-recipe-action{
@@ -606,20 +606,18 @@ body .no-border-bottom{
 }
 .ui-recipe-cc{
     float:left;
-    padding-top:20px;
     font-size:18px;
 }
 
 .ui-recipe-dd{
     float:left;
-    height:60px;
     margin-left:10px;
 }
 /* ui-nav-box */
 .ui-nav-box {
     width: 200px;
     background-color: rgba(0, 0, 0, .5);
-    padding: 20px 0;
+    padding: 10px 0;
     position: fixed;
     left: 0;
     top: 56px;
@@ -644,7 +642,7 @@ body .no-border-bottom{
     width: 80px;
     height: 80px;
     border-radius: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .ui-avatar figure p {
@@ -666,7 +664,7 @@ body .no-border-bottom{
 }
 
 .ui-search {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .ui-search-box {
@@ -695,8 +693,8 @@ body .no-border-bottom{
 }
 
 .ui-nav-list li {
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     width: 100%;
     font-size: 16px;
     text-align: left;

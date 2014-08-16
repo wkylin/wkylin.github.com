@@ -131,6 +131,10 @@
         <visible value="true" />
         <editable value="false" />
       </tracking-columns>
+      <sorting>
+        <nulls-first value="true" />
+        <max-sorting-columns value="4" />
+      </sorting>
     </dataset-grid-settings>
     <dataset-editor-settings>
       <text-editor-popup>
