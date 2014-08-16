@@ -136,7 +136,7 @@ body {
 }
 /* ui-banner */
 .ui-banner {
-    margin: 60px auto 0;
+    margin: 46px auto 0;
     position: relative;
     text-align: center;
     max-height: 300px;
@@ -620,7 +620,7 @@ body .no-border-bottom{
     padding: 10px 0;
     position: fixed;
     left: 0;
-    top: 56px;
+    top: 46px;
     z-index: 10000;
     display: none;
 }
