@@ -2,12 +2,15 @@ body {
     background-color: #fff;
 }
 
+body a,
+body a:hover{
+    text-decoration: none;
+}
 .ui-container {
     margin: 0 auto;
     font-size: 12px;
     font-family: "SimSun", arial narrow, helvetica, sans-serif;
     text-align: center;
-    
 }
 
 .ui-header {
@@ -130,7 +133,7 @@ body {
     width:30px;
 }
 .ui-get-go img{
-    width:30px;
+    width:23px;
 }
 
 .ui-title-hd{
