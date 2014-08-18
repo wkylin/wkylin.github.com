@@ -31,7 +31,6 @@ body a:hover{
 .mob-helper {
     display:none;
     opacity: 0;
-    transition: opacity 200ms ease-out 0s;
 }
 .mob-helper.active {
     background-color: #000;
