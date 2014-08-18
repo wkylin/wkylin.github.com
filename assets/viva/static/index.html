@@ -16,76 +16,47 @@
 
     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
     <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/swipe.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
 <div class="ui-container">
-<!-- header -->
-<header>
-    <div class="ui-header">
-        <div class="ui-nav" id="J_uiNav">
-            <img src="images/icons35.png" alt=""/>
-        </div>
-        <div class="logo">
-            <a href="#"></a><img src="images/logo.png" alt=""/></a>
-        </div>
+    <!-- header -->
+    <header>
+        <div class="ui-header">
+            <div class="ui-nav" id="J_uiNav">
+                <img src="images/icons35.png" alt=""/>
+            </div>
+            <div class="logo">
+                <a href="#"></a><img src="images/logo.png" alt=""/></a>
+            </div>
 
-        <div class="ui-account">
-            <a href="#"></a><img src="images/icons37.png" alt=""/></a>
+            <div class="ui-account">
+                <a href="#"></a><img src="images/icons37.png" alt=""/></a>
+            </div>
+
         </div>
+    </header>
 
-    </div>
-</header>
-
-<!-- section -->
-<section>
-    <div class="ui-banner">
-        <div class="ui-swipe-new" id="J_swipeNew">
-            <ul class="ui-banner-list">
-                <li><a href="#"> <img alt="" src="upImg/pic1.png" width="100%"></a></li>
-                <li><a href="#"> <img alt="" src="upImg/pic2.png" width="100%"></a></li>
-                <li><a href="#"> <img alt="" src="upImg/pic3.png" width="100%"></a></li>
-                <li><a href="#"> <img alt="" src="upImg/pic4.png" width="100%"></a></li>
-                <li><a href="#"> <img alt="" src="upImg/pic5.png" width="100%"></a></li>
+    <!-- section -->
+    <section>
+        <div class="addWrap">
+            <div class="swipe" id="mySwipe">
+                <div class="swipe-wrap">
+                    <div><a href="javascript:;"><img class="img-responsive" src="upImg/pic1.png"/></a></div>
+                    <div><a href="javascript:;"><img class="img-responsive" src="upImg/pic2.png"/></a></div>
+                    <div><a href="javascript:;"><img class="img-responsive" src="upImg/pic3.png"/></a></div>
+                    <div><a href="javascript:;"><img class="img-responsive" src="upImg/pic4.png"/></a></div>
+                </div>
+            </div>
+            <ul id="position">
+                <li class="cur"></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
             </ul>
         </div>
 
-    </div>
-
-
-    <div class="ux_slider_wrapper">
-        <div class="iosSlider default">
-            <div class="slider">
-                <div class="ux_banner">
-                    <div class="banner-bg " style="background-image:url(http://www.punchfoods.com/wp-content/uploads/2014/02/slider1.jpg); "></div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="ux_banner">
-                    <div class="banner-bg " style="background-image:url(http://www.punchfoods.com/wp-content/uploads/2014/02/slider1.jpg); "></div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="ux_banner">
-                    <div class="banner-bg " style="background-image:url(http://www.punchfoods.com/wp-content/uploads/2014/02/slider1.jpg); "></div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="ux_banner">
-                    <div class="banner-bg " style="background-image:url(http://www.punchfoods.com/wp-content/uploads/2014/02/slider1.jpg); "></div>
-                </div>
-            </div>
-
-            <div class="sliderControlls dark hide_nav">
-                <div class="sliderNav hide-for-small">
-                    <a href="javascript:void(0)" class="nextSlide">
-                        <span class="icon-angle-left"></span></a>
-                    <a href="javascript:void(0)" class="prevSlide">
-                        <span class="icon-angle-right"></span></a>
-                </div>
-            </div>
-            <div class="loading"><i></i><i></i><i></i><i></i></div>
-        </div>
         <div class="ui-title">
             <div class="hr"></div>
             <div class="title">
@@ -216,27 +187,27 @@
 
             <p>非转基因 | 零添加 | 100%天然原料 | 有机认证</p>
         </div>
-</section>
+    </section>
 
-<!-- footer -->
-<footer>
-    <div class="ui-footer">
-        <div class="ui-footer-links">
-            <div class="tmall-link">
-                <a href="#"><img src="images/tmall.png" alt=""/>天猫旗舰店</a>
+    <!-- footer -->
+    <footer>
+        <div class="ui-footer">
+            <div class="ui-footer-links">
+                <div class="tmall-link">
+                    <a href="#"><img src="images/tmall.png" alt=""/>天猫旗舰店</a>
+                </div>
+                <div class="wxin-link">
+                    <a href="#"><img src="images/wxin.png" alt=""/>微信小店</a>
+                </div>
+                <div class="jd-link">
+                    <a href="#"><img src="images/jd.png" alt="">京东专营店</a>
+                </div>
             </div>
-            <div class="wxin-link">
-                <a href="#"><img src="images/wxin.png" alt=""/>微信小店</a>
-            </div>
-            <div class="jd-link">
-                <a href="#"><img src="images/jd.png" alt="">京东专营店</a>
+            <div class="ui-copyright">
+                &copy;2014 Viva Vege<span>版权所有</span>
             </div>
         </div>
-        <div class="ui-copyright">
-            &copy;2014 Viva Vege<span>版权所有</span>
-        </div>
-    </div>
-</footer>
+    </footer>
 </div>
 <!-- nav-box -->
 <div class="ui-nav-box" id="J_uiNavBox">
@@ -265,8 +236,11 @@
 <div class="mob-helper"></div>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.jpanelmenu.min.js"></script>
+<script type="text/javascript" src="js/swipe.min.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function () {
+
         var jPM = $.jPanelMenu({
             menu: '#J_uiNavBox',
             trigger: '#J_uiNav',
@@ -279,6 +253,21 @@
             }
         });
         jPM.on();
+
+        //轮播图
+        var bullets = document.getElementById('position').getElementsByTagName('li');
+        var banner = Swipe(document.getElementById('mySwipe'), {
+            auto: 2000,
+            continuous: true,
+            disableScroll:false,
+            callback: function(pos) {
+                var i = bullets.length;
+                while (i--) {
+                    bullets[i].className = ' ';
+                }
+                bullets[pos].className = 'cur';
+            }
+        });
     });
 </script>
 </body>
