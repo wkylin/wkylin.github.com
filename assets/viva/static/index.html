@@ -239,7 +239,7 @@
             trigger: '#J_uiNav',
             afterOpen:function(){
                 $(".mob-helper").addClass("active").show();
-                $("#jPanelMenu-menu").css({"z-index":8});
+                $("#jPanelMenu-menu").css({"z-index":"8","overflow-y":"auto"});
             },
             afterClose:function(){
                 $(".mob-helper").removeClass("active").hide();
