@@ -40,30 +40,6 @@
         </div>
     </header>
 
-    <!-- nav-box -->
-    <div class="ui-nav-box" id="J_uiNavBox">
-        <div class="ui-avatar">
-            <figure>
-                <img src="upImg/picture3.png" alt=""/>
-
-                <p>Isabella</p>
-                <span>2</span>
-            </figure>
-        </div>
-        <div class="ui-search">
-            <div class="ui-search-box">
-                <img src="images/search-bg.png" width="20" height="20"/><input type="text" class="ui-input"/>
-            </div>
-        </div>
-        <ul class="ui-nav-list">
-            <li><a href="#">首页</a></li>
-            <li><a href="#">致食|新品上市</a></li>
-            <li class="current"><a href="#">悠享|乐活故事</a></li>
-            <li><a href="#">食记|美味新关系</a></li>
-            <li><a href="#">芊色|活动多多</a></li>
-            <li><a href="#">购物车<span>2</span></a></li>
-        </ul>
-    </div>
     <!-- section -->
     <section>
 
@@ -142,14 +118,46 @@
     </section>
 </div>
 
+<!-- nav-box -->
+<div class="ui-nav-box" id="J_uiNavBox">
+    <div class="ui-avatar">
+        <figure>
+            <img src="upImg/picture3.png" alt=""/>
+            <p>Isabella</p>
+            <span>2</span>
+        </figure>
+    </div>
+    <div class="ui-search">
+        <div class="ui-search-box">
+            <img src="images/search-bg.png" width="20" height="20" /><input type="text" class="ui-input" />
+        </div>
+    </div>
+    <ul class="ui-nav-list">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="dianshang.html">致食|新品上市</a></li>
+        <li class="current"><a href="article.html">悠享|乐活故事</a></li>
+        <li><a href="shipu.html">食记|美味新关系</a></li>
+        <li><a href="huodong.html">芊色|活动多多</a></li>
+        <li><a href="articleDetail.html">购物车<span>2</span></a></li>
+    </ul>
+</div>
+<div class="mob-helper"></div>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.jpanelmenu.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function () {
-        $("#J_uiNav").on("click", function () {
-            $("#J_uiNavBox").toggle(600);
-            return false;
+    $(document).ready(function(){
+        var jPM = $.jPanelMenu({
+            menu: '#J_uiNavBox',
+            trigger: '#J_uiNav',
+            afterOpen:function(){
+                $(".mob-helper").addClass("active").show();
+                $("#jPanelMenu-menu").css({"z-index":"8","overflow-y":"auto"});
+            },
+            afterClose:function(){
+                $(".mob-helper").removeClass("active").hide();
+            }
         });
-
+        jPM.on();
     });
 </script>
 </body>

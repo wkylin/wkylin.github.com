@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/article.html" afterPath="$PROJECT_DIR$/assets/viva/static/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/articleDetail.html" afterPath="$PROJECT_DIR$/assets/viva/static/articleDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/dianshang.html" afterPath="$PROJECT_DIR$/assets/viva/static/dianshang.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/huodong.html" afterPath="$PROJECT_DIR$/assets/viva/static/huodong.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/index.html" afterPath="$PROJECT_DIR$/assets/viva/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/shipu.html" afterPath="$PROJECT_DIR$/assets/viva/static/shipu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -26,14 +31,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.065989845" vertical-offset="5361" max-vertical-offset="6264">
-              <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
+            <state vertical-scroll-proportion="-1.4835165" vertical-offset="4761" max-vertical-offset="6072">
+              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="247" selection-end-column="9" />
               <folding>
                 <element signature="tag#div#1;tag#div#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/viva/static/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.925" vertical-offset="2504" max-vertical-offset="3288">
+              <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articleDetail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/viva/static/articleDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.413794" vertical-offset="3272" max-vertical-offset="4056">
+              <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dianshang.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/viva/static/dianshang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.413794" vertical-offset="2984" max-vertical-offset="3768">
+              <caret line="149" column="9" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="huodong.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/viva/static/huodong.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.413794" vertical-offset="2000" max-vertical-offset="2784">
+              <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shipu.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/viva/static/shipu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.413794" vertical-offset="2936" max-vertical-offset="3720">
+              <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,14 +142,14 @@
         <option value="$PROJECT_DIR$/tech.html" />
         <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_site/assets/themes/twitter/wkylin/default.css" />
-        <option value="$PROJECT_DIR$/assets/viva/static/dianshang.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/huodong.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/article.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/articleDetail.html" />
         <option value="$PROJECT_DIR$/homelink.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/shipu.html" />
         <option value="$PROJECT_DIR$/assets/viva/static/css/index.css" />
         <option value="$PROJECT_DIR$/assets/viva/static/index.html" />
+        <option value="$PROJECT_DIR$/assets/viva/static/article.html" />
+        <option value="$PROJECT_DIR$/assets/viva/static/articleDetail.html" />
+        <option value="$PROJECT_DIR$/assets/viva/static/dianshang.html" />
+        <option value="$PROJECT_DIR$/assets/viva/static/huodong.html" />
+        <option value="$PROJECT_DIR$/assets/viva/static/shipu.html" />
       </list>
     </option>
   </component>
@@ -682,12 +737,16 @@
       <created>1408369984423</created>
       <updated>1408369984423</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="viva">
+      <created>1408370393424</created>
+      <updated>1408370393424</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -695,7 +754,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22081219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22081219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -941,20 +1000,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/huodong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="2616">
-          <caret line="86" column="75" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/dianshang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2011" max-vertical-offset="3600">
-          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/images/icons24.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -980,24 +1025,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/articleDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="3864">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.827586" vertical-offset="2024" max-vertical-offset="3144">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1022,13 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/shipu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="3696">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/js/jquery.jpanelmenu.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
@@ -1047,11 +1071,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.065989845" vertical-offset="5361" max-vertical-offset="6264">
-          <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
+        <state vertical-scroll-proportion="-1.4835165" vertical-offset="4761" max-vertical-offset="6072">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="247" selection-end-column="9" />
           <folding>
             <element signature="tag#div#1;tag#div#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/articleDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.413794" vertical-offset="3272" max-vertical-offset="4056">
+          <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/dianshang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.413794" vertical-offset="2984" max-vertical-offset="3768">
+          <caret line="149" column="9" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/huodong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.413794" vertical-offset="2000" max-vertical-offset="2784">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/shipu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.413794" vertical-offset="2936" max-vertical-offset="3720">
+          <caret line="147" column="9" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.925" vertical-offset="2504" max-vertical-offset="3288">
+          <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
