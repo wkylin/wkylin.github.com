@@ -17,12 +17,28 @@ body {
     display: -webkit-box;
     display: box;
     width: 100%;
-    position: fixed;
+    /*position: fixed;
     top: 0;
-    left: 0;
+    left: 0;*/
     height: 30px;
     z-index: 9999;
     background-color: #fff;
+}
+
+.mob-helper {
+    display:none;
+    opacity: 0;
+    transition: opacity 200ms ease-out 0s;
+}
+.mob-helper.active {
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0;
 }
 
 .ui-header .logo {
@@ -616,6 +632,8 @@ body .no-border-bottom{
     margin-left:10px;
 }
 /* ui-nav-box */
+
+
 .ui-nav-box {
     width: 200px;
     background-color: rgba(0, 0, 0, .5);
@@ -623,7 +641,6 @@ body .no-border-bottom{
     position: fixed;
     left: 0;
     top: 46px;
-    z-index: 10000;
     display: none;
 }
 
@@ -632,6 +649,7 @@ body .no-border-bottom{
     display: box;
     position: relative;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .ui-avatar figure {
@@ -671,7 +689,7 @@ body .no-border-bottom{
 
 .ui-search-box {
     background-color: #9b9b9b;
-    width: 140px;
+    width: 180px;
     margin: 0 auto;
     border: 1px solid #9b9b9b;
     border-radius: 5px;
@@ -686,7 +704,7 @@ body .no-border-bottom{
 .ui-search-box .ui-input {
     border: 1px solid #9b9b9b;
     height: 30px;
-    width: 100px;
+    width: 140px;
     padding-left: 10px;
     background-color: #9b9b9b;
     border-radius: 5px;
@@ -718,7 +736,7 @@ body .no-border-bottom{
     padding: 0;
     display: block;
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 90px;
     color: #fff;
     border-radius: 20px;
