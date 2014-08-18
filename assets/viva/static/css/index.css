@@ -157,7 +157,7 @@ body a:hover{
 }
 /* ui-banner */
 .ui-banner {
-    margin: 46px auto 0;
+    margin: 0 auto 0;
     position: relative;
     text-align: center;
     max-height: 300px;
