@@ -181,7 +181,7 @@ body a:hover{
     font-size:14px;
     text-align:left;
     font-weight:bold;
-    padding:10px 10px;
+    padding:5px;
 }
 
 .ui-step-num{
@@ -221,9 +221,9 @@ body a:hover{
     -moz-box-flex: 1;
     -webkit-box-flex: 1;
     box-flex: 1;
-    font-size:16px;
+    font-size:14px;
     text-align:left;
-    padding-top:10px;
+    padding:5px;
 }
 .ui-step-list-img{
   width:100;
