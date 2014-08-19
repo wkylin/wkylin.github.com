@@ -110,7 +110,7 @@ body a:hover{
 }
 .ui-return img{
     padding-right:5px;
-    width:16px;
+    width:60px;
     vertical-align: middle;
 }
 
@@ -145,6 +145,7 @@ body a:hover{
     font-weight: bold;
 }
 
+
 .ui-hd-text{
     width:90%;
     margin:0 auto;
@@ -153,6 +154,96 @@ body a:hover{
 }
 .fn-mt60{
     margin-top:60px;
+}
+
+
+/* ui-step */
+
+
+.ui-step{
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    width:100%;
+    border-bottom:1px solid #979797;
+    padding:10px 0;
+}
+
+.ui-step-first{
+    border-top:1px solid #979797;
+}
+
+
+.ui-step-text{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    font-size:14px;
+    text-align:left;
+    font-weight:bold;
+    padding:10px 10px;
+}
+
+.ui-step-num{
+    width:20px;
+    padding:10px 10px;
+    text-align:center;
+    font-size:30px;
+}
+.ui-step-img{
+    width:50px;
+    height:50px;
+    border:1px solid #979797;
+    position:relative;
+}
+
+.ui-step-arrow{
+    width:45px;
+    padding:10px 0;
+}
+
+.ui-step-list{
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    width:95%;
+    margin-bottom:10px;
+}
+
+.ui-step-list-num{
+    width:20px;
+    padding:0 10px;
+    text-align:center;
+    font-size:30px;
+}
+
+.ui-step-list-text{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    font-size:16px;
+    text-align:left;
+    padding-top:10px;
+}
+.ui-step-list-img{
+  width:100;
+}
+.ui-step-list-img img{
+    max-width:100px;
+}
+
+
+.ui-pel-tips{
+    width:90%;
+    padding:10px 0;
+    text-align:left;
+    margin:0 auto;
+}
+
+.ui-pel-tips h3{
+    font-size:16px;
+    color:#82bf41;
+    margin-bottom:10px;
 }
 /* ui-banner */
 .ui-banner {
@@ -262,7 +353,6 @@ body a:hover{
     text-align: left;
     margin: 0 10px;
     border: 1px solid #eee;
-    /*box-shadow: 0 2px 2px #333;*/
 }
 
 .ui-figure .figure-text {
