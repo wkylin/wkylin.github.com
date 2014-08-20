@@ -137,7 +137,7 @@ body a:hover{
 
 .ui-title-hd{
     border-left:6px solid #82bf41;
-    font-size:16px;
+    font-size:20px;
     color:#000;
     text-align:left;
     padding-left:5px;
@@ -152,14 +152,118 @@ body a:hover{
     font-size:14px;
     text-align:left;
 }
+.ui-hd-text p{
+    margin-bottom:5px;
+}
+.ui-hd-text span{
+    padding:0 5px 0 0;
+}
+.ui-hd-text span.ft-bold{
+    font-weight:bold;
+    padding:0 5px 0 0;
+}
+
+.ui-hd-pic{
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    margin:10px 0;
+}
+
+.ui-hd-box{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
 .fn-mt60{
     margin-top:60px;
 }
 
+.ui-add{
+    border-top:1px solid #979797;
+    border-bottom:1px solid #979797;
+    padding:10px 0;
+}
+.ui-add-box{
+    width:90%;
+    margin:0 auto;
+    height:40px;
+    line-height: 40px;
+    font-size:20px;
+    background-color:#94c758;
+    color:#fff;
+    text-align:center;
+    cursor:pointer;
+}
 
+.hd-text-title{
+    font-size:20px;
+    padding:10px 0;
+    color:#000;
+}
+
+.hd-text-box{
+    color:#8d8d8d;
+    font-size:14px;
+    border-bottom:1px solid #979797;
+    margin-bottom:10px;
+}
+
+.hd-text-cnt{
+    padding:5px 0;
+    color:#8d8d8d;
+    position:relative;
+    height:40px;
+}
+.hd-text-cnt span{
+    padding:0;
+}
+
+.hd-text-cnt span.sd-box{
+    border:1px solid #979797;
+    display:inline-block;
+    height:30px;
+    position:absolute;
+    left:40px;
+    top:0;
+}
+
+.hd-text-cnt span.hd-pds{
+    display:inline-block;
+    position:absolute;
+    left:180px;
+    top:6px;
+}
+.hd-reduce{
+    width:40px;
+    height:30px;
+    background:url(../images/icons17.png) center center no-repeat transparent;
+    overflow: hidden;
+    display:inline-block;
+    border-right:1px solid #979797;
+    cursor:pointer;
+}
+
+.hd-input{
+    width:40px;
+    height:28px;
+    border:1px solid #fff;
+    background-color:#fff;
+    color:#000;
+    text-align:center;
+    vertical-align: top;
+}
+
+.hd-raise{
+    width:40px;
+    height:30px;
+    background:url(../images/icons16.png) center center no-repeat transparent;
+    overflow: hidden;
+    display:inline-block;
+    border-left:1px solid #979797;
+    cursor:pointer;
+}
 /* ui-step */
-
-
 .ui-step{
     display: -moz-box;
     display: -webkit-box;
