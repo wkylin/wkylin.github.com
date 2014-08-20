@@ -209,6 +209,9 @@ body a:hover{
     margin-bottom:10px;
 }
 
+.hd-text-box span.ft-green{
+    color:#82b146;
+}
 .hd-text-cnt{
     padding:5px 0;
     color:#8d8d8d;
