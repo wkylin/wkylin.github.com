@@ -108,6 +108,20 @@ body a:hover{
     text-align:left;
     padding-left:10px;
 }
+
+.ui-wp-title,
+.ui-wp-space{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    font-size:18px;
+    color:#000;
+    padding-top:5px;
+}
+.ui-wp-space{
+    color:#fff;
+}
+
 .ui-return img{
     padding-right:5px;
     width:60px;
@@ -124,7 +138,7 @@ body a:hover{
 .ui-favorites,
 .ui-get-go{
     width:40px;
-    padding:0 10px;
+    padding:5px 10px 0;
 }
 
 .ui-comment img,
@@ -772,6 +786,7 @@ body .no-border-bottom{
     width:95%;
     margin:10px auto;
     display: -webkit-box;
+    display:-moz-box;
     display: box;
     text-align:left;
 
@@ -845,6 +860,7 @@ body .no-border-bottom{
 
 .ui-avatar {
     display: -webkit-box;
+    display:-moz-box;
     display: box;
     position: relative;
     margin-bottom: 10px;
@@ -1000,7 +1016,63 @@ body .no-border-bottom{
     width: 18px;
     margin-right: 3px;
 }
+.ui-comment-box{
+    width:100%;
+    height:100%;
+    background-color:#f2f2f2;
+}
+.ui-comment-list{
+    width:95%;
+    margin:0 auto;
+}
 
+.ui-comment-item{
+    padding:10px 5px;
+    margin-bottom:10px;
+    border-bottom:1px solid #979797;
+    display: -webkit-box;
+    display:-moz-box;
+    display: box;
+}
+
+.ui-on-avatar,
+.ui-on-box,
+.ui-on-date{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+
+.ui-on-avatar img{
+    width:50px;
+    border-radius: 50px;
+}
+
+.ui-on-box{
+    text-align:left;
+    font-size:14px;
+}
+
+.ui-on-box .ft-green{
+    color:#4d9360;
+}
+.ui-on-box .ui-on-cnt{
+    padding:10px 0;
+    color:#000;
+}
+
+.ui-on-date{
+    text-align:right;
+    color:#9b9b9b;
+    font-size:12px;
+}
+
+.ui-on-btn{
+    padding:10px 0;
+}
+.ui-on-btn img{
+    width:24px;
+}
 @media screen and (max-width: 320px) {
 
 }
