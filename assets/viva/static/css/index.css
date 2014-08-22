@@ -993,7 +993,7 @@ body .no-border-bottom {
 
 .ui-comment-list {
     width: 95%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 .ui-comment-item {
