@@ -362,7 +362,7 @@ body a:hover {
 }
 
 .ui-step-list-img {
-    width: 100;
+    width: 100px;
 }
 
 .ui-step-list-img img {
@@ -375,7 +375,9 @@ body a:hover {
     text-align: left;
     margin: 0 auto;
 }
-
+.ui-pel-tips p{
+    font-size:14px;
+}
 .ui-pel-tips h3 {
     font-size: 16px;
     color: #82bf41;
