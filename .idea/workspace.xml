@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/comment.html" afterPath="$PROJECT_DIR$/assets/viva/static/comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/css/index.css" afterPath="$PROJECT_DIR$/assets/viva/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/images/icons22.png" afterPath="$PROJECT_DIR$/assets/viva/static/images/icons22.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26246333" vertical-offset="23701" max-vertical-offset="27840">
-              <caret line="995" column="20" selection-start-line="995" selection-start-column="20" selection-end-line="995" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.7903226" vertical-offset="23701" max-vertical-offset="27840">
+              <caret line="1010" column="21" selection-start-line="1010" selection-start-column="21" selection-end-line="1010" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -820,7 +819,11 @@
       <created>1408716824774</created>
       <updated>1408716824774</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="VIVA">
+      <created>1408717028625</created>
+      <updated>1408717028625</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1210,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26246333" vertical-offset="23701" max-vertical-offset="27840">
-          <caret line="995" column="20" selection-start-line="995" selection-start-column="20" selection-end-line="995" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.7903226" vertical-offset="23701" max-vertical-offset="27840">
+          <caret line="1010" column="21" selection-start-line="1010" selection-start-column="21" selection-end-line="1010" selection-end-column="21" />
           <folding />
         </state>
       </provider>
