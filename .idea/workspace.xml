@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/shipu.html" afterPath="$PROJECT_DIR$/assets/viva/static/shipu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/viva/static/comment.html" afterPath="$PROJECT_DIR$/assets/viva/static/comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comment.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="comment.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/comment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4963" max-vertical-offset="6672">
-              <caret line="232" column="21" selection-start-line="216" selection-start-column="0" selection-end-line="232" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.27361563" vertical-offset="2208" max-vertical-offset="3840">
+              <caret line="99" column="90" selection-start-line="99" selection-start-column="90" selection-end-line="99" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shipu.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shipu.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/shipu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40716612" vertical-offset="734" max-vertical-offset="3720">
-              <caret line="41" column="74" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+            <state vertical-scroll-proportion="-0.3448276" vertical-offset="1166" max-vertical-offset="3720">
+              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -69,7 +69,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4771" max-vertical-offset="6696">
+            <state vertical-scroll-proportion="-34.931034" vertical-offset="4771" max-vertical-offset="6696">
               <caret line="241" column="35" selection-start-line="241" selection-start-column="35" selection-end-line="241" selection-end-column="35" />
               <folding />
             </state>
@@ -164,10 +164,10 @@
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/assets/viva/static/index.html" />
         <option value="$PROJECT_DIR$/assets/viva/static/articleDetail.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/comment.html" />
         <option value="$PROJECT_DIR$/assets/viva/static/css/index.css" />
         <option value="$PROJECT_DIR$/assets/viva/static/huodong.html" />
         <option value="$PROJECT_DIR$/assets/viva/static/shipu.html" />
+        <option value="$PROJECT_DIR$/assets/viva/static/comment.html" />
       </list>
     </option>
   </component>
@@ -855,7 +855,11 @@
       <created>1408761613497</created>
       <updated>1408761613497</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="VIVA">
+      <created>1408762543539</created>
+      <updated>1408762543539</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1190,22 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4771" max-vertical-offset="6696">
-          <caret line="241" column="35" selection-start-line="241" selection-start-column="35" selection-end-line="241" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/viva/static/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4963" max-vertical-offset="6672">
-          <caret line="232" column="21" selection-start-line="216" selection-start-column="0" selection-end-line="232" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8662" max-vertical-offset="27888">
@@ -1240,8 +1228,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/viva/static/shipu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40716612" vertical-offset="734" max-vertical-offset="3720">
-          <caret line="41" column="74" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+        <state vertical-scroll-proportion="-0.3448276" vertical-offset="1166" max-vertical-offset="3720">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.931034" vertical-offset="4771" max-vertical-offset="6696">
+          <caret line="241" column="35" selection-start-line="241" selection-start-column="35" selection-end-line="241" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/viva/static/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27361563" vertical-offset="2208" max-vertical-offset="3840">
+          <caret line="99" column="90" selection-start-line="99" selection-start-column="90" selection-end-line="99" selection-end-column="90" />
           <folding />
         </state>
       </provider>
