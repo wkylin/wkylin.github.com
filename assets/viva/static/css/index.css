@@ -12,6 +12,7 @@ body a:hover {
     font-size: 12px;
     font-family: "SimSun", arial narrow, helvetica, sans-serif;
     text-align: center;
+    position:relative;
 }
 .ui-container section{
     /*margin-top:50px;*/
@@ -1353,6 +1354,62 @@ body .no-border-bottom {
     background-color:#94c758;
     cursor:pointer;
 }
+
+
+/* shared */
+
+.ui-shared{
+    width:100%;
+    height:100%;
+}
+.ui-shared-box{
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index: 99999;
+    height:200px;
+    padding:10px 0;
+    background-color:#fff;
+    width:100%;
+}
+
+.ui-shared-wrap{
+    width:95%;
+    margin:0 auto;
+}
+
+.ui-shared-title{
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+}
+
+.ui-shared-logo,.ui-shared-text{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+.ui-shared-logo img{
+    height:40px;
+}
+
+.ui-shared-text{
+    background-color:#94c758;
+    color:#fff;
+    font-size:14px;
+    height:40px;
+    line-height: 40px;
+}
+.ui-marker{
+    background-color:rgba(0,0,0, 0.3);
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8888;
+}
+
 /* ui-footer */
 .ui-footer {
     background-color: #4d4d4d;
