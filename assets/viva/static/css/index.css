@@ -1093,9 +1093,129 @@ body .no-border-bottom {
     text-align: center;
 }
 
+/* 登录 注册*/
+
+.ui-sign-up-link{
+    font-size:16px;
+    color:#4d932c;
+}
+.ui-sign-in{
+    background-color:#f2f2f2;
+}
+.ui-sign-in-box{
+    padding:30px 5px;
+
+    width:300px;
+    margin:0 auto;
+}
+.ui-sign-form{
+    background-color:#f2f2f2;
+}
 
 
+.ui-sign-form .ui-form-item{
+    margin-bottom:10px;
+}
 
+.ui-sign-form .ui-sign-input{
+    color:#9b9b9b;
+    padding:5px;
+    width:288px;
+    height:30px;
+}
+
+.ui-sign-form .ui-sign-submit{
+    font-size:16px;
+    letter-spacing: 5px;
+    color:#fff;
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+    width:300px;
+    background-color:#94c758;
+    display:block;
+    margin:0 auto;
+    cursor:pointer;
+}
+
+.ui-sign-form-error{
+    text-align:left;
+    font-size:14px;
+    padding:5px 0 0 2px;
+    color:red;
+}
+
+.ui-line-box{
+    position:relative;
+    height:40px;
+    width:200px;
+    margin:0 auto;
+}
+
+.ui-line{
+    width:100%;
+    border-top:1px solid #9b9b9b;
+    border-bottom:1px solid #9b9b9b;
+    position:absolute;
+    top:20px;
+    left:0;
+    margin:0 auto;
+    z-index: 1;
+}
+
+.ui-line-text{
+    width:20px;
+    height:30px;
+    margin:0 auto;
+    background-color:#f2f2f2;
+    color:#9b9b9b;
+    font-size:18px;
+    text-align:center;
+    z-index:9;
+    position:absolute;
+    top: 5px;
+    left: 90px;
+}
+
+.ui-third-sign{
+
+}
+
+.ui-sina-sign{
+    background-color:#d0021b;
+    padding:5px;
+    margin-bottom:10px;
+    height:30px;
+    cursor:pointer;
+}
+.ui-sina-logo{
+    border-right:1px solid #fff;
+    padding:0 5px;
+    width:30px;
+    float:left;
+}
+.ui-sina-text,.ui-qq-text{
+    float:left;
+    width:248px;
+    height:30px;
+    line-height: 30px;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    text-align:center;
+}
+.ui-qq-sign{
+    background-color:#4a90e2;
+    padding:5px;
+    height:30px;
+    cursor:pointer;
+}
+.ui-qq-logo{
+    border-right:1px solid #fff;
+    padding:0 5px;
+    width:30px;
+    float:left;
+}
 /* ui-footer */
 .ui-footer {
     background-color: #4d4d4d;
