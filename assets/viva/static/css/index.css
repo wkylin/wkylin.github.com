@@ -106,11 +106,10 @@ body a:hover {
 }
 
 .ui-return {
-    -moz-box-flex: 1;
-    -webkit-box-flex: 1;
-    box-flex: 1;
     text-align: left;
     padding-left: 10px;
+    width:100px;
+
 }
 
 .ui-wp-title,
@@ -1259,6 +1258,9 @@ body .no-border-bottom {
     float:left;
     position:relative;
 }
+.ui-shop-option img{
+    display:block;
+}
 .ui-shop-option .ui-shop-input{
     width:30px;
     height:30px;
@@ -1274,7 +1276,7 @@ body .no-border-bottom {
     height:20px;
     display:block;
     position:absolute;
-    top:2px;
+    top:7px;
     left:0;
     cursor:pointer;
 }
@@ -1283,7 +1285,7 @@ body .no-border-bottom {
     height:20px;
     display:block;
     position:absolute;
-    top:2px;
+    top:7px;
     left:65px;
     cursor:pointer;
 }
