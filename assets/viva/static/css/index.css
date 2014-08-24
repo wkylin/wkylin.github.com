@@ -1427,6 +1427,15 @@ body .no-border-bottom {
     font-size:14px;
 }
 
+.ui-shared-button{
+    background-color:#d0d0d0;
+    color:#fff;
+    height:30px;
+    padding:5px 0;
+    line-height: 30px;
+    font-size:18px;
+    cursor:pointer;
+}
 .ui-marker{
     background-color:rgba(0,0,0, 0.3);
     height:100%;
