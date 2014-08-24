@@ -872,7 +872,7 @@ body .no-border-bottom {
 
 .ui-nav-box {
     width: 200px;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .9);
     padding: 10px 0;
     position: fixed;
     left: 0;
@@ -925,23 +925,19 @@ body .no-border-bottom {
 }
 
 .ui-search-box {
-    background-color: #9b9b9b;
-    width: 180px;
+    width: 182px;
     margin: 0 auto;
-    border: 1px solid #9b9b9b;
-    border-radius: 5px;
 }
 
 .ui-search-box img {
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
+    width: 182px;
+    height: 34px;
 }
 
 .ui-search-box .ui-input {
     border: 1px solid #9b9b9b;
     height: 30px;
-    width: 140px;
+    width: 130px;
     padding-left: 10px;
     background-color: #9b9b9b;
     border-radius: 5px;
@@ -950,21 +946,24 @@ body .no-border-bottom {
 }
 
 .ui-nav-list li {
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
     width: 100%;
     font-size: 16px;
     text-align: left;
     position: relative;
 }
 
+.ui-nav-list em.fn-bar{
+    padding:0 5px;
+}
 .ui-nav-list li.current {
     background-color: #ef6130;
 }
 
 .ui-nav-list li a {
     display: block;
-    padding-left: 30px;
+    padding-left: 10px;
     text-decoration: none;
     color: #fff;
 }
@@ -973,8 +972,8 @@ body .no-border-bottom {
     padding: 0;
     display: block;
     position: absolute;
-    top: 6px;
-    left: 90px;
+    top: 10px;
+    left: 70px;
     color: #fff;
     border-radius: 20px;
     width: 20px;
