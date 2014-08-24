@@ -58,16 +58,18 @@
         </div>
 
         <div class="ui-title">
-            <div class="hr"></div>
-            <div class="title">
-                至食：新品上市
-            </div>
+            <a href="#">
+                <div class="hr"></div>
+                <div class="title">
+                    至食：新品上市
+                </div>
+            </a>
         </div>
 
         <div class="ui-figure">
             <div class="ui-figure-item">
                 <figure>
-                    <img src="upImg/pic6.png" width="100%"  alt=""/>
+                    <img src="upImg/pic6.png" width="100%" alt=""/>
 
                     <p class="figure-text">¥288</p>
 
@@ -94,34 +96,40 @@
         </div>
 
         <div class="ui-title">
-            <div class="hr"></div>
-            <div class="title">
-                悠享：乐活故事
-            </div>
+            <a href="#">
+                <div class="hr"></div>
+                <div class="title">
+                    悠享：乐活故事
+                </div>
+            </a>
         </div>
 
-        <figure class="ui-graphic-item cx-clear">
+        <a href="#">
+            <figure class="ui-graphic-item cx-clear">
 
-            <img src="upImg/graphic01.png" alt=""/>
+                <img src="upImg/graphic01.png" alt=""/>
 
-            <div class="graphic-text">
-                <h2>蓝莓粉的10种妙用</h2>
+                <div class="graphic-text">
+                    <h2>蓝莓粉的10种妙用</h2>
 
-                <p>清热祛湿，配合酸奶食用甘甜美味</p>
-            </div>
-            <span class="ui-arrow"></span>
-        </figure>
-        <figure class="ui-graphic-item cx-clear">
+                    <p>清热祛湿，配合酸奶食用甘甜美味</p>
+                </div>
+                <span class="ui-arrow"></span>
+            </figure>
+        </a>
+        <a href="#">
+            <figure class="ui-graphic-item cx-clear">
 
-            <img src="upImg/graphic02.png" alt=""/>
+                <img src="upImg/graphic02.png" alt=""/>
 
-            <div class="graphic-text">
-                <h2>蓝莓粉的10种妙用</h2>
+                <div class="graphic-text">
+                    <h2>蓝莓粉的10种妙用</h2>
 
-                <p>清热祛湿，配合酸奶食用甘甜美味</p>
-            </div>
-            <span class="ui-arrow"></span>
-        </figure>
+                    <p>清热祛湿，配合酸奶食用甘甜美味</p>
+                </div>
+                <span class="ui-arrow"></span>
+            </figure>
+        </a>
 
         <div class="ui-text-box">
             <div class="ui-text-dot"></div>
@@ -131,10 +139,12 @@
         </div>
 
         <div class="ui-title">
-            <div class="hr"></div>
-            <div class="title">
-                芊色：活动多多
-            </div>
+            <a href="#">
+                <div class="hr"></div>
+                <div class="title">
+                    芊色：活动多多
+                </div>
+            </a>
         </div>
 
         <div class="ui-activity">
@@ -148,10 +158,12 @@
         </div>
 
         <div class="ui-title">
-            <div class="hr"></div>
-            <div class="title">
-                食记：美味新关系
-            </div>
+            <a href="#">
+                <div class="hr"></div>
+                <div class="title">
+                    食记：美味新关系
+                </div>
+            </a>
         </div>
 
         <div class="ui-grape-item ">
@@ -256,8 +268,8 @@
         var banner = Swipe(document.getElementById('mySwipe'), {
             auto: 2000,
             continuous: true,
-            disableScroll:false,
-            callback: function(pos) {
+            disableScroll: false,
+            callback: function (pos) {
                 var i = bullets.length;
                 while (i--) {
                     bullets[i].className = ' ';
