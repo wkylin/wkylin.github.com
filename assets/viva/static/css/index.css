@@ -1367,7 +1367,6 @@ body .no-border-bottom {
     bottom:0;
     left:0;
     z-index: 99999;
-    height:200px;
     padding:10px 0;
     background-color:#fff;
     width:100%;
@@ -1382,6 +1381,7 @@ body .no-border-bottom {
     display:-webkit-box;
     display:-moz-box;
     display:box;
+    margin-bottom:20px;
 }
 
 .ui-shared-logo,.ui-shared-text{
@@ -1400,6 +1400,33 @@ body .no-border-bottom {
     height:40px;
     line-height: 40px;
 }
+
+.ui-shared-item{
+    margin-bottom:20px;
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+}
+
+.ui-shared-item-box{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+.ui-shared-item-box img{
+    display:inline-block;
+    max-width: 50px;
+    margin-bottom:10px;
+}
+.ui-shared-item-box a{
+    display:block;
+    text-decoration: none;
+    color:#000;
+}
+.ui-shared-item-box p{
+    font-size:14px;
+}
+
 .ui-marker{
     background-color:rgba(0,0,0, 0.3);
     height:100%;
