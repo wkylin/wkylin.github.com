@@ -1446,6 +1446,125 @@ body .no-border-bottom {
     z-index:8888;
 }
 
+.ui-firm-order{
+    width:95%;
+    border:1px solid #979797;
+    border-bottom:none;
+    margin:20px auto 0;
+}
+
+.ui-order-list{}
+.ui-order-item{
+    padding:10px;
+    border-bottom:1px solid #979797;
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+}
+
+.ui-order-item .order-img{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    max-width:80px;
+}
+.ui-order-item .order-info{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    font-size:18px;
+    padding-left:10px;
+    text-align:left;
+}
+.ui-order-item .order-info h3{
+    margin-bottom:20px;
+}
+.ui-order-item .order-info em{
+    color:#ef6130;
+}
+
+.ui-firm-box{
+    border:1px solid #979797;
+    width:95%;
+    margin:20px auto 0;
+}
+.ui-firm-box a{
+    display:block;
+    color:#000;
+}
+.ui-firm-wrap{
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+    padding:10px;
+    font-size:18px;
+    position:relative;
+}
+.ui-firm-wrap em{
+    color:#4d932c;
+}
+.ui-firm-wrap span.ui-arrow{
+    width: 16px;
+    height: 26px;
+    display: block;
+    background: url(../images/arrow.png) 0 0 no-repeat transparent;
+    position: absolute;
+    right: 15px;
+}
+
+.ui-pay-list{
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+}
+
+.ui-pay-item{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding:10px;
+}
+.ui-pay-item a{
+    display:block;
+}
+
+.ui-pay-item img{
+    max-width:70px;
+    border:2px solid #979797;
+    cursor:pointer;
+}
+
+.ui-pay-list .current img{
+    border:2px solid #4d932c;
+}
+.ui-firm-submit{
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+    background-color:#e6e6e6;
+    font-size:18px;
+    position:relative;
+    height:50px;
+}
+
+.ui-firm-submit .price{
+    padding:10px;
+    line-height: 40px;
+}
+.ui-firm-submit em{
+    color:#ef6130;
+}
+
+.ui-firm-submit span{
+    display:block;
+    position:absolute;
+    right:10px;
+    top:7px;
+    padding:5px 10px;
+    background-color:#94c758;
+    color:#fff;
+    cursor:pointer;
+}
 /* ui-footer */
 .ui-footer {
     background-color: #4d4d4d;
