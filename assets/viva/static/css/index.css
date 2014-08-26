@@ -1771,13 +1771,13 @@ body .no-border-bottom {
 
 .ui-address{
     width:95%;
-    margin:0 auto;
+    margin:10px auto;
 }
 
 .ui-address-box{
     border:1px solid #979797;
     padding:5px;
-    margin:10px 0;
+    margin:0 0 10px 0;
     position:relative;
 }
 
@@ -1836,6 +1836,10 @@ body .no-border-bottom {
 }
 .address-checked{
     background-color:#94c758;
+}
+
+.fn-mb20{
+    margin-bottom:20px;
 }
 /* ui-footer */
 .ui-footer {
