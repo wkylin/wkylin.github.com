@@ -1833,6 +1833,7 @@ body .no-border-bottom {
     font-size:18px;
     color:#fff;
     background-color:#cccccc;
+    cursor:pointer;
 }
 .address-checked{
     background-color:#94c758;
