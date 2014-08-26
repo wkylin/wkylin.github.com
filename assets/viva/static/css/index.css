@@ -131,7 +131,7 @@ body a:hover {
 }
 
 .ui-wp-space .ui-exit img {
-    width: 25px;
+    width: 70px;
 }
 
 .ui-return img {
@@ -1668,7 +1668,7 @@ body .no-border-bottom {
 }
 
 .header-avatar img {
-    max-width:100px;
+    max-width:80px;
 }
 
 .header-info{
@@ -1682,12 +1682,13 @@ body .no-border-bottom {
     border-radius: 5px;
     color:#000;
     margin-top:10px;
+    font-size:12px;
 }
 
 .header-property ul li{
     float:left;
     border-left:1px solid #979797;
-    padding:0 15px;
+    padding:0 5px;
     text-align:center;
 }
 .header-property ul li span{
