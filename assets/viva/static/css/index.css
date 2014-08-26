@@ -1767,6 +1767,76 @@ body .no-border-bottom {
 }
 
 
+/* address */
+
+.ui-address{
+    width:95%;
+    margin:0 auto;
+}
+
+.ui-address-box{
+    border:1px solid #979797;
+    padding:5px;
+    margin:10px 0;
+    position:relative;
+}
+
+
+.ui-address-item{
+    padding:5px;
+    border-bottom:1px solid #979797;
+    font-size:18px;
+    color:#000;
+    text-align:left;
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+}
+.ui-address-item .second{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    display:block;
+    text-align:left;
+}
+.ui-address-item .first{
+    width:100px;
+    color:#9b9b9b;
+}
+.ui-address-last{
+    border-bottom:none;
+}
+.ui-address-select{
+    width:20px;
+    height:20px;
+    background:url("../images/check.png") 0 0 no-repeat transparent;
+    overflow: hidden;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+.ui-address-selected{
+    width:20px;
+    height:20px;
+    background:url("../images/checked.png") 0 0 no-repeat transparent;
+    overflow: hidden;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+.ui-address-btn{
+    width:95%;
+    margin:0 auto;
+    height:40px;
+    line-height: 40px;
+    font-size:18px;
+    color:#fff;
+    background-color:#cccccc;
+}
+.address-checked{
+    background-color:#94c758;
+}
 /* ui-footer */
 .ui-footer {
     background-color: #4d4d4d;
