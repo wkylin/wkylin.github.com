@@ -179,6 +179,9 @@ body a:hover {
     text-align: left;
 }
 
+.ui-hd-text img{
+    max-width:100%;
+}
 .ui-hd-text p {
     margin-bottom: 5px;
 }
