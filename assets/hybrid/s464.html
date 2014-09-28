@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+    <script src="js/zy_control.js"></script>
+     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
+   <script src="js/common.js"></script>
+</head>
+<body class="um-vp c_e3d" ontouchstart>
+    <div id="page_0" class="up ub ub-ver" tabindex="0">
+    	<div id="top">
+        <div id="header" class="uh t-wh ub ub-pj t_6d6" >
+        	<div class="ub ub-ac umar_l06" ontouchstart="zy_touch()" onclick="uexWindow.close(-1)">
+        		<div class="back_icon"></div>
+				<div class="umar-l">衣友区</div>
+        	</div>
+			<div class="ub ub-ac umar_r06" ontouchstart="zy_touch()" onclick="">
+				<div class="head_icon"></div>
+				<div class="umar-l umar-r">潇情忆</div>
+        	</div>
+        </div>
+		<div id="big_img">
+			<div class="">
+				<img src="images/img.png" style="width:100%;height:8em; display:block;" />
+			</div>
+		</div>
+		<div id="menu" class="ub umh2 c_e56">
+			<div class="ub-f1 ub ub-ac ub-pc c_act" style="" ontouchstart="zy_touch()" onclick="tab(0)">
+				<div class="tab_one"></div>
+			</div>
+			<div class="ub-f1 ub ub-ac ub-pc" ontouchstart="zy_touch()" onclick="tab(1)">
+				<div class="tab_two"></div>
+			</div>
+			<div class="ub-f1 ub ub-ac ub-pc" ontouchstart="zy_touch()" onclick="tab(2)">
+				<div class="tab_three"></div>
+			</div>
+		</div>
+		</div>
+        <div id="content" class="ub-f1 tx-l flow_y">
+            <div id="move" class="umar_l06 umar_r06 uinn_t06 t_6d6 uinn_b06 ulev-1">
+		<div class="c-wh uc-a1 b_bor uinn_a06 line_height">
+			商品描述：小资风情女装是都市女性白领的专属尚品。专注于韩国流行趋势，为都市中忙碌的白领女性带来经典时尚的韩系元素，让白领一族…
+		</div>
+		<div class="ub umh2 umar-t c_6d5">
+			<div class="ub c_6d5 ub-ac umh2 t_cac uinn_lr15">评论(32)</div>
+			<div class="umh2 jiao_icon "></div>
+			<div class="c_e3d ub-f1"></div>
+		</div>
+		<div class="ub c-wh uc-a1 b_bor uinn_a06 ">
+			<ul class="share_ul ub ub-f1 ub-ver" style="height:7em">
+				<li class="ub ub-ac ut-s ubb b_e9d"><div class="share umar_r06"></div><div class="ub-f1">jack:这款不错很没很精彩！</div></li>
+				<li class="ub ub-ac ut-s ubb b_e9d"><div class="share umar_r06"></div><div class="ub-f1">jack:超爱，没有更美的啦，今晚就拿下。</div></li>
+				<li class="ub ub-ac ut-s"><div class="share umar_r06"></div><div class="ub-f1">jack:感觉好贵哦，不过很喜欢。</div></li>
+			</ul>
+		</div>
+		<div class="c-wh uc-a1 b_bor uinn_a06 line_height umar-t ">
+			<div class="fly_white_icon"></div>
+			我要发表评论：小资风情女装是都市女性白领的专属尚品。专注于韩国流行趋势，为都市中忙碌的白领女性带来经典时尚的韩系元素……
+		</div>
+	</div>
+        </div>
+        <div id="footer" class="uf ub ub-ac c_6d5 umh28">
+        	<div class="a_icon umar_l06"></div>
+			<div class="ub-f1 ub ub-pe umar_r06">
+				<div class="xinlang_icon umar-r"></div>
+				<div class="weixin_icon umar-l umar-r"></div>
+				<div class="fenxiang_icon umar-l"></div>
+			</div>
+        </div>
+    </div>
+</body>
+<script>
+zy_init();
+window.uexOnload = function(type){
+    if (!type) {
+    }
+	window.onorientationchange=window.onresize=function(){
+		zy_resize("content",0,$$("header").offsetHeight);				
+	}
+}
+var menuList = document.getElementById("menu").children;
+function tab(index){
+	for(var i=0; i<menuList.length;i++){
+		if(i==index){
+			menuList[i].className +=" c_act";
+		}else{
+			menuList[i].className +=menuList[i].className.replace(/ c_act/g,'');
+		}
+	}
+}
+new zyEvent('move', null, function(me, dx, dy, t){//手指松开后事件
+		            if (t == "left")
+					{
+						open_new('s47');
+					}
+		        }, false,function(event){
+				});
+</script>
+</html>

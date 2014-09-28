@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-btn.css">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+    <script src="js/zy_control.js"></script>
+     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
+	<script src="js/zy_slide.js">
+    </script>
+	<script src="js/common.js"></script>
+    </head>
+    <body class="um-vp " ontouchstart>
+        <div id="page_0" class="up ub ub-ver yd_img" tabindex="0">
+            <div id="content" class="ub ub-f1 tx-l t-bla">
+            		<div id="back_home" class="ub ub-pc ub-ac uc-r" ontouchstart="zy_touch()" onclick="open_new('s1','s1.html',10)">
+					 <img src="images/back_home.png" style="width:4.5em;height:2.4em" />
+					</div>
+            		<div id="pointer">
+            			<div class="ub umh2 ub-ac ub-pc" id="point">
+		        			<div class="p_crl p_act"></div>
+							<div class="p_crl p_auto"></div>
+							<div class="p_crl p_auto"></div>
+						</div>
+					</div>
+				<div class="uof ub ub-f1" style="width:100%">
+                	<div class="ub ub-f1 ub-fh ub-hor" id="wraper">
+						 <div  class="ub-fh  ub ub-ver">
+						 	<div class="ub-f1 ub ub-ac ub-pc t_8e8">伊芙利特帮助发现你的最佳魅力！</div>
+							<div class="ub ub-f1 ub-pc">
+								<div class="qq_icon umar_r06"></div>
+								<div class="wx_icon umar_l06 umar_r06"></div>
+								<div class="xl_icon umar_l06 umar_r06"></div>
+								<div class="rr_icon umar_l06"></div>
+							</div>
+							<div class="ub ub-ac uinn_b06">
+								<div class="umar_l1 ulev-1" style="color:#442f00">伊芙利特是什么?</div>
+								<div class="ub-f1"></div>
+								<div ontouchstart="zy_touch('btn-act')" onclick="open_new('s01','s01.html',10)" class=" b_cfa btn c-wh c-m11 uc-a1 t_6ba" >登&nbsp;陆</div>
+								<div ontouchstart="zy_touch('btn-act')" class="umar_r1 b_cfa btn c_e2c c-m2 uc-a1 t_f57 umar_l06">注&nbsp;册</div>
+							</div>
+						 </div>
+						 <div  class="ub-fh bg_img"></div>
+						 <div  class="ub-fh bg_img"></div>
+				 	</div>
+				</div>
+            </div>
+            <!--content结束-->
+        </div>
+    </body>
+    <script>
+    	zy_init();
+        window.uexOnload = function(type){
+            if (!type) {
+            }
+			window.onorientationchange=window.onresize=function()
+			{
+				zy_resize("content",0,$$("header").offsetHeight);				
+			}
+        }
+		var pornter = $$("point");
+		var note = pornter.children;
+		var flip1 = new zySlide("wraper", "H", function(){
+			var cp = flip1.currentPoint;
+					for (var i in note) {
+						note[i].className = "p_crl p_auto";
+					}
+					   note[cp].className = "p_crl p_act";
+		});
+    </script>
+</html>

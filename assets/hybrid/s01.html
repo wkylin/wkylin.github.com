@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-btn.css">
+    <link rel="stylesheet" href="css/ui-input.css">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+    <script src="js/zy_control.js"></script>
+     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
+	<script src="js/common.js"></script>
+    </head>
+    <body class="um-vp c_e3d" ontouchstart>
+        <div id="page_0" class="up ub ub-ver" tabindex="0">
+            <div id="content" class="ub ub-ac ub-f1">
+            	<div class="ub-f1" style="height:12em; margin:0 3em">
+            		<div class="umar_t1">
+						<div class="c-wh uba uc-a1  b-gra us-i uinput uinn4">    
+						 <input placeholder="账号"  type="text" class="uc-a1 t_6d6">   
+						</div>  
+            		</div>
+					<div class="umar_t1">
+            			<div class="c-wh uba uc-a1 b-gra us-i uinput uinn4">    
+						 <input placeholder="密码"  type="password" class="uc-a1 t_6d6">   
+						</div>
+            		</div>
+					<div class="umar_t1">
+						<div ontouchstart="zy_touch('btn-act')" onmousedown="zy_touch('btn-act');"  class="btn uinn5 c-m13 uc-a1 t-wh">登陆</div>
+            		</div>
+            	</div>
+            </div>
+			<div class="ub ub-ac ub-pe" style="position:absolute;width:100%; bottom:1em; height:1.5em" onclick="">
+				<div class="t_6d6 umar-r">记住密码</div>
+				<div class="umar_r1 bg_password"></div>
+			</div>
+        </div>
+    </body>
+    <script>
+    	zy_init();
+        window.uexOnload = function(type){
+            if (!type) {
+            }
+			window.onorientationchange=window.onresize=function()
+			{
+				zy_resize("content",0,$$("header").offsetHeight);				
+			}
+        }
+		new zyEvent('content', null, function(me, dx, dy, t){//手指松开后事件
+		            if (t == "left")
+					{
+						open_new('s02');
+					}
+		        }, false,function(event){
+				});
+		</script>
+</html>

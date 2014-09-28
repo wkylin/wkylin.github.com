@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+    <script src="js/zy_control.js"></script>
+     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
+  
+</head>
+<body class="um-vp c_e3d" ontouchstart>
+    <div id="page_0" class="up ub ub-ver" tabindex="0">
+    	<div id="top">
+	        <div id="header" class="uh t-wh ub ub-pj t_6d6" >
+	        	<div class="ub ub-ac umar_l06" ontouchstart="zy_touch()" onclick="uexWindow.close(-1)">
+	        		<div class="back_icon"></div>
+					<div class="umar-l">伊芙利特</div>
+	        	</div>
+	        </div>
+		</div>
+        <div id="content" class="ub ub-f1 ">
+        	<div class="photo_div">
+        		<div class="photo_icon"></div>
+				<div class="t_5f4 umar_1">拍照</div>
+        	</div>
+            <div class="ub ub-f1 umar_a05">
+            	<div class="ub-con yuan_icon ub ub-ver">
+            		<div class="ub-f1 ub">
+            			<div class="ub-f1"></div>
+						<div class="ub-f1" onclick="alert('小店风采')"></div>
+            		</div>
+					<div class="ub-f1 ub">
+						<div class="ub-f1" onclick="alert('衣友精华区')"></div>
+						<div class="ub-f1" onclick="alert('我的衣橱')"></div>
+						<div class="ub-f1"></div>
+					</div>
+					<div class="ub-f1 ub">
+						<div class="ub-f1"></div>
+						<div class="ub-f1" onclick="alert('我的大厅')"></div>
+					</div>
+            	</div>
+            </div>
+        </div>
+        <div id="footer" class="uf ulev-1">
+        	<div class="ub ub-ac">
+        		<div class="icon_div c_5f4 ub ub-ac ub-pc">
+        			<div class="friend1_icon"></div>
+        		</div>
+				<div class="ub-f1 c_b32 umh3 ub ub-ac t-wh"><span class="umar_l1">衣友圈</span></div>
+        	</div>
+			<div class="ub ub-ac umar_1">
+        		<div class="icon_div c_5f4 ub ub-ac ub-pc">
+        			<div class="head_icon"></div>
+        		</div>
+				<div class="ub-f1 c_b32 umh3 ub ub-ac t-wh"><span class="umar_l1">我的设计师</span></div>
+        	</div>
+			<div class="ub ub-ac umar_1">
+        		<div class="icon_div c_5f4 ub ub-ac ub-pc">
+        			<div class="home_page_icon"></div>
+        		</div>
+				<div class="ub-f1 c_b32 umh3 ub ub-ac t-wh"><span class="umar_l1">个人主页</span></div>
+        	</div>
+			<div class="ub ub-ac umar_1">
+        		<div class="icon_div c_5f4 ub ub-ac ub-pc">
+        			<div class="info1"></div>
+        		</div>
+				<div class="ub-f1 c_b32 umh3 ub ub-ac t-wh"><span class="umar_l1">亲，有意见就反馈一下么！</span></div>
+        	</div>
+			<div class="ub ub-ac umar_1">
+        		<div class="icon_div c_5f4 ub ub-ac ub-pc">
+        			<div class="set_icon"></div>
+        		</div>
+				<div class="ub-f1 c_b32 umh3 ub ub-ac t-wh"><span class="umar_l1">设置</span></div>
+        	</div>
+        </div>
+    </div>
+</body>
+<script>
+zy_init();
+window.uexOnload = function(type){
+    if (!type) {
+    }
+	window.onorientationchange=window.onresize=function(){
+		zy_resize("content",0,$$("header").offsetHeight);				
+	}
+}
+new zyEvent('page_0', null, function(me, dx, dy, t){//手指松开后事件
+		            if (t == "left")
+					{
+						open_new('s41');
+					}
+		        }, false,function(event){
+				});
+</script>
+</html>
