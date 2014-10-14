@@ -16,11 +16,14 @@
 .sjx_div{position:absolute; width:1em;height:1em;z-index:99;top:-.5em; left:50%; margin-left:-.5em; background-color:#fff; transform:ratate(45deg);-webkit-transform:rotate(45deg);}
 #dialog{position:absolute; height:10em; bottom:.5em;width:100%;z-index:999;background-color:#fff}
 #info{position:absolute; height:5em;  width:5em; top:50%; left:50%; margin:-2.5em 0 0 -2.5em;z-index:999;background:rgba(124,149,215,.8)}
-#top_s{position:fixed;height:2.5em;width:2.2em; z-index:10000; background:url(../images/top.png) no-repeat; background-size:2.2em 2.5em; bottom:1em;right:1em}
+#top_s{position:fixed;height:2.5em;width:2.2em; z-index:10000; background:url(../images/top.png) no-repeat; background-size:2.2em 2.5em; bottom:4em;right:1em}
+#top_s1{position:fixed;height:2.5em;width:2.2em; z-index:10000; background:url(../images/menu1_icon.png) no-repeat; background-size:2.2em 2.5em; bottom:.8em;right:1em}
+#top_b{position:fixed;width:5.6em; bottom:.6em; text-align:center;color:#fff; height:1.8em; line-height:1.8em;border-radius:.3em;-webkit-border-radius:.3em;z-index:99999; left:50%; margin-left:-2.8em; background-color:rgba(95,73,136,.9) }
 .y1_div{position:absolute;width:5em; right:3.8em; top:2.6em; z-index:99}
 .y2_div{position:absolute;width:5em; left:1em; top:1.4em; z-index:99}
 .y3_div{position:absolute;width:5em; left:50%; margin-left:-2.5em; top:2em; z-index:99}
 .y4_div{position:absolute;width:5em; right:4.5em; top:1.4em; z-index:99}
+.cri_be5{width:.6em; height:.6em; background-color:#be5cd4;border-radius:.6em;-webkit-border-radius:.6em; margin-left:.3em}
 /****高度********/
 .icon_div{width:4.6em;height:2.6em }
 .umh3{height:2.6em}
@@ -118,6 +121,8 @@
 .back_icon{background:url(../images/back_icon.png) no-repeat;width:.8em;height:1em; background-size:.8em 1em;}
 .right_icon{background:url(../images/right_icon.png) no-repeat;width:.8em;height:1em; background-size:.8em 1em;}
 .person{width:1.4em;height:1.2em; background:url(../images/person.png) no-repeat; background-size:1.4em 1.2em}
+.add{width:1.4em;height:1.2em; background:url(../images/add_icon.png) no-repeat; background-size:1.2em 1.2em}
+.yaoshi{width:1.4em;height:1.2em; background:url(../images/yaoshi.png) no-repeat; background-size:1.2em 1.2em}
 .tab_one{background:url(../images/share_big.png) no-repeat; width:1.2em; height:1.2em; background-size:1.2em 1.2em}
 .tab_two{background:url(../images/delete.png) no-repeat; width:1.2em; height:1.2em; background-size:1.2em 1.2em}
 .tab_three{background:url(../images/three_icon.png) no-repeat; width:1.2em; height:1.2em; background-size:1.2em 1.2em}
@@ -148,6 +153,8 @@
 .white_share_icon{background:url(../images/white_share.png) no-repeat; width:1.4em; height:1.4em; background-size:1.4em 1.4em}
 .flower_icon_icon{background:url(../images/flower_icon.png) no-repeat; width:3.6em; height:2.6em; background-size:3.6em 2.6em}
 .flag_icon{background:url(../images/flag_icon.png) no-repeat; width:3.6em; height:2.6em; background-size:3.6em 2.6em}
+.she{background:url(../images/she.png) no-repeat; width:3.8em; height:2.6em; background-size:3.8em 2.6em}
+.jian{background:url(../images/jian.png) no-repeat; width:3.4em; height:2.6em; background-size:3.4em 2.6em}
 .tab1_icon{background:url(../images/tab1.png) no-repeat; width:1.4em; height:1.4em; background-size:1.4em 1.4em}
 .tab2_icon{background:url(../images/tab2.png) no-repeat; width:1.4em; height:1.4em; background-size:1.4em 1.4em}
 .tab3_icon{background:url(../images/tab3.png) no-repeat; width:1.4em; height:1.4em; background-size:1.4em 1.4em}
