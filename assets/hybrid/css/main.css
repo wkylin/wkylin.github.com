@@ -133,9 +133,9 @@
 .jiao_icon{background:url(../images/jiao.png) no-repeat;width:2em;height:2.4em; background-size:2em 2.4em}
 .share{background:url(../images/share.png) no-repeat;width:1.5em;height:1.4em; background-size:1.5em 1.4em}
 .person_icon{background:url(../images/person_icon.png) no-repeat;width:4.5em;height:4.5em; background-size:4.5em 4.5em}
-.face_icon{background:url(../images/face_icon.png) no-repeat;width:1.2em;height:1.2em; background-size:1.2em 1.2em}
-.add_icon{background:url(../images/add_icon.png) no-repeat;width:1.2em;height:1.2em; background-size:1.2em 1.2em}
-.fly_icon{background:url(../images/fly_icon.png) no-repeat;width:1.2em;height:1.2em; background-size:1.2em 1.2em}
+.face_icon{background:url(../images/face_icon.png) no-repeat;width:1.6em;height:1.6em; background-size:1.6em 1.6em}
+.add_icon{background:url(../images/add_icon.png) no-repeat;width:1.6em;height:1.6em; background-size:1.6em 1.6em}
+.fly_icon{background:url(../images/fly_icon.png) no-repeat;width:1.6em;height:1.6em; background-size:1.6em 1.6em}
 .qq_icon{background:url(../images/qq.png) no-repeat;width:2.4em;height:2.4em; background-size:2.4em 2.4em}
 .wx_icon{background:url(../images/wx.png) no-repeat;width:2.4em;height:2.4em; background-size:2.4em 2.4em}
 .xl_icon{background:url(../images/xl.png) no-repeat;width:2.4em;height:2.4em; background-size:2.4em 2.4em}
@@ -162,7 +162,7 @@
 .flag_1_icon{background:url(../images/flag_1.png) no-repeat;}
 .icon_wh{background-size:1.4em 1.4em;width:1.4em;height:1.4em}
 .crile_icon{background:url(../images/crile.png) no-repeat; width:2.4em; height:4.6em; background-size:2.4em 4.6em}
-.women1_icon{background:url(../images/women1.png) no-repeat; max-width:15em; height:9em; background-size:100% 9em}
+.women1_icon{background:url(../images/women1.png) no-repeat;  height:9em; background-size:100% 9em}
 .white_share{background:url(../images/white_share.png) no-repeat; width:1.3em; height:1.3em; background-size:1.3em 1.3em}
 .three_icon{background:url(../images/three_icon.png) no-repeat; width:1.3em; height:1.3em; background-size:1.3em 1.3em}
 .friend1_icon{background:url(../images/friend_icon.png) no-repeat; width:1.8em; height:1.6em; background-size:1.8em 1.6em}
@@ -201,6 +201,7 @@
 .y2_icon{background:url(../images/y2.png) no-repeat;width:2em; height:1.8em; background-size:2em 1.8em;}
 .y3_icon{background:url(../images/y3.png) no-repeat;width:2em; height:1.8em; background-size:2em 1.8em;}
 .y4_icon{background:url(../images/y4.png) no-repeat;width:2em; height:1.8em; background-size:2em 1.8em;}
+.btn_c{-webkit-border-radius:.3em;-webkit-border-radius:.3em;background-image: -webkit-linear-gradient(to bottom,#e1a5f3,#ae9edc);background-image:linear-gradient(to bottom,#e1a5f3,#ae9edc); height:2em; line-height:2em; text-align:center}
 /****渐变色*******/
 .c-m13
 {

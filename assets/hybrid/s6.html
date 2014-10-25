@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-btn.css">
+    <link rel="stylesheet" href="css/ui-input.css">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/ui-list.css">
+	<link rel="stylesheet" href="css/main.css">
+    <script src="js/zy_control.js"></script>
+     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
+	<script src="js/common.js"></script>
+    </head>
+    <body class="um-vp c_e3d" ontouchstart>
+        <div id="page_0" class="up ub ub-ver" tabindex="0">
+            <div id="header" class="ub t_6d5 umar_l1 umar_r1">
+            	<div class="ub ub-f1 umh28 c-wh ubb b_644 ub-ac c_fef">
+            		<div class="input_rit umar_l1 umar_r06">
+            		</div>
+					<div class="ub-f1 ">
+						<div class="uinput uinn4 t_6d5">    
+						 <input value="输入风格关键词"  type="text" class="uc-a1 t_6d5">   
+						</div>  
+            		</div>
+					<div class="jiao_left1_icon"></div>
+					<div class="c_6d5  umw_3 umh28">
+            		</div>
+            	</div>
+            </div>
+			<div id="content" class="ub-f1 umar_l1 umar_r1" style="padding-top:.3em">
+				<div class="ub umar_t1">
+					<div class="btn_c ub-f1 umar-l uamr-r">职业</div>
+					<div class="btn_c ub-f1 umar-l uamr-r">低调张扬</div>
+					<div class="btn_c ub-f1 umar-l uamr-r">居家</div>
+				</div>
+				<div class="ub umar_t1">
+					<div class="btn_c ub-f1 umar-l uamr-r">低调张扬</div>
+					<div class="btn_c ub-f1 umar-l uamr-r">职业</div>
+					<div class="btn_c ub-f1 umar-l uamr-r">居家</div>
+				</div>
+				<div class="ub umar_t1">
+					<div class="btn_c ub-f1 umar-l uamr-r">低调张扬</div>
+					<div class="btn_c ub-f1 umar-l uamr-r">职业</div>
+					<div class="btn_c ub-f1 umar-l uamr-r">居家</div>
+				</div>
+			</div>
+        </div>
+    </body>
+    <script>
+    	zy_init();
+        window.uexOnload = function(type){
+            if (!type) {
+            }
+			window.onorientationchange=window.onresize=function()
+			{
+				zy_resize("content",0,$$("header").offsetHeight);				
+			}
+        }
+		new zyEvent('content', null, function(me, dx, dy, t){//手指松开后事件
+		            if (t == "left")
+					{
+						open_new('screen');
+					}
+		        }, false,function(event){
+				});
+		</script>
+</html>

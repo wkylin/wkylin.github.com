@@ -89,6 +89,13 @@
 	box-flex: 4;
 }
 
+.ub-f10
+{
+	position:relative;
+	-webkit-box-flex: 100;
+	box-flex: 100;
+}
+
 .ub-img
 {
 	-webkit-background-size:contain;

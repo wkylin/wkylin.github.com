@@ -2,49 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/add_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/app-btn-c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/app-btn-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/app-btn-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/app-rbt-c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/app-rbt-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/app-rbt-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/img/appcan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/home-act.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/hs_tip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/hunsha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/img/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/img/icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/img/icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/info-act.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/jian.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/menu-act.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/menu1_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/menu1_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/menu_icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/switch/on-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/set-act.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/set.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/she.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/shop-act.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/shop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/switch/swi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/talk-act.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/css/res-apple/talk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/images/yaoshi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/new_s11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/s8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/s81.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/s82.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/s821.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/s83.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/screen1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/images/add_icon.png" afterPath="$PROJECT_DIR$/assets/hybrid/images/add_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/hybrid.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hybrid/s6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/css/main.css" afterPath="$PROJECT_DIR$/assets/hybrid/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/s0.html" afterPath="$PROJECT_DIR$/assets/hybrid/s0.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/s01.html" afterPath="$PROJECT_DIR$/assets/hybrid/s01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/s02.html" afterPath="$PROJECT_DIR$/assets/hybrid/s02.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/s1.html" afterPath="$PROJECT_DIR$/assets/hybrid/s1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/s2.html" afterPath="$PROJECT_DIR$/assets/hybrid/s2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/s21.html" afterPath="$PROJECT_DIR$/assets/hybrid/s21.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/s31.html" afterPath="$PROJECT_DIR$/assets/hybrid/s31.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hybrid/css/ui-box.css" afterPath="$PROJECT_DIR$/assets/hybrid/css/ui-box.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -71,7 +40,7 @@
       <file leaf-file-name="new_s11.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/hybrid/new_s11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.931034" vertical-offset="0" max-vertical-offset="1416">
+            <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1416">
               <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
@@ -81,7 +50,7 @@
       <file leaf-file-name="s8.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/hybrid/s8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.448276" vertical-offset="0" max-vertical-offset="4920">
+            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="4920">
               <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
@@ -91,18 +60,48 @@
       <file leaf-file-name="s11.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/hybrid/s11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1032">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="96" max-vertical-offset="1032">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hybrid.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/hybrid/hybrid.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s81.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="s02.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/hybrid/s02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1464">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/hybrid/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s81.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/hybrid/s81.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7898734" vertical-offset="0" max-vertical-offset="2784">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="2784">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -111,7 +110,7 @@
       <file leaf-file-name="s82.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/hybrid/s82.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.172414" vertical-offset="3445" max-vertical-offset="3840">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3445" max-vertical-offset="3840">
               <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
               <folding />
             </state>
@@ -121,7 +120,7 @@
       <file leaf-file-name="s83.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/hybrid/s83.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="98.93104" vertical-offset="3109" max-vertical-offset="3504">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3109" max-vertical-offset="3504">
               <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
@@ -182,8 +181,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1600" />
-    <option name="height" value="860" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +212,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,7 +265,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,19 +285,14 @@
       <recent name="D:\github\wkylin.github.com\assets\viva\static\upImg" />
       <recent name="D:\github\wkylin.github.com\assets\viva\static\js" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\wkylin.github.com\assets\hybrid" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.html5.html">
     <configuration default="false" name="html5.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/wkylin.github.com/html5.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -309,14 +305,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -324,6 +318,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -979,19 +983,23 @@
       <created>1411912058037</created>
       <updated>1411912058038</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="Hybrid Add">
+      <created>1413262035014</created>
+      <updated>1413262035015</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23461539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23413706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1056,6 +1064,54 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/new_s11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1416">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/s8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="4920">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/s11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="1032">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/s81.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2784">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/s82.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3445" max-vertical-offset="3840">
+          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/s83.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3109" max-vertical-offset="3504">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/hybrid/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="3408">
@@ -1137,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2808">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5184">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1245,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/hybrid/new_s11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.931034" vertical-offset="0" max-vertical-offset="1416">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1416">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
@@ -1199,23 +1253,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/hybrid/s8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.448276" vertical-offset="0" max-vertical-offset="4920">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="4920">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/hybrid/s11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1032">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/hybrid/s83.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="98.93104" vertical-offset="3109" max-vertical-offset="3504">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3109" max-vertical-offset="3504">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding />
         </state>
@@ -1223,7 +1269,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/hybrid/s82.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.172414" vertical-offset="3445" max-vertical-offset="3840">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3445" max-vertical-offset="3840">
           <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
           <folding />
         </state>
@@ -1231,8 +1277,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/hybrid/s81.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7898734" vertical-offset="0" max-vertical-offset="2784">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="2784">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/s11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="1032">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/s02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1464">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/hybrid.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget appId="11268632" channelCode="000" height="480" pid="" sreensize="4.5" version="00.00.0001" viewmode="application" widgetId="" width="320">
+<name>yifulite</name>
+<description/>
+<author email=""> </author>
+<icon src="icon.png"/>
+<license href=""/>
+<content encoding="utf-8" src="s0.html"/>
+<updateurl/>
+<logserverip/> 
+<showmyspace>false</showmyspace>
+<obfuscation>false</obfuscation>
+<bgcolor/>
+<orientation>5</orientation>
+</widget>
