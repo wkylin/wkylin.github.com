@@ -175,9 +175,9 @@ Clickjacking安全漏洞:
 
 ###20. 代码规范
 
-CSSGuide:<http://cssguidelin.es/>
+CSSGuide: <http://cssguidelin.es/>
 
-HTMLGuide:<http://www.thehtmlguide.com/>
+HTMLGuide: <http://www.thehtmlguide.com/>
 
 Code Guide: <http://alloyteam.github.io/code-guide/>
 
@@ -205,6 +205,9 @@ CMD模块定义规范: <http://segmentfault.com/blog/liangyi/1190000000761641>
 
 AMD模块定义规范: <http://segmentfault.com/blog/liangyi/1190000000761330>
 
+ISOBar: <http://coderlmn.github.io/code-standards/>
+
+JsonGuide: <https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md>
 
 ###21. HTML模块化
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
+    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="Style Guide">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -49,8 +49,21 @@
       <file leaf-file-name="2014-05-20-knowledge.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.1294117" vertical-offset="4015" max-vertical-offset="5592">
-              <caret line="205" column="66" selection-start-line="205" selection-start-column="66" selection-end-line="205" selection-end-column="66" />
+            <state vertical-scroll-proportion="11.802353" vertical-offset="0" max-vertical-offset="5664">
+              <caret line="209" column="88" selection-start-line="209" selection-start-column="88" selection-end-line="209" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-02-08-polyfill.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-02-08-polyfill.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.6" vertical-offset="360" max-vertical-offset="1440">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,8 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-19" />
-    <option name="y" value="21" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -939,11 +952,15 @@
       <created>1415782564932</created>
       <updated>1415782564932</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Style Guide">
+      <created>1415783027300</created>
+      <updated>1415783027300</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="21" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
@@ -985,7 +1002,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="jsonlint" />
     <MESSAGE value="input::-ms-clear{display:none;}" />
     <MESSAGE value="ued" />
     <MESSAGE value="幽竹前端" />
@@ -1010,20 +1026,13 @@
     <MESSAGE value="百度 site App" />
     <MESSAGE value="Hybrid Add" />
     <MESSAGE value="Web Safe Fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web Safe Fonts" />
+    <MESSAGE value="Style Guide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style Guide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csserlink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6480">
@@ -1356,10 +1365,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-02-08-polyfill.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.6" vertical-offset="360" max-vertical-offset="1440">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1294117" vertical-offset="4015" max-vertical-offset="5592">
-          <caret line="205" column="66" selection-start-line="205" selection-start-column="66" selection-end-line="205" selection-end-column="66" />
+        <state vertical-scroll-proportion="11.802353" vertical-offset="0" max-vertical-offset="5664">
+          <caret line="209" column="88" selection-start-line="209" selection-start-column="88" selection-end-line="209" selection-end-column="88" />
           <folding />
         </state>
       </provider>
