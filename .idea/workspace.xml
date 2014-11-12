@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5.html" afterPath="$PROJECT_DIR$/html5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3link.html" afterPath="$PROJECT_DIR$/css3link.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -36,20 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css3link.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="css3link.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css3link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6480">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4017094" vertical-offset="987" max-vertical-offset="6504">
+              <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html5.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="html5.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18644068" vertical-offset="2347" max-vertical-offset="4896">
+            <state vertical-scroll-proportion="-2.6551723" vertical-offset="2347" max-vertical-offset="4896">
               <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding />
             </state>
@@ -80,7 +80,6 @@
         <option value="$PROJECT_DIR$/uedlink.html" />
         <option value="$PROJECT_DIR$/csserlink.html" />
         <option value="$PROJECT_DIR$/tech.html" />
-        <option value="$PROJECT_DIR$/css3link.html" />
         <option value="$PROJECT_DIR$/_site/assets/themes/twitter/wkylin/default.css" />
         <option value="$PROJECT_DIR$/homelink.html" />
         <option value="$PROJECT_DIR$/assets/viva/static/css/swipe.css" />
@@ -106,6 +105,7 @@
         <option value="$PROJECT_DIR$/assets/viva/static/css/index.css" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/html5.html" />
+        <option value="$PROJECT_DIR$/css3link.html" />
       </list>
     </option>
   </component>
@@ -159,20 +159,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -206,14 +192,6 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -224,14 +202,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -239,6 +215,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -914,7 +900,11 @@
       <created>1415700385726</created>
       <updated>1415700385726</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Web Safe Fonts">
+      <created>1415778237706</created>
+      <updated>1415778237706</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1323,18 +1313,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3link.html">
+    <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="6480">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.6551723" vertical-offset="2347" max-vertical-offset="4896">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5.html">
+    <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18644068" vertical-offset="2347" max-vertical-offset="4896">
-          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.4017094" vertical-offset="987" max-vertical-offset="6504">
+          <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
           <folding />
         </state>
       </provider>
