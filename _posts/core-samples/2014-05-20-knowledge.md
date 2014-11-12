@@ -175,13 +175,35 @@ Clickjacking安全漏洞:
 
 ###20. 代码规范
 
+CSSGuide:<http://cssguidelin.es/>
+
+HTMLGuide:<http://www.thehtmlguide.com/>
+
 Code Guide: <http://alloyteam.github.io/code-guide/>
+
+BootCss: <http://codeguide.bootcss.com/>
+
+IdiomaticCSS: <https://github.com/necolas/idiomatic-css/tree/master/translations/zh-CN>
+
+GitHubGuide: <https://github.com/styleguide>
 
 编写可维护的CSS: <http://segmentfault.com/a/1190000000388784/>
 
 GJS编码规范指南: <http://alloyteam.github.io/JX/doc/specification/google-javascript.xml>
 
 jQueryJS规范: <http://contribute.jquery.org/style-guide/js/>
+
+Amaze UI : <http://amazeui.org/getting-started/html-css-guide>
+
+ZUI: <http://easysoft.github.io/zui/>
+
+Alice: <http://aliceui.org/docs/rule.html>
+
+163Nec: <http://nec.netease.com/standard>
+
+CMD模块定义规范: <http://segmentfault.com/blog/liangyi/1190000000761641>
+
+AMD模块定义规范: <http://segmentfault.com/blog/liangyi/1190000000761330>
 
 
 ###21. HTML模块化
