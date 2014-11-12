@@ -209,6 +209,8 @@ ISOBar: <http://coderlmn.github.io/code-standards/>
 
 JsonGuide: <https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md>
 
+CSS 创作指南: <https://github.com/yisibl/css-creating>
+
 ###21. HTML模块化
 
 html5boilerplate: <http://html5boilerplate.com/>
@@ -228,3 +230,8 @@ CssReset:<http://www.cssreset.com/>
 D3:<http://d3js.org/>
 
 KINETIC:<http://kineticjs.com/>
+
+
+###24.免费的编程中文书籍索引
+
+免费的编程中文书籍索引 <https://github.com/justjavac/free-programming-books-zh_CN >

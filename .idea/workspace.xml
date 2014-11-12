@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="Style Guide">
+    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -49,8 +49,8 @@
       <file leaf-file-name="2014-05-20-knowledge.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.802353" vertical-offset="0" max-vertical-offset="5664">
-              <caret line="209" column="88" selection-start-line="209" selection-start-column="88" selection-end-line="209" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.77411765" vertical-offset="4735" max-vertical-offset="5808">
+              <caret line="211" column="50" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -956,7 +956,11 @@
       <created>1415783027300</created>
       <updated>1415783027300</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Style Guide">
+      <created>1415785709481</created>
+      <updated>1415785709481</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1378,8 +1382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.802353" vertical-offset="0" max-vertical-offset="5664">
-          <caret line="209" column="88" selection-start-line="209" selection-start-column="88" selection-end-line="209" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.77411765" vertical-offset="4735" max-vertical-offset="5808">
+          <caret line="211" column="50" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
           <folding />
         </state>
       </provider>
