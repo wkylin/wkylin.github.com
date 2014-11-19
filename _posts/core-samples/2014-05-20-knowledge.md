@@ -38,6 +38,8 @@ JSHint: <http://www.jshint.com/>
 
 JSLint: <http://www.jslint.com/>
 
+HTMLHint: <http://htmlhint.com/>
+
 ###4. CSS预处理器
 
 Less: <http://lesscss.org/>
@@ -229,7 +231,10 @@ LESS:<http://www.lesscss.net/>
 
 OOCSS:<http://www.oocss.cc/> <http://oocss.org/>
 
-CssReset:<http://www.cssreset.com/>
+
+OOCSS: <http://www.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/>
+
+CSSReset:<http://www.cssreset.com/>
 
 ###23. HTML5 Canvas
 
