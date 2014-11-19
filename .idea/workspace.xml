@@ -82,9 +82,10 @@
       <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6375" vertical-offset="696" max-vertical-offset="2712">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.9453125" vertical-offset="1819" max-vertical-offset="2640">
+              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
               <folding>
+                <element signature="tag#script#3;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -1036,7 +1037,11 @@
       <created>1416376648694</created>
       <updated>1416376648694</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="w3counter">
+      <created>1416380523025</created>
+      <updated>1416380523025</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1084,7 +1089,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="input::-ms-clear{display:none;}" />
     <MESSAGE value="ued" />
     <MESSAGE value="幽竹前端" />
     <MESSAGE value="smart git" />
@@ -1109,7 +1113,8 @@
     <MESSAGE value="Hybrid Add" />
     <MESSAGE value="Web Safe Fonts" />
     <MESSAGE value="Style Guide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style Guide" />
+    <MESSAGE value="w3counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="w3counter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1466,9 +1471,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6375" vertical-offset="696" max-vertical-offset="2712">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.9453125" vertical-offset="1819" max-vertical-offset="2640">
+          <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
           <folding>
+            <element signature="tag#script#3;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
