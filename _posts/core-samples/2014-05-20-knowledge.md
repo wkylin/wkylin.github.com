@@ -32,13 +32,25 @@ NPM: <https://www.npmjs.org/>
 
 Google Closure Compiler:
 
-CSS Lint:  <http://csslint.net/>
+CSSLint:  <http://csslint.net/>
+
+CSSLint: <https://github.com/ielgnaw/node-csshint/>
 
 JSHint: <http://www.jshint.com/>
 
+JSHint: <http://jshint.com/docs/options//>
+
 JSLint: <http://www.jslint.com/>
 
+JSLint: <https://github.com/douglascrockford/JSLint/>
+
+JSLint: <http://www.jslint.com/lint.html/>
+
+JSLintErrors: <http://jslinterrors.com/>
+
 HTMLHint: <http://htmlhint.com/>
+
+HTMLHint Rules: <https://github.com/yaniswang/HTMLHint/wiki/Rules/>
 
 ###4. CSS预处理器
 
@@ -187,8 +199,6 @@ HTMLGuide: <https://github.com/webonise/Front-End/blob/master/HTML-Guidelines.md
 
 Code Guide: <http://alloyteam.github.io/code-guide/>
 
-BootCss: <http://codeguide.bootcss.com/>
-
 IdiomaticCSS: <https://github.com/necolas/idiomatic-css/tree/master/translations/zh-CN>
 
 GitHubGuide: <https://github.com/styleguide>
@@ -218,6 +228,8 @@ ISOBarEn: <http://isobar-idev.github.io/code-standards/>
 JsonGuide: <https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md>
 
 CSS 创作指南: <https://github.com/yisibl/css-creating>
+
+CSSGuide: <https://github.com/ecomfe/spec/blob/master/css-style-guide.md>
 
 ###21. HTML模块化
 
