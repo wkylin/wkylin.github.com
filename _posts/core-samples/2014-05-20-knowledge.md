@@ -38,9 +38,15 @@ CSSLint GitHub: <https://github.com/ielgnaw/node-csshint/>
 
 CSSLint Rules:<https://github.com/CSSLint/csslint/wiki/Rules/>
 
+CSSComb: <http://csscomb.com//>
+
+CSSO: <http://css.github.io/csso/csso.html/>
+
+CSSO GitHub: <https://github.com/css/csso>
+
 JSHint: <http://www.jshint.com/>
 
-JSHint Options: <http://jshint.com/docs/options//>
+JSHint Options: <http://jshint.com/docs/options/>
 
 JSLint: <http://www.jslint.com/>
 
