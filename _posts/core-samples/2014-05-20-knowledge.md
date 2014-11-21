@@ -34,15 +34,17 @@ Google Closure Compiler:
 
 CSSLint:  <http://csslint.net/>
 
-CSSLint: <https://github.com/ielgnaw/node-csshint/>
+CSSLint GitHub: <https://github.com/ielgnaw/node-csshint/>
+
+CSSLint Rules:<https://github.com/CSSLint/csslint/wiki/Rules/>
 
 JSHint: <http://www.jshint.com/>
 
-JSHint: <http://jshint.com/docs/options//>
+JSHint Options: <http://jshint.com/docs/options//>
 
 JSLint: <http://www.jslint.com/>
 
-JSLint: <https://github.com/douglascrockford/JSLint/>
+JSLint GitHub: <https://github.com/douglascrockford/JSLint/>
 
 JSLint: <http://www.jslint.com/lint.html/>
 
