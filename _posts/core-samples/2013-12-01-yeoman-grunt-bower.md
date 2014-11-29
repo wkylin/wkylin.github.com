@@ -133,3 +133,5 @@ http://sindresorhus.com/bower-components/
 <http://wkylin.github.io/assets/GruntJsPpt/gruntJs.html#/title>
 
 <http://www.w3c.com.cn/yeoman-grunt-bower%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/>
+
+A Beginner's Guide To Grunt:<http://mattbailey.io/a-beginners-guide-to-grunt-redux/?utm_source=javascriptweekly&utm_medium=email/>
