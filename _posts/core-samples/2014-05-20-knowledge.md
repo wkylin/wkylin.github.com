@@ -239,6 +239,11 @@ CSS 创作指南: <https://github.com/yisibl/css-creating>
 
 CSSGuide: <https://github.com/ecomfe/spec/blob/master/css-style-guide.md>
 
+Node.JS Style Guide:<https://github.com/felixge/node-style-guide/>
+
+Node.JS Guide:<http://ourjs.com/detail/546c4b3fbc3f9b154e00004a/>
+
+
 ###21. HTML模块化
 
 html5boilerplate: <http://html5boilerplate.com/>
