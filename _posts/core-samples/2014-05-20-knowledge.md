@@ -243,6 +243,11 @@ Node.JS Style Guide:<https://github.com/felixge/node-style-guide/>
 
 Node.JS Guide:<http://ourjs.com/detail/546c4b3fbc3f9b154e00004a/>
 
+Guide:<https://github.com/ecomfe/spec/>
+
+JS Guide:<http://www.cnblogs.com/hustskyking/p/javascript-spec.html/>
+
+Code Guide: <https://github.com/Suxiaogang/Code_Guide>
 
 ###21. HTML模块化
 
