@@ -48,6 +48,8 @@ JSHint: <http://www.jshint.com/>
 
 JSHint Options: <http://jshint.com/docs/options/>
 
+JSHint Options Fans: <http://www.tuicool.com/articles/EJZBZj/>
+
 JSLint: <http://www.jslint.com/>
 
 JSLint GitHub: <https://github.com/douglascrockford/JSLint/>
