@@ -134,4 +134,10 @@ http://sindresorhus.com/bower-components/
 
 <http://www.w3c.com.cn/yeoman-grunt-bower%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/>
 
-A Beginner's Guide To Grunt:<http://mattbailey.io/a-beginners-guide-to-grunt-redux/?utm_source=javascriptweekly&utm_medium=email/>
+A Beginner's Guide To Grunt:
+
+<http://mattbailey.io/a-beginners-guide-to-grunt-redux/?utm_source=javascriptweekly&utm_medium=email/>
+
+PackageJson:
+
+<http://mujiang.info/translation/npmjs/files/package.json.html>
