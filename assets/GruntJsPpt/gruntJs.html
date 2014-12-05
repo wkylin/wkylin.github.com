@@ -27,8 +27,6 @@
 </div>
 <div id="exp2" class="step" data-x="-2000" data-y="0">
     <p class="text-h">MIN-精简</p>
-
-    <p class="text-a text-center">留下必要的,去掉不需要的</p>
 </div>
 <div id="exp3" class="step" data-x="-2000" data-y="1000" data-rotate="90" >
     <p class="text-h">REPEAT FOREVER</p>
@@ -139,27 +137,29 @@
 
     <p class="text-a text-indent">"description": "GruntJs",</p>
 
-    <p class="text-a text-indent">"main": "index.js",</p>
-
     <p class="text-a text-indent">"keywords": ["GruntJs"],</p>
 
     <p class="text-a text-indent">"author": "wkylin",</p>
 
     <p class="text-a text-indent">"license": "ISC"</p>
 
+    <p class="text-a text-indent">"devDependencies": {</p>
+    <p class="text-a text-indent">"connect-livereload": "^0.4.0",</p>
+    <p class="text-a text-indent">"grunt": "^0.4.5"</p>
+    <p class="text-a text-indent">}</p>
+
     <p class="text-a">}</p>
 </div>
 <div id="exp15" class="step" data-x="1000" data-y="0">
     <p class="text-d bg-white">package.json规范</p>
 
-    <p class="text-a fn-margin-top"><a
-            href="https://www.npmjs.org/doc/json.html">https://www.npmjs.org/doc/json.html</a></p>
+    <p class="text-a fn-margin-top"><a href="https://www.npmjs.org/doc/json.html">https://www.npmjs.org/doc/json.html</a></p>
+    <p class="text-a fn-margin-top"><a href="http://mujiang.info/translation/npmjs/files/package.json.html">http://mujiang.info/translation/npmjs/files/package.json.html</a></p>
 
-    <p class="text-a">D:\GruntJs>npm init</p>
 </div>
 <div id="exp16" class="step" data-x="2000" data-y="0">
-    <p class="text-d bg-white">Gruntfile.js</p>
-
+    <p class="text-d  bg-white">Gruntfile.js</p>
+    <p class="text-a fn-margin-top">D:\GruntJs>npm init</p>
     <p class="fn-margin-top text-a">D:\GruntJs>grunt</p>
 
     <p class="text-a">Fatal error: Unable to find Gruntfile.</p>
@@ -219,7 +219,7 @@
 
     <p class="fn-margin-top text-a">//user-defined tasks</p>
 
-    <p class="text-a">grunt.registerTask('buildcss', ['cssmin']);</p>
+    <p class="text-a">grunt.registerTask('buildcss', ['cssmin','copy','prd']);</p>
 </div>
 <div id="exp22" class="step" data-x="1000" data-y="-3000">
     <p class="text-d bg-white">安装插件：</p>
@@ -234,9 +234,10 @@
     <p class="text-d bg-white">matchdep-自动载入所有任务</p>
 
     <p class="text-a fn-margin-top">D:\github\GruntJs>npm install matchdep --save-dev</p>
+    <p class="text-a ">D:\github\GruntJs>npm install load-grunt-tasks --save-dev</p>
 
     <p class="text-a fn-margin-top">require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);</p>
-
+    <p class="text-a ">require('load-grunt-tasks')(grunt);</p>
     <p class="text-a fn-margin-top text-line-through">grunt.loadNpmTasks('grunt-contrib-uglify');</p>
 
     <p class="text-a text-line-through">grunt.loadNpmTasks('grunt-contrib-uglify');</p>
@@ -302,18 +303,22 @@
         <b class="rotating">cssmin</b>
         <b class="scaling">clean</b>
         <b class="rotate">concat</b>
+        <b class="rotate">cssLint</b>
         <b class="positioning">copy</b>
         <b class="rotating">htmlmin</b>
         <b class="scaling">imagemin</b>
+        <b class="rotating">htmlhint</b>
         <b class="positioning">less</b>
         <b class="rotating">compress</b>
         <b class="scaling">cssc</b>
         <b class="rotate">connect</b>
+        <b class="scaling">include-replace</b>
         <b class="positioning">qunit</b>
-        <b class="rotate">connect</b>
+        <b class="rotate">svgstore</b>
         <b class="scaling">livereload</b>
         <b class="rotating">watch</b>
         <b class="scaling">htmlhint</b>
+        <b class="scaling">requirejs</b>
         <b class="rotate">jshint</b>
     </p>
     <p><b>......</b></p>
