@@ -32,6 +32,10 @@ NPM: <https://www.npmjs.org/>
 
 Google Closure Compiler:
 
+CSS Validator: <http://jigsaw.w3.org/css-validator/>
+
+HTML Validator: <http://validator.w3.org/>
+
 CSSLint:  <http://csslint.net/>
 
 CSSLint GitHub: <https://github.com/ielgnaw/node-csshint/>
