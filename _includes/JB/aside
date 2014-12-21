@@ -22,6 +22,14 @@
 {% include JB/pages_rss %}
 </div>
 
+<h2 class="tags-sort" style="margin-top:10px; background-color:#0088CC;color:#fff;">最近关注</h2>
+<div style="padding:10px;">
+    <ul>
+        <li><a href="http://meanjs.org/" target="_blank" >MEAN.JS</a>
+        <li><a href="http://fis.baidu.com/" target="_blank" >F.I.S</a>
+    </ul>
+</div>
+
 <h2 class="tags-sort" style="margin-top:10px; background-color:#0088CC;color:#fff;">最近发表</h2>
 <ul id="recent_posts" style="margin-left:15px;">{% for rpost in site.posts limit: 20 %}
     <li class="post" >
