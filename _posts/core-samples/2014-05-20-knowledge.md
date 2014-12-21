@@ -255,6 +255,8 @@ JS Guide:<http://www.cnblogs.com/hustskyking/p/javascript-spec.html/>
 
 Code Guide: <https://github.com/Suxiaogang/Code_Guide>
 
+JS 最佳实践: <http://www.iinterest.net/2014/08/19/javascript-best-practices/>
+
 ###21. HTML模块化
 
 html5boilerplate: <http://html5boilerplate.com/>
