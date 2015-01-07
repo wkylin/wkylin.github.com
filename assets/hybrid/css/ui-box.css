@@ -4,7 +4,7 @@
 	display: box !important;
 	position:relative;
 }
-
+a{ width: 100%; height: 100%; display:inline-block;text-decoration:none;color: #6d6d6d;}
 .ub-rev
 {
 	-webkit-box-direction:reverse;
@@ -142,3 +142,8 @@
 	background-repeat:no-repeat;
 	background-position:center;
 }
+.uhide
+{
+    display:none !important;
+}
+.utra{-webkit-transition:all 1s ease}

@@ -11,46 +11,69 @@
     <link rel="stylesheet" href="css/ui-color.css">
 	<link rel="stylesheet" href="css/ui-res.css">
 	<link rel="stylesheet" href="css/main.css">
-    <script src="js/zy_control.js"></script>
-     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
-	<script src="js/common.js"></script>
+	<script type="text/javascript" src="script/jquery.min.js"></script>
     </head>
     <body class="um-vp c_e3d" ontouchstart>
         <div id="page_0" class="up ub ub-ver" tabindex="0">
-            <div id="content" class="ub ub-ac ub-f1">
-            	<div class="ub-f1" style="height:12em; margin:0 3em">
+              <div id="content" class="ub ub-ac ub-f1">
+            	<div class="ub-f1" style="margin:0 3em">
             		<div class="umar_t1">
 						<div class="c-wh uba uc-a1  b-gra us-i uinput uinn4">    
-						 <input placeholder="手机号或微信号"  type="text" class="uc-a1 t_6d6">   
+						 <input placeholder="手机号或微信号" id="userName" type="text" class="uc-a1 t_6d6">   
 						</div>  
             		</div>
 					<div class="umar_t1">
             			<div class="c-wh uba uc-a1 b-gra us-i uinput uinn4">    
-						 <input placeholder="密码"  type="password" class="uc-a1 t_6d6">   
+						 <input placeholder="密码" id="password1" type="password" class="uc-a1 t_6d6">   
 						</div>
             		</div>
 					<div class="umar_t1">
             			<div class="c-wh uba uc-a1 b-gra us-i uinput uinn4">    
-						 <input placeholder="重复密码"  type="password" class="uc-a1 t_6d6">   
+						 <input placeholder="重复密码" id="password2" type="password" class="uc-a1 t_6d6">   
 						</div>
             		</div>
 					<div class="umar_t1">
-						<div ontouchstart="zy_touch('btn-act')" onmousedown="zy_touch('btn-act');" onclick="open_new('liao','liao.html',10)" class="btn uinn5 c-m13 uc-a1 t-wh">注册</div>
+						<div onclick="regist()" class="btn uinn5 c-m13 uc-a1 t-wh">注册</div>
             		</div>
+            		<a href="s01.html"><span id="login"></span></a>
             	</div>
             </div>
 			</div>
-        </div>
     </body>
     <script>
-    	zy_init();
-        window.uexOnload = function(type){
-            if (!type) {
-            }
-			window.onorientationchange=window.onresize=function()
-			{
-				zy_resize("content",0,$$("header").offsetHeight);				
+		function regist(){
+			var user = $("#userName").val();
+			var pwd1 = $("#password1").val();
+			var pwd2 = $("#password2").val();debugger;
+			var length = pwd1.length;
+			if(user===""||pwd1===""||pwd2===""){
+				alert("注册账号密码不能为空！");
+				return;
+			}else if(pwd1!=pwd2){
+				alert("您两次输入的密码不一致！");
+				return;
+			}else if(length<5){
+				alert("密码长度不能小于6位！");
+				return;
 			}
-        }
-		</script>
+			
+			$.ajax({
+				type : "POST",
+				url : "./admin/appRegister.jhtml",
+				dataType : 'json',
+				data : {
+					userName : user,
+					password : pwd1
+				},
+				success:function(response){
+					if(response === 3){
+						alert("用户名已经存在，请重新填写");
+					}else if(response === 1){
+						alert("恭喜你注册成功！");
+						$("#login").click();
+					}
+				}
+			});
+		}
+	</script>
 </html>

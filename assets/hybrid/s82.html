@@ -4,15 +4,17 @@
     <title></title>
     <meta charset="utf-8">
     <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="css/ui-input.css">
     <link rel="stylesheet" href="css/ui-base.css">
     <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-media.css">
     <link rel="stylesheet" href="css/ui-color.css">
 	<link rel="stylesheet" href="css/ui-res.css">
 	<link rel="stylesheet" href="css/main.css">
     <script src="js/zy_control.js"></script>
-     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
-    <script src="js/common.js"></script>
+	<script src="js/zy_slide.js"></script>
+     <script src="js/zy_click.js"></script>
+	 <script src="js/zy_event.js"></script> 
+   <script src="js/common.js"></script>
 </head>
 <body class="um-vp c_e3d" ontouchstart>
     <div id="page_0" class="up ub ub-ver" tabindex="0">
@@ -141,6 +143,16 @@ window.uexOnload = function(type){
     }
 	window.onorientationchange=window.onresize=function(){
 		zy_resize("content",0,$$("header").offsetHeight);				
+	}
+}
+var menuList = document.getElementById("menu").children;
+function tab(index){
+	for(var i=0; i<menuList.length;i++){
+		if(i==index){
+			menuList[i].className +=" c_act";
+		}else{
+			menuList[i].className = menuList[i].className.replace(/ c_act/g,'');
+		}
 	}
 }
 new zyEvent('move', null, function(me, dx, dy, t){//手指松开后事件

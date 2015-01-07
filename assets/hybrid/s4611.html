@@ -7,17 +7,16 @@
     <link rel="stylesheet" href="css/ui-input.css">
     <link rel="stylesheet" href="css/ui-base.css">
     <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-media.css">
     <link rel="stylesheet" href="css/ui-color.css">
 	<link rel="stylesheet" href="css/ui-res.css">
 	<link rel="stylesheet" href="css/main.css">
-    <script src="js/zy_control.js"></script>
-     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
-    <script src="js/common.js"></script>
+    <script type="text/javascript" src="script/jquery.min.js"></script>
 </head>
 <body class="um-vp c_e3d" ontouchstart>
     <div id="page_0" class="up ub ub-ver" tabindex="0">
-        <div id="header" class="uh t-wh ub t_6d6" style>
-        	<div class="ub ub-ac  b_5b4" ontouchstart="zy_touch()" onclick="uexWindow.close(-1)">
+        <div id="header" class="uh t-wh ub t_6d6">
+        	<div class="ub ub-ac  b_5b4" onclick="goback()">
         		<div class="back_icon umar_l06"></div>
 				<div class="umar-l">衣友区</div>
         	</div>
@@ -54,7 +53,7 @@
 					<div class="t_bold">风格留言</div>
 					<div class="uinn_ab06"><span>粉丝(99)</span><span>积分数(99)</span></div>
 				</div>
-				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06">加我</div>
+				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06"><a href="s44.html"style="color: #ffffff"> 加我</a></div>
 			</div>
 		</div>
 		<div class="ub t_8b8 ubb b_614 uinn_ab06">
@@ -69,7 +68,7 @@
 					<div class="t_bold">风格留言</div>
 					<div class="uinn_ab06"><span>粉丝(99)</span><span>积分数(99)</span></div>
 				</div>
-				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06">加我</div>
+				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06"><a href="s44.html"style="color: #ffffff"> 加我</a></div>
 			</div>
 		</div>
 		<div class="ub t_8b8 ubb b_614 uinn_ab06">
@@ -84,7 +83,7 @@
 					<div class="t_bold">风格留言</div>
 					<div class="uinn_ab06"><span>粉丝(99)</span><span>积分数(99)</span></div>
 				</div>
-				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06">加我</div>
+				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06"><a href="s44.html"style="color: #ffffff"> 加我</a></div>
 			</div>
 		</div>
 		<div class="ub t_8b8 ubb b_614 uinn_ab06">
@@ -99,7 +98,7 @@
 					<div class="t_bold">风格留言</div>
 					<div class="uinn_ab06"><span>粉丝(99)</span><span>积分数(99)</span></div>
 				</div>
-				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06">加我</div>
+				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06"><a href="s44.html"style="color: #ffffff"> 加我</a></div>
 			</div>
 		</div>
 		<div class="ub t_8b8 ubb b_614 uinn_ab06">
@@ -114,7 +113,7 @@
 					<div class="t_bold">风格留言</div>
 					<div class="uinn_ab06"><span>粉丝(99)</span><span>积分数(99)</span></div>
 				</div>
-				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06">加我</div>
+				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06"><a href="s44.html"style="color: #ffffff"> 加我</a></div>
 			</div>
 		</div>
 		<div class="ub t_8b8 ubb b_614 uinn_ab06">
@@ -129,7 +128,7 @@
 					<div class="t_bold">风格留言</div>
 					<div class="uinn_ab06"><span>粉丝(99)</span><span>积分数(99)</span></div>
 				</div>
-				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06">加我</div>
+				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06"><a href="s44.html"style="color: #ffffff"> 加我</a></div>
 			</div>
 		</div>
 		<div class="ub t_8b8 ubb b_614 uinn_ab06">
@@ -144,28 +143,30 @@
 					<div class="t_bold">风格留言</div>
 					<div class="uinn_ab06"><span>粉丝(99)</span><span>积分数(99)</span></div>
 				</div>
-				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06">加我</div>
+				<div class="btn_uinn c-m13 uc-a1 t-wh umar_r06"><a href="s44.html"style="color: #ffffff"> 加我</a></div>
 			</div>
+			<a href="s01.html"><span id="login"></span></a>
 		</div>
 	</div>
         </div>
     </div>
-</body>
-<script>
-zy_init();
-window.uexOnload = function(type){
-    if (!type) {
-    }
-	window.onorientationchange=window.onresize=function(){
-		zy_resize("content",0,$$("header").offsetHeight);				
-	}
-}
-new zyEvent('move', null, function(me, dx, dy, t){//手指松开后事件
-		            if (t == "left")
-					{
-						open_new('s462');
+    <script type="text/javascript">
+    		$(function(){
+				$.ajax({
+					type : "POST",
+					url : "./admin/getUserName.jhtml",
+					dataType : 'json',
+					success:function(response){
+						if(response === 5){
+							alert("登陆超时，请重新登陆！");
+							$("#login").click();
+						}
 					}
-		        }, false,function(event){
 				});
-</script>
+			});
+    		function goback(){
+				window.location.href = "s461.html";
+			}
+    </script>
+</body>
 </html>

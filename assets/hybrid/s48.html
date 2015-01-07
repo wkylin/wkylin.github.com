@@ -6,152 +6,314 @@
     <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="css/ui-input.css">
     <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-media.css">
     <link rel="stylesheet" href="css/ui-box.css">
     <link rel="stylesheet" href="css/ui-color.css">
-	<link rel="stylesheet" href="css/ui-res.css">
-	<link rel="stylesheet" href="css/main.css">
-    <script src="js/zy_control.js"></script>
-     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
-    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/ui-res.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="script/jquery.min.js"></script>
 </head>
-<body class="um-vp c_e3d" ontouchstart>
-    <div id="page_0" class="up ub ub-ver" tabindex="0">
-        <div id="header" class="uh t-wh ub t_6d6" style>
-        	<div class="ub ub-ac  b_5b4" ontouchstart="zy_touch()" onclick="uexWindow.close(-1)">
-        		<div class="back_icon umar_l06"></div>
-				<div class="umar-l">MY</div>
-        	</div>
-			<div class="ub-f1 b_5b4 t_5f4 ub ub-ac ub-pc">反馈发布</div>
-			<div class="ub ub-ac  b_5b4" ontouchstart="zy_touch()" onclick="">
-				<div class="umar-l umar-r umar_r06"></div>
-        	</div>
+<body class="um-vp c_e3d">
+<div id="page_0" class="up ub ub-ver" tabindex="0">
+    <div id="header" class="uh t-wh ub t_6d6">
+        <div class="ub ub-ac  b_5b4" onclick="goback()">
+            <div class="back_icon umar_l06"></div>
+            <div class="umar-l">MY</div>
         </div>
-		<div id="content" class="ub-f1 tx-l flow_y">
-            <div id="move" class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b">
-		<div class="ub ub-ac umar_l1 umar_r1">
-			<div class="ub-f1">
-				<div class="t_5f4 uinn_ab04">手绘反馈</div>
-				<div class="">
-				   <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >基本上还行</div>	  
-				</div>
-				 <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >界面可以再漂亮么</div>	  
-				</div>
-				 <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >可以且好玩么</div>	  
-				</div>
-				</div>
-			</div>
-			<div class="umw_10 ub ub-ac">
-				<div class="umar_t1">
-					<div class="uba c-gra uc-a1 b-gra us-i uinput uinn4">    
-					 <textarea placeholder="可以输入体验反馈"  name="textarea-0"  class="uc-a1"></textarea>
-					</div>
-					<div class="ub ub-pe umar_t05">反馈诏书<img src="images/fly1.png" style="width:1.4em;height:1.2em; vertical-align:middle; margin-left:.5em"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b umar-t">
-		<div class="ub ub-ac umar_l1 umar_r1">
-			<div class="ub-f1">
-				<div class="t_5f4 uinn_ab04">手绘反馈</div>
-				<div class="">
-				   <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >基本上还行</div>	  
-				</div>
-				 <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >界面可以再漂亮么</div>	  
-				</div>
-				 <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >可以且好玩么</div>	  
-				</div>
-				</div>
-			</div>
-			<div class="umw_10 ub ub-ac">
-				<div class="umar_t1">
-					<div class="uba c-gra uc-a1 b-gra us-i uinput uinn4">    
-					 <textarea placeholder="可以输入体验反馈"  name="textarea-0"  class="uc-a1"></textarea>
-					</div>
-					<div class="ub ub-pe umar_t05">反馈诏书<img src="images/fly1.png" style="width:1.4em;height:1.2em; vertical-align:middle; margin-left:.5em"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b umar-t">
-		<div class="ub ub-ac umar_l1 umar_r1">
-			<div class="ub-f1">
-				<div class="t_5f4 uinn_ab04">手绘反馈</div>
-				<div class="">
-				   <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >基本上还行</div>	  
-				</div>
-				 <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >界面可以再漂亮么</div>	  
-				</div>
-				 <input type="checkbox" name="che1" class="uhide" checked="checked"  value=""> 
-				  <div onclick="zy_for(event)" ontouchstart="zy_touch('btn-act')" class="ub umar_t05 ">	 
-				  <div class="che-icon ub-img umw1"></div> 
-				   <div class="ub-f1 ut-s tx-l umar_l06" >可以且好玩么</div>	  
-				</div>
-				</div>
-			</div>
-			<div class="umw_10 ub ub-ac">
-				<div class="umar_t1">
-					<div class="uba c-gra uc-a1 b-gra us-i uinput uinn4">    
-					 <textarea placeholder="可以输入体验反馈"  name="textarea-0"  class="uc-a1"></textarea>
-					</div>
-					<div class="ub ub-pe umar_t05">反馈诏书<img src="images/fly1.png" style="width:1.4em;height:1.2em; vertical-align:middle; margin-left:.5em"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b umar-t">
-		<div class="ub umar_l1 umar_r1">
-			<div class="umw_10 ub-f1">
-					<div class="t_5f4 uinn_ab04">手绘反馈</div>
-					<div class="uba c-gra uc-a1 b-gra us-i uinput uinn4 ub-f1 ">    
-					 <textarea placeholder="可以输入体验反馈"  name="textarea-0" style="width:100%"  class="uc-a1"></textarea>
-					</div>
-					<div class="ub ub-pe umar_t05">反馈诏书<img src="images/fly1.png" style="width:1.4em;height:1.2em; vertical-align:middle; margin-left:.5em"></div>
-			</div>
-		</div>
-	</div>
+        <div class="ub-f1 b_5b4 t_5f4 ub ub-ac ub-pc">反馈发布</div>
+        <div class="ub ub-ac  b_5b4" >
+            <div class="umar-l umar-r umar_r06"></div>
         </div>
     </div>
-</body>
-<script>
-zy_init();
-window.uexOnload = function(type){
-    if (!type) {
+    <div id="content" class="ub-f1 tx-l flow_y">
+        <div class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b umar-t">
+            <div class="ub ub-ac umar_l1 umar_r1">
+                <div class="ub-f1">
+                    <div class="t_5f4 uinn_ab04">手绘反馈</div>
+                    <div class="touch-box">
+                        <input type="checkbox" name="che1" id="choose1" class="uhide" checked="checked" value="基本上还行">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">基本上还行</div>
+                        </div>
+                        <input type="checkbox" name="che1" id="choose2" class="uhide" checked="checked" value="界面可以再漂亮么">
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">界面可以再漂亮么</div>
+                        </div>
+                        <input type="checkbox" name="che1" id="choose3" class="uhide" checked="checked" value="可以且好玩么">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">可以且好玩么</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="umw_10 ub ub-ac">
+                    <div class="umar_t1">
+                        <div class="uba c-gra uc-a1 b-gra us-i uinput uinn4">
+                            <textarea placeholder="可以输入体验反馈" id="opinion1" name="textarea-0" class="uc-a1"></textarea>
+                        </div>
+                        <div class="ub ub-pe umar_t05">反馈诏书
+                            <img src="images/fly1.png" class="send-msg" onclick="setOpinion1()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b umar-t">
+            <div class="ub ub-ac umar_l1 umar_r1">
+                <div class="ub-f1">
+                    <div class="t_5f4 uinn_ab04">手绘反馈</div>
+                    <div class="touch-box">
+                        <input type="checkbox" name="che1" id="choose4" class="uhide" checked="checked" value="基本上还行">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">基本上还行</div>
+                        </div>
+                        <input type="checkbox" name="che1" id="choose5" class="uhide" checked="checked" value="界面可以再漂亮么">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">界面可以再漂亮么</div>
+                        </div>
+                        <input type="checkbox" name="che1" id="choose6" class="uhide" checked="checked" value="可以且好玩么">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">可以且好玩么</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="umw_10 ub ub-ac">
+                    <div class="umar_t1">
+                        <div class="uba c-gra uc-a1 b-gra us-i uinput uinn4">
+                            <textarea placeholder="可以输入体验反馈" id="opinion2" name="textarea-0" class="uc-a1"></textarea>
+                        </div>
+                        <div class="ub ub-pe umar_t05">反馈诏书
+                            <img src="images/fly1.png" class="send-msg" onclick="setOpinion2()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b umar-t">
+            <div class="ub ub-ac umar_l1 umar_r1">
+                <div class="ub-f1">
+                    <div class="t_5f4 uinn_ab04">手绘反馈</div>
+                    <div class="touch-box">
+                        <input type="checkbox" name="che1" id="choose7" class="uhide" checked="checked" value="基本上还行">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">基本上还行</div>
+                        </div>
+                        <input type="checkbox" name="che1" id="choose8" class="uhide" checked="checked" value="界面可以再漂亮么">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">界面可以再漂亮么</div>
+                        </div>
+                        <input type="checkbox" name="che1" id="choose9" class="uhide" checked="checked" value="可以且好玩么">
+
+                        <div  class="ub umar_t05 ">
+                            <div class="che-icon ub-img umw1"></div>
+                            <div class="ub-f1 ut-s tx-l umar_l06">可以且好玩么</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="umw_10 ub ub-ac">
+                    <div class="umar_t1">
+                        <div class="uba c-gra uc-a1 b-gra us-i uinput uinn4">
+                            <textarea placeholder="可以输入体验反馈" id="opinion3" name="textarea-0" class="uc-a1"></textarea>
+                        </div>
+                        <div class="ub ub-pe umar_t05">反馈诏书
+                            <img src="images/fly1.png" class="send-msg" onclick="setOpinion3()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" uinn_b06 t_6d6 t_6d6 ulev-1 c_d0b umar-t">
+            <div class="ub umar_l1 umar_r1">
+                <div class="umw_10 ub-f1">
+                    <div class="t_5f4 uinn_ab04">手绘反馈</div>
+                    <div class="uba c-gra uc-a1 b-gra us-i uinput uinn4 ub-f1 ">
+                        <textarea placeholder="可以输入体验反馈" id="opinion" name="textarea-0" style="width:100%" class="uc-a1"></textarea>
+                    </div>
+                    <div class="ub ub-pe umar_t05">反馈诏书
+                        <img src="images/fly1.png" class="send-msg" onclick="setOpinion()">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="s01.html"><span id="login"></span></a>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: "POST",
+            url: "./admin/getUserName.jhtml",
+            dataType: 'json',
+            success: function (response) {
+                if (response === 5) {
+                    alert("登陆超时，请重新登陆！");
+                    $("#login").click();
+                }
+            }
+        });
+    });
+    
+    function setOpinion1(){
+    	var choose1;
+    	var choose2;
+    	var choose3;
+    	if(document.getElementById("choose1").checked){
+    		choose1 = $("#choose1").val();
+    	}
+    	if(document.getElementById("choose2").checked){
+    		choose2 = $("#choose2").val();
+    	}
+    	if(document.getElementById("choose3").checked){
+    		choose3 = $("#choose3").val();
+    	}
+    	var opinion1 = $("#opinion1").val();
+    	if(choose1==null&&choose2==null&&choose3==null&&opinion1==""){
+    		alert("提交结果不允许为空，请重新提交！");
+    		return;
+    	}
+    		$.ajax({
+    			type: "POST",
+           	 	url: "./member/setOpinion.jhtml",
+           	 	dataType: 'json',
+            	data: {
+            		checkBox1:choose1,
+            		checkBox2:choose2,
+            		checkBox3:choose3,
+            		content1:opinion1
+            	},
+            	success:function(response){
+            		if(response === 1){
+            			alert("意见提交成功！");
+            			return;
+            	}
+            }
+    	});
+
     }
-	window.onorientationchange=window.onresize=function(){
-		zy_resize("content",0,$$("header").offsetHeight);				
-	}
-}
-new zyEvent('move', null, function(me, dx, dy, t){//手指松开后事件
-		            if (t == "left")
-					{
-						open_new('s49');
-					}
-		        }, false,function(event){
-				});
+    
+    function setOpinion2(){
+    	var choose4;
+    	var choose5;
+    	var choose6;
+    	if(document.getElementById("choose4").checked){
+    		choose4 = $("#choose4").val();
+    	}
+    	if(document.getElementById("choose5").checked){
+    		choose5 = $("#choose5").val();
+    	}
+    	if(document.getElementById("choose6").checked){
+    		choose6 = $("#choose6").val();
+    	}
+    	var opinion2 = $("#opinion2").val();
+    	if(choose4==null&&choose5==null&&choose6==null&&opinion2==""){
+    		alert("提交结果不允许为空，请重新提交！");
+    		return;
+    	}
+    	$.ajax({
+    		type: "POST",
+            url: "./member/setOpinion.jhtml",
+            dataType: 'json',
+            data: {
+            	checkBox4:choose4,
+            	checkBox5:choose5,
+            	checkBox6:choose6,
+            	content2:opinion2
+            },
+            success:function(response){
+            	if(response === 1){
+            		alert("意见提交成功！");
+            		return;
+            	}
+            }
+    	});
+    }
+    
+    function setOpinion3(){
+    	var choose7;
+    	var choose8;
+    	var choose9;
+    	if(document.getElementById("choose7").checked){
+    		choose7 = $("#choose7").val();
+    	}
+    	if(document.getElementById("choose8").checked){
+    		choose8 = $("#choose8").val();
+    	}
+    	if(document.getElementById("choose9").checked){
+    		choose9 = $("#choose9").val();
+    	}
+    	var opinion3 = $("#opinion3").val();
+    	if(choose7==null&&choose8==null&&choose9==null&&opinion3==""){
+    		alert("提交结果不允许为空，请重新提交！");
+    		return;
+    	}
+    	$.ajax({
+    		type: "POST",
+            url: "./member/setOpinion.jhtml",
+            dataType: 'json',
+            data: {
+            	checkBox7:choose7,
+            	checkBox8:choose8,
+            	checkBox9:choose9,
+            	content3:opinion3
+            },
+            success:function(response){
+            	if(response === 1){
+            		alert("意见提交成功！");
+            		return;
+            	}
+            }
+    	});
+    }
+    
+    function setOpinion(){
+    	var opinion = $("#opinion").val();
+    	if(opinion==""){
+    		alert("提交结果不允许为空，请重新提交！");
+    		return;
+    	}
+    	$.ajax({
+    		type: "POST",
+            url: "./member/setOpinion.jhtml",
+            dataType: 'json',
+            data: {
+            	content4:opinion
+            },
+            success:function(response){
+            	if(response === 1){
+            		alert("意见提交成功！");
+            		return;
+            	}
+            }
+    	});
+    }
+    
+    function goback() {
+        window.location.href = "s4.html";
+    }
+
+    //点击选中
+    $(".touch-box").find(".ub").on("click",function(){
+        var $input=$(this).prev("input");
+        if($input.is(":checked")){
+            $input.prop("checked",false);
+        }else{
+            $input.prop("checked",true);
+        }
+    })
 </script>
+</body>
 </html>

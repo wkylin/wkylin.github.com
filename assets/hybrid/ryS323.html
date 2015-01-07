@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-media.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/new.css">
+  	<script type="text/javascript" src="script/jquery.min.js"></script>
+</head>
+<body class="um-vp c_80c" ontouchstart>
+    <div id="page_0" class="up ub ub-ver" tabindex="0">
+    	<div id="top">
+        <div id="header" class="uh t-wh ub b_412 ubb ub-ac ub-pj t_6d6" >
+        	<div class="ub ub-ac umar_l06" onclick="">
+        		<div class="back_icon"></div>
+        	</div>
+        	<div class="ub-f1 tx-c t_5f4 font1">添加男神&女神</div>
+        	<div class="ub ub-ac umw2">
+            </div>
+        </div>
+		</div>
+        <div id="content" class="ub-f1 tx-l flow_y">
+            <div class="umar_l1 umar_r1">
+                <div class="umar_t1 ub ub-ver umh15 c_fff ubb b_bec ub ub-ac ub-pc">
+                    <div class="">
+                        <div class="t_395">请上传照片并完成下方资料</div>
+                        <div class="ub ub-ac ub-pc uinn_a06">
+                            <div class="add_icon"></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="umar_t05 ub ub-ac ubb b_bec">
+                     <div class="c_f1e ub ub-ac umh28 uinn_lr08 t_395">性别
+                     <div class="tip_r"></div>    
+                     </div>
+                     <div class="c_a09 umh28 ub-f1 t_fff ub ub-ac uinn_lr08">
+                         <div class=""><input type="radio" class="umar-r" name="sex" checked="" />男神</div>
+                         <div class="umar_l1"><input type="radio" class="umar-r" name="sex" />女神</div>
+                     </div>
+                </div>
+                <div class="umar_t05 ub ub-ac ubb b_bec">
+                     <div class="c_f1e ub ub-ac umh28 uinn_lr08 t_395">姓名
+                         <div class="tip_r"></div> 
+                         </div>
+                     <div class="c_a09 umh28 ub-f1 t_fff ub ub-ac uinn_lr08">我的名字</div>
+                </div>
+                <div class="umar_t05 ub ub-ac ubb b_bec">
+                     <div class="c_f1e ub ub-ac umh28 uinn_lr08 t_395">城市
+                         <div class="tip_r"></div> 
+                         </div>
+                     <div class="c_a09 umh28 ub-f1 t_fff ub ub-ac uinn_lr08">
+                          <div class="">
+                              <select class="sel_div">
+                                  <option>省</option>
+                                  <option>湖北</option>
+                                  <option>湖南</option>
+                              </select>
+                          </div>
+                           <div class="umar_l1">
+                               <select class="sel_div">
+                                  <option>市</option>
+                                  <option>武汉</option>
+                                  <option>广州</option>
+                              </select>
+                           </div>
+                     </div>
+                </div>
+                <div class="umar_t05 ub ub-ac ubb b_bec">
+                     <div class="c_f1e ub umh8 uinn_lr08 uinn_t05 t_395">简介
+                         <div class="tip_r"></div> 
+                         </div>
+                     <div class="c_a09 umh8 ub-f1 uinn_t05 t_fff uinn_lr08">
+                         来自广州珠海的林潘安是显而易见的高富帅，常出入于小资场所。
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function(){
+		$.ajax({
+			type : "POST",
+			url : "./admin/getUserName.jhtml",
+			dataType : 'json',
+			success:function(response){
+				if(response === 5){
+					alert("登陆超时，请重新登陆！");
+					$("#login").click();
+				}
+			}
+		});
+	});
+    	function goback(){
+			window.location.href = "screen.html";
+		}
+    </script>
+</body>
+</html>

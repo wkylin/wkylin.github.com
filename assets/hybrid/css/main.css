@@ -78,6 +78,7 @@
 .flow_y{overflow-y:scroll;}
 .umar_1{margin-top:1px}
 .umar_t05{ margin-top:.5em}
+.umar_b05{margin-bottom:.5em}
 .umar_l06{ margin-left:.6em}
 .umar_r06{ margin-right:.6em}
 .umar_l1{ margin-left:1em}
@@ -100,6 +101,7 @@
 .uinn_l08{padding-left:.8em}
 .uinn_l04{text-indent:.4em}
 .btn_uinn{padding:.3em 1em}
+.uinn_t05{padding-top:.5em}
 /***边框*****/
 .b_aca{border-color:#acabb5}
 .b_e9d{border-color:#e9ddff}
@@ -162,6 +164,11 @@
 .flag_1_icon{background:url(../images/flag_1.png) no-repeat;}
 .icon_wh{background-size:1.4em 1.4em;width:1.4em;height:1.4em}
 .crile_icon{background:url(../images/crile.png) no-repeat; width:2.4em; height:4.6em; background-size:2.4em 4.6em}
+.figure_icon{position:relative;width:50%; }
+.nick-name{position: absolute; top:0.5em;left:0.2em;}
+.ui-icon{position: absolute; top:0;right:0;}
+#wraper img{max-width:100%;width:100%;}
+.figure_icon img{max-width:100%; max-height:100%; display:block;}
 .women1_icon{background:url(../images/women1.png) no-repeat;  height:9em; background-size:100% 9em}
 .white_share{background:url(../images/white_share.png) no-repeat; width:1.3em; height:1.3em; background-size:1.3em 1.3em}
 .three_icon{background:url(../images/three_icon.png) no-repeat; width:1.3em; height:1.3em; background-size:1.3em 1.3em}
@@ -194,7 +201,7 @@
 .down_sjx{background:url(../images/down_sjx.png) no-repeat; position:absolute; bottom:-.6em; left:50%; margin-left:-.5em; z-index:99; width:.8em; height:.6em; background-size:.8em .6em;}
 .close_1{background:url(../images/close_1.png) no-repeat; width:1em;height:1em; background-size:1em 1em; position:absolute; bottom:.2em;right:.1em}
 .info1{background:url(../images/info.png) no-repeat;  width:1.8em; height:1.6em; background-size:1.8em 1.6em;}
-.photo_div{width:2em;height:3em; position:absolute; z-index:99; bottom:.5em;right:.5em}
+.photo_div{ position:absolute; z-index:99; bottom:.5em;right:.5em}
 .photo_icon{background:url(../images/photo.png) no-repeat;width:2em; height:1.6em; background-size:2em 1.6em; }
 .yuan_icon{background:url(../images/yuan.png) no-repeat;width:100%; height:100%; background-size:100% 100%;}
 .y1_icon{background:url(../images/y1.png) no-repeat;width:2em; height:1.8em; background-size:2em 1.8em;}
@@ -203,9 +210,9 @@
 .y4_icon{background:url(../images/y4.png) no-repeat;width:2em; height:1.8em; background-size:2em 1.8em;}
 .btn_c{-webkit-border-radius:.3em;-webkit-border-radius:.3em;background-image: -webkit-linear-gradient(to bottom,#e1a5f3,#ae9edc);background-image:linear-gradient(to bottom,#e1a5f3,#ae9edc); height:2em; line-height:2em; text-align:center}
 /****渐变色*******/
-.c-m13
-{
-	//background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(222,97,226,1) ), to(rgba(107, 80, 15, 1)));
+.c-m13{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(222,97,226,1) ), to(rgba(107, 80, 15, 1)));
 	background-image: -webkit-linear-gradient(top, rgba(222,97,226,1) 0%,  rgba(107, 80, 15,1) 100%);
 	background-image: linear-gradient(top, rgba(222,97,226,1) 0%,  rgba(107, 80, 15,1) 100%);
 }
+.send-msg{width:1.4em;height:1.2em; vertical-align:middle; margin-left:.5em;}

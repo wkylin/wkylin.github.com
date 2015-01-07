@@ -6,32 +6,55 @@
     <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="css/ui-base.css">
     <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-media.css">
     <link rel="stylesheet" href="css/ui-color.css">
 	<link rel="stylesheet" href="css/ui-res.css">
 	<link rel="stylesheet" href="css/main.css">
     <script src="js/zy_control.js"></script>
-     <script src="js/zy_click.js"></script><script src="js/zy_event.js"></script> 
+	<script src="js/zy_slide.js"></script>
+     <script src="js/zy_click.js"></script>
+	 <script src="js/zy_event.js"></script> 
    <script src="js/common.js"></script>
+	<style>
+		#pointer{height:2em; width:100%; position:absolute; left:0; bottom:0; z-index:99;}
+		.umh2{height:2em;}
+		.p_crl{padding:.3em; border-radius:.3em;  margin:0 .2em;}
+		.p_act{background-color:#ccc}
+		.p_auto{background-color:#333;}
+	</style>
 </head>
-<body class="um-vp c_e3d" ontouchstart>
+<body class="um-vp c_e3d">
     <div id="page_0" class="up ub ub-ver" tabindex="0">
     	<div id="top">
         <div id="header" class="uh t-wh ub ub-pj t_6d6" >
-        	<div class="ub ub-ac umar_l06" ontouchstart="zy_touch()" onclick="uexWindow.close(-1)">
+        	<div class="ub ub-ac umar_l06">
         		<div class="back_icon"></div>
 				<div class="umar-l">婚纱设计师</div>
         	</div>
-			<div class="ub ub-ac umar_r06" ontouchstart="zy_touch()" onclick="">
+			<div class="ub ub-ac">
 				<div class="she"></div>
 				<div class="jian"></div>
         	</div>
         </div>
-		<div id="big_img" style="width:100%;height:10em;">
-			<div class="lef_back1" style="left:0"></div>
-			<div class="">
-				<img src="images/hunsha.png" style="width:100%;height:10em; display:block;" />
+		<div id="big_img" style="width:100%;">
+			<div id="pointer">
+				<div class="ub umh2 ub-ac ub-pc" id="point">
+					<div class="p_crl p_act"></div>
+					<div class="p_crl p_auto"></div>
+					<div class="p_crl p_auto"></div>
+					<div class="p_crl p_auto"></div>
+					<div class="p_crl p_auto"></div>
+				</div>
 			</div>
-			<div class="rit_back1"></div>
+			<div class="uof ub ub-f1" style="width:100%">
+				<div class="ub ub-f1 ub-fh ub-hor" id="wraper">
+					 <div  class="ub-fh"><img src="images/hunsha.png" width="100%" height="100%" /></div>
+					 <div  class="ub-fh"><img src="images/hunsha.png" width="100%" height="100%" /></div>
+					 <div  class="ub-fh"><img src="images/hunsha.png" width="100%" height="100%" /></div>
+					 <div  class="ub-fh"><img src="images/hunsha.png" width="100%" height="100%" /></div>
+					 <div  class="ub-fh"><img src="images/hunsha.png" width="100%" height="100%" /></div>
+				</div>
+			</div>
 		</div>
 		<div id="menu" class="ub umh2 c_e56">
 			<div class="ub-f1 ub ub-ac ub-pc c_act" style="" ontouchstart="zy_touch()" onclick="tab(0)">
@@ -42,6 +65,7 @@
 			</div>
 			<div class="ub-f1 ub ub-ac ub-pc" ontouchstart="zy_touch()" onclick="tab(2)">
 				<div class="tab_three"></div>
+				<div class="umar-l t-wh">(22)</div>
 			</div>
 		</div>
 		</div>
@@ -71,7 +95,6 @@
         </div>
         <div id="footer" class="uf ub ub-ac c_6d5 umh28">
         	<div class="a_icon umar_l06"></div>
-			<div class="umar-l t-wh">空间</div>
 			<div class="ub-f1 ub ub-pe umar_r06">
 				<div class="xinlang_icon umar-r"></div>
 				<div class="weixin_icon umar-l umar-r"></div>
@@ -96,16 +119,52 @@ function tab(index){
 		if(i==index){
 			menuList[i].className +=" c_act";
 		}else{
-			menuList[i].className +=menuList[i].className.replace(/ c_act/g,'');
+			menuList[i].className = menuList[i].className.replace(/ c_act/g,'');
 		}
 	}
 }
-new zyEvent('move', null, function(me, dx, dy, t){//手指松开后事件
-		            if (t == "left")
-					{
-						open_new('s21');
+//图片滑动
+		        var pornter = $$("point");
+				var note = pornter.children;
+				//var title=$$("img_title").children;
+				flip1 = new zySlide("wraper", "H", function(){
+					var cp = flip1.currentPoint;
+					for (var i in note) {
+						note[i].className = "p_crl p_auto";
+						//title[i].className= "uhide";
 					}
-		        }, false,function(event){
+					   note[cp].className = "p_crl p_act";
+					 //  title[cp].className= "";
 				});
+				setTimeout(function(){fliptimer();
+				fliptm = setInterval('fliptimer();',3000);
+				},3000);
+				
+				function fliptimer(){
+					if(flip1){
+						var f = flip1;
+						var mp = f.maxPoint;
+						var tp = f.currentPoint + 1;
+						if(tp>mp) tp=0;
+						f.moveToPoint(tp);
+						var pornter = $$("point");
+						var note = pornter.children;
+						//var title=$$("img_title").children;
+						for (var i in note) {
+							note[i].className = "p_crl p_auto";
+						//	title[i].className= "uhide";
+						}
+						note[tp].className = "p_crl p_act";
+					//	title[tp].className= "";
+					}
+				}
+new zyEvent('move', null, function(me, dx, dy, t){//手指松开后事件
+		if (t == "left")
+		{
+			open_new('s21');
+		}
+	}, false,function(event){
+});
 </script>
+</html>
 </html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-media.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/new.css">
+  	<script type="text/javascript" src="script/jquery.min.js"></script>
+</head>
+<body class="um-vp c_80c" ontouchstart>
+    <div id="page_0" class="up ub ub-ver" tabindex="0">
+    	<div id="top">
+        <div id="header" class="uh t-wh ub b_412 ubb ub-ac ub-pj t_6d6" >
+        	<div class="ub ub-ac umar_l06" onclick="">
+        		<div class="back_icon"></div>
+        	</div>
+        	<div class="ub-f1 tx-c t_5f4 font1">男神</div>
+        	<div class="ub ub-ac umw2">
+            </div>
+        </div>
+		</div>
+        <div id="content" class="ub-f1 tx-l flow_y">
+            <div class="umar_l1 umar_r1">
+                <div class="umar_t1 ub ub-ver">
+                    <div class="ub ub-pj ub-ac tip_top">
+                        <div class="t_fff umar_l06">林潘安-广州珠海</div>
+                        <div class="icon_pic umar_r06"></div>
+                    </div>
+                    <div class="ub ub-pc tip_down" >
+                        <div class="ub-f1"></div>
+                        <div class="ub">
+                            <div class="ub ub-ac uc-a fx_div">
+                                <div class="tp_icon"></div>
+                                <div class="t_fff ulev-1 umar_l02">投票(893)</div>
+                            </div>
+                            <div class="ub ub-ac uc-a umar_l06 fx_div" style="">
+                                <div class="fx_icon"></div>
+                                <div class="t_fff ulev-1 umar_l02">分享(893)</div>
+                            </div>
+                        </div>
+                        <div class="ub-f1"></div>
+                    </div>
+                    <img src="images/big_icon.png" style="width:100%;display: block" />
+                </div>
+                <div class="umar_t05 uinn_a06 c_dfe t_395 ubb b_bec">
+                    来自广州珠海的高富帅，有着自己的独特品味，爱好逛街，高尔夫，出入小资场所，对服装搭配有着自己的独到品味。
+                </div>
+                 <div class="umar_t05 uinn_a06 c_dfe t_395 ubb b_bec">
+                     <div class="ubb_d uinn_b06">
+                                                                    用户评论
+                     </div>
+                     <div class="ub ub-ac umar_t1">
+                         <div class="">小强</div>
+                         <div class="umar_l1">
+                               <div class="c_a09 uinn_a08 t_fff umw_min">
+                                   <div class="tip_sjx"></div>
+                                   男神求交往！
+                               </div>
+                         </div>
+                     </div>
+                     <div class="ub ub-ac umar_t1">
+                         <div class="">华丽丽的小明</div>
+                         <div class="umar_l1">
+                               <div class="c_a09 uinn_a08 t_fff umw_min">
+                                   <div class="tip_sjx"></div>
+                                   男神求交往！
+                               </div>
+                         </div>
+                     </div>
+                     <div class="ub ub-ac umar_t1">
+                         <div class="">小强</div>
+                         <div class="umar_l1">
+                               <div class="c_a09 uinn_a08 t_fff umw_min">
+                                   <div class="tip_sjx"></div>
+                                   土豪，我们做朋友吧
+                               </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function(){
+		$.ajax({
+			type : "POST",
+			url : "./admin/getUserName.jhtml",
+			dataType : 'json',
+			success:function(response){
+				if(response === 5){
+					alert("登陆超时，请重新登陆！");
+					$("#login").click();
+				}
+			}
+		});
+	});
+    	function goback(){
+			window.location.href = "screen.html";
+		}
+    </script>
+</body>
+</html>

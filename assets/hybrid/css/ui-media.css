@@ -115,10 +115,37 @@
 	}
 }
 
-@media all and (device-width:240px) and (device-height:320px),(device-width:320px) and (device-height:240px),(device-width:320px) and (device-height:320px)
-{
+@media all and (device-width:320px) and (device-height:480px){
 	html
 	{
 		font-size:14px;
 	}
-} 
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+
+    html
+    {
+        font-size:16px;
+    }
+
+}
+
+
+@media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 */
+
+    html
+    {
+        font-size:20px;
+    }
+
+}
+
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 Plus */
+
+    html
+    {
+        font-size:20px;
+    }
+
+}

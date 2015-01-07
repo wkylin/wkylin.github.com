@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-media.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/new.css">
+  	<script type="text/javascript" src="script/jquery.min.js"></script>
+  	<style>
+  	   
+  	</style>
+</head>
+<body class="um-vp uof" style="overflow:hidden" ontouchstart>
+    <div id="page_0" style="z-index: 99" class="up ub ub-ver body_bg1" tabindex="0">
+    	<div id="top">
+        <div id="header" class="uh t-wh ub ubl_b ub-ac ub-pj t_6d6" >
+        	<div class="ub ub-ac umar_l06" onclick="">
+        		<div class="back_icon1"></div>
+        	</div>
+        	<div class="ub-f1 tx-c t_fff font1">超级实习王</div>
+        	<div class="ub ub-ac umw2">
+            </div>
+        </div>
+		</div>
+        <div id="content" class="ub-f1 tx-l umar_l1 umar_r1 umar_t05 uof">
+            <img src="images/bg_pic1.png" style="width:100%; display: block" />
+        </div>
+        <div class="umar_t05 t_fff tx-c uinn_1">
+            <p class="ulev-1">欢迎加入我们这个大家庭！</p>
+            <p class="ulev-1 uinn_ab04"> 从此刻起，</p>
+            <p class="ulev-1"> 这个社区将因为你更加而不同。</p>
+            <div class="ub ub-pe">
+                <div onclick="down()" class="umw3 umh3"></div>
+            </div>
+        </div>
+    </div>
+    <div id="page_1" style="z-index: 98" class="up ub ub-ver body_bg2 utra" tabindex="0">
+        <div class="ub-f1 umar_r06">
+            <div class="ub-con ub ">
+                <div class="ub-f1" onclick="show_up()" class="umw3 umh3 t_fff">上</div>
+                <div class="ub ub-ac">
+                <div class="t_fff">
+                    <div class="ubl_b uinn_ab03"> 你将得到如下支持</div>
+                    <div class="ulev-1 tx-r umar_t05">
+                    <div>设计手稿回报提成 </div><div>独家专属主页展示</div><div> 每日最新需求提醒 </div><div>国际大赛入场资格 </div><div>注明大师单独指导</div></div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div class="ub-f1">
+            <div class="ub-con ub ub-ac umar_l1">
+                <div class="t_fff">
+                    <div class="ubl_b uinn_ab03"> 你将拥有如下特权</div>
+                    <div class="ulev-1 umar_t05">  
+                    <div>地区聚会  </div><div>勾搭偶像</div><div> 同异性恋 </div><div>全场五折  </div><div>每月免单</div></div>
+                    </div>
+                </div>
+        </div>
+        <div class="ub-f1 umar_r1">
+            <div class="ub-con ub ub-pe ub-ac">
+                <div class="t_fff">
+                    <div class="ubl_b uinn_ab03"> 报名联系方式</div>
+                    <div class="ulev-1 uinn_ab04"> 
+                    <div class="uinn_ab04">邮箱：283265895@qq.com </div><div>网址：www.ilgnix.com</div>
+                    </div>
+                </div>
+        </div>
+        </div>
+     </div>
+    <script type="text/javascript">
+    $(function(){
+		$.ajax({
+			type : "POST",
+			url : "./admin/getUserName.jhtml",
+			dataType : 'json',
+			success:function(response){
+				if(response === 5){
+					alert("登陆超时，请重新登陆！");
+					$("#login").click();
+				}
+			}
+		});
+	});
+	window.onload =function(){
+	    document.getElementById("page_1").style.top = document.getElementById("page_0").offsetHeight+"px";
+	}
+	function down(){
+	     document.getElementById("page_1").style.zIndex = "100";
+	    document.getElementById("page_1").style.top = "0px";
+	}
+	function show_up(){
+	    document.getElementById("page_1").style.top = document.getElementById("page_0").offsetHeight+"px";
+	}
+    	function goback(){
+			window.location.href = "screen.html";
+		}
+    </script>
+</body>
+</html>

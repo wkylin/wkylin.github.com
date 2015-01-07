@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-media.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/new.css">
+  	<script type="text/javascript" src="script/jquery.min.js"></script>
+</head>
+<body class="um-vp c_80c" ontouchstart>
+    <div id="page_0" class="up ub ub-ver" tabindex="0">
+    	<div id="top">
+        <div id="header" class="uh t-wh ub b_412 ubb ub-ac ub-pj t_6d6" >
+        	<div class="ub ub-ac umar_l06" onclick="">
+        		<div class="back_icon"></div>
+        	</div>
+        	<div class="ub-f1 tx-c t_5f4 font1">人衣合一秘籍</div>
+        	<div class="ub ub-ac umw2">
+            </div>
+        </div>
+		</div>
+        <div id="content" class="ub-f1 c_fff tx-l umar_l1 umar_r1 umar_t05">
+            
+        </div>
+        <div class="c_f8e ubb  b_bec uinn_a06 umar_l1 umar_r1 t_395 umar_b05 umar_t05">
+            <div class="ulev-1">人衣合一乃之打扮之大成，只有真正了解了自己，明白那些元素是最适合自己的，才能找到最能够承托自己的美丽的服装。</div>
+            <div class="ub ub-pe">
+                <div class="icon_one"></div>
+            </div>
+        </div>
+        <div id="footer" class="uf ub ub-ac c_6d5 umh28">
+            <div class="ub-f1 ub ub-ac ub-pc c_6d5" >
+                <div class="tab_one"></div>
+            </div>
+            <div class="ub-f1 ub ub-ac ub-pc c_6d5" >
+                <div class="tab_two"></div>
+            </div>
+            <div class="ub-f1 ub ub-ac ub-pc c_6d5" >
+                <div class="tab_three"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function(){
+		$.ajax({
+			type : "POST",
+			url : "./admin/getUserName.jhtml",
+			dataType : 'json',
+			success:function(response){
+				if(response === 5){
+					alert("登陆超时，请重新登陆！");
+					$("#login").click();
+				}
+			}
+		});
+	});
+    	function goback(){
+			window.location.href = "screen.html";
+		}
+    </script>
+</body>
+</html>

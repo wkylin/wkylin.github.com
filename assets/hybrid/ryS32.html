@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-media.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+    <link rel="stylesheet" href="css/ui-res.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/new.css">
+    <script type="text/javascript" src="script/jquery.min.js"></script>
+</head>
+<body class="um-vp c_80c" ontouchstart>
+    <div id="page_0" class="up ub ub-ver" tabindex="0">
+        <div id="top">
+        <div id="header" class="uh t-wh ub b_412 ubb ub-ac ub-pj t_6d6" >
+            <div class="ub ub-ac umar_l06" onclick="">
+                <div class="back_icon"></div>
+            </div>
+            <div class="ub-f1 tx-c t_5f4 font1">男神&女神</div>
+            <div class="ub ub-ac umw2">
+            </div>
+        </div>
+        <div class="ub uinn_tb1 ub-ac">
+            <div class="ub ub-f1 ub-pc">
+                <div class="uba3 b_5f4 c_fff t_7a7 ub uc-a" style="border:4px #5f4e95 solid">
+                    <div class="btn_uinn" id="tab0" onclick="tab(0)">本城</div>
+                    <div class="btn_uinn tab_act" id="tab1" onclick="tab(1)" >全国</div>
+                </div>
+            </div>
+            <div class="add_icon umar_l1 umar_r1"></div>
+        </div>
+        </div>
+        <div id="content" class="ub-f1 tx-l flow_y ">
+            <div class=" umar_r1">
+                <div class="ub">
+                    <div class="ub-f1 umar_l1">
+                            <div class="">
+                                <img src="images/pic_women.png" style="width:100%" />
+                            </div>
+                            <div class="c_e7e ubb b_bec t_395 uinn_a06">
+                                广州-深圳
+                            </div>
+                            <div class="b_bec ubb c_968 uinn_a06 t-wh umar-t">
+                                <div class="tip_lian"></div>
+                                投票(968)
+                            </div>
+                    </div>
+                    <div class="ub-f1 umar_l1">
+                            <div class="">
+                                <img src="images/pic_women.png" style="width:100%" />
+                            </div>
+                            <div class="c_e7e ubb b_bec t_395 uinn_a06">
+                                广州-深圳
+                            </div>
+                            <div class="b_bec ubb c_968 uinn_a06 t-wh umar-t">
+                                <div class="tip_lian"></div>
+                                投票(968)
+                            </div>
+                    </div>
+                </div>
+                <div class="ub umar_t1">
+                    <div class="ub-f1 umar_l1">
+                            <div class="">
+                                <img src="images/pic_women.png" style="width:100%" />
+                            </div>
+                            <div class="c_e7e ubb b_bec t_395 uinn_a06">
+                                广州-深圳
+                            </div>
+                            <div class="b_bec ubb c_968 uinn_a06 t-wh umar-t">
+                                <div class="tip_lian"></div>
+                                投票(968)
+                            </div>
+                    </div>
+                    <div class="ub-f1 umar_l1">
+                            <div class="">
+                                <img src="images/pic_women.png" style="width:100%" />
+                            </div>
+                            <div class="c_e7e ubb b_bec t_395 uinn_a06">
+                                广州-深圳
+                            </div>
+                            <div class="b_bec ubb c_968 uinn_a06 t-wh umar-t">
+                                <div class="tip_lian"></div>
+                                投票(968)
+                            </div>
+                    </div>
+                </div>
+                <div class="ub umar_t1">
+                    <div class="ub-f1 umar_l1">
+                            <div class="">
+                                <img src="images/pic_women.png" style="width:100%" />
+                            </div>
+                            <div class="c_e7e ubb b_bec t_395 uinn_a06">
+                                广州-深圳
+                            </div>
+                            <div class="b_bec ubb c_968 uinn_a06 t-wh umar-t">
+                                <div class="tip_lian"></div>
+                                投票(968)
+                            </div>
+                    </div>
+                    <div class="ub-f1 umar_l1">
+                            <div class="">
+                                <img src="images/pic_women.png" style="width:100%" />
+                            </div>
+                            <div class="c_e7e ubb b_bec t_395 uinn_a06">
+                                广州-深圳
+                            </div>
+                            <div class="b_bec ubb c_968 uinn_a06 t-wh umar-t">
+                                <div class="tip_lian"></div>
+                                投票(968)
+                            </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function(){
+        $.ajax({
+            type : "POST",
+            url : "./admin/getUserName.jhtml",
+            dataType : 'json',
+            success:function(response){
+                if(response === 5){
+                    alert("登陆超时，请重新登陆！");
+                    $("#login").click();
+                }
+            }
+        });
+    });
+    function tab(flag){
+        if(flag==1){
+            document.getElementById("tab1").className="btn_uinn";
+             document.getElementById("tab0").className="btn_uinn tab_act";
+        }else{
+            document.getElementById("tab1").className="btn_uinn tab_act";
+             document.getElementById("tab0").className="btn_uinn";
+        }
+        
+    }
+        function goback(){
+            window.location.href = "screen.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/ui-base.css">
+    <link rel="stylesheet" href="css/ui-media.css">
+    <link rel="stylesheet" href="css/ui-box.css">
+    <link rel="stylesheet" href="css/ui-color.css">
+	<link rel="stylesheet" href="css/ui-res.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/new.css">
+  	<script type="text/javascript" src="script/jquery.min.js"></script>
+</head>
+<body class="um-vp c_80c" ontouchstart>
+    <div id="page_0" class="up ub ub-ver" tabindex="0">
+    	<div id="top">
+        <div id="header" class="uh t-wh ub b_412 ubb ub-ac ub-pj t_6d6" >
+        	<div class="ub ub-ac umar_l06" onclick="">
+        		<div class="back_icon"></div>
+        	</div>
+        	<div class="ub-f1 tx-c t_5f4 font1">人衣合体实验</div>
+        	<div class="ub ub-ac umw2">
+            </div>
+        </div>
+		</div>
+        <div id="content" class="ub-f1 tx-l flow_y">
+            <div class="umar_l1 umar_r1">
+                <div class="umar_t1 ub ub-pc">
+                <div class="big_c ub ub ub-ver">
+                    <div class="ub ub-f1">
+                        <div class="ub-f1 ub t_fff ">
+                            <div class="ub-con ub ub-pc ub-ac">
+                                朋友们认 <br />为啥色 调 <br />让你<br /> 最帅？
+                            </div>
+                       </div>
+                        <div class="ub-f1 ub t_fff umar_r1">
+                            <div class="ub-con ub ub-pe ub-ac">
+                                啥颜色形<br />容你最<br />恰当？ 
+                            </div>
+                       </div>
+                    </div>
+                    <div class="t_fff ub ub-pc umh4 tx-c">
+                        你认为你是什么样<br />的人？
+                    </div>
+                    <div class="div_con t_395 font1">合体</div>
+                    <div class="icon_zx"></div>
+                </div>
+                </div>
+                <div class="ub ub-pc ub-ac umar_t1 c_a09 uinn_ab06 t_5f4 font1">男神&女神</div>
+            <div class="ub umar_t1 t_5f4">
+                <div class="ub-f1 ubbt_d c_f1e ub ub-ac ub-pc uinn_ab06">
+                    <div class="umw45">
+                        <div class="c_a09 umw45 umh45 uc_a5"></div>
+                        <div class="tx-c uinn_ab04 ulev-1">职场八卦</div>
+                    </div>
+                </div>
+                <div class="ub-f1 ubbt_d c_f1e ub ub-ac ub-pc uinn_ab06 umar_l06">
+                    <div class="umw45">
+                        <div class="c_a09 umw45 umh45 uc_a5"></div>
+                        <div class="tx-c uinn_ab04 ulev-1">闺蜜街语</div>
+                    </div>
+                </div>
+                <div class="ub-f1 ubbt_d c_f1e ub ub-ac ub-pc uinn_ab06 umar_l06">
+                    <div class="umw45">
+                        <div class="c_a09 umw45 umh45 uc_a5"></div>
+                        <div class="tx-c uinn_ab04 ulev-1">1010</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ub umar_t1 t_5f4">
+                <div class="ub-f1 ubbt_d c_f1e ub ub-ac ub-pc uinn_ab06">
+                    <div class="umw45">
+                        <div class="c_a09 umw45 umh45 uc_a5"></div>
+                        <div class="tx-c uinn_ab04 ulev-1">旅游生活</div>
+                    </div>
+                </div>
+                <div class="ub-f1 ubbt_d c_f1e ub ub-ac ub-pc uinn_ab06 umar_l06">
+                    <div class="umw45">
+                        <div class="c_a09 umw45 umh45 uc_a5"></div>
+                        <div class="tx-c uinn_ab04 ulev-1">大学趣事</div>
+                    </div>
+                </div>
+                <div class="ub-f1 ubbt_d c_f1e ub ub-ac ub-pc uinn_ab06 umar_l06">
+                    <div class="umw45">
+                        <div class="c_a09 umw45 umh45 uc_a5"></div>
+                        <div class="tx-c uinn_ab04 ulev-1">超级实习生</div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function(){
+		$.ajax({
+			type : "POST",
+			url : "./admin/getUserName.jhtml",
+			dataType : 'json',
+			success:function(response){
+				if(response === 5){
+					alert("登陆超时，请重新登陆！");
+					$("#login").click();
+				}
+			}
+		});
+	});
+    	function goback(){
+			window.location.href = "screen.html";
+		}
+    </script>
+</body>
+</html>
