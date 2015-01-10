@@ -75,3 +75,37 @@
 .big_one{width:16em;height:16em;background:url(../images/big_one.png) no-repeat center;background-size:16em 16em;}
 .big_two{width:16em;height:16em;background:url(../images/big_two.png) no-repeat center;background-size:16em 16em;}
 .big_three{width:16em;height:16em;background:url(../images/big_three.png) no-repeat center;background-size:16em 16em;}
+
+
+.pie {
+	 width:16em; height:16em; background-color:#1eccce;
+	 border-radius:8em;
+	 position:absolute; clip:rect(0px,16em,16em,8em);
+	 -webkit-transform:rotate(-60deg);
+	  
+	}
+.pie1 {
+	 width:16em; height:16em; background-color:#e1cb33;
+	 border-radius:8em;
+	 position:absolute; clip:rect(0px,16em,16em,8em);
+	 -webkit-transform:rotate(240deg);
+	}
+	.pie2 {
+	 width:16em; height:16em; background-color:#f94dae;
+	 border-radius:8em;
+	 position:absolute; clip:rect(0px,16em,16em,8em);
+	  -webkit-transform: rotate(60deg);
+	}
+	.pie3 {
+	 width:16em; height:16em; background-color:#e1cb33;
+	 border-radius:8em;
+	 position:absolute; clip:rect(8em,16em,16em,8em);
+	 -webkit-transform:rotate(-180deg);
+	}
+.hold {
+	 width:16em; height:16em;
+	 position: relative;
+	 -webkit-border-radius:16em;
+	 border:4px #f0e9fd solid;
+	}
+.heti{-webkit-box-shadow:0px 0px 6px #f0e9fd;z-index:9999;width:5em;height:5em;line-height:5em;text-align:center;-webkit-border-radius: 5em;background-color:#fff; position:absolute; top:50%;left:50%;margin: -2.5em 0 0 -2.5em;}

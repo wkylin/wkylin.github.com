@@ -28,25 +28,34 @@
         <div id="content" class="ub-f1 tx-l flow_y">
             <div class="umar_l1 umar_r1">
                 <div class="umar_t1 ub ub-pc">
-                <div class="big_c ub ub ub-ver" id="big_img">
-                    <div class="ub ub-f1">
+				<div class="hold">
+					<div class="ub ub-con ub-ver" style="z-index:999;top:0;left:0">
+						 <div class="ub ub-f1">
                         <div class="ub-f1 ub t_fff ">
-                            <div class="ub-con ub ub-pc ub-ac" onmousedown="crile('one','朋友们认为啥色 调让你最帅')">
-                                朋友们认 <br />为啥色 调 <br />让你<br /> 最帅？
+                            <div class="ub-con ub ub-pc ub-ac" style="padding:1em 0 0 .5em" onmousedown="crile('one','朋友们认为啥色 调让你最帅')">
+                                朋友们认 <br />为啥色调 <br />让你<br /> 最帅？
                             </div>
                        </div>
                         <div class="ub-f1 ub t_fff umar_r1">
-                            <div class="ub-con ub ub-pe ub-ac" onmousedown="crile('two','啥颜色形容你最恰当')">
+                            <div class="ub-con ub ub-pe ub-ac" style="padding:1em .5em 0 0" onmousedown="crile('two','啥颜色形容你最恰当')">
                                 啥颜色形<br />容你最<br />恰当？ 
                             </div>
                        </div>
                     </div>
-                    <div class="t_fff ub ub-pc umh4 tx-c" onmousedown="crile('three','你认为你是什么样的人')">
-                        你认为你是什么样<br />的人？
+                    <div class="t_fff ub ub-pc tx-c ub-ac"  style="height:6em;" onmousedown="crile('three','你认为你是什么样的人')">
+                       <div class="" id="three">你认为你是什么样的人？</div> 
                     </div>
-                    <div class="div_con t_395 font1" onclick="alert('合体')">合体</div>
                     <div class="icon_zx"></div>
-                </div>
+					</div>
+					  <div class="pie2"></div>
+				  	<div class="pie1" id="one"></div>
+					<div class="pie" id="two" ></div>
+					<div class="pie3" id="one1">
+					</div>
+					<div class="heti" onclick="alert('合体')" style="">
+						合体
+					</div>
+				</div>
                 </div>
                 <div class="ub ub-pc ub-ac umar_t1 c_a09 uinn_ab06 t_5f4 font1">男神&女神</div>
             <div class="ub umar_t1 t_5f4">
@@ -109,15 +118,19 @@
     	function goback(){
 			window.location.href = "screen.html";
 		}
+		var color = ['#ccc','#444','#333','#666','#999','red'];
+		var text = ['今天星期几','你很漂亮','今天要下雨','衣服很好看'];
 		function crile(index,flag){
-		//	alert(flag);
-				document.getElementById("big_img").className += " big_"+index;
-				setTimeout(function(){
-				document.getElementById("big_img").className = document.getElementById("big_img").className.replace(/ big_one/,'');	
-				document.getElementById("big_img").className = document.getElementById("big_img").className.replace(/ big_two/,'');	
-				document.getElementById("big_img").className = document.getElementById("big_img").className.replace(/ big_three/,'');	
-				},200)
-				
+				if(index=='one'){
+					var cl = color[Math.floor(Math.random()*6)];
+					document.getElementById(index).style.backgroundColor = cl;
+					document.getElementById(index+'1').style.backgroundColor = cl;
+				}else if(index=='two'){
+					var cl = color[Math.floor(Math.random()*6)];
+					document.getElementById(index).style.backgroundColor = cl;
+				}else{
+					document.getElementById(index).innerHTML = text[Math.floor(Math.random()*4)];
+				}
 		}
     </script>
 </body>
