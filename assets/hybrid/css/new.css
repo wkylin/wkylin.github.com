@@ -8,8 +8,6 @@
 .font1{font-size:1.2em}
 .umw2{width:2em}
 .umw4{width:4em;}
-.umw3{width:3em}
-.umh3{height:3em}
 .umw45{width:4.5em;}
 .uc_a5{-webkit-border-radius:4.5em}
 .umh4{height:4em}
@@ -27,12 +25,6 @@
 .tip_down{width:100%;bottom:1em;position: absolute;z-index:22}
 .icon_zx{width:2.2em;height:1.8em;right:0;bottom:.2em;position:absolute;z-index:22;background:url(../images/icon_zx.png) no-repeat;background-size:2.2em 1.8em}
 .div_con{width:3em;height:3em;position:absolute; line-height:3em;text-align:center;margin:-1.5em 0 0 -1.5em;left: 50%;top:50%; z-index: 99;}
-.sel_div{border:none;background-color:#9f94ba;color:#fff;width:4em;height:2em;font-size:100%}
-.tab_act{border-top:1px #a18fd9 solid;color:#fff;background-color:#5f4e95;border-bottom:1px #443a64 solid }
- .body_bg1{background:url(../images/body_bg1.png)no-repeat;background-size:100% 100%;}
-        .body_bg2{background:url(../images/body_bg2.png)no-repeat;background-size:100% 100%;}
-        .ubl_b{border-bottom:1px #fff solid}
-        .back_icon1{background:url(../images/white_icon.png) no-repeat;width:.8em;height:1em; background-size:.8em 1em;}
 /***背景色***/
 .c_80c{background-color:#80c3d3}
 .c_5f4{background-color:#5f4e95}
@@ -60,7 +52,6 @@
 .uinn_ab03{padding:.3em 0}
 .uinn_a08{padding:.8em}
 .fx_div{background:rgba(0,0,0,.5);padding:.3em .4em}
-.uinn_1{padding:1em 0 0}
 /***背景图片***/
 .add_icon{width:1.8em;height:1.8em;background:url(../images/icon_add.png) no-repeat;background-size:1.8em 1.8em}
 .tip_lian{width:1.2em;height:1.2em;background:url(../images/icon_lian.png) no-repeat;background-size:1.2em 1.2em;position: absolute;z-index: 33; right:.6em;margin-top:-1.4em}
@@ -81,3 +72,6 @@
 .icon_pic{width:1.6em;height:1.6em;background:url(../images/icon_pic.png) no-repeat;background-size:1.6em 1.6em}
 .icon_ren{width:1.8em;height:1.6em;background:url(../images/icon_ren.png) no-repeat;background-size:1.8em 1.6em;}
 .big_c{width:16em;height:16em;background:url(../images/big_c.png) no-repeat center;background-size:16em 16em;}
+.big_one{width:16em;height:16em;background:url(../images/big_one.png) no-repeat center;background-size:16em 16em;}
+.big_two{width:16em;height:16em;background:url(../images/big_two.png) no-repeat center;background-size:16em 16em;}
+.big_three{width:16em;height:16em;background:url(../images/big_three.png) no-repeat center;background-size:16em 16em;}

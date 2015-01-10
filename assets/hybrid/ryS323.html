@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="css/ui-base.css">
+	 <link rel="stylesheet" href="css/ui-input.css">
     <link rel="stylesheet" href="css/ui-media.css">
     <link rel="stylesheet" href="css/ui-box.css">
     <link rel="stylesheet" href="css/ui-color.css">
 	<link rel="stylesheet" href="css/ui-res.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/new.css">
+	<script type="text/javascript" src="js/zy_control.js"></script>
   	<script type="text/javascript" src="script/jquery.min.js"></script>
 </head>
 <body class="um-vp c_80c" ontouchstart>
@@ -28,6 +30,8 @@
         <div id="content" class="ub-f1 tx-l flow_y">
             <div class="umar_l1 umar_r1">
                 <div class="umar_t1 ub ub-ver umh15 c_fff ubb b_bec ub ub-ac ub-pc">
+                	<img id="big" src="" style="width:100%;height:15em;z-index:99; position:absolute;top:0;left:0" />
+					<input type="file" id="bigImg" onchange="getFileUrl(this.id,'big')" style="z-index:999;position:absolute;top:0px;left:0px;width:100%;height:100%;opacity:0" >
                     <div class="">
                         <div class="t_395">请上传照片并完成下方资料</div>
                         <div class="ub ub-ac ub-pc uinn_a06">
@@ -56,19 +60,31 @@
                          </div>
                      <div class="c_a09 umh28 ub-f1 t_fff ub ub-ac uinn_lr08">
                           <div class="">
-                              <select class="sel_div">
-                                  <option>省</option>
-                                  <option>湖北</option>
-                                  <option>湖南</option>
-                              </select>
+							<div class="ub sel">  
+							   <div class="ub-f1 ut-s uinn ulev-1 tx-l">省</div>
+							   <div class=" umw2 ub ub-pc ub-ac"> 
+							    <div class="ub-img umw1 umh1 res3"></div> 
+							  </div> 
+							  <select name="sel0" selectedindex="0" id="sel0" onchange="zy_selectmenu(this.id)"> 
+							   <option>省</option> 
+							   <option>湖北</option> 
+							   <option>湖南</option> 
+							  </select>
+							</div>
                           </div>
-                           <div class="umar_l1">
-                               <select class="sel_div">
-                                  <option>市</option>
-                                  <option>武汉</option>
-                                  <option>广州</option>
-                              </select>
-                           </div>
+						  <div class="umar_l1">
+							<div class="ub sel">  
+							   <div class="ub-f1 ut-s uinn ulev-1 tx-l">市</div>
+							   <div class=" umw2 ub ub-pc ub-ac"> 
+							    <div class="ub-img umw1 umh1 res3"></div> 
+							  </div> 
+							  <select name="sel1" selectedindex="0" id="sel1" onchange="zy_selectmenu(this.id)"> 
+							   <option>市</option> 
+							   <option>武汉</option> 
+							   <option>长沙</option> 
+							  </select>
+							</div>
+                          </div>
                      </div>
                 </div>
                 <div class="umar_t05 ub ub-ac ubb b_bec">
@@ -99,6 +115,20 @@
     	function goback(){
 			window.location.href = "screen.html";
 		}
+		// 从 file 域获取 本地图片 url 
+
+	function getFileUrl(sourceId,targetId) { 
+	var url; 
+	if (navigator.userAgent.indexOf("MSIE")>=1) { // IE 
+	url = document.getElementById(sourceId).value; 
+	} else if(navigator.userAgent.indexOf("Firefox")>0) { // Firefox 
+	url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0)); 
+	} else if(navigator.userAgent.indexOf("Chrome")>0) { // Chrome 
+	url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0)); 
+	} 
+	var imgPre = document.getElementById(targetId); 
+		imgPre.src = url; 
+	} 
     </script>
 </body>
 </html>

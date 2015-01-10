@@ -33,23 +33,25 @@
                 </div>
             </div>
             <div class="ub umar_l1 umar_r1 umar_t05">
-                <div class="ub-f1 umh5">
-                    <div class="ub-con">
-                        <img src='images/pic_women.png' style="width:100%;height:5em"/>
+                <div class="ub-f1 c_fff umh5">
+                    <div class="ub-con ub ub-ac ub-pc">
+                    	 <img id="one" src='' style="width:100%; position:absolute;left:0;top:0;height:5em"/>
+						 <input type="file" id="imgOne" onchange="preImg(this.id,'one')" style="position:absolute;top:0px;left:0px;width:100%;height:100%;opacity:0" >
+                    	 <span class="ulev-1">插入图片</span><img src="images/icon_add.png" class="umar-l" style="width:1.5em;height:1.5em; vertical-align:middle" />
                     </div>
                 </div>
                 <div class="ub-f1 umar-l c_fff umh5">
                     <div class="ub-con ub ub-ac ub-pc">
-                        <div class="ulev-1">
-                            插入图片<img src="images/icon_add.png" class="umar-l" style="width:1.5em;height:1.5em; vertical-align:middle" />
-                        </div>
+                    	 <img id="two" src='' style="width:100%; position:absolute;left:0;top:0;height:5em"/>
+						 <input type="file" id="imgTwo" onchange="preImg(this.id,'two')" style="position:absolute;top:0px;left:0px;width:100%;height:100%;opacity:0" >
+                    	 <span class="ulev-1">插入图片</span><img src="images/icon_add.png" class="umar-l" style="width:1.5em;height:1.5em; vertical-align:middle" />
                     </div>
                 </div>
                 <div class="ub-f1 c_fff umar-l umh5">
                    <div class="ub-con ub ub-ac ub-pc">
-                        <div class="ulev-1">
-                            插入图片<img src="images/icon_add.png" class="umar-l" style="width:1.5em;height:1.5em; vertical-align:middle" />
-                        </div>
+                    	 <img id="three" src='' style="width:100%; position:absolute;left:0;top:0;height:5em"/>
+						 <input type="file" id="imgThree" onchange="preImg(this.id,'three')" style="position:absolute;top:0px;left:0px;width:100%;height:100%;opacity:0" >
+                    	 <span class="ulev-1">插入图片</span><img src="images/icon_add.png" class="umar-l" style="width:1.5em;height:1.5em; vertical-align:middle" />
                     </div>
                 </div>
             </div>
@@ -72,6 +74,26 @@
     	function goback(){
 			window.location.href = "screen.html";
 		}
+
+// 从 file 域获取 本地图片 url 
+
+	function getFileUrl(sourceId) { 
+	var url; 
+	if (navigator.userAgent.indexOf("MSIE")>=1) { // IE 
+	url = document.getElementById(sourceId).value; 
+	} else if(navigator.userAgent.indexOf("Firefox")>0) { // Firefox 
+	url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0)); 
+	} else if(navigator.userAgent.indexOf("Chrome")>0) { // Chrome 
+	url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0)); 
+	} 
+	return url; 
+	} 
+//将本地图片 显示到浏览器上 
+	function preImg(sourceId, targetId) { 
+	var url = getFileUrl(sourceId); 
+	var imgPre = document.getElementById(targetId); 
+	imgPre.src = url; 
+	} 
     </script>
 </body>
 </html>

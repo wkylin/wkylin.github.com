@@ -28,23 +28,23 @@
         <div id="content" class="ub-f1 tx-l flow_y">
             <div class="umar_l1 umar_r1">
                 <div class="umar_t1 ub ub-pc">
-                <div class="big_c ub ub ub-ver">
+                <div class="big_c ub ub ub-ver" id="big_img">
                     <div class="ub ub-f1">
                         <div class="ub-f1 ub t_fff ">
-                            <div class="ub-con ub ub-pc ub-ac">
+                            <div class="ub-con ub ub-pc ub-ac" onmousedown="crile('one','朋友们认为啥色 调让你最帅')">
                                 朋友们认 <br />为啥色 调 <br />让你<br /> 最帅？
                             </div>
                        </div>
                         <div class="ub-f1 ub t_fff umar_r1">
-                            <div class="ub-con ub ub-pe ub-ac">
+                            <div class="ub-con ub ub-pe ub-ac" onmousedown="crile('two','啥颜色形容你最恰当')">
                                 啥颜色形<br />容你最<br />恰当？ 
                             </div>
                        </div>
                     </div>
-                    <div class="t_fff ub ub-pc umh4 tx-c">
+                    <div class="t_fff ub ub-pc umh4 tx-c" onmousedown="crile('three','你认为你是什么样的人')">
                         你认为你是什么样<br />的人？
                     </div>
-                    <div class="div_con t_395 font1">合体</div>
+                    <div class="div_con t_395 font1" onclick="alert('合体')">合体</div>
                     <div class="icon_zx"></div>
                 </div>
                 </div>
@@ -108,6 +108,16 @@
 	});
     	function goback(){
 			window.location.href = "screen.html";
+		}
+		function crile(index,flag){
+		//	alert(flag);
+				document.getElementById("big_img").className += " big_"+index;
+				setTimeout(function(){
+				document.getElementById("big_img").className = document.getElementById("big_img").className.replace(/ big_one/,'');	
+				document.getElementById("big_img").className = document.getElementById("big_img").className.replace(/ big_two/,'');	
+				document.getElementById("big_img").className = document.getElementById("big_img").className.replace(/ big_three/,'');	
+				},200)
+				
 		}
     </script>
 </body>
