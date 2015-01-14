@@ -125,8 +125,8 @@
       <file leaf-file-name="chexiangpai.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/chexiangpai.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36753446" vertical-offset="0" max-vertical-offset="1512">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.7427259" vertical-offset="115" max-vertical-offset="768">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,6 +190,7 @@
         <option value="$PROJECT_DIR$/assets/hybrid/ryS33-2.html" />
         <option value="$PROJECT_DIR$/assets/hybrid/ryScreen3.html" />
         <option value="$PROJECT_DIR$/_includes/JB/aside" />
+        <option value="$PROJECT_DIR$/assets/chexiangpai.html" />
       </list>
     </option>
   </component>
@@ -529,7 +530,7 @@
       <workItem from="1420796728897" duration="2041000" />
       <workItem from="1420883683524" duration="2643000" />
       <workItem from="1421040810459" duration="896000" />
-      <workItem from="1421222575616" duration="29000" />
+      <workItem from="1421222575616" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="ignore .idea">
       <created>1404123302994</created>
@@ -1347,11 +1348,15 @@
       <created>1421040958252</created>
       <updated>1421040958252</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="app download">
+      <created>1421222619648</created>
+      <updated>1421222619648</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28616000" />
+    <option name="totallyTimeSpent" value="28899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1370,6 +1375,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38709676" sideWeight="0.18869309" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1385,7 +1391,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38709676" sideWeight="0.8113069" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1409,7 +1414,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="modify ued" />
     <MESSAGE value="add link" />
     <MESSAGE value="add viva" />
     <MESSAGE value="gui mobile" />
@@ -1434,7 +1438,8 @@
     <MESSAGE value="follow 2015" />
     <MESSAGE value="Hybrid App" />
     <MESSAGE value="React" />
-    <option name="LAST_COMMIT_MESSAGE" value="React" />
+    <MESSAGE value="app download" />
+    <option name="LAST_COMMIT_MESSAGE" value="app download" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1834,8 +1839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/chexiangpai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36753446" vertical-offset="0" max-vertical-offset="1512">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.7427259" vertical-offset="115" max-vertical-offset="768">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
