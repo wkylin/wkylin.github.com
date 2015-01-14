@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app.html" afterPath="$PROJECT_DIR$/assets/app.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/chexiangpai.html" afterPath="$PROJECT_DIR$/assets/chexiangpai.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -115,8 +116,8 @@
       <file leaf-file-name="app.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1248">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.310345" vertical-offset="1027" max-vertical-offset="1680">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -125,8 +126,8 @@
       <file leaf-file-name="chexiangpai.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/chexiangpai.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4042879" vertical-offset="0" max-vertical-offset="1704">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state vertical-scroll-proportion="1.661562" vertical-offset="259" max-vertical-offset="1704">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -191,6 +192,7 @@
         <option value="$PROJECT_DIR$/assets/hybrid/ryScreen3.html" />
         <option value="$PROJECT_DIR$/_includes/JB/aside" />
         <option value="$PROJECT_DIR$/assets/chexiangpai.html" />
+        <option value="$PROJECT_DIR$/assets/app.html" />
       </list>
     </option>
   </component>
@@ -530,7 +532,7 @@
       <workItem from="1420796728897" duration="2041000" />
       <workItem from="1420883683524" duration="2643000" />
       <workItem from="1421040810459" duration="896000" />
-      <workItem from="1421222575616" duration="541000" />
+      <workItem from="1421222575616" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="ignore .idea">
       <created>1404123302994</created>
@@ -1360,11 +1362,15 @@
       <created>1421222976492</created>
       <updated>1421222976492</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="app download">
+      <created>1421223122496</created>
+      <updated>1421223122496</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29128000" />
+    <option name="totallyTimeSpent" value="29830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1839,16 +1845,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.310345" vertical-offset="1027" max-vertical-offset="1680">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/chexiangpai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4042879" vertical-offset="0" max-vertical-offset="1704">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state vertical-scroll-proportion="1.661562" vertical-offset="259" max-vertical-offset="1704">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
           <folding />
         </state>
       </provider>
