@@ -16,30 +16,42 @@
 <body>
 	<img src="http://pai.chexiang.com/image/app_down.png" />
 	<script type="text/javascript">
-	var is_weixin = (function() {
-	    var ua = navigator.userAgent.toLowerCase();
-	    if (ua.match(/MicroMessenger/i) == "micromessenger") {
-	        return true;
-	    } else {
-	        return false;
-	    }
-	})();
+        var ver= function () {
+            var u = navigator.userAgent;
+            return {//移动终端浏览器版本信息
+                trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+                weixin: u.indexOf('micromessenger') > -1 || u.indexOf('MicroMessenger') > -1
+            };
+        }();
 	window.onload = function(){
-		var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
-		var btn = document.getElementById('J_weixin');
-		var tip = document.getElementById('weixin-tip');
-		var close = document.getElementById('close');
-		if(is_weixin){
-			btn.onclick = function(e){
-				tip.style.height = winHeight + 'px';
-				tip.style.display = 'block';
-				return false;
-			}
-			close.onclick = function(){
-				tip.style.display = 'none';
-			}
-		}
+
+        if (ver.ios || ver.iPhone || ver.iPad) {
+            window.location = "https://itunes.apple.com/cn/app/id932293425";
+        }
+        else if (ver.weixin && ver.android) {
+            window.location = "http://pai.chexiang.com/download/app/chexiangpai.apk";
+        } else if (!ver.weixin && ver.android) {
+            window.location = "http://pai.chexiang.com/download/app/chexiangpai.apk";
+        }
 	};
+
+
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?456eebbd0d4e042922371eaf51ef5ee4";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
 
 	</script>
 </body>
