@@ -95,8 +95,8 @@
       <file leaf-file-name="app.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.330781" vertical-offset="216" max-vertical-offset="1488">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.62480855" vertical-offset="576" max-vertical-offset="2064">
+              <caret line="41" column="6" selection-start-line="26" selection-start-column="4" selection-end-line="41" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -550,7 +550,7 @@
       <workItem from="1420796728897" duration="2041000" />
       <workItem from="1420883683524" duration="2643000" />
       <workItem from="1421040810459" duration="896000" />
-      <workItem from="1421222575616" duration="3011000" />
+      <workItem from="1421222575616" duration="3378000" />
     </task>
     <task id="LOCAL-00001" summary="ignore .idea">
       <created>1404123302994</created>
@@ -1420,11 +1420,15 @@
       <created>1421225505970</created>
       <updated>1421225505970</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="app download">
+      <created>1421225803512</created>
+      <updated>1421225803512</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31598000" />
+    <option name="totallyTimeSpent" value="31965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1904,8 +1908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.330781" vertical-offset="216" max-vertical-offset="1512">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.62480855" vertical-offset="576" max-vertical-offset="2064">
+          <caret line="41" column="6" selection-start-line="26" selection-start-column="4" selection-end-line="41" selection-end-column="6" />
           <folding />
         </state>
       </provider>
