@@ -40,23 +40,71 @@ https://drupal.org/node/302199/
 
 ###代码质量工具
 
-+ 3.JSLint：The JavaScript Code Quality Tool
+Html validator:  
 
-<http://www.jslint.com/>
+<http://validator.w3.org>
 
-+ 4.JSHint:a JavaScript Code Quality Tool
+HtmlHelp: 
 
-<http://www.jshint.com/>
+<http://www.htmlhelp.com/tools/validator/>
 
-+ 5.HTMLHint: help your html code better
+HtmlNu: 
+
+<http://validator.w3.org/nu/>
+
+Validator Suite: 
+
+<https://validator-suite.w3.org/>
+
+Unicorm: 
+
+<http://validator.w3.org/unicorn/>
+
+HtmlHint: 
 
 <http://htmlhint.com/>
 
-+ 6.JSLint directive
+HtmlInspector: 
 
-<http://jslint.it/>
+<https://github.com/philipwalton/html-inspector>
 
-+ 7.jslint-a-guide-to-jslint-messages/
+CheckLink: 
+
+<http://validator.w3.org/checklink>
+
+CSS Validator: 
+
+<http://jigsaw.w3.org/css-validator/>
+
+CSSLint: 
+
+<http://csslint.net/>
+
+JsHint:
+ 
+<http://jshint.com/>
+
+JsLint: 
+
+<http://www.jslint.com/>
+
+JsCritic:
+ 
+<http://jscritic.com/>
+
+Closure Linter: 
+
+<https://github.com/fbzhong/sublime-closure-linter>
+
+W3C cheatsheet: 
+
+<http://www.w3.org/2009/cheatsheet/>
+
+Validator Suite:
+ 
+<http://www.chinaw3c.org/archives/265/>
+
+jslint-a-guide-to-jslint-messages
 
 <http://www.jameswiseman.com/blog/2011/01/17/jslint-a-guide-to-jslint-messages/>
 
@@ -94,6 +142,7 @@ Java代码检测工具PMD规则集翻译合集
 
 <http://blog.csdn.net/jack0511/article/details/5260751>
 
+
 ###JAVA相关
 
 PMD官网：
@@ -111,3 +160,7 @@ https://www.codacy.com
 Java代码质量检测评估工具
 
 <http://bal1212.iteye.com/blog/511384/>
+
+CheckStyle: 
+
+<https://github.com/jshiell/style-idea> 
