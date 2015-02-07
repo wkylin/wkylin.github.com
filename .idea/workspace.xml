@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html" afterPath="$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wkylin.github.com.iml" afterPath="$PROJECT_DIR$/.idea/wkylin.github.com.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,24 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="aside" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/aside">
+      <file leaf-file-name="gruntJs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1320">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014-01-15-code-quality-tool.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36150235" vertical-offset="777" max-vertical-offset="4128">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.225" vertical-offset="0" max-vertical-offset="10392">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,66 +51,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/core-samples/2014-06-20-git-github.md" />
-        <option value="$PROJECT_DIR$/_includes/JB/searchbox" />
-        <option value="$PROJECT_DIR$/assets/css/base.min.css" />
-        <option value="$PROJECT_DIR$/lifelink.html" />
-        <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
-        <option value="$PROJECT_DIR$/uedlink.html" />
-        <option value="$PROJECT_DIR$/tech.html" />
-        <option value="$PROJECT_DIR$/_site/assets/themes/twitter/wkylin/default.css" />
-        <option value="$PROJECT_DIR$/homelink.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/css/swipe.css" />
-        <option value="$PROJECT_DIR$/assets/viva/static/comment.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/shopcar.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/article.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/articleDetail.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/dianshang.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/huodong.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/shipu.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/spDetail.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/weixin.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/shipuDetail.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/shared.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/firmorder.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/signin.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/signup.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/index.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/js/jquery.jpanelmenu.min.js" />
-        <option value="$PROJECT_DIR$/assets/viva/static/personal.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/address.html" />
-        <option value="$PROJECT_DIR$/assets/viva/static/css/index.css" />
+        <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/html5.html" />
-        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/css3link.html" />
-        <option value="$PROJECT_DIR$/csserlink.html" />
-        <option value="$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md" />
-        <option value="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" />
-        <option value="$PROJECT_DIR$/_posts/core-samples/2011-10-06-font-face.md" />
-        <option value="$PROJECT_DIR$/_posts/core-samples/2014-02-08-polyfill.md" />
-        <option value="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" />
-        <option value="$PROJECT_DIR$/jslink.html" />
-        <option value="$PROJECT_DIR$/assets/hybrid/ryS33-2.html" />
-        <option value="$PROJECT_DIR$/assets/hybrid/ryScreen3.html" />
-        <option value="$PROJECT_DIR$/assets/css/fn-kill-ie.css" />
-        <option value="$PROJECT_DIR$/assets/app.html" />
-        <option value="$PROJECT_DIR$/assets/chexiangpai.html" />
-        <option value="$PROJECT_DIR$/assets/GruntJsPpt/css/grunt.css" />
         <option value="$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html" />
-        <option value="$PROJECT_DIR$/_includes/JB/aside" />
-        <option value="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
       </list>
     </option>
   </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-2" />
+    <option name="y" value="2" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,7 +115,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,29 +144,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wkylin.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core-samples" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GruntJsPpt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GruntJS" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="options.splitter.main.proportions" value="0.16023937" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -221,194 +202,23 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
     <list size="1">
@@ -428,6 +238,7 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="" />
       <created>1404123240783</created>
+      <option name="number" value="Default" />
       <updated>1404123240783</updated>
       <workItem from="1416542423634" duration="55000" />
       <workItem from="1416542495237" duration="1231000" />
@@ -462,909 +273,310 @@
       <workItem from="1421631522266" duration="516000" />
       <workItem from="1422190667888" duration="1509000" />
       <workItem from="1422236190763" duration="596000" />
-      <workItem from="1422526398617" duration="577000" />
-    </task>
-    <task id="LOCAL-00001" summary="ignore .idea">
-      <created>1404123302994</created>
-      <updated>1404123302994</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ignore .idea">
-      <created>1404179876868</created>
-      <updated>1404179876868</updated>
-    </task>
-    <task id="LOCAL-00003" summary="web components">
-      <created>1404377189826</created>
-      <updated>1404377189826</updated>
-    </task>
-    <task id="LOCAL-00004" summary="web components">
-      <created>1404378210999</created>
-      <updated>1404378210999</updated>
-    </task>
-    <task id="LOCAL-00005" summary="web components">
-      <created>1404378259340</created>
-      <updated>1404378259340</updated>
-    </task>
-    <task id="LOCAL-00006" summary="36kr">
-      <created>1404381691680</created>
-      <updated>1404381691680</updated>
-    </task>
-    <task id="LOCAL-00007" summary="36kr">
-      <created>1404615579462</created>
-      <updated>1404615579462</updated>
-    </task>
-    <task id="LOCAL-00008" summary="36kr">
-      <created>1404620057028</created>
-      <updated>1404620057028</updated>
-    </task>
-    <task id="LOCAL-00009" summary="AmpersandJS">
-      <created>1404620433127</created>
-      <updated>1404620433127</updated>
-    </task>
-    <task id="LOCAL-00010" summary="oocss">
-      <created>1404698629187</created>
-      <updated>1404698629187</updated>
-    </task>
-    <task id="LOCAL-00011" summary="oocss">
-      <created>1404701132154</created>
-      <updated>1404701132154</updated>
-    </task>
-    <task id="LOCAL-00012" summary="css3.com">
-      <created>1404701388094</created>
-      <updated>1404701388094</updated>
-    </task>
-    <task id="LOCAL-00013" summary="skill front end developers">
-      <created>1404708171198</created>
-      <updated>1404708171198</updated>
-    </task>
-    <task id="LOCAL-00014" summary="skill front end developers">
-      <created>1404708966141</created>
-      <updated>1404708966141</updated>
-    </task>
-    <task id="LOCAL-00015" summary="grunt w3c.com.cn">
-      <created>1404968032847</created>
-      <updated>1404968032847</updated>
-    </task>
-    <task id="LOCAL-00016" summary="grunt w3c.com.cn">
-      <created>1405056222740</created>
-      <updated>1405056222740</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ngNice">
-      <created>1405743569053</created>
-      <updated>1405743569053</updated>
-    </task>
-    <task id="LOCAL-00018" summary="ngNice">
-      <created>1405759177434</created>
-      <updated>1405759177434</updated>
-    </task>
-    <task id="LOCAL-00019" summary="ngNice">
-      <created>1405918719599</created>
-      <updated>1405918719599</updated>
-    </task>
-    <task id="LOCAL-00020" summary="站内搜索">
-      <created>1406035762900</created>
-      <updated>1406035762900</updated>
-    </task>
-    <task id="LOCAL-00021" summary="站内搜索">
-      <created>1406038943086</created>
-      <updated>1406038943086</updated>
-    </task>
-    <task id="LOCAL-00022" summary="jquery dowebok">
-      <created>1406098046126</created>
-      <updated>1406098046126</updated>
-    </task>
-    <task id="LOCAL-00023" summary="jquery dowebok">
-      <created>1406098051522</created>
-      <updated>1406098051522</updated>
-    </task>
-    <task id="LOCAL-00024" summary="jsonlint">
-      <created>1406123625456</created>
-      <updated>1406123625456</updated>
-    </task>
-    <task id="LOCAL-00025" summary="jsonlint">
-      <created>1406124804137</created>
-      <updated>1406124804137</updated>
-    </task>
-    <task id="LOCAL-00026" summary="input::-ms-clear{display:none;}">
-      <created>1406190906974</created>
-      <updated>1406190906974</updated>
-    </task>
-    <task id="LOCAL-00027" summary="ued">
-      <created>1406364625378</created>
-      <updated>1406364625378</updated>
-    </task>
-    <task id="LOCAL-00028" summary="幽竹前端">
-      <created>1406365307734</created>
-      <updated>1406365307734</updated>
-    </task>
-    <task id="LOCAL-00029" summary="smart git">
-      <created>1406511704667</created>
-      <updated>1406511704667</updated>
-    </task>
-    <task id="LOCAL-00030" summary="服务端的模块加载器">
-      <created>1406518286491</created>
-      <updated>1406518286491</updated>
-    </task>
-    <task id="LOCAL-00031" summary="服务端的模块加载器">
-      <created>1406533443823</created>
-      <updated>1406533443823</updated>
-    </task>
-    <task id="LOCAL-00032" summary="服务端的模块加载器">
-      <created>1406596918330</created>
-      <updated>1406596918330</updated>
-    </task>
-    <task id="LOCAL-00033" summary="amaze ui">
-      <created>1406598487321</created>
-      <updated>1406598487321</updated>
-    </task>
-    <task id="LOCAL-00034" summary="amaze ui">
-      <created>1406598877845</created>
-      <updated>1406598877845</updated>
-    </task>
-    <task id="LOCAL-00035" summary="nav modify">
-      <created>1406599555840</created>
-      <updated>1406599555840</updated>
-    </task>
-    <task id="LOCAL-00036" summary="nav modify">
-      <created>1406599871298</created>
-      <updated>1406599871298</updated>
-    </task>
-    <task id="LOCAL-00037" summary="删除云适配代码">
-      <created>1406602780166</created>
-      <updated>1406602780166</updated>
-    </task>
-    <task id="LOCAL-00038" summary="delete some">
-      <created>1406619374862</created>
-      <updated>1406619374862</updated>
-    </task>
-    <task id="LOCAL-00039" summary="delete some">
-      <created>1406619905854</created>
-      <updated>1406619905854</updated>
-    </task>
-    <task id="LOCAL-00040" summary="delete some">
-      <created>1406620384339</created>
-      <updated>1406620384339</updated>
-    </task>
-    <task id="LOCAL-00041" summary="delete some">
-      <created>1406620430115</created>
-      <updated>1406620430115</updated>
-    </task>
-    <task id="LOCAL-00042" summary="modify">
-      <created>1406621160418</created>
-      <updated>1406621160418</updated>
-    </task>
-    <task id="LOCAL-00043" summary="modify">
-      <created>1406621200386</created>
-      <updated>1406621200386</updated>
-    </task>
-    <task id="LOCAL-00044" summary="modify css">
-      <created>1406621424575</created>
-      <updated>1406621424575</updated>
-    </task>
-    <task id="LOCAL-00045" summary="modify css">
-      <created>1406624077658</created>
-      <updated>1406624077658</updated>
-    </task>
-    <task id="LOCAL-00046" summary="modify css">
-      <created>1406624236951</created>
-      <updated>1406624236951</updated>
-    </task>
-    <task id="LOCAL-00047" summary="modify css">
-      <created>1406624682985</created>
-      <updated>1406624682985</updated>
-    </task>
-    <task id="LOCAL-00048" summary="modify js">
-      <created>1406714326681</created>
-      <updated>1406714326681</updated>
-    </task>
-    <task id="LOCAL-00049" summary="modify nav">
-      <created>1406773345135</created>
-      <updated>1406773345135</updated>
-    </task>
-    <task id="LOCAL-00050" summary="modify ued">
-      <created>1406775708845</created>
-      <updated>1406775708845</updated>
-    </task>
-    <task id="LOCAL-00051" summary="modify ued">
-      <created>1406776384967</created>
-      <updated>1406776384967</updated>
-    </task>
-    <task id="LOCAL-00052" summary="modify ued">
-      <created>1406777431207</created>
-      <updated>1406777431207</updated>
-    </task>
-    <task id="LOCAL-00053" summary="modify ued">
-      <created>1406777481354</created>
-      <updated>1406777481354</updated>
-    </task>
-    <task id="LOCAL-00054" summary="modify ued">
-      <created>1406777666777</created>
-      <updated>1406777666777</updated>
-    </task>
-    <task id="LOCAL-00055" summary="modify ued">
-      <created>1406782893829</created>
-      <updated>1406782893829</updated>
-    </task>
-    <task id="LOCAL-00056" summary="modify ued">
-      <created>1406785710737</created>
-      <updated>1406785710737</updated>
-    </task>
-    <task id="LOCAL-00057" summary="modify ued">
-      <created>1406872756071</created>
-      <updated>1406872756071</updated>
-    </task>
-    <task id="LOCAL-00058" summary="add link">
-      <created>1406873154761</created>
-      <updated>1406873154761</updated>
-    </task>
-    <task id="LOCAL-00059" summary="add link">
-      <created>1407133207482</created>
-      <updated>1407133207482</updated>
-    </task>
-    <task id="LOCAL-00060" summary="add link">
-      <created>1407136770291</created>
-      <updated>1407136770291</updated>
-    </task>
-    <task id="LOCAL-00061" summary="add link">
-      <created>1407139277941</created>
-      <updated>1407139277941</updated>
-    </task>
-    <task id="LOCAL-00062" summary="add link">
-      <created>1407302870204</created>
-      <updated>1407302870204</updated>
-    </task>
-    <task id="LOCAL-00063" summary="add viva">
-      <created>1407674431147</created>
-      <updated>1407674431147</updated>
-    </task>
-    <task id="LOCAL-00064" summary="add viva">
-      <created>1407674710921</created>
-      <updated>1407674710921</updated>
-    </task>
-    <task id="LOCAL-00065" summary="add viva">
-      <created>1407768236596</created>
-      <updated>1407768236596</updated>
-    </task>
-    <task id="LOCAL-00066" summary="add viva">
-      <created>1407768817339</created>
-      <updated>1407768817339</updated>
-    </task>
-    <task id="LOCAL-00067" summary="add viva">
-      <created>1407769090678</created>
-      <updated>1407769090678</updated>
-    </task>
-    <task id="LOCAL-00068" summary="add viva">
-      <created>1407770905493</created>
-      <updated>1407770905493</updated>
-    </task>
-    <task id="LOCAL-00069" summary="add viva">
-      <created>1407773086655</created>
-      <updated>1407773086655</updated>
-    </task>
-    <task id="LOCAL-00070" summary="add viva">
-      <created>1407773300206</created>
-      <updated>1407773300206</updated>
-    </task>
-    <task id="LOCAL-00071" summary="add viva">
-      <created>1407773409952</created>
-      <updated>1407773409952</updated>
-    </task>
-    <task id="LOCAL-00072" summary="add viva">
-      <created>1407774586782</created>
-      <updated>1407774586782</updated>
-    </task>
-    <task id="LOCAL-00073" summary="add viva">
-      <created>1407775197924</created>
-      <updated>1407775197924</updated>
-    </task>
-    <task id="LOCAL-00074" summary="add viva">
-      <created>1407775634807</created>
-      <updated>1407775634807</updated>
-    </task>
-    <task id="LOCAL-00075" summary="add viva">
-      <created>1407775739026</created>
-      <updated>1407775739026</updated>
-    </task>
-    <task id="LOCAL-00076" summary="add viva">
-      <created>1407906528243</created>
-      <updated>1407906528243</updated>
-    </task>
-    <task id="LOCAL-00077" summary="add viva">
-      <created>1407911735731</created>
-      <updated>1407911735731</updated>
-    </task>
-    <task id="LOCAL-00078" summary="add viva">
-      <created>1407911817605</created>
-      <updated>1407911817606</updated>
-    </task>
-    <task id="LOCAL-00079" summary="add viva">
-      <created>1407912200525</created>
-      <updated>1407912200526</updated>
-    </task>
-    <task id="LOCAL-00080" summary="add viva">
-      <created>1407913455670</created>
-      <updated>1407913455670</updated>
-    </task>
-    <task id="LOCAL-00081" summary="add viva">
-      <created>1407913756224</created>
-      <updated>1407913756224</updated>
-    </task>
-    <task id="LOCAL-00082" summary="add viva">
-      <created>1407913841438</created>
-      <updated>1407913841438</updated>
-    </task>
-    <task id="LOCAL-00083" summary="add viva">
-      <created>1407913938342</created>
-      <updated>1407913938342</updated>
-    </task>
-    <task id="LOCAL-00084" summary="add viva">
-      <created>1407914184633</created>
-      <updated>1407914184633</updated>
-    </task>
-    <task id="LOCAL-00085" summary="gui mobile">
-      <created>1407914434837</created>
-      <updated>1407914434837</updated>
-    </task>
-    <task id="LOCAL-00086" summary="viva">
-      <created>1407946157875</created>
-      <updated>1407946157875</updated>
-    </task>
-    <task id="LOCAL-00087" summary="viva">
-      <created>1408023456098</created>
-      <updated>1408023456098</updated>
-    </task>
-    <task id="LOCAL-00088" summary="viva">
-      <created>1408027686562</created>
-      <updated>1408027686562</updated>
-    </task>
-    <task id="LOCAL-00089" summary="viva">
-      <created>1408028090897</created>
-      <updated>1408028090897</updated>
-    </task>
-    <task id="LOCAL-00090" summary="viva">
-      <created>1408028241477</created>
-      <updated>1408028241477</updated>
-    </task>
-    <task id="LOCAL-00091" summary="viva">
-      <created>1408168547349</created>
-      <updated>1408168547349</updated>
-    </task>
-    <task id="LOCAL-00092" summary="viva">
-      <created>1408169133375</created>
-      <updated>1408169133375</updated>
-    </task>
-    <task id="LOCAL-00093" summary="viva">
-      <created>1408170198374</created>
-      <updated>1408170198374</updated>
-    </task>
-    <task id="LOCAL-00094" summary="viva">
-      <created>1408170599545</created>
-      <updated>1408170599545</updated>
-    </task>
-    <task id="LOCAL-00095" summary="viva">
-      <created>1408170940085</created>
-      <updated>1408170940085</updated>
-    </task>
-    <task id="LOCAL-00096" summary="viva">
-      <created>1408369984423</created>
-      <updated>1408369984423</updated>
-    </task>
-    <task id="LOCAL-00097" summary="viva">
-      <created>1408370393424</created>
-      <updated>1408370393424</updated>
-    </task>
-    <task id="LOCAL-00098" summary="viva">
-      <created>1408370605619</created>
-      <updated>1408370605619</updated>
-    </task>
-    <task id="LOCAL-00099" summary="viva">
-      <created>1408371008073</created>
-      <updated>1408371008073</updated>
-    </task>
-    <task id="LOCAL-00100" summary="viva">
-      <created>1408371447254</created>
-      <updated>1408371447254</updated>
-    </task>
-    <task id="LOCAL-00101" summary="viva">
-      <created>1408371944018</created>
-      <updated>1408371944018</updated>
-    </task>
-    <task id="LOCAL-00102" summary="viva">
-      <created>1408372049390</created>
-      <updated>1408372049390</updated>
-    </task>
-    <task id="LOCAL-00103" summary="viva">
-      <created>1408372179905</created>
-      <updated>1408372179905</updated>
-    </task>
-    <task id="LOCAL-00104" summary="viva">
-      <created>1408372279631</created>
-      <updated>1408372279631</updated>
-    </task>
-    <task id="LOCAL-00105" summary="webAppSwipe">
-      <created>1408376493513</created>
-      <updated>1408376493513</updated>
-    </task>
-    <task id="LOCAL-00106" summary="VIVA">
-      <created>1408377647158</created>
-      <updated>1408377647158</updated>
-    </task>
-    <task id="LOCAL-00107" summary="VIVA">
-      <created>1408462527484</created>
-      <updated>1408462527484</updated>
-    </task>
-    <task id="LOCAL-00108" summary="VIVA">
-      <created>1408462669199</created>
-      <updated>1408462669199</updated>
-    </task>
-    <task id="LOCAL-00109" summary="VIVA">
-      <created>1408462798194</created>
-      <updated>1408462798194</updated>
-    </task>
-    <task id="LOCAL-00110" summary="VIVA">
-      <created>1408462900181</created>
-      <updated>1408462900182</updated>
-    </task>
-    <task id="LOCAL-00111" summary="VIVA">
-      <created>1408463615933</created>
-      <updated>1408463615933</updated>
-    </task>
-    <task id="LOCAL-00112" summary="VIVA">
-      <created>1408463935018</created>
-      <updated>1408463935018</updated>
-    </task>
-    <task id="LOCAL-00113" summary="VIVA">
-      <created>1408547714250</created>
-      <updated>1408547714250</updated>
-    </task>
-    <task id="LOCAL-00114" summary="VIVA">
-      <created>1408548040701</created>
-      <updated>1408548040701</updated>
-    </task>
-    <task id="LOCAL-00115" summary="VIVA">
-      <created>1408548215959</created>
-      <updated>1408548215959</updated>
-    </task>
-    <task id="LOCAL-00116" summary="VIVA">
-      <created>1408548506528</created>
-      <updated>1408548506528</updated>
-    </task>
-    <task id="LOCAL-00117" summary="VIVA">
-      <created>1408628669208</created>
-      <updated>1408628669208</updated>
-    </task>
-    <task id="LOCAL-00118" summary="VIVA">
-      <created>1408633879856</created>
-      <updated>1408633879856</updated>
-    </task>
-    <task id="LOCAL-00119" summary="jQuery插件开发指南">
-      <created>1408700269699</created>
-      <updated>1408700269699</updated>
-    </task>
-    <task id="LOCAL-00120" summary="VIVA">
-      <created>1408715521431</created>
-      <updated>1408715521431</updated>
-    </task>
-    <task id="LOCAL-00121" summary="VIVA">
-      <created>1408715910199</created>
-      <updated>1408715910199</updated>
-    </task>
-    <task id="LOCAL-00122" summary="VIVA">
-      <created>1408716726581</created>
-      <updated>1408716726582</updated>
-    </task>
-    <task id="LOCAL-00123" summary="VIVA">
-      <created>1408716824774</created>
-      <updated>1408716824774</updated>
-    </task>
-    <task id="LOCAL-00124" summary="VIVA">
-      <created>1408717028625</created>
-      <updated>1408717028625</updated>
-    </task>
-    <task id="LOCAL-00125" summary="VIVA">
-      <created>1408717409035</created>
-      <updated>1408717409035</updated>
-    </task>
-    <task id="LOCAL-00126" summary="VIVA">
-      <created>1408717838321</created>
-      <updated>1408717838321</updated>
-    </task>
-    <task id="LOCAL-00127" summary="VIVA">
-      <created>1408761613497</created>
-      <updated>1408761613497</updated>
-    </task>
-    <task id="LOCAL-00128" summary="VIVA">
-      <created>1408762543539</created>
-      <updated>1408762543539</updated>
-    </task>
-    <task id="LOCAL-00129" summary="VIVA">
-      <created>1408763363347</created>
-      <updated>1408763363347</updated>
-    </task>
-    <task id="LOCAL-00130" summary="VIVA">
-      <created>1408802181506</created>
-      <updated>1408802181506</updated>
-    </task>
-    <task id="LOCAL-00131" summary="VIVA">
-      <created>1408846773993</created>
-      <updated>1408846773993</updated>
-    </task>
-    <task id="LOCAL-00132" summary="VIVA">
-      <created>1408847066512</created>
-      <updated>1408847066512</updated>
-    </task>
-    <task id="LOCAL-00133" summary="VIVA">
-      <created>1408852375397</created>
-      <updated>1408852375397</updated>
-    </task>
-    <task id="LOCAL-00134" summary="VIVA">
-      <created>1408852546755</created>
-      <updated>1408852546755</updated>
-    </task>
-    <task id="LOCAL-00135" summary="VIVA">
-      <created>1408852898592</created>
-      <updated>1408852898592</updated>
-    </task>
-    <task id="LOCAL-00136" summary="VIVA">
-      <created>1408858033018</created>
-      <updated>1408858033018</updated>
-    </task>
-    <task id="LOCAL-00137" summary="VIVA">
-      <created>1408859645110</created>
-      <updated>1408859645110</updated>
-    </task>
-    <task id="LOCAL-00138" summary="VIVA">
-      <created>1408871522939</created>
-      <updated>1408871522939</updated>
-    </task>
-    <task id="LOCAL-00139" summary="VIVA">
-      <created>1408872696157</created>
-      <updated>1408872696157</updated>
-    </task>
-    <task id="LOCAL-00140" summary="VIVA">
-      <created>1408872969411</created>
-      <updated>1408872969411</updated>
-    </task>
-    <task id="LOCAL-00141" summary="VIVA">
-      <created>1408873200863</created>
-      <updated>1408873200864</updated>
-    </task>
-    <task id="LOCAL-00142" summary="VIVA">
-      <created>1408882576864</created>
-      <updated>1408882576864</updated>
-    </task>
-    <task id="LOCAL-00143" summary="VIVA">
-      <created>1408886520566</created>
-      <updated>1408886520567</updated>
-    </task>
-    <task id="LOCAL-00144" summary="VIVA">
-      <created>1408886613129</created>
-      <updated>1408886613129</updated>
-    </task>
-    <task id="LOCAL-00145" summary="VIVA">
-      <created>1408886916935</created>
-      <updated>1408886916935</updated>
-    </task>
-    <task id="LOCAL-00146" summary="VIVA">
-      <created>1408900291148</created>
-      <updated>1408900291148</updated>
-    </task>
-    <task id="LOCAL-00147" summary="VIVA">
-      <created>1409060853716</created>
-      <updated>1409060853716</updated>
-    </task>
-    <task id="LOCAL-00148" summary="VIVA">
-      <created>1409060881194</created>
-      <updated>1409060881194</updated>
-    </task>
-    <task id="LOCAL-00149" summary="VIVA">
-      <created>1409060906396</created>
-      <updated>1409060906396</updated>
-    </task>
-    <task id="LOCAL-00150" summary="VIVA">
-      <created>1409063503416</created>
-      <updated>1409063503416</updated>
-    </task>
-    <task id="LOCAL-00151" summary="VIVA">
-      <created>1409063900715</created>
-      <updated>1409063900715</updated>
-    </task>
-    <task id="LOCAL-00152" summary="VIVA">
-      <created>1409064020053</created>
-      <updated>1409064020054</updated>
-    </task>
-    <task id="LOCAL-00153" summary="VIVA">
-      <created>1409064115488</created>
-      <updated>1409064115488</updated>
-    </task>
-    <task id="LOCAL-00154" summary="VIVA">
-      <created>1409200730408</created>
-      <updated>1409200730408</updated>
-    </task>
-    <task id="LOCAL-00155" summary="VIVA">
-      <created>1409201481467</created>
-      <updated>1409201481467</updated>
-    </task>
-    <task id="LOCAL-00156" summary="百度 site App">
-      <created>1411309934411</created>
-      <updated>1411309934411</updated>
-    </task>
-    <task id="LOCAL-00157" summary="Hybrid Add">
-      <created>1411912058037</created>
-      <updated>1411912058038</updated>
-    </task>
-    <task id="LOCAL-00158" summary="Hybrid Add">
-      <created>1413262035014</created>
-      <updated>1413262035015</updated>
-    </task>
-    <task id="LOCAL-00159" summary="Hybrid Add">
-      <created>1414211320485</created>
-      <updated>1414211320485</updated>
-    </task>
-    <task id="LOCAL-00160" summary="Web Safe Fonts">
-      <created>1414742310598</created>
-      <updated>1414742310598</updated>
-    </task>
-    <task id="LOCAL-00161" summary="Web Safe Fonts">
-      <created>1415697093752</created>
-      <updated>1415697093752</updated>
-    </task>
-    <task id="LOCAL-00162" summary="Web Safe Fonts">
-      <created>1415700385726</created>
-      <updated>1415700385726</updated>
-    </task>
-    <task id="LOCAL-00163" summary="Web Safe Fonts">
-      <created>1415778237706</created>
-      <updated>1415778237706</updated>
-    </task>
-    <task id="LOCAL-00164" summary="Web Safe Fonts">
-      <created>1415782564932</created>
-      <updated>1415782564932</updated>
-    </task>
-    <task id="LOCAL-00165" summary="Style Guide">
-      <created>1415783027300</created>
-      <updated>1415783027300</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Style Guide">
-      <created>1415785709481</created>
-      <updated>1415785709481</updated>
-    </task>
-    <task id="LOCAL-00167" summary="Style Guide">
-      <created>1415787243906</created>
-      <updated>1415787243906</updated>
-    </task>
-    <task id="LOCAL-00168" summary="Style Guide">
-      <created>1415874996522</created>
-      <updated>1415874996522</updated>
-    </task>
-    <task id="LOCAL-00169" summary="Style Guide">
-      <created>1416376648694</created>
-      <updated>1416376648694</updated>
-    </task>
-    <task id="LOCAL-00170" summary="w3counter">
-      <created>1416380523025</created>
-      <updated>1416380523025</updated>
-    </task>
-    <task id="LOCAL-00171" summary="w3counter">
-      <created>1416380695890</created>
-      <updated>1416380695890</updated>
-    </task>
-    <task id="LOCAL-00172" summary="Style Guide">
-      <created>1416479334350</created>
-      <updated>1416479334350</updated>
-    </task>
-    <task id="LOCAL-00173" summary="Style Guide">
-      <created>1416543320880</created>
-      <updated>1416543320880</updated>
-    </task>
-    <task id="LOCAL-00174" summary="Style Guide">
-      <created>1416544373824</created>
-      <updated>1416544373825</updated>
-    </task>
-    <task id="LOCAL-00175" summary="Style Guide">
-      <created>1416544572992</created>
-      <updated>1416544572992</updated>
-    </task>
-    <task id="LOCAL-00176" summary="A Beginner's Guide To Grunt">
-      <created>1417264849116</created>
-      <updated>1417264849116</updated>
-    </task>
-    <task id="LOCAL-00177" summary="NodeJS Guide">
-      <created>1417269239827</created>
-      <updated>1417269239827</updated>
-    </task>
-    <task id="LOCAL-00178" summary="NodeJS Guide">
-      <created>1417407217498</created>
-      <updated>1417407217498</updated>
-    </task>
-    <task id="LOCAL-00179" summary="JSHint Options Fans">
-      <created>1417500431082</created>
-      <updated>1417500431082</updated>
-    </task>
-    <task id="LOCAL-00180" summary="package.json">
-      <created>1417582908823</created>
-      <updated>1417582908824</updated>
-    </task>
-    <task id="LOCAL-00181" summary="package.json">
-      <created>1417766942633</created>
-      <updated>1417766942637</updated>
+      <workItem from="1422526398617" duration="764000" />
+      <workItem from="1423274906197" duration="2383000" />
+      <workItem from="1423290896621" duration="6432000" />
+      <workItem from="1423304023279" duration="1876000" />
     </task>
     <task id="LOCAL-00182" summary="HTML Validator">
       <created>1418037269501</created>
+      <option name="number" value="00182" />
+      <option name="project" value="LOCAL" />
       <updated>1418037269501</updated>
     </task>
     <task id="LOCAL-00183" summary="@font-face">
       <created>1418471548265</created>
+      <option name="number" value="00183" />
+      <option name="project" value="LOCAL" />
       <updated>1418471548265</updated>
     </task>
     <task id="LOCAL-00184" summary="@font-face">
       <created>1418471723121</created>
+      <option name="number" value="00184" />
+      <option name="project" value="LOCAL" />
       <updated>1418471723121</updated>
     </task>
     <task id="LOCAL-00185" summary="@font-face">
       <created>1418471824085</created>
+      <option name="number" value="00185" />
+      <option name="project" value="LOCAL" />
       <updated>1418471824085</updated>
     </task>
     <task id="LOCAL-00186" summary="@font-face">
       <created>1418471977973</created>
+      <option name="number" value="00186" />
+      <option name="project" value="LOCAL" />
       <updated>1418471977973</updated>
     </task>
     <task id="LOCAL-00187" summary="@font-face">
       <created>1418472172649</created>
+      <option name="number" value="00187" />
+      <option name="project" value="LOCAL" />
       <updated>1418472172649</updated>
     </task>
     <task id="LOCAL-00188" summary="@font-face">
       <created>1418472304075</created>
+      <option name="number" value="00188" />
+      <option name="project" value="LOCAL" />
       <updated>1418472304075</updated>
     </task>
     <task id="LOCAL-00189" summary="@font-face">
       <created>1418472424117</created>
+      <option name="number" value="00189" />
+      <option name="project" value="LOCAL" />
       <updated>1418472424120</updated>
     </task>
     <task id="LOCAL-00190" summary="Grunt Yeoman Bower">
       <created>1418482611723</created>
+      <option name="number" value="00190" />
+      <option name="project" value="LOCAL" />
       <updated>1418482611724</updated>
     </task>
     <task id="LOCAL-00191" summary="HTML5 Cross Browser Polyfills">
       <created>1418635821330</created>
+      <option name="number" value="00191" />
+      <option name="project" value="LOCAL" />
       <updated>1418635821330</updated>
     </task>
     <task id="LOCAL-00192" summary="best-practices">
       <created>1419150846658</created>
+      <option name="number" value="00192" />
+      <option name="project" value="LOCAL" />
       <updated>1419150846659</updated>
     </task>
     <task id="LOCAL-00193" summary="follow 2015">
       <created>1419163291083</created>
+      <option name="number" value="00193" />
+      <option name="project" value="LOCAL" />
       <updated>1419163291083</updated>
     </task>
     <task id="LOCAL-00194" summary="follow 2015">
       <created>1419165169371</created>
+      <option name="number" value="00194" />
+      <option name="project" value="LOCAL" />
       <updated>1419165169372</updated>
     </task>
     <task id="LOCAL-00195" summary="follow 2015">
       <created>1420644101933</created>
+      <option name="number" value="00195" />
+      <option name="project" value="LOCAL" />
       <updated>1420644101933</updated>
     </task>
     <task id="LOCAL-00196" summary="Hybrid App">
       <created>1420722964380</created>
+      <option name="number" value="00196" />
+      <option name="project" value="LOCAL" />
       <updated>1420722964380</updated>
     </task>
     <task id="LOCAL-00197" summary="Hybrid App">
       <created>1420723045485</created>
+      <option name="number" value="00197" />
+      <option name="project" value="LOCAL" />
       <updated>1420723045485</updated>
     </task>
     <task id="LOCAL-00198" summary="Hybrid App">
       <created>1420787565261</created>
+      <option name="number" value="00198" />
+      <option name="project" value="LOCAL" />
       <updated>1420787565261</updated>
     </task>
     <task id="LOCAL-00199" summary="Hybrid App">
       <created>1420789019684</created>
+      <option name="number" value="00199" />
+      <option name="project" value="LOCAL" />
       <updated>1420789019684</updated>
     </task>
     <task id="LOCAL-00200" summary="Hybrid App">
       <created>1420801462438</created>
+      <option name="number" value="00200" />
+      <option name="project" value="LOCAL" />
       <updated>1420801462438</updated>
     </task>
     <task id="LOCAL-00201" summary="Hybrid App">
       <created>1420884098825</created>
+      <option name="number" value="00201" />
+      <option name="project" value="LOCAL" />
       <updated>1420884098825</updated>
     </task>
     <task id="LOCAL-00202" summary="Hybrid App">
       <created>1420896276431</created>
+      <option name="number" value="00202" />
+      <option name="project" value="LOCAL" />
       <updated>1420896276431</updated>
     </task>
     <task id="LOCAL-00203" summary="Hybrid App">
       <created>1420896584723</created>
+      <option name="number" value="00203" />
+      <option name="project" value="LOCAL" />
       <updated>1420896584724</updated>
     </task>
     <task id="LOCAL-00204" summary="React">
       <created>1421040958252</created>
+      <option name="number" value="00204" />
+      <option name="project" value="LOCAL" />
       <updated>1421040958252</updated>
     </task>
     <task id="LOCAL-00205" summary="app download">
       <created>1421222619648</created>
+      <option name="number" value="00205" />
+      <option name="project" value="LOCAL" />
       <updated>1421222619648</updated>
     </task>
     <task id="LOCAL-00206" summary="app download">
       <created>1421222892401</created>
+      <option name="number" value="00206" />
+      <option name="project" value="LOCAL" />
       <updated>1421222892401</updated>
     </task>
     <task id="LOCAL-00207" summary="app download">
       <created>1421222976492</created>
+      <option name="number" value="00207" />
+      <option name="project" value="LOCAL" />
       <updated>1421222976492</updated>
     </task>
     <task id="LOCAL-00208" summary="app download">
       <created>1421223122496</created>
+      <option name="number" value="00208" />
+      <option name="project" value="LOCAL" />
       <updated>1421223122496</updated>
     </task>
     <task id="LOCAL-00209" summary="app download">
       <created>1421224035043</created>
+      <option name="number" value="00209" />
+      <option name="project" value="LOCAL" />
       <updated>1421224035043</updated>
     </task>
     <task id="LOCAL-00210" summary="app download">
       <created>1421224097947</created>
+      <option name="number" value="00210" />
+      <option name="project" value="LOCAL" />
       <updated>1421224097947</updated>
     </task>
     <task id="LOCAL-00211" summary="app download">
       <created>1421224446619</created>
+      <option name="number" value="00211" />
+      <option name="project" value="LOCAL" />
       <updated>1421224446619</updated>
     </task>
     <task id="LOCAL-00212" summary="app download">
       <created>1421224604572</created>
+      <option name="number" value="00212" />
+      <option name="project" value="LOCAL" />
       <updated>1421224604572</updated>
     </task>
     <task id="LOCAL-00213" summary="app download">
       <created>1421224770127</created>
+      <option name="number" value="00213" />
+      <option name="project" value="LOCAL" />
       <updated>1421224770127</updated>
     </task>
     <task id="LOCAL-00214" summary="app download">
       <created>1421225307425</created>
+      <option name="number" value="00214" />
+      <option name="project" value="LOCAL" />
       <updated>1421225307425</updated>
     </task>
     <task id="LOCAL-00215" summary="app download">
       <created>1421225436487</created>
+      <option name="number" value="00215" />
+      <option name="project" value="LOCAL" />
       <updated>1421225436487</updated>
     </task>
     <task id="LOCAL-00216" summary="app download">
       <created>1421225493923</created>
+      <option name="number" value="00216" />
+      <option name="project" value="LOCAL" />
       <updated>1421225493923</updated>
     </task>
     <task id="LOCAL-00217" summary="app download">
       <created>1421225505970</created>
+      <option name="number" value="00217" />
+      <option name="project" value="LOCAL" />
       <updated>1421225505970</updated>
     </task>
     <task id="LOCAL-00218" summary="app download">
       <created>1421225803512</created>
+      <option name="number" value="00218" />
+      <option name="project" value="LOCAL" />
       <updated>1421225803512</updated>
     </task>
     <task id="LOCAL-00219" summary="app download">
       <created>1421226172492</created>
+      <option name="number" value="00219" />
+      <option name="project" value="LOCAL" />
       <updated>1421226172492</updated>
     </task>
     <task id="LOCAL-00220" summary="app download">
       <created>1421226690864</created>
+      <option name="number" value="00220" />
+      <option name="project" value="LOCAL" />
       <updated>1421226690864</updated>
     </task>
     <task id="LOCAL-00221" summary="app download">
       <created>1421227091398</created>
+      <option name="number" value="00221" />
+      <option name="project" value="LOCAL" />
       <updated>1421227091398</updated>
     </task>
     <task id="LOCAL-00222" summary="app download">
       <created>1421228291729</created>
+      <option name="number" value="00222" />
+      <option name="project" value="LOCAL" />
       <updated>1421228291729</updated>
     </task>
     <task id="LOCAL-00223" summary="Grunt BrowserSync">
       <created>1421590447240</created>
+      <option name="number" value="00223" />
+      <option name="project" value="LOCAL" />
       <updated>1421590447240</updated>
     </task>
     <task id="LOCAL-00224" summary="Grunt BrowserSync">
       <created>1422192703032</created>
+      <option name="number" value="00224" />
+      <option name="project" value="LOCAL" />
       <updated>1422192703032</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Code Quality Tool">
+      <created>1422527006755</created>
+      <option name="number" value="00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1422527006755</updated>
+    </task>
+    <task id="LOCAL-00226" summary="Code Quality Tool">
+      <created>1423284357827</created>
+      <option name="number" value="00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1423284357832</updated>
+    </task>
+    <task id="LOCAL-00227" summary="Code Quality Tool">
+      <created>1423287909101</created>
+      <option name="number" value="00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1423287909101</updated>
+    </task>
+    <task id="LOCAL-00228" summary="Code Quality Tool">
+      <created>1423299738648</created>
+      <option name="number" value="00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1423299738648</updated>
+    </task>
+    <task id="LOCAL-00229" summary="yo grunt bower">
+      <created>1423302516978</created>
+      <option name="number" value="00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1423302516978</updated>
+    </task>
+    <task id="LOCAL-00230" summary="yo grunt bower">
+      <created>1423305802235</created>
+      <option name="number" value="00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1423305802235</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40145000" />
+    <option name="totallyTimeSpent" value="51023000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1387,41 +599,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="-2" y="2" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14726508" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0025773195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40532959" sideWeight="0.2746114" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.078541376" sideWeight="0.7253886" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24403927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38709676" sideWeight="0.18869309" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25193298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38709676" sideWeight="0.8113069" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38709676" sideWeight="0.8113069" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Settings">
@@ -1443,8 +656,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="add viva" />
-    <MESSAGE value="gui mobile" />
     <MESSAGE value="viva" />
     <MESSAGE value="webAppSwipe" />
     <MESSAGE value="jQuery插件开发指南" />
@@ -1468,54 +679,15 @@
     <MESSAGE value="React" />
     <MESSAGE value="app download" />
     <MESSAGE value="Grunt BrowserSync" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grunt BrowserSync" />
+    <MESSAGE value="Code Quality Tool" />
+    <MESSAGE value="yo grunt bower" />
+    <option name="LAST_COMMIT_MESSAGE" value="yo grunt bower" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="384">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1272">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-10-06-MediaQueriesforIE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1536">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/fontface/font.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/fontface/font-face.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1541,30 +713,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.tgitconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1609,13 +760,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.965517" vertical-offset="1822" max-vertical-offset="5712">
-          <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/archive_off.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1629,13 +773,6 @@
     <entry file="file://$PROJECT_DIR$/assets/images/rss.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9655173" vertical-offset="2290" max-vertical-offset="4896">
-          <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/hybrid/ryScreen3.html">
@@ -1751,9 +888,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/topsearchjs">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="984">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1775,9 +909,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/tab_list">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6196319" vertical-offset="404" max-vertical-offset="1056">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1829,32 +960,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html">
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0125" vertical-offset="7496" max-vertical-offset="8160">
-          <caret line="312" column="40" selection-start-line="312" selection-start-column="40" selection-end-line="312" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1056" max-vertical-offset="4128">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/aside">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1320">
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/hybrid/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15364583" vertical-offset="59" max-vertical-offset="5376">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="406">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6896553" vertical-offset="5072" max-vertical-offset="5712">
+          <caret line="217" column="6" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="168">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3216">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36150235" vertical-offset="777" max-vertical-offset="4128">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="744">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.793103" vertical-offset="3695" max-vertical-offset="5112">
+          <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/GruntJsPpt/gruntJs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.225" vertical-offset="0" max-vertical-offset="10392">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
