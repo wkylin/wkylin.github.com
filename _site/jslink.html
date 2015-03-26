@@ -1,16 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <title>JavaScript</title>
-    
+
     <meta name="author" content="wkylin">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements --><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
     <!-- Le styles -->
     <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,8 +18,8 @@
     <link href="/assets/themes/twitter/css/ui-tab.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
-    <link rel="icon" href="/assets/themes/twitter/favicon/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="/assets/themes/twitter/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/assets/themes/twitter/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/themes/twitter/favicon/favicon.ico" type="image/x-icon" />
     <!-- Update these with your own images
       <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
       <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -32,663 +29,354 @@
 
 <body>
 
-<div class="ui-container">
-    <div class="ui-header">
-        <div class="ui-header-content fn-clear">
-            <div class="ui-meta fn-left">
-                <div class="logo">
-                    <a class="brand" href="/">I love kax</a>
+    <div class="ui-container">
+        <div class="ui-header">
+            <div class="ui-header-content fn-clear">
+                <div class="ui-meta fn-left">
+                    <div class="logo">
+                        <a class="brand" href="/">I love kax</a>
+                    </div>
+                    <div class="blessing">
+                        <span>#Front-Ender{</span> <span>life:colourful;</span> <span>work:successful;</span>
+                        <span>love:sweet;</span> <span>family:healthy;</span> <span>}</span>
+                    </div>
                 </div>
-                <div class="blessing">
-                    <span>#Front-Ender{</span>
-                    <span>life:colourful;</span>
-                    <span>work:successful;</span>
-                    <span>love:sweet;</span>
-                    <span>family:healthy;</span>
-                    <span>}</span>
+                <div class="ui-gloable-search fn-right">
+                    <div class="ui-tab">
+                        <div class="ui-tab-trigger">
+                            <ul id="J_uiTab">
+                                <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                                    <span>网页</span>
+                                </li>
+                                <li class="ui-tab-trigger-item">
+                                    <span>视频</span>
+                                </li>
+                                <li class="ui-tab-trigger-item">
+                                    <span>音乐</span>
+                                </li>
+                                <li class="ui-tab-trigger-item">
+                                    <span>图片</span>
+                                </li>
+                                <li class="ui-tab-trigger-item">
+                                    <span>购物</span>
+                                </li>
+                                <li class="ui-tab-trigger-item">
+                                    <span>资源</span>
+                                </li>
+                                <li class="ui-tab-trigger-item">
+                                    <span>地图</span>
+                                </li>
+                                <li class="ui-tab-trigger-item">
+                                    <span>维基</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ui-tab-content">
+                            <form name="s" method="get" action="http://www.baidu.com/s">
+                                <div class="ui-meta-left" style="position:relative">
+                                    <input id="q" class="ui-input-text" name="wd" type="text" /> <label for="q"></label>
+                                </div>
+                                <div class="ui-meta-right">
+                                    <!--网页-->
+                                    <ul class="searh-menu">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://www.baidu.com/s?wd='+s.wd.value,'')" name="百度一下" value="百度一下" type="button" />
+                                            </div>
+                                            <div class="searh-more-hd fn-hide">
+                                                <input class="ui-input-button ui-input-button-hover" onclick="window.open('http://www.google.com.hk/search?q='+s.wd.value,'')" name="google" value="谷歌" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://www.sogou.com/web?query='+s.wd.value,'')" name="sogou" value="搜狗" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://www.soso.com/q?pid=s.idx&amp;ch=s.idx&amp;w='+s.wd.value,'')" name="soso" value="搜搜" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://cn.bing.com/search?q='+s.wd.value,'')" name="bing" value="必应" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://www.youdao.com/search?q='+s.wd.value,'')" name="youdao" value="有道" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('https://developers.google.com/search?q='+s.wd.value,'')" name="javacode" value="Gcode" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--视频-->
+                                    <ul class="searh-menu fn-hide">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://video.baidu.com/?q='+s.wd.value,'')" name="百度视频" value="百度视频" type="button" />
+                                            </div>
+                                            <div class="searh-more-hd fn-hide">
+                                                <input class="ui-input-button" onclick="window.open('http://so.tudou.com/isearch.do?kw='+s.wd.value,'')" name="土豆" value="土豆" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://www.soku.com/search_video/q_'+s.wd.value,'')" name="优酷" value="优酷" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--音乐-->
+                                    <ul class="searh-menu fn-hide">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://mp3.baidu.com/?q='+s.wd.value,'')" name="百度mp3" value="百度mp3" type="button" />
+                                            </div>
+                                            <div class="searh-more-hd fn-hide">
+                                                <input class="ui-input-button" onclick="window.open('http://www.google.cn/music/search?q='+s.wd.value,'')" name="谷歌音乐" value="谷歌音乐" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://so.1ting.com/all.do?q='+s.wd.value,'')" name="一听音乐" value="一听音乐" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--图片-->
+                                    <ul class="searh-menu fn-hide">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://image.baidu.com/?q='+s.wd.value,'')" name="百度图片" value="百度图片" type="button" />
+                                            </div>
+                                            <div class="searh-more-hd fn-hide">
+                                                <input class="ui-input-button" onclick="window.open('http://www.google.com.hk/images?q='+s.wd.value,'')" name="谷歌图片" value="谷歌图片" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--购物-->
+                                    <ul class="searh-menu fn-hide">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://s.taobao.com/search?q='+s.wd.value,'')" name="taobao" value="淘宝搜索" type="button" />
+                                            </div>
+                                            <div class="searh-more-hd fn-hide">
+                                                <input class="ui-input-button" onclick="window.open('http://search.360buy.com/search?keyword='+s.wd.value,'')" name="360buy" value="京东" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://search.dangdang.com/search.php?key='+s.wd.value,'')" name="dangdang" value="当当" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://www.amazon.cn/s?ie=utf8&amp;keywords='+s.wd.value,'')" name="amazon" value="卓越" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://youa.baidu.com/search/s?search_domain=1&amp;category=0&amp;keyword='+s.wd.value,'')" name="youa" value="有啊" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://www.vancl.com/product/searchnew.aspx?new=1&amp;k='+s.wd.value,'')" name="vancl" value="凡客" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--资源-->
+                                    <ul class="searh-menu fn-hide">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://www.gougou.com/search?search='+s.wd.value,'')" name="gougou" value="迅雷搜索" type="button" />
+                                            </div>
+                                            <div class="searh-more-hd fn-hide">
+                                                <input class="ui-input-button" onclick="window.open('http://www.verycd.com/search/folders/'+s.wd.value,'')" name="verycd" value="电驴搜索" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!-- 地图 -->
+                                    <ul class="searh-menu fn-hide">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://map.baidu.com/m?word='+s.wd.value,'')" name="google" value="百度地图" type="button">
+                                            </div>
+                                            <div class="fn-hide searh-more-hd">
+                                                <input class="ui-input-button" onclick="window.open('http://ditu.google.cn/maps?q='+s.wd.value,'')" name="google" value="谷歌地图" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://map.sogou.com/#lq='+s.wd.value,'')" name="sogou" value="搜狗地图" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--维基-->
+                                    <ul class="searh-menu fn-hide">
+                                        <li>
+                                            <div class="searh-more">
+                                                <input class="ui-input-button" onclick="window.open('http://zh.wikipedia.org/wiki/Special:Search?search='+s.wd.value,'')" value="维基百科" type="button" name="wiki" />
+                                            </div>
+                                            <div class="fn-hide searh-more-hd">
+                                                <input class="ui-input-button" onclick="window.open('http://baike.baidu.com/w?ct=17&lm=0&tn=baiduWikiSearch&pn=0&rn=10&word='+s.wd.value,'')" name="google" value="百度百科" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://so.hudong.com/s/doc/'+s.wd.value,'')" name="sogou" value="互动百科" type="button" />
+                                                <input class="ui-input-button" onclick="window.open('http://wiki.mbalib.com/wiki/Special:Search?search='+s.wd.value,'')" name="sogou" value="MBALab" type="button" />
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="ui-gloable-search fn-right">
-                <div class="ui-tab">
-    <div class="ui-tab-trigger">
-        <ul id="J_uiTab">
-            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
-                <span>网页</span>
-            </li>
-            <li class="ui-tab-trigger-item">
-                <span>视频</span>
-            </li>
-            <li class="ui-tab-trigger-item">
-                <span>音乐</span>
-            </li>
-            <li class="ui-tab-trigger-item">
-                <span>图片</span>
-            </li>
-            <li class="ui-tab-trigger-item">
-                <span>购物</span>
-            </li>
-            <li class="ui-tab-trigger-item">
-                <span>资源</span>
-            </li>
-            <li class="ui-tab-trigger-item">
-                <span>地图</span>
-            </li>
-            <li class="ui-tab-trigger-item">
-                <span>维基</span>
-            </li>
-        </ul>
-    </div>
-    <div class="ui-tab-content">
-        <form name="s" method="get" action="http://www.baidu.com/s">
-            <div class="ui-meta-left" style="position:relative">
-                <input id="q" class="ui-input-text" name="wd" type="text"/> <label for="q"></label>
-            </div>
-            <div class="ui-meta-right">
-                <!--网页-->
-                <ul class="searh-menu">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.baidu.com/s?wd='+s.wd.value,'')"
-                                   name="百度一下" value="百度一下" type="button"/>
-                        </div>
-                        <div class="searh-more-hd fn-hide">
-                            <input class="ui-input-button ui-input-button-hover"
-                                   onclick="window.open('http://www.google.com.hk/search?q='+s.wd.value,'')"
-                                   name="google" value="谷歌" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.sogou.com/web?query='+s.wd.value,'')"
-                                   name="sogou" value="搜狗" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.soso.com/q?pid=s.idx&amp;ch=s.idx&amp;w='+s.wd.value,'')"
-                                   name="soso" value="搜搜" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://cn.bing.com/search?q='+s.wd.value,'')"
-                                   name="bing" value="必应" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.youdao.com/search?q='+s.wd.value,'')"
-                                   name="youdao" value="有道" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('https://developers.google.com/search?q='+s.wd.value,'')"
-                                   name="javacode" value="Gcode" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-                <!--视频-->
-                <ul class="searh-menu fn-hide">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://video.baidu.com/?q='+s.wd.value,'')"
-                                   name="百度视频" value="百度视频" type="button"/>
-                        </div>
-                        <div class="searh-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://so.tudou.com/isearch.do?kw='+s.wd.value,'')"
-                                   name="土豆" value="土豆" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.soku.com/search_video/q_'+s.wd.value,'')"
-                                   name="优酷" value="优酷" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-                <!--音乐-->
-                <ul class="searh-menu fn-hide">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://mp3.baidu.com/?q='+s.wd.value,'')"
-                                   name="百度mp3" value="百度mp3" type="button"/>
-                        </div>
-                        <div class="searh-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.google.cn/music/search?q='+s.wd.value,'')"
-                                   name="谷歌音乐" value="谷歌音乐" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://so.1ting.com/all.do?q='+s.wd.value,'')"
-                                   name="一听音乐" value="一听音乐" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-                <!--图片-->
-                <ul class="searh-menu fn-hide">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://image.baidu.com/?q='+s.wd.value,'')"
-                                   name="百度图片" value="百度图片" type="button"/>
-                        </div>
-                        <div class="searh-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.google.com.hk/images?q='+s.wd.value,'')"
-                                   name="谷歌图片" value="谷歌图片" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-                <!--购物-->
-                <ul class="searh-menu fn-hide">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://s.taobao.com/search?q='+s.wd.value,'')"
-                                   name="taobao" value="淘宝搜索" type="button"/>
-                        </div>
-                        <div class="searh-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://search.360buy.com/search?keyword='+s.wd.value,'')"
-                                   name="360buy" value="京东" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://search.dangdang.com/search.php?key='+s.wd.value,'')"
-                                   name="dangdang" value="当当" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.amazon.cn/s?ie=utf8&amp;keywords='+s.wd.value,'')"
-                                   name="amazon" value="卓越" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://youa.baidu.com/search/s?search_domain=1&amp;category=0&amp;keyword='+s.wd.value,'')"
-                                   name="youa" value="有啊" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.vancl.com/product/searchnew.aspx?new=1&amp;k='+s.wd.value,'')"
-                                   name="vancl" value="凡客" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-                <!--资源-->
-                <ul class="searh-menu fn-hide">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.gougou.com/search?search='+s.wd.value,'')"
-                                   name="gougou" value="迅雷搜索" type="button"/>
-                        </div>
-                        <div class="searh-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.verycd.com/search/folders/'+s.wd.value,'')"
-                                   name="verycd" value="电驴搜索" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-                <!-- 地图 -->
-                <ul class="searh-menu fn-hide">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://map.baidu.com/m?word='+s.wd.value,'')"
-                                   name="google" value="百度地图" type="button">
-                        </div>
-                        <div class="fn-hide searh-more-hd">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://ditu.google.cn/maps?q='+s.wd.value,'')"
-                                   name="google" value="谷歌地图" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://map.sogou.com/#lq='+s.wd.value,'')"
-                                   name="sogou" value="搜狗地图" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-                <!--维基-->
-                <ul class="searh-menu fn-hide">
-                    <li>
-                        <div class="searh-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://zh.wikipedia.org/wiki/Special:Search?search='+s.wd.value,'')"
-                                   value="维基百科" type="button" name="wiki"/>
-                        </div>
-                        <div class="fn-hide searh-more-hd">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://baike.baidu.com/w?ct=17&lm=0&tn=baiduWikiSearch&pn=0&rn=10&word='+s.wd.value,'')"
-                                   name="google" value="百度百科" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://so.hudong.com/s/doc/'+s.wd.value,'')"
-                                   name="sogou" value="互动百科" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://wiki.mbalib.com/wiki/Special:Search?search='+s.wd.value,'')"
-                                   name="sogou" value="MBALab" type="button"/>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </form>
-    </div>
-</div>
             </div>
         </div>
-    </div>
-    <div class="ui-nav-box">
-        <div class="ui-nav fn-clear">
-            <div class="fn-left">
-                <a class="home" href="/">首页</a>
+        <div class="ui-nav-box">
+            <div class="ui-nav fn-clear">
+                <div class="fn-left">
+                    <a class="home" href="/">首页</a>
+                </div>
+                <ul class="fn-left" id="J_uiNavUl">
+
+                    <li class="ui-nav-item"><a href="/css3link.html">CSS3</a></li>
+
+                    <li class="ui-nav-item"><a href="/csserlink.html">CSSer</a></li>
+
+                    <li class="ui-nav-item"><a href="/homelink.html">TECH</a></li>
+
+                    <li class="ui-nav-item"><a href="/html5.html">HTML5</a></li>
+
+                    <li class="ui-nav-item ui-nav-item-current"><a href="/jslink.html" class="active">JavaScript</a>
+                    </li>
+
+                    <li class="ui-nav-item"><a href="/lifelink.html">生活点滴</a></li>
+
+                    <li class="ui-nav-item"><a href="/uedlink.html">UED</a></li>
+
+                </ul>
             </div>
-            <ul class="fn-left" id="J_uiNavUl">
-                
-                
-                
-
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="ui-nav-item"><a href="/css3link.html">CSS3</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li class="ui-nav-item"><a href="/csserlink.html">CSSer</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li class="ui-nav-item"><a href="/homelink.html">TECH</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li class="ui-nav-item"><a href="/html5.html">HTML5</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="ui-nav-item ui-nav-item-current"><a href="/jslink.html" class="active">JavaScript</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li class="ui-nav-item"><a href="/lifelink.html">生活点滴</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="ui-nav-item"><a href="/uedlink.html">UED</a></li>
-      	
-      
-    
-  
-
-
-
-            </ul>
         </div>
-    </div>
-    <div class="ui-content fn-clear" id="J_uiCntDiv">
-        
-<div class="ui-main">
-    <div class="page-header">
-         <h3>JavaScript</h3>
-        <!--
-        <h4>JavaScript
-            
-        </h4>
-        -->
-    </div>
-    
-<div class="ui-title fn-clear">
-    <h2>JS</h2>
-</div>
-<ul class="ui-list fn-clear">
-    <li class="ui-list-item"><a href="http://scriptsrc.net/" target="_blank">常用script标签</a></li>
-    <li class="ui-list-item"><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml" target="_blank"><span class="ft-red">GoogleJsGuide</span></a></li>
-    <li class="ui-list-item"><a href="http://alloyteam.github.com/JX/" target="_blank">腾讯JX</a></li>
-    <li class="ui-list-item"><a href="http://expressjs.com/guide.html" target="_blank">expressjs</a></li>
-    <li class="ui-list-item"><a href="http://jscode.chinacxy.com/default_cf.aspx" target="_blank">JScode</a></li>
-    <li class="ui-list-item"><a href="http://www.mongodb.org/display/DOCS/Home" target="_blank">mongodb</a></li>
-    <li class="ui-list-item"><a href="http://www.cnblogs.com/cloudgamer/" target="_blank">Cloudgamer</a></li>
-    <li class="ui-list-item"><a href="http://www.ajaxmatters.com/" target="_blank">Ajaxmatters</a></li>
-    <li class="ui-list-item"><a href="http://www.ajaxian.com/" target="_blank">Ajaxian</a></li>
-    <li class="ui-list-item"><a href="http://ajaxpatterns.org/" target="_blank">Ajaxpatterns</a></li>
-    <li class="ui-list-item"><a href="http://www.ajaxblog.com/" target="_blank">Ajaxblog</a></li>
-    <li class="ui-list-item"><a href="http://51js.com/" target="_blank">51JS</a></li>
-    <li class="ui-list-item"><a href="http://www.ajax.org/" target="_blank">Ajax.org</a></li>
-    <li class="ui-list-item"><a href="http://www.51ajax.com/" target="_blank">51ajax</a></li>
-    <li class="ui-list-item"><a href="http://www.ajaxa.cn/" target="_blank">AjaxA</a></li>
-    <li class="ui-list-item"><a href="http://www.okajax.com/" target="_blank">Okajax</a></li>
-    <li class="ui-list-item"><a href="http://www.javascriptkit.com/" target="_blank">Jskit</a></li>
-    <li class="ui-list-item"><a href="http://www.hotajax.org/" target="_blank">Hotajax</a></li>
-    <li class="ui-list-item"><a href="http://www.panic.com" target="_blank">Panic</a></li>
-    <li class="ui-list-item"><a href="http://www.quirksmode.org/" target="_blank">Quirksmode</a></li>
-    <li class="ui-list-item"><a href="http://www.crockford.com/" target="_blank">Crockford</a></li>
-    <li class="ui-list-item"><a href="http://ejohn.org/" target="_blank">Ejohn</a></li>
-    <li class="ui-list-item"><a href="http://www.ijavascript.cn/" target="_blank">iJavascript</a></li>
-    <li class="ui-list-item"><a href="http://www.brothercake.com/" target="_blank">Brothercake</a></li>
-    <li class="ui-list-item"><a href="http://flowplayer.org/" target="_blank">Flowplayer</a></li>
-</ul>
+        <div class="ui-content fn-clear" id="J_uiCntDiv">
 
-<div class="ui-title fn-clear">
-    <h2>JS库</h2>
-</div>
-<ul class="ui-list fn-clear">
-    <li class="ui-list-item"><a href="http://jquery.com/" target="_blank">jQuery</a></li>
-    <li class="ui-list-item"><a href="http://mootools.net/" target="_blank">Mootools</a></li>
-    <li class="ui-list-item"><a href="http://bbs.jquery.org.cn/" target="_blank">jQuery中文</a></li>
-    <li class="ui-list-item"><a href="http://nodejs.org/docs/latest/api/" target="_blank">NodeJs</a></li>
-    <li class="ui-list-item"><a href="http://www.extjs.com/" target="_blank">ExtJS</a></li>
-</ul>
+            <div class="ui-main">
+                <div class="page-header">
+                    <h3>JavaScript</h3>
+                    <!--
+                    <h4>JavaScript
 
+                    </h4>
+                    -->
+                </div>
 
+                <div class="ui-title fn-clear">
+                    <h2>JS</h2>
+                </div>
+                <ul class="ui-list fn-clear">
+                    <li class="ui-list-item"><a href="http://scriptsrc.net/" target="_blank">常用script标签</a></li>
+                    <li class="ui-list-item">
+                        <a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml" target="_blank"><span class="ft-red">GoogleJsGuide</span></a>
+                    </li>
+                    <li class="ui-list-item"><a href="http://alloyteam.github.com/JX/" target="_blank">腾讯JX</a></li>
+                    <li class="ui-list-item"><a href="http://expressjs.com/guide.html" target="_blank">expressjs</a>
+                    </li>
+                    <li class="ui-list-item">
+                        <a href="http://jscode.chinacxy.com/default_cf.aspx" target="_blank">JScode</a></li>
+                    <li class="ui-list-item">
+                        <a href="http://www.mongodb.org/display/DOCS/Home" target="_blank">mongodb</a></li>
+                    <li class="ui-list-item"><a href="http://www.cnblogs.com/cloudgamer/" target="_blank">Cloudgamer</a>
+                    </li>
+                    <li class="ui-list-item"><a href="http://www.ajaxmatters.com/" target="_blank">Ajaxmatters</a></li>
+                    <li class="ui-list-item"><a href="http://www.ajaxian.com/" target="_blank">Ajaxian</a></li>
+                    <li class="ui-list-item"><a href="http://ajaxpatterns.org/" target="_blank">Ajaxpatterns</a></li>
+                    <li class="ui-list-item"><a href="http://www.ajaxblog.com/" target="_blank">Ajaxblog</a></li>
+                    <li class="ui-list-item"><a href="http://51js.com/" target="_blank">51JS</a></li>
+                    <li class="ui-list-item"><a href="http://www.ajax.org/" target="_blank">Ajax.org</a></li>
+                    <li class="ui-list-item"><a href="http://www.51ajax.com/" target="_blank">51ajax</a></li>
+                    <li class="ui-list-item"><a href="http://www.ajaxa.cn/" target="_blank">AjaxA</a></li>
+                    <li class="ui-list-item"><a href="http://www.okajax.com/" target="_blank">Okajax</a></li>
+                    <li class="ui-list-item"><a href="http://www.javascriptkit.com/" target="_blank">Jskit</a></li>
+                    <li class="ui-list-item"><a href="http://www.hotajax.org/" target="_blank">Hotajax</a></li>
+                    <li class="ui-list-item"><a href="http://www.panic.com" target="_blank">Panic</a></li>
+                    <li class="ui-list-item"><a href="http://www.quirksmode.org/" target="_blank">Quirksmode</a></li>
+                    <li class="ui-list-item"><a href="http://www.crockford.com/" target="_blank">Crockford</a></li>
+                    <li class="ui-list-item"><a href="http://ejohn.org/" target="_blank">Ejohn</a></li>
+                    <li class="ui-list-item"><a href="http://www.ijavascript.cn/" target="_blank">iJavascript</a></li>
+                    <li class="ui-list-item"><a href="http://www.brothercake.com/" target="_blank">Brothercake</a></li>
+                    <li class="ui-list-item"><a href="http://flowplayer.org/" target="_blank">Flowplayer</a></li>
+                </ul>
 
+                <div class="ui-title fn-clear">
+                    <h2>JS库</h2>
+                </div>
+                <ul class="ui-list fn-clear">
+                    <li class="ui-list-item"><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+                    <li class="ui-list-item"><a href="http://mootools.net/" target="_blank">Mootools</a></li>
+                    <li class="ui-list-item"><a href="http://bbs.jquery.org.cn/" target="_blank">jQuery中文</a></li>
+                    <li class="ui-list-item"><a href="http://nodejs.org/docs/latest/api/" target="_blank">NodeJs</a>
+                    </li>
+                    <li class="ui-list-item"><a href="http://www.extjs.com/" target="_blank">ExtJS</a></li>
+                </ul>
 
+            </div>
+            <div class="ui-aside">
+                <div class="share fn-clear">
+                    <!-- Baidu Button BEGIN -->
+                    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+                        <span class="bds_more">分享到：</span> <a class="bds_tsina"></a> <a class="bds_douban"></a>
+                        <a class="bds_fbook"></a> <a class="bds_bdhome"></a> <a class="bds_tfh"></a>
+                        <a class="bds_linkedin"></a> <a class="shareCount"></a>
+                    </div>
+                    <script type="text/javascript" id="bdshare_js" data="type=tools&amp;mini=1&amp;uid=3169018"></script>
+                    <script type="text/javascript" id="bdshell_js"></script>
+                    <script type="text/javascript">
+                        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+                    </script>
+                    <!-- Baidu Button END -->
+                </div>
 
-</div>
-<div class="ui-aside">
-    <div class="share fn-clear">
-    <!-- Baidu Button BEGIN -->
-    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
-        <span class="bds_more">分享到：</span>
-        <a class="bds_tsina"></a>
-        <a class="bds_douban"></a>
-        <a class="bds_fbook"></a>
-        <a class="bds_bdhome"></a>
-        <a class="bds_tfh"></a>
-        <a class="bds_linkedin"></a>
-		<a class="shareCount"></a>
-    </div>
-<script type="text/javascript" id="bdshare_js" data="type=tools&amp;mini=1&amp;uid=3169018" ></script>
-<script type="text/javascript" id="bdshell_js"></script>
-<script type="text/javascript">
-	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
-</script>
-<!-- Baidu Button END -->
-</div>
+                <div>
+                    <a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=aff91a86d8614a8dda89170e8578f3dcd61e8acb2343532e"><img border="0" src="http://wpa.qq.com/imgd?IDKEY=aff91a86d8614a8dda89170e8578f3dcd61e8acb2343532e&pic=50" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
 
-<div>
-<a target="_blank" href="http://sighttp.qq.com/authd?IDKEY=aff91a86d8614a8dda89170e8578f3dcd61e8acb2343532e"><img border="0"  src="http://wpa.qq.com/imgd?IDKEY=aff91a86d8614a8dda89170e8578f3dcd61e8acb2343532e&pic=50" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+                    <a href="/atom.xml" class="rss" style="background:url(/assets/images/rss.png) 0 0 no-repeat;width:94px;height:27px;display:inline-block;"></a>
 
+                </div>
+                <div class="searchbox" style="margin:10px 0;">
+                    <form method="get" action="http://www.google.com/search" target="google_window" style="margin-bottom: 0px;">
+                        <div>
+                            <input type="text" value="" name="q" style="width:200px;height:20px;padding:3px;" />
+                            <input type="submit" name=”btnG” id="searchsubmit" value=" 站内搜索 " style="width:60px;height:26px;line-height:26px;" />
+                        </div>
+                        <input type="hidden" name="ie" value="UTF-8" /> <input type="hidden" name="oe" value="UTF-8" />
+                        <input type="hidden" name="hl" value="zh-CN" />
+                        <input type="hidden" name="domains" value="http://wkylin.github.com" />
+                        <input type="hidden" name="sitesearch" value="http://wkylin.github.com" />
+                    </form>
 
+                </div>
+                <ul id="J_tab" class="nav nav-pills">
 
+                    <li><a href="/archive.html">文章存档</a></li>
 
+                    <li><a href="/categories.html">博文分类</a></li>
 
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<a href="/atom.xml" class="rss" style="background:url(/assets/images/rss.png) 0 0 no-repeat;width:94px;height:27px;display:inline-block;"></a>
+                    <li><a href="/tags.html">我的标签</a></li>
 
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
+                </ul>
+                <div class="weibo-sina" style="margin-bottom:20px;">
+                    <iframe width="100%" height="120" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=120&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=1751386884&verifier=5abcd2f8&dpc=1"></iframe>
+                </div>
+                <div id="recentcomments" class="dsq-widget">
+                    <h2 class="dsq-widget-title categories-sort">Recent Comments</h2>
+                    <script type="text/javascript" src="http://wkylin.disqus.com/recent_comments_widget.js?num_items=12&hide_avatars=0&avatar_size=24&excerpt_length=200"></script>
+                </div>
 
+            </div>
 
-
-</div>
-<div class="searchbox" style="margin:10px 0;">
-     <form method="get" action="http://www.google.com/search" target="google_window" style="margin-bottom: 0px;">
-	<div>	
-		<input type="text" value="" name="q" style="width:200px;height:20px;padding:3px;"/>
-		<input type="submit" name=”btnG” id="searchsubmit" value=" 站内搜索 "style="width:60px;height:26px;line-height:26px;" />
-	</div>
-	<input type="hidden" name="ie" value="UTF-8" />
-	<input type="hidden" name="oe" value="UTF-8" />
-	<input type="hidden" name="hl" value="zh-CN" />
-	<input type="hidden" name="domains" value="http://wkylin.github.com" />
-	<input type="hidden" name="sitesearch" value="http://wkylin.github.com" />
-</form>
-
-                                
- 
-      
-</div>
-<ul id="J_tab" class="nav nav-pills">
-     
-     
-     
-
-
-  
-    
-      
-      	
-      	<li><a href="/archive.html">文章存档</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/categories.html">博文分类</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/tags.html">我的标签</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-
-
-
-</ul>
-<div class="weibo-sina" style="margin-bottom:20px;">
-<iframe width="100%" height="120" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=120&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=1751386884&verifier=5abcd2f8&dpc=1"></iframe>
-</div>
-<div id="recentcomments" class="dsq-widget">
-    <h2 class="dsq-widget-title categories-sort">Recent Comments</h2>
-    <script type="text/javascript" src="http://wkylin.disqus.com/recent_comments_widget.js?num_items=12&hide_avatars=0&avatar_size=24&excerpt_length=200"></script>
-</div>
-
-</div>
-
-
-    </div>
-    <div class="ui-footer">
-        <div class="ui-fotter-content fn-clear">
-            <span class="ui-copyright fn-left">Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://disqus.com">Disqus</a>. </span>
+        </div>
+        <div class="ui-footer">
+            <div class="ui-fotter-content fn-clear">
+                <span class="ui-copyright fn-left">Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://disqus.com">Disqus</a>. </span>
             <span class="ui-gotop fn-right">
                Content & Design by wkylin &copy; 2010-2012
             </span>
+            </div>
         </div>
+        <a href="http://github.com/wkylin/wkylin.github.com">
+            <img alt="Fork me on GitHub" src="/assets/images/forkme.png" style="position:absolute; top: 0px; right: 0;">
+        </a>
     </div>
-    <a href="http://github.com/wkylin/wkylin.github.com">
-        <img alt="Fork me on GitHub" src="/assets/images/forkme.png" style="position:absolute; top: 0px; right: 0;">
-    </a>
-</div>
-<script type="text/javascript" src="/assets/themes/twitter/js/jquery.js"></script>
+    <script type="text/javascript" src="/assets/themes/twitter/js/jquery.js"></script>
 
-<script type="text/javascript">
-    $(function () {
-        //搜索
-        $("#J_uiTab li").click(function () {
-            $(this).addClass("ui-tab-trigger-item-current").siblings().removeClass("ui-tab-trigger-item-current");
-            $(".ui-meta-right > ul").eq($("#J_uiTab li").index(this)).show().siblings().hide();
+    <script type="text/javascript">
+        $(function () {
+            //搜索
+            $("#J_uiTab li").click(function () {
+                $(this).addClass("ui-tab-trigger-item-current").siblings().removeClass("ui-tab-trigger-item-current");
+                $(".ui-meta-right > ul").eq($("#J_uiTab li").index(this)).show().siblings().hide();
+            });
+            $(".searh-more").append("<div class='ui-arrow'></div>");
+            $(".searh-menu > li").hover(function () {
+                        $(".ui-arrow").addClass("ui-arrow-hover");
+                        $(this).find(".searh-more-hd").animate({opacity: "show", height: "show"}, 300);
+                        $(this).find(".searh-more-hd input").hover(
+                                function () {
+                                    $(this).addClass("ui-input-button-hover").siblings().removeClass("ui-input-button-hover");
+                                },
+                                function () {
+                                    $(this).removeClass("ui-input-button-hover");
+                                }
+                        );
+                    },
+                    function () {
+                        $(".ui-arrow").removeClass("ui-arrow-hover");
+                        $(".searh-more-hd").stop(true, true).hide();
+                        $(".searh-more").removeClass("navhover");
+                    });
+            //导航
+            $("#J_uiNavUl li").hover(function () {
+                $(this).addClass("ui-nav-item-hover");
+            }, function () {
+                $(this).removeClass("ui-nav-item-hover");
+            }).click(function () {
+                $(this).addClass("ui-nav-item-current").siblings().removeClass("ui-nav-item-current");
+            });
         });
-        $(".searh-more").append("<div class='ui-arrow'></div>");
-        $(".searh-menu > li").hover(function () {
-                    $(".ui-arrow").addClass("ui-arrow-hover");
-                    $(this).find(".searh-more-hd").animate({ opacity:"show", height:"show"}, 300);
-                    $(this).find(".searh-more-hd input").hover(
-                            function () {
-                                $(this).addClass("ui-input-button-hover").siblings().removeClass("ui-input-button-hover");
-                            },
-                            function () {
-                                $(this).removeClass("ui-input-button-hover");
-                            }
-                    );
-                },
-                function () {
-                    $(".ui-arrow").removeClass("ui-arrow-hover");
-                    $(".searh-more-hd").stop(true, true).hide();
-                    $(".searh-more").removeClass("navhover");
-                });
-        //导航
-          $("#J_uiNavUl li").hover(function(){
-             $(this).addClass("ui-nav-item-hover");
-          },function(){
-              $(this).removeClass("ui-nav-item-hover");
-          }).click(function(){
-            $(this).addClass("ui-nav-item-current").siblings().removeClass("ui-nav-item-current");
-          });
-    });
-</script>
+    </script>
 </body>
 </html>
 

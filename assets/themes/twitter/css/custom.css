@@ -1,14 +1,16 @@
 h3 {
     margin: 0px 0 10px 0
 }
-.ui-link-nav{
-    height:30px;
-    line-height:30px;
+
+.ui-link-nav {
+    height: 30px;
+    line-height: 30px;
 }
-.ui-link-nav li{
-    float:left;
+
+.ui-link-nav li {
+    float: left;
     display: inline;
-    padding:0 20px;
+    padding: 0 20px;
 }
 
 /* 代码高亮 */
@@ -44,9 +46,9 @@ pre {
 .tag_box a {
     padding: 3px 6px;
     margin: 2px;
-    background: #eee;
+    background: #eeeeee;
     border-radius: 3px;
-    border: 1px dashed #ccc;
+    border: 1px dashed #cccccc;
     text-decoration: none;
 }
 
@@ -56,8 +58,8 @@ pre {
 }
 
 .tag_box a.active {
-    background: #57A957;
-    border: 1px solid #4C964D;
-    color: #FFF;
+    background: #57a957;
+    border: 1px solid #4c964d;
+    color: #ffffff;
 }
 
