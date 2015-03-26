@@ -413,3 +413,28 @@ a.home {
 .post {
     font-size: 16px
 }
+
+.search-box{
+    margin: 10px 0;
+}
+.search-input-text{
+    width: 200px;
+    height: 20px;
+    padding: 3px;
+}
+.search-input-button{
+    width: 60px;
+    height: 26px;
+    line-height: 18px;
+}
+.dsq-widget{
+    margin-top: 10px;
+}
+.tags-sort-title{
+    margin-top: 10px;
+    background-color: #0088cc;
+    color: #ffffff;
+}
+.padding-inner{
+    padding:10px;
+}

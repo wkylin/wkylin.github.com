@@ -3,7 +3,7 @@
      {% assign tab = 'tab' %}
      {% include JB/tab_list %}
 </ul>
-<div class="searchbox" style="margin:10px 0;">
+<div class="search-box">
      {% include JB/searchbox %}
 </div>
 
@@ -22,8 +22,8 @@
 {% include JB/pages_rss %}
 </div>
 
-<h2 class="tags-sort" style="margin-top:10px; background-color:#0088CC;color:#fff;">最近关注</h2>
-<div style="padding:10px;">
+<h2 class="tags-sort tags-sort-title">最近关注</h2>
+<div class="padding-inner">
     <ul>
         <li><a href="http://meanjs.org/" target="_blank" >MEAN.JS</a>
         <li><a href="http://fis.baidu.com/" target="_blank" >F.I.S</a>
@@ -37,14 +37,14 @@
     </ul>
 </div>
 
-<h2 class="tags-sort" style="margin-top:10px; background-color:#0088CC;color:#fff;">最近发表</h2>
+<h2 class="tags-sort tags-sort-title">最近发表</h2>
 <ul id="recent_posts" style="margin-left:15px;">{% for rpost in site.posts limit: 20 %}
     <li class="post" >
         <a href="{{ BASE_PATH }}{{ rpost.url }}">{{ rpost.title }}</a>
     </li>{% endfor %}
 </ul>
 
-<div id="recentcomments" class="dsq-widget" style="margin-top:10px;">
+<div id="recentcomments" class="dsq-widget">
     <h2 class="dsq-widget-title categories-sort" style="background-color:#0088CC;color:#fff;">Recent Comments</h2>
     <script type="text/javascript" src="http://wkylin.disqus.com/recent_comments_widget.js?num_items=12&hide_avatars=0&avatar_size=24&excerpt_length=200"></script>
 </div>
