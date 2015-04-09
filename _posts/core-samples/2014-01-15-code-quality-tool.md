@@ -155,7 +155,7 @@ CodeReview工具
 
 <http://www.reviewboard.org/>
 
-https://www.codacy.com
+<https://www.codacy.com/>
 
 <http://blog.csdn.net/jack0511/article/details/5260751/>
 
