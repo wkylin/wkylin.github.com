@@ -80,6 +80,8 @@ CSSLint:
 
 <http://csslint.net/>
 
+<http://nomospace.com/posts/css-lint.html />
+
 JsHint:
  
 <http://jshint.com/>
