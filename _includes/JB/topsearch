@@ -143,15 +143,10 @@
                 <ul class="search-menu fn-hide">
                     <li>
                         <div class="search-more">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.gougou.com/search?search='+s.wd.value,'')"
-                                   name="gougou" value="迅雷搜索" type="button"/>
+                            <input class="ui-input-button"  onclick="window.open('http://www.verycd.com/search/folders/'+s.wd.value,'')"
+                                                               name="verycd" value="电驴搜索" type="button"/>
                         </div>
-                        <div class="search-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.verycd.com/search/folders/'+s.wd.value,'')"
-                                   name="verycd" value="电驴搜索" type="button"/>
-                        </div>
+
                     </li>
                 </ul>
                 <!-- 地图 -->

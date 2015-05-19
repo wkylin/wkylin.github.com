@@ -1,0 +1,119 @@
+ol, ul {
+    list-style: none;
+    margin: 0
+}
+
+.ui-tab {
+    position: relative;
+    *zoom: 1;
+    margin-bottom: 15px
+}
+
+.ui-tab-trigger {
+    height: 36px
+}
+
+.ui-tab-title {
+    float: left;
+    font-size: 14px;
+    padding: 7px 20px 0 0;
+    font-weight: 700;
+    font-family: "\5FAE\8F6F\96C5\9ED1"
+}
+
+.ui-tab-tool {
+    padding: 6px 0 0;
+    float: right
+}
+
+.ui-tab-trigger ul {
+    height: 100%;
+    float: left
+}
+
+.ui-tab-trigger-item, .ui-tab-trigger-item a, .ui-tab-trigger-item a:visited, .ui-tab-trigger-item span, .ui-tab-trigger-item-current, .ui-tab-trigger-item-current a, .ui-tab-trigger-item-current a:visited, .ui-tab-trigger-item-current span, .ui-tab-trigger-item-hover, .ui-tab-trigger-item-hover a, .ui-tab-trigger-item-hover a:visited, .ui-tab-trigger-item-hover span {
+    background: url("") no-repeat 0 0
+}
+
+.ui-tab-trigger-item {
+    position: relative;
+    bottom: -1px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 100%;
+    line-height: 36px;
+    margin-right: 5px;
+    padding: 0 0 0 5px;
+    overflow: hidden;
+    background-position: 0 -74px
+}
+
+.ui-tab-trigger-item a, .ui-tab-trigger-item a:visited, .ui-tab-trigger-item span {
+    padding: 0 21px 0 0;
+    float: left;
+    height: 100%;
+    color: #4d4d4d;
+    text-decoration: none;
+    background-position: right -74px;
+    font-family: "\5FAE\8F6F\96C5\9ED1"
+}
+
+.ui-tab-trigger-item-hover {
+    background-position: 0 -37px
+}
+
+.ui-tab-trigger-item-hover a, .ui-tab-trigger-item-hover span {
+    background-position: right -37px
+}
+
+.ui-tab-trigger-item-current {
+    padding: 0 0 0 5px;
+    background-position: 0 0
+}
+
+.ui-tab-trigger-item-current a, .ui-tab-trigger-item-current a:visited, .ui-tab-trigger-item-current span {
+    font-weight: 700;
+    padding: 0 19px 0 0;
+    background-position: right 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1"
+}
+
+.ui-tab-content-item {
+    display: none
+}
+
+.ui-tab-content-item-current {
+    display: block
+}
+
+.ui-tab-bottom .ui-tab-trigger {
+    border-bottom: 0;
+    border-top: 1px solid #d2d2d2
+}
+
+.ui-tab-bottom .ui-tab-trigger-item {
+    bottom: 0;
+    top: -1px;
+    background-position: 0 -148px
+}
+
+.ui-tab-bottom .ui-tab-trigger-item a, .ui-tab-bottom .ui-tab-trigger-item a:visited, .ui-tab-bottom .ui-tab-trigger-item span {
+    background-position: right -148px
+}
+
+.ui-tab-bottom .ui-tab-trigger-item-hover {
+    background-position: 0 -111px
+}
+
+.ui-tab-bottom .ui-tab-trigger-item-hover a, .ui-tab-bottom .ui-tab-trigger-item-hover span {
+    background-position: right -111px
+}
+
+.ui-tab-bottom .ui-tab-trigger-item-current {
+    background-position: 0 -185px
+}
+
+.ui-tab-bottom .ui-tab-trigger-item-current a, .ui-tab-bottom .ui-tab-trigger-item-current a:visited, .ui-tab-bottom .ui-tab-trigger-item-current span {
+    background-position: right -185px
+}

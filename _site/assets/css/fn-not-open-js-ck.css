@@ -1,0 +1,40 @@
+/* not open js*/
+.fn-not-open-js{
+    display:block;
+    background: none repeat scroll 0 0 #FFF9E3;
+    border: 1px solid #FADC80;
+    color: #000000;
+    line-height: 1.5;
+    padding: 6px;
+    text-align:center;
+}
+
+/* not open cookie */
+.fn-not-open-cookie{
+    background: none repeat scroll 0 0 #FFF9E3;
+    border: 1px solid #FADC80;
+    color: #000000;
+    line-height: 1.5;
+    padding: 6px;
+    text-align:center;
+    display:none;
+}
+
+.fn-not-open-cookie a,
+.fn-not-open-js a{
+    color: #03309D;
+    text-decoration: none;
+    padding:0 5px;
+}
+.fn-not-open-cookie a:hover,
+.fn-not-open-js a:hover{
+    text-decoration: none;
+}
+
+.fn-user-agent{
+    padding: 6px;
+    color: #ff5e00;
+    border: 1px solid #f3b96a;
+    background: #fff3e5;
+    text-align:center;
+}
