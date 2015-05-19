@@ -6,38 +6,43 @@
     <title>WebSite</title>
     
     <meta name="author" content="wkylin">
-
+    <meta name="baidu-tc-verification" content="611369f102c49d4a3fccfb1d332507d0" />
+    <meta name="google-site-verification" content="W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0"/>
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
 
-    <!-- Le styles -->
+    <link href="/assets/themes/twitter/css/base.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/themes/twitter/css/custom.css" rel="stylesheet">
-    <link href="/assets/themes/twitter/css/syntax.css" rel="stylesheet">
-    <link href="/assets/themes/twitter/css/base.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="/assets/themes/twitter/css/default.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="/assets/themes/twitter/css/ui-tab.css?body=1" rel="stylesheet" type="text/css" media="all">
-
-    <!-- Le fav and touch icons -->
+    <link href="/assets/themes/twitter/css/default.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter/css/ui-tab.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" href="/assets/themes/twitter/favicon/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="/assets/themes/twitter/favicon/favicon.ico" type="image/x-icon"/>
-    <!-- Update these with your own images
-      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    -->
 </head>
 
 <body>
-
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PFB2HK" height="0" width="0" class="fn-hide"></iframe>
+</noscript>
+<script>
+    (function (w, d, s, l, i) {
+        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        j.async = true;
+        j.src ='//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PFB2HK');
+</script>
+<!-- End Google Tag Manager -->
 <div class="ui-container">
     <div class="ui-header">
         <div class="ui-header-content fn-clear">
             <div class="ui-meta fn-left">
                 <div class="logo">
-                    <a class="brand" href="/">I love kax</a>
+                    <a class="brand" href="/">wkylin</a>
                 </div>
                 <div class="blessing">
                     <span>#Front-Ender{</span>
@@ -48,7 +53,7 @@
                     <span>}</span>
                 </div>
             </div>
-            <div class="ui-gloable-search fn-right">
+            <div class="ui-global-search fn-right">
                 <div class="ui-tab">
     <div class="ui-tab-trigger">
         <ul id="J_uiTab">
@@ -85,14 +90,14 @@
             </div>
             <div class="ui-meta-right">
                 <!--网页-->
-                <ul class="searh-menu">
+                <ul class="search-menu">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.baidu.com/s?wd='+s.wd.value,'')"
                                    name="百度一下" value="百度一下" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button ui-input-button-hover"
                                    onclick="window.open('http://www.google.com.hk/search?q='+s.wd.value,'')"
                                    name="google" value="谷歌" type="button"/>
@@ -111,39 +116,37 @@
                             <input class="ui-input-button"
                                    onclick="window.open('https://developers.google.com/search?q='+s.wd.value,'')"
                                    name="javacode" value="Gcode" type="button"/>
+                            <input class="ui-input-button"
+                                   onclick="window.open('http://www.chinaso.com/search/pagesearch.htm?q='+s.wd.value,'')"
+                                   name="chinaso" value="中国搜索" type="button"/>
                         </div>
                     </li>
                 </ul>
                 <!--视频-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://video.baidu.com/?q='+s.wd.value,'')"
                                    name="百度视频" value="百度视频" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
+
                             <input class="ui-input-button"
-                                   onclick="window.open('http://so.tudou.com/isearch.do?kw='+s.wd.value,'')"
-                                   name="土豆" value="土豆" type="button"/>
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.soku.com/search_video/q_'+s.wd.value,'')"
-                                   name="优酷" value="优酷" type="button"/>
+                                   onclick="window.open('http://www.soku.com/v?keyword='+s.wd.value,'')"
+                                   name="soku" value="优酷" type="button"/>
                         </div>
                     </li>
                 </ul>
                 <!--音乐-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://mp3.baidu.com/?q='+s.wd.value,'')"
                                    name="百度mp3" value="百度mp3" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
-                            <input class="ui-input-button"
-                                   onclick="window.open('http://www.google.cn/music/search?q='+s.wd.value,'')"
-                                   name="谷歌音乐" value="谷歌音乐" type="button"/>
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://so.1ting.com/all.do?q='+s.wd.value,'')"
                                    name="一听音乐" value="一听音乐" type="button"/>
@@ -151,14 +154,14 @@
                     </li>
                 </ul>
                 <!--图片-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://image.baidu.com/?q='+s.wd.value,'')"
                                    name="百度图片" value="百度图片" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.google.com.hk/images?q='+s.wd.value,'')"
                                    name="谷歌图片" value="谷歌图片" type="button"/>
@@ -166,14 +169,14 @@
                     </li>
                 </ul>
                 <!--购物-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://s.taobao.com/search?q='+s.wd.value,'')"
                                    name="taobao" value="淘宝搜索" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://search.360buy.com/search?keyword='+s.wd.value,'')"
                                    name="360buy" value="京东" type="button"/>
@@ -193,14 +196,14 @@
                     </li>
                 </ul>
                 <!--资源-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.gougou.com/search?search='+s.wd.value,'')"
                                    name="gougou" value="迅雷搜索" type="button"/>
                         </div>
-                        <div class="searh-more-hd fn-hide">
+                        <div class="search-more-hd fn-hide">
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.verycd.com/search/folders/'+s.wd.value,'')"
                                    name="verycd" value="电驴搜索" type="button"/>
@@ -208,14 +211,14 @@
                     </li>
                 </ul>
                 <!-- 地图 -->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://map.baidu.com/m?word='+s.wd.value,'')"
                                    name="google" value="百度地图" type="button">
                         </div>
-                        <div class="fn-hide searh-more-hd">
+                        <div class="fn-hide search-more-hd">
                             <input class="ui-input-button"
                                    onclick="window.open('http://ditu.google.cn/maps?q='+s.wd.value,'')"
                                    name="google" value="谷歌地图" type="button"/>
@@ -226,14 +229,14 @@
                     </li>
                 </ul>
                 <!--维基-->
-                <ul class="searh-menu fn-hide">
+                <ul class="search-menu fn-hide">
                     <li>
-                        <div class="searh-more">
+                        <div class="search-more">
                             <input class="ui-input-button"
                                    onclick="window.open('http://zh.wikipedia.org/wiki/Special:Search?search='+s.wd.value,'')"
                                    value="维基百科" type="button" name="wiki"/>
                         </div>
-                        <div class="fn-hide searh-more-hd">
+                        <div class="fn-hide search-more-hd">
                             <input class="ui-input-button"
                                    onclick="window.open('http://baike.baidu.com/w?ct=17&lm=0&tn=baiduWikiSearch&pn=0&rn=10&word='+s.wd.value,'')"
                                    name="google" value="百度百科" type="button"/>
@@ -256,7 +259,7 @@
     <div class="ui-nav-box">
         <div class="ui-nav fn-clear">
             <div class="fn-left">
-                <a class="home" style="" href="/">首页</a>
+                <a class="home" href="/">Home</a>
             </div>
             <ul class="fn-left" id="J_uiNavUl">
                 
@@ -279,33 +282,33 @@
   
     
       
-      	
-      	<li class="ui-nav-item"><a href="/css3link.html">CSS3</a></li>
-      	
+          
+          <li class="ui-nav-item"><a href="/css3link.html">CSS3</a></li>
+          
       
     
   
     
       
-      	
-      	<li class="ui-nav-item"><a href="/csserlink.html">CSSer</a></li>
-      	
+          
+          <li class="ui-nav-item"><a href="/csserlink.html">CSSer</a></li>
+          
       
     
   
     
       
-      	
-      	<li class="ui-nav-item"><a href="/homelink.html">TECH</a></li>
-      	
+          
+          <li class="ui-nav-item"><a href="/homelink.html">Nav</a></li>
+          
       
     
   
     
       
-      	
-      	<li class="ui-nav-item"><a href="/html5.html">HTML5</a></li>
-      	
+          
+          <li class="ui-nav-item"><a href="/html5.html">HTML5</a></li>
+          
       
     
   
@@ -315,21 +318,17 @@
   
     
       
-      	
-      	<li class="ui-nav-item"><a href="/jslink.html">JavaScript</a></li>
-      	
+          
+          <li class="ui-nav-item"><a href="/jslink.html">JavaScript</a></li>
+          
       
     
   
     
       
-      	
-      	<li class="ui-nav-item"><a href="/lifelink.html">生活点滴</a></li>
-      	
-      
-    
-  
-    
+          
+          <li class="ui-nav-item"><a href="/lifelink.html">Life</a></li>
+          
       
     
   
@@ -351,9 +350,21 @@
   
     
       
-      	
-      	<li class="ui-nav-item"><a href="/uedlink.html">UED</a></li>
-      	
+    
+  
+    
+      
+          
+          <li class="ui-nav-item"><a href="/tech.html">Tech</a></li>
+          
+      
+    
+  
+    
+      
+          
+          <li class="ui-nav-item"><a href="/uedlink.html">UED</a></li>
+          
       
     
   
@@ -366,17 +377,6 @@
     <div class="ui-content fn-clear" id="J_uiCntDiv">
         
 <div class="ui-link">
-    <style type="text/css">
-          .ui-link-nav{
-              height:30px;
-              line-height:30px;
-          }
-          .ui-link-nav li{
-              float:left;
-              display: inline;
-              padding:0 20px;
-          }
-    </style>
      <ul class="ui-link-nav">
          <li>Tech</li>
          <li>html5</li>
@@ -385,9 +385,6 @@
          <li>Life</li>
          <li>CSSer</li>
      </ul>
-    <div class="ui-link-nav-cnt">
-        <div>adafddasf</div>
-    </div>
 </div>
 
 
@@ -395,16 +392,15 @@
 
     </div>
     <div class="ui-footer">
-        <div class="ui-fotter-content fn-clear">
-            <span class="ui-copyright fn-left">Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://disqus.com">Disqus</a>. </span>
-            <span class="ui-gotop fn-right">
-               Content & Design by wkylin &copy; 2010-2012
+        <div class="ui-footer-content fn-clear">
+            <span class="ui-copyright fn-left">Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a
+                    href="http://disqus.com">Disqus</a>. </span>
+            <span class="ui-go-top fn-right">
+               Content & Design by wkylin &copy; 2010-2015
             </span>
         </div>
     </div>
-    <a href="http://github.com/wkylin/wkylin.github.com">
-        <img alt="Fork me on GitHub" src="/assets/images/forkme.png" style="position:absolute; top: 0px; right: 0;">
-    </a>
+
 </div>
 <script type="text/javascript" src="/assets/themes/twitter/js/jquery.js"></script>
 
@@ -415,11 +411,11 @@
             $(this).addClass("ui-tab-trigger-item-current").siblings().removeClass("ui-tab-trigger-item-current");
             $(".ui-meta-right > ul").eq($("#J_uiTab li").index(this)).show().siblings().hide();
         });
-        $(".searh-more").append("<div class='ui-arrow'></div>");
-        $(".searh-menu > li").hover(function () {
+        $(".search-more").append("<div class='ui-arrow'></div>");
+        $(".search-menu > li").hover(function () {
                     $(".ui-arrow").addClass("ui-arrow-hover");
-                    $(this).find(".searh-more-hd").animate({ opacity:"show", height:"show"}, 300);
-                    $(this).find(".searh-more-hd input").hover(
+                    $(this).find(".search-more-hd").animate({ opacity:"show", height:"show"}, 300);
+                    $(this).find(".search-more-hd input").hover(
                             function () {
                                 $(this).addClass("ui-input-button-hover").siblings().removeClass("ui-input-button-hover");
                             },
@@ -430,8 +426,8 @@
                 },
                 function () {
                     $(".ui-arrow").removeClass("ui-arrow-hover");
-                    $(".searh-more-hd").stop(true, true).hide();
-                    $(".searh-more").removeClass("navhover");
+                    $(".search-more-hd").stop(true, true).hide();
+                    $(".search-more").removeClass("navhover");
                 });
         //导航
           $("#J_uiNavUl li").hover(function(){
@@ -443,6 +439,20 @@
           });
     });
 </script>
+
+
+<!-- Begin W3Counter Tracking Code -->
+<div class="fn-hide">
+    <script type="text/javascript" src="https://www.w3counter.com/tracker.js"></script>
+    <script type="text/javascript">
+        w3counter(87820);
+    </script>
+    <noscript>
+        <div><a href="http://www.w3counter.com"><img src="https://www.w3counter.com/tracker.php?id=87820" style="border: 0" alt="W3Counter" /></a></div>
+    </noscript>
+</div>
+<!-- End W3Counter Tracking Code -->
+
 </body>
 </html>
 
