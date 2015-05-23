@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>position-fixed</title>
+    <title>Code Quality Tool</title>
     
-    <meta name="description" content="五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
+    <meta name="description" content="规范开发文档,提高代码质量，不能缺少代码质量控制工具，在这篇文章中简单介绍一下以下几个工具：HTMLHint/JSLint/JSHint/PDM/ReviewBoard
 ">
     
     <meta name="author" content="wkylin">
@@ -376,7 +376,7 @@
         
 <div class="ui-main">
     <div class="page-header">
-        <h3>position-fixed 
+        <h3>Code Quality Tool 
         </h3>
 
         <h3></h3>
@@ -384,32 +384,188 @@
         <h4></h4>
         -->
     </div>
-    <pre>
-    <code>
-    html{
-    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
-    }
-    /* 你的图层 */
-    .positionFixedLayer{
-    position:fixed;
-    _position: absolute;
-    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
-    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
-    }
-    </code>
-</pre>
+    <h3 id="jascript">Jascript规范</h3>
+<ul>
+  <li>1.Gooogle JavaScript规范：</li>
+</ul>
+
+<p>原文：</p>
+
+<p><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml</a></p>
+
+<p>中文译文：</p>
+
+<p><a href="http://alloyteam.github.io/JX/doc/specification/google-javascript.xml">http://alloyteam.github.io/JX/doc/specification/google-javascript.xml</a></p>
+
+<ul>
+  <li>2.JQuery Core Style Guidelines</li>
+</ul>
+
+<p><a href="http://docs.jquery.com/JQuery_Core_Style_Guidelines">http://docs.jquery.com/JQuery_Core_Style_Guidelines</a></p>
+
+<ul>
+  <li>3.BBC CSS Guidelines</li>
+</ul>
+
+<p><a href="http://www.bbc.co.uk/guidelines/futuremedia/technical/css.shtml/">http://www.bbc.co.uk/guidelines/futuremedia/technical/css.shtml/</a></p>
+
+<ul>
+  <li>4.Drupal CSS Guidelines</li>
+</ul>
+
+<p>https://drupal.org/node/302199/</p>
+
+<ul>
+  <li>5.编写可维护的CSS</li>
+</ul>
+
+<p><a href="http://segmentfault.com/a/1190000000388784/">http://segmentfault.com/a/1190000000388784/</a></p>
+
+<ul>
+  <li>6.WIKI 极简化</li>
+</ul>
+
+<p><a href="http://zh.wikipedia.org/wiki/%E6%A5%B5%E7%B0%A1%E5%8C%96/">http://zh.wikipedia.org/wiki/%E6%A5%B5%E7%B0%A1%E5%8C%96/</a></p>
+
+<h3 id="section">代码质量工具</h3>
+
+<p>Html validator:</p>
+
+<p><a href="http://validator.w3.org">http://validator.w3.org</a></p>
+
+<p>HtmlHelp:</p>
+
+<p><a href="http://www.htmlhelp.com/tools/validator/">http://www.htmlhelp.com/tools/validator/</a></p>
+
+<p>HtmlNu:</p>
+
+<p><a href="http://validator.w3.org/nu/">http://validator.w3.org/nu/</a></p>
+
+<p>Validator Suite:</p>
+
+<p><a href="https://validator-suite.w3.org/">https://validator-suite.w3.org/</a></p>
+
+<p>Unicorm:</p>
+
+<p><a href="http://validator.w3.org/unicorn/">http://validator.w3.org/unicorn/</a></p>
+
+<p>HtmlHint:</p>
+
+<p><a href="http://htmlhint.com/">http://htmlhint.com/</a></p>
+
+<p>HtmlInspector:</p>
+
+<p><a href="https://github.com/philipwalton/html-inspector">https://github.com/philipwalton/html-inspector</a></p>
+
+<p>CheckLink:</p>
+
+<p><a href="http://validator.w3.org/checklink">http://validator.w3.org/checklink</a></p>
+
+<p>CSS Validator:</p>
+
+<p><a href="http://jigsaw.w3.org/css-validator/">http://jigsaw.w3.org/css-validator/</a></p>
+
+<p>CSSLint:</p>
+
+<p><a href="http://csslint.net/">http://csslint.net/</a></p>
+
+<p><a href="http://nomospace.com/posts/css-lint.html /">http://nomospace.com/posts/css-lint.html /</a></p>
+
+<p>JsHint:</p>
+
+<p><a href="http://jshint.com/">http://jshint.com/</a></p>
+
+<p>JsLint:</p>
+
+<p><a href="http://www.jslint.com/">http://www.jslint.com/</a></p>
+
+<p>JsCritic:</p>
+
+<p><a href="http://jscritic.com/">http://jscritic.com/</a></p>
+
+<p>Closure Linter:</p>
+
+<p><a href="https://github.com/fbzhong/sublime-closure-linter">https://github.com/fbzhong/sublime-closure-linter</a></p>
+
+<p>W3C cheatsheet:</p>
+
+<p><a href="http://www.w3.org/2009/cheatsheet/">http://www.w3.org/2009/cheatsheet/</a></p>
+
+<p>Validator Suite:</p>
+
+<p><a href="http://www.chinaw3c.org/archives/265/">http://www.chinaw3c.org/archives/265/</a></p>
+
+<p>jslint-a-guide-to-jslint-messages</p>
+
+<p><a href="http://www.jameswiseman.com/blog/2011/01/17/jslint-a-guide-to-jslint-messages/">http://www.jameswiseman.com/blog/2011/01/17/jslint-a-guide-to-jslint-messages/</a></p>
+
+<h4 id="section-1">参考资料：</h4>
+
+<p>使用 JSLint 保证 JavaScript 代码质量</p>
+
+<p><a href="http://www.ibm.com/developerworks/cn/web/1105_linlin_jslint/">http://www.ibm.com/developerworks/cn/web/1105_linlin_jslint/</a></p>
+
+<p>JSLint 百度百科</p>
+
+<p><a href="http://baike.baidu.com/view/2575488.htm">http://baike.baidu.com/view/2575488.htm</a></p>
+
+<p>Javascript代码验证工具 - JSHint介绍</p>
+
+<p><a href="http://www.open-open.com/lib/view/open1354349336991.html">http://www.open-open.com/lib/view/open1354349336991.html</a></p>
+
+<p>JSHint 使用说明</p>
+
+<p><a href="http://www.zipeng.info/archives/jshint-intro.html/">http://www.zipeng.info/archives/jshint-intro.html/</a></p>
+
+<p>JSLint4Java</p>
+
+<p><a href="http://jslint4java.googlecode.com/svn/docs/1.4.2/ant.html">http://jslint4java.googlecode.com/svn/docs/1.4.2/ant.html</a></p>
+
+<p>在 Eclipse 中使用 JSHint 检查 JavaScript 代码</p>
+
+<p><a href="http://www.cnblogs.com/lhb25/archive/2012/04/05/javascript-validation-with-jshint-eclipse.html">http://www.cnblogs.com/lhb25/archive/2012/04/05/javascript-validation-with-jshint-eclipse.html</a></p>
+
+<p>Hudson 中集成 jsHint 方法</p>
+
+<p><a href="http://www.cnblogs.com/enein/archive/2012/11/28/2792275.html">http://www.cnblogs.com/enein/archive/2012/11/28/2792275.html</a></p>
+
+<p>Java代码检测工具PMD规则集翻译合集</p>
+
+<p><a href="http://blog.csdn.net/jack0511/article/details/5260751">http://blog.csdn.net/jack0511/article/details/5260751</a></p>
+
+<h3 id="java">JAVA相关</h3>
+
+<p>PMD官网：</p>
+
+<p><a href="http://pmd.sourceforge.net/">http://pmd.sourceforge.net/</a></p>
+
+<p>CodeReview工具</p>
+
+<p><a href="http://www.reviewboard.org/">http://www.reviewboard.org/</a></p>
+
+<p><a href="https://www.codacy.com/">https://www.codacy.com/</a></p>
+
+<p><a href="http://blog.csdn.net/jack0511/article/details/5260751/">http://blog.csdn.net/jack0511/article/details/5260751/</a></p>
+
+<p>Java代码质量检测评估工具</p>
+
+<p><a href="http://bal1212.iteye.com/blog/511384/">http://bal1212.iteye.com/blog/511384/</a></p>
+
+<p>CheckStyle:</p>
+
+<p><a href="https://github.com/jshiell/style-idea">https://github.com/jshiell/style-idea</a></p>
 
     <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
-         <p style="text-align: right; color:#aaa;">Published by wkylin <span>05 September 2011</span></p>
+         <p style="text-align: right; color:#aaa;">Published by wkylin <span>15 January 2014</span></p>
     </div>
     <div class="pagination">
         <ul>
             
-            <li class="prev"><a href="/web%20front/2011/08/06/html5js" title="HTML5 for IE">上一篇【HTML5 for IE】</a></li>
+            <li class="prev"><a href="/html5/2013/12/30/grunt-js" title="Gruntfile.js And package.json">上一篇【Gruntfile.js And package.json】</a></li>
             
             <li><a href="/archive.html">Archive</a></li>
             
-            <li class="next"><a href="/web%20front/2011/10/06/font-face" title="font-face">下一篇【font-face】</a></li>
+            <li class="next"><a href="/web%20front/2014/02/08/polyfill" title="腻子脚本">下一篇【腻子脚本】</a></li>
             
         </ul>
     </div>
@@ -444,7 +600,9 @@
 
   
      
-        <li><a href="/tags.html#Css-ref">Css <span>1</span></a></li>
+        <li><a href="/tags.html#HTML5-ref">HTML5 <span>8</span></a></li>
+     
+        <li><a href="/tags.html#JS-ref">JS <span>6</span></a></li>
     
   
 

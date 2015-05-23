@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>position-fixed</title>
+    <title>H5 Weinre</title>
     
-    <meta name="description" content="五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
+    <meta name="description" content="Web移动应用调试工具——Weinre
 ">
     
     <meta name="author" content="wkylin">
@@ -376,7 +376,7 @@
         
 <div class="ui-main">
     <div class="page-header">
-        <h3>position-fixed 
+        <h3>H5 Weinre 
         </h3>
 
         <h3></h3>
@@ -384,32 +384,73 @@
         <h4></h4>
         -->
     </div>
-    <pre>
-    <code>
-    html{
-    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
-    }
-    /* 你的图层 */
-    .positionFixedLayer{
-    position:fixed;
-    _position: absolute;
-    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
-    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
-    }
-    </code>
-</pre>
+    <h3 id="webweinre">Web移动应用调试工具——Weinre</h3>
+
+<ol>
+  <li>
+    <p>安装
+ npm -g install weinre</p>
+  </li>
+  <li>
+    <p>运行
+ weinre –boundHost -all- –httpPort 8080</p>
+  </li>
+  <li>
+    <p>weinre server
+ http://localhost:8080/</p>
+  </li>
+  <li>
+    <p>Target Script
+ <script src="http://ip:8080/target/target-script-min.js#anonymous"></script></p>
+  </li>
+  <li>
+    <p>Mobile HTML
+ http://ip:8080/build/grunt.html</p>
+  </li>
+  <li>
+    <p>Access Points
+ http://localhost:8080/client/#anonymous</p>
+  </li>
+  <li>
+    <p>Mobile Open HTML</p>
+  </li>
+  <li>
+    <p>Targets</p>
+  </li>
+  <li>
+    <p>Elements</p>
+  </li>
+</ol>
+
+<p>Server Properties:
+ C:\Users\UserName\AppData\Roaming\npm\node_modules\weinre\web</p>
+
+<p>weinre -help
+usage:   weinre [options]
+version: 2.0.0-pre-I0Z7U9OV</p>
+
+<p>参考资料</p>
+
+<p>1.<a href="http://segmentfault.com/a/1190000002543144">Webpage - 移动端调试页面</a></p>
+
+<p>2.<a href="https://developer.mozilla.org/zh-CN/docs/Tools/Remote_Debugging/Firefox_for_Android">远程调试安卓版Firefox浏览器</a></p>
+
+<p>3.<a href="http://www.ui.cn/project.php?id=40313">移动H5前端性能优化指南</a></p>
+
+<p>4.<a href="http://www.browsersync.io/">Browser-Sync</a></p>
+
 
     <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
-         <p style="text-align: right; color:#aaa;">Published by wkylin <span>05 September 2011</span></p>
+         <p style="text-align: right; color:#aaa;">Published by wkylin <span>08 April 2015</span></p>
     </div>
     <div class="pagination">
         <ul>
             
-            <li class="prev"><a href="/web%20front/2011/08/06/html5js" title="HTML5 for IE">上一篇【HTML5 for IE】</a></li>
+            <li class="prev"><a href="/web%20front/2015/03/01/media-queries%20" title="CSS3 Media Query">上一篇【CSS3 Media Query】</a></li>
             
             <li><a href="/archive.html">Archive</a></li>
             
-            <li class="next"><a href="/web%20front/2011/10/06/font-face" title="font-face">下一篇【font-face】</a></li>
+            <li class="next"><a href="/web%20front/2015/04/11/http-server" title="Http-Server">下一篇【Http-Server】</a></li>
             
         </ul>
     </div>
@@ -444,7 +485,7 @@
 
   
      
-        <li><a href="/tags.html#Css-ref">Css <span>1</span></a></li>
+        <li><a href="/tags.html#HTML5-ref">HTML5 <span>8</span></a></li>
     
   
 

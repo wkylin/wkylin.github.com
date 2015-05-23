@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>position-fixed</title>
+    <title>HTML5 for IE</title>
     
-    <meta name="description" content="五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
+    <meta name="description" content="自从HTML5能为我们的新网页带来更高效洁净的代码而得到更多的关注，然而唯一能让IE识别那些新元素的途径是使用HTML5 shiv,感谢remy sharp为我们提供了这个迷你脚本来解决IE支持HTML5的问题。
 ">
     
     <meta name="author" content="wkylin">
@@ -376,7 +376,7 @@
         
 <div class="ui-main">
     <div class="page-header">
-        <h3>position-fixed 
+        <h3>HTML5 for IE 
         </h3>
 
         <h3></h3>
@@ -384,32 +384,56 @@
         <h4></h4>
         -->
     </div>
-    <pre>
-    <code>
-    html{
-    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
-    }
-    /* 你的图层 */
-    .positionFixedLayer{
-    position:fixed;
-    _position: absolute;
-    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
-    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
-    }
-    </code>
-</pre>
+    <p>下面是引用Google的html5.js文件，好处就不说了：</p>
+
+<pre><code>&lt;!--[if IE]&gt;
+&lt;script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+</code></pre>
+
+<p>当然，你也可以把代码拿出来自己看着办：</p>
+
+<pre><code>(function(){if(!/*@cc_on!@*/0)return;var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','),i=e.length;while(i--){document.createElement(e[i])}})()
+</code></pre>
+
+<h3 id="ie">兼容IE浏览器所使用到的工具</h3>
+
+<p>html5.js让IE（包括IE6）支持HTML5元素方法</p>
+
+<p>http://html5shiv.googlecode.com/svn/trunk/html5.js</p>
+
+<p>Upgrade MSIE5.5-8 to be compatible with modern browsers.</p>
+
+<p>https://code.google.com/p/ie7-js</p>
+
+<p>旧版本的IE浏览器支持CSS3 media queries</p>
+
+<p>https://code.google.com/p/css3-mediaqueries-js</p>
+
+<p>CSS3 selectors for IE，让IE6/7/8支持CSS3选择器</p>
+
+<p>http://selectivizr.com</p>
+
+<p>为jQuery添加统一的CSS3方法的插件</p>
+
+<p>https://code.google.com/p/jquerycss3</p>
+
+<p>让IE6/7/8支持CSS3</p>
+
+<p>http://css3pie.com</p>
+
 
     <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
-         <p style="text-align: right; color:#aaa;">Published by wkylin <span>05 September 2011</span></p>
+         <p style="text-align: right; color:#aaa;">Published by wkylin <span>06 August 2011</span></p>
     </div>
     <div class="pagination">
         <ul>
             
-            <li class="prev"><a href="/web%20front/2011/08/06/html5js" title="HTML5 for IE">上一篇【HTML5 for IE】</a></li>
+            <li class="prev disabled"><a>上一篇</a></li>
             
             <li><a href="/archive.html">Archive</a></li>
             
-            <li class="next"><a href="/web%20front/2011/10/06/font-face" title="font-face">下一篇【font-face】</a></li>
+            <li class="next"><a href="/css/2011/09/05/position-fixed" title="position-fixed">下一篇【position-fixed】</a></li>
             
         </ul>
     </div>
@@ -444,7 +468,9 @@
 
   
      
-        <li><a href="/tags.html#Css-ref">Css <span>1</span></a></li>
+        <li><a href="/tags.html#HTML5-ref">HTML5 <span>8</span></a></li>
+     
+        <li><a href="/tags.html#JS-ref">JS <span>6</span></a></li>
     
   
 

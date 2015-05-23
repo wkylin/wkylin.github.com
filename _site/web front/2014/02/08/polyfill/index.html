@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>position-fixed</title>
+    <title>腻子脚本</title>
     
-    <meta name="description" content="五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
+    <meta name="description" content="腻子脚本（polyfill）指的是一段JavaScript 代码，能够赋予浏览器未曾有过的功能。  目前，几乎所有CSS3 和HTML5 功能都有各自对应的腻子脚本，包括视频回放和阴影，从而让那些老得走不动道儿的“老家伙”们也能闪现青春的光芒。
 ">
     
     <meta name="author" content="wkylin">
@@ -376,7 +376,7 @@
         
 <div class="ui-main">
     <div class="page-header">
-        <h3>position-fixed 
+        <h3>腻子脚本 
         </h3>
 
         <h3></h3>
@@ -384,32 +384,66 @@
         <h4></h4>
         -->
     </div>
-    <pre>
-    <code>
-    html{
-    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
-    }
-    /* 你的图层 */
-    .positionFixedLayer{
-    position:fixed;
-    _position: absolute;
-    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
-    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
-    }
-    </code>
-</pre>
+    <p>腻子脚本（polyfill）指的是一段JavaScript 代码，能够赋予浏览器未曾有过的功能。目前，几乎所有CSS3 和HTML5 功能都有各自对应的腻子脚本，包括视频回放和阴影，从而让那些老得走不动道儿的“老家伙”们也能闪现青春的光芒。</p>
+
+<h3 id="html5shivjs">html5shiv.js</h3>
+
+<p><a href="http://code.google.com/p/html5shiv">http://code.google.com/p/html5shiv</a></p>
+
+<p>让IE8 及更低版本的IE 识别section、 article、nav 等HTML5 元素。</p>
+
+<h3 id="selectivizr">selectivizr</h3>
+
+<p><a href="http://www.selectivizr.com">http://www.selectivizr.com</a></p>
+
+<p>让IE（6/7/8）支持::first-child 等高级CSS 选择符。</p>
+
+<h3 id="ie9js">IE9.js</h3>
+
+<p><a href="http://code.google.com/p/ie7-js">http://code.google.com/p/ie7-js</a></p>
+
+<p>修复从IE6 到IE9 的很多bug 和缺损功能。</p>
+
+<h3 id="css3pie">CSS3Pie</h3>
+
+<p><a href="http://css3pie.com">http://css3pie.com</a></p>
+
+<p>让IE6 到IE9 支持圆角、背景渐变、边框图片、盒阴影、RGBa 颜色等可视化的CSS3 功能。</p>
+
+<h3 id="respondjs">Respond.js</h3>
+
+<p><a href="https://github.com/scottjehl/respond">https://github.com/scottjehl/respond</a></p>
+
+<p>让旧版本浏览器支持媒体查询。</p>
+
+<h3 id="prefix-free">-prefix-free</h3>
+
+<p><a href="http://lea.verou.me/projects">http://lea.verou.me/projects</a></p>
+
+<p>为需要厂商前缀的CSS3 声明添加前缀。</p>
+
+<h3 id="borderboxmodeljs">borderBoxModel.js</h3>
+
+<p><a href="https://github.com/albertogasparin/borderBoxModel">https://github.com/albertogasparin/borderBoxModel</a></p>
+
+<p>让IE6 和 IE7 支持CSS3 的box-sizing 属性。</p>
+
+<p>HTML5 Cross Browser Polyfills</p>
+
+<p><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills">https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills</a></p>
+
 
     <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
-         <p style="text-align: right; color:#aaa;">Published by wkylin <span>05 September 2011</span></p>
+         <p style="text-align: right; color:#aaa;">Published by wkylin <span>08 February 2014</span></p>
     </div>
     <div class="pagination">
         <ul>
             
-            <li class="prev"><a href="/web%20front/2011/08/06/html5js" title="HTML5 for IE">上一篇【HTML5 for IE】</a></li>
+            <li class="prev"><a href="/code%20quality%20tool/2014/01/15/code-quality-tool" title="Code Quality Tool">上一篇【Code Quality Tool】</a></li>
             
             <li><a href="/archive.html">Archive</a></li>
             
-            <li class="next"><a href="/web%20front/2011/10/06/font-face" title="font-face">下一篇【font-face】</a></li>
+            <li class="next"><a href="/web%20front/2014/05/20/knowledge" title="前端知识体系">下一篇【前端知识体系】</a></li>
             
         </ul>
     </div>
@@ -444,7 +478,11 @@
 
   
      
-        <li><a href="/tags.html#Css-ref">Css <span>1</span></a></li>
+        <li><a href="/tags.html#HTML5-ref">HTML5 <span>8</span></a></li>
+     
+        <li><a href="/tags.html#JS-ref">JS <span>6</span></a></li>
+     
+        <li><a href="/tags.html#Polyfill-ref">Polyfill <span>1</span></a></li>
     
   
 

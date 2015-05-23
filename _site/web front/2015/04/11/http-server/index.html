@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>position-fixed</title>
+    <title>Http-Server</title>
     
-    <meta name="description" content="五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
+    <meta name="description" content="A simple zero-configuration command-line http server
 ">
     
     <meta name="author" content="wkylin">
@@ -376,7 +376,7 @@
         
 <div class="ui-main">
     <div class="page-header">
-        <h3>position-fixed 
+        <h3>Http-Server 
         </h3>
 
         <h3></h3>
@@ -384,32 +384,58 @@
         <h4></h4>
         -->
     </div>
-    <pre>
-    <code>
-    html{
-    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
-    }
-    /* 你的图层 */
-    .positionFixedLayer{
-    position:fixed;
-    _position: absolute;
-    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
-    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
-    }
-    </code>
-</pre>
+    <h3 id="http-server">Http Server</h3>
+
+<ol>
+  <li>
+    <p>安装
+ npm install http-server -g</p>
+  </li>
+  <li>
+    <p>运行
+ http-server [path] [options]</p>
+  </li>
+  <li>
+    <p>Available Options:
+ http-server -h</p>
+  </li>
+  <li>
+    <p>重要参数</p>
+
+    <p>-p 端口号 (默认 8080)</p>
+
+    <p>-a IP 地址 (默认 0.0.0.0)</p>
+
+    <p>-d 显示目录列表 (默认 ‘True’)</p>
+
+    <p>-i 显示 autoIndex (默认 ‘True’)</p>
+
+    <p>-e or –ext 如果没有提供默认的文件扩展名(默认 ‘html’)</p>
+
+    <p>-s or –silent 禁止日志信息输出</p>
+
+    <p>–cors 启用 CORS via the Access-Control-Allow-Origin header</p>
+
+    <p>-o 在开始服务后打开浏览器</p>
+
+    <p>-h or –help 打印列表并退出</p>
+
+    <p>-c 为 cache-control max-age header 设置Cache time(秒) , e.g. -c10 for 10 seconds (defaults to ‘3600’). 禁用 caching, 则使用-c-1.</p>
+  </li>
+</ol>
+
 
     <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
-         <p style="text-align: right; color:#aaa;">Published by wkylin <span>05 September 2011</span></p>
+         <p style="text-align: right; color:#aaa;">Published by wkylin <span>11 April 2015</span></p>
     </div>
     <div class="pagination">
         <ul>
             
-            <li class="prev"><a href="/web%20front/2011/08/06/html5js" title="HTML5 for IE">上一篇【HTML5 for IE】</a></li>
+            <li class="prev"><a href="/web%20front/2015/04/08/weinre" title="H5 Weinre">上一篇【H5 Weinre】</a></li>
             
             <li><a href="/archive.html">Archive</a></li>
             
-            <li class="next"><a href="/web%20front/2011/10/06/font-face" title="font-face">下一篇【font-face】</a></li>
+            <li class="next disabled"><a>下一篇</a>
             
         </ul>
     </div>
@@ -444,7 +470,9 @@
 
   
      
-        <li><a href="/tags.html#Css-ref">Css <span>1</span></a></li>
+        <li><a href="/tags.html#server-ref">server <span>1</span></a></li>
+     
+        <li><a href="/tags.html#node-ref">node <span>1</span></a></li>
     
   
 

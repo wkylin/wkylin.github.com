@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>position-fixed</title>
+    <title>HTML5 Template</title>
     
-    <meta name="description" content="五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
+    <meta name="description" content="快速创建HTML5 模板文件....
 ">
     
     <meta name="author" content="wkylin">
@@ -376,7 +376,7 @@
         
 <div class="ui-main">
     <div class="page-header">
-        <h3>position-fixed 
+        <h3>HTML5 Template 
         </h3>
 
         <h3></h3>
@@ -384,32 +384,68 @@
         <h4></h4>
         -->
     </div>
-    <pre>
-    <code>
-    html{
-    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
-    }
-    /* 你的图层 */
-    .positionFixedLayer{
-    position:fixed;
-    _position: absolute;
-    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
-    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
-    }
-    </code>
-</pre>
+    <h3 id="meta">meta元素：</h3>
+
+<pre><code>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;meta name="description" content=""&gt;
+&lt;meta name="author" content=""&gt;
+</code></pre>
+
+<h3 id="cssjshtml5-css3">引入css及js文件,低版本浏览器兼容HTML5 及CSS3：</h3>
+
+<pre><code>&lt;!-- Le css &amp;amp; HTML5 shim &amp;amp; CSS3 for IE6-8 support of HTML5 elements &amp;amp; CSS3 --&gt;
+&lt;link href="http://wkylin.github.com/assets/css/base.min.css" rel="stylesheet"&gt;
+&lt;!--[if lt IE 9]&gt;
+&lt;script src="http://wkylin.github.com/assets/js/html5.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://wkylin.github.com/assets/js/IE9.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://wkylin.github.com/assets/js/css3-mediaqueries.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://wkylin.github.com/assets/js/selectivizr-min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+</code></pre>
+
+<h3 id="touch-icons-faviconico">引入touch icons 及favicon.ico：</h3>
+
+<pre><code>&lt;!-- Le fav and touch icons --&gt;
+&lt;link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://wkylin.github.com/assets/ico/apple-touch-icon-144-precomposed.png"&gt;
+&lt;link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://wkylin.github.com/assets/ico/apple-touch-icon-114-precomposed.png"&gt;
+&lt;link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://wkylin.github.com/assets/ico/apple-touch-icon-72-precomposed.png"&gt;
+&lt;link rel="apple-touch-icon-precomposed" href="http://wkylin.github.com/assets/ico/apple-touch-icon-57-precomposed.png"&gt;
+&lt;link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/&gt;
+&lt;link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/&gt;
+</code></pre>
+
+<h3 id="ie6">IE6浏览器相关提示</h3>
+
+<pre><code>&lt;!--[if lt IE 7]&gt;
+&lt;p class="chromeframe"&gt;You are using an outdated browser. &lt;a href="http://browsehappy.com/"&gt;Upgrade your browser today&lt;/a&gt; or &lt;a href="http://www.google.com/chromeframe/?redirect=true"&gt;install Google Chrome Frame&lt;/a&gt; to better experience this site.&lt;/p&gt;
+&lt;![endif]--&gt;
+</code></pre>
+
+<h3 id="jquerybase64">引入jQuery及base64：</h3>
+
+<pre><code>&lt;script src="http://wkylin.github.com/assets/js/jquery-1.8.3.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://wkylin.github.com/assets/js/base64.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+    window.jQuery || document.write('&lt;script type="text/javascript" src="static/js/jquery-1.8.3.min.js"&gt;&lt;\/script&gt;');
+&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function(){})
+&lt;/script&gt;
+</code></pre>
+
 
     <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
-         <p style="text-align: right; color:#aaa;">Published by wkylin <span>05 September 2011</span></p>
+         <p style="text-align: right; color:#aaa;">Published by wkylin <span>13 December 2012</span></p>
     </div>
     <div class="pagination">
         <ul>
             
-            <li class="prev"><a href="/web%20front/2011/08/06/html5js" title="HTML5 for IE">上一篇【HTML5 for IE】</a></li>
+            <li class="prev"><a href="/tech/2012/10/06/MediaQueriesforIE" title="MediaQueries for IE">上一篇【MediaQueries for IE】</a></li>
             
             <li><a href="/archive.html">Archive</a></li>
             
-            <li class="next"><a href="/web%20front/2011/10/06/font-face" title="font-face">下一篇【font-face】</a></li>
+            <li class="next"><a href="/web%20front/2012/12/17/serializeFormJs" title="原生js序列化form 表单">下一篇【原生js序列化form 表单】</a></li>
             
         </ul>
     </div>
@@ -444,7 +480,7 @@
 
   
      
-        <li><a href="/tags.html#Css-ref">Css <span>1</span></a></li>
+        <li><a href="/tags.html#HTML5-ref">HTML5 <span>8</span></a></li>
     
   
 

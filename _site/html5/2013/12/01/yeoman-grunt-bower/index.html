@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>position-fixed</title>
+    <title>构建自动化的前端开发流程</title>
     
-    <meta name="description" content="五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
+    <meta name="description" content="利用Yeoman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.Yeoman:Modern workflows for modern webapps.GruntJs:The JavaScript Task Runner.Bower:A package manager for the web.
 ">
     
     <meta name="author" content="wkylin">
@@ -376,7 +376,7 @@
         
 <div class="ui-main">
     <div class="page-header">
-        <h3>position-fixed 
+        <h3>构建自动化的前端开发流程 
         </h3>
 
         <h3></h3>
@@ -384,32 +384,152 @@
         <h4></h4>
         -->
     </div>
-    <pre>
-    <code>
-    html{
-    _background:url(about:blank); /* 阻止闪动 in IE6 , 把空文件换成about:blank , 减少请求 */
-    }
-    /* 你的图层 */
-    .positionFixedLayer{
-    position:fixed;
-    _position: absolute;
-    _top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight);
-    _left:expression(documentElement.scrollLeft+documentElement.clientWidth-this.offsetWidth-200);
-    }
-    </code>
-</pre>
+    <p><img src="http://wkylin.github.io/assets/images/workflows.png" alt="workflows" title="workflows" /></p>
+
+<p>利用Yeoman/Grunt/Bower/PhantomJS构建自动化的前端开发流程.Yeoman 是由三个工具的组成：YO、GRUNT、BOWER.</p>
+
+<ul>
+  <li>1.<strong>YO</strong>:Modern workflows for modern webapps.新应用的脚手架，编写你自己的grunt配置文件，并且获取你项目build过程当中可能使用到的grunt tasks。</li>
+  <li>2.<strong>GruntJs</strong>:The JavaScript Task Runner.主要用来build，预览和测试你的项目，已经内置了很多由Yeoman团队和grunt-contrib提供的task。功能就是前端的ant。</li>
+  <li>3.<strong>Bower</strong>:A package manager for the web.Web 开发的包管理器，bower 专注于 CSS、JavaScript、图像等前端相关内容的管理,主要用于依赖管理，开发人员不需要手动去管理和下载相应的包，以及处理他们之间的依赖关系。我的理解，就是前端的maven。</li>
+  <li>4.<strong>PhantomJS</strong>:A headless WebKit scriptable with a JavaScript API</li>
+</ul>
+
+<p>以下为安装时需要的相关工具：</p>
+
+<h3 id="nodejs">Node.js</h3>
+
+<p>1.下载</p>
+
+<p><a href="http://nodejs.org/">http://nodejs.org/</a></p>
+
+<p><a href="http://nodejs.org/download/">http://nodejs.org/download/</a></p>
+
+<p>2.安装成功：
+&gt;node -v
+&gt;npm -v</p>
+
+<h3 id="github-for-windows">Github for windows</h3>
+
+<p><a href="http://windows.github.com/">http://windows.github.com/</a></p>
+
+<p><a href="http://msysgit.github.io/">http://msysgit.github.io/</a></p>
+
+<p>注意：Run Git from the Windows Command Prompt</p>
+
+<h3 id="grunt---the-javascript-task-runner">Grunt—The JavaScript Task Runner</h3>
+
+<p><a href="http://gruntjs.com">http://gruntjs.com</a></p>
+
+<p><a href="http://gruntjs.cn">http://gruntjs.cn</a></p>
+
+<p><a href="http://www.gruntjs.org">http://www.gruntjs.org</a></p>
+
+<p><a href="http://www.gruntjs.net">http://www.gruntjs.net</a></p>
+
+<p>命令：npm uninstall -g grunt npm install -g grunt-cli</p>
+
+<p>目录： C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli\bin\grunt C:\Users\Administrator\AppData\Roaming\npm\node_modules\grunt-cli</p>
+
+<p>成功：
+    grunt –version</p>
+
+<p>特定目录下安装</p>
+
+<p>命令：npm install grunt –save-dev</p>
+
+<p>参考资料：</p>
+
+<p>http://markdalgleish.com/2013/01/testing-jquery-plugins-cross-version-with-grunt/</p>
+
+<h3 id="grunt-contrib">Grunt contrib</h3>
+
+<p>https://github.com/gruntjs/grunt-contrib/</p>
+
+<h3 id="bower-----a-package-manager-for-the-web">Bower —-A package manager for the web</h3>
+
+<p><a href="http://bower.io/">http://bower.io/</a></p>
+
+<p>http://sindresorhus.com/bower-components/</p>
+
+<p>命令：npm install -g bower</p>
+
+<p>目录：C:\Users\Administrator\AppData\Roaming\npm\node_modules\bower</p>
+
+<p>成功：bower –version</p>
+
+<p>参考文章：</p>
+
+<h3 id="yeoman-----modern-workflows-for-modern-webapps">Yeoman —-MODERN WORKFLOWS FOR MODERN WEBAPPS</h3>
+
+<p><a href="http://yeoman.io/">http://yeoman.io/</a></p>
+
+<p><a href="http://yeomanjs.org/">http://yeomanjs.org/</a></p>
+
+<p>命令：npm install -g yo
+目录：C:\Users\Administrator\AppData\Roaming\npm\yo -&gt; C:\Users\Administrator\AppData\Roaming\npm\node_modules\yo\cli.js
+      yo@1.0.7-pre.1 C:\Users\Administrator\AppData\Roaming\npm\node_modules\yo</p>
+
+<p>8.PhantomJS—–A headless WebKit scriptable with a JavaScript API</p>
+
+<p><a href="http://phantomjs.org/">http://phantomjs.org/</a></p>
+
+<p><a href="http://www.tuicool.com/articles/beeMNj">http://www.tuicool.com/articles/beeMNj</a></p>
+
+<p><a href="http://www.tuicool.com/articles/yIbeii">http://www.tuicool.com/articles/yIbeii</a></p>
+
+<p>命令：npm install -g phantomjs</p>
+
+<p>目录：C:\Users\Administrator\AppData\Roaming\npm\phantomjs -&gt; C:\Users\Administrator\AppData\Roaming\npm\node_modules\phantomjs\bin\phantomjs
+ phantomjs@1.9.2-6 install C:\Users\Administrator\AppData\Roaming\npm\node_modules\phantomjs</p>
+
+<p>成功：phantomjs -v</p>
+
+<h3 id="gradle---build-automation-evolved">Gradle—Build automation evolved</h3>
+
+<p><a href="http://www.gradle.org/">http://www.gradle.org/</a></p>
+
+<h3 id="livereload">Livereload</h3>
+
+<p><a href="http://livereload.com/">http://livereload.com/</a></p>
+
+<p><a href="http://blog.csdn.net/xiongzhengxiang/article/details/12843615">http://blog.csdn.net/xiongzhengxiang/article/details/12843615</a></p>
+
+<p><a href="http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde">http://blog.jaredlaser.com/blog/2013/05/07/using-grunt-contrib-livereload-with-yeomans-grunt-regarde</a></p>
+
+<h3 id="section">外文参考文档</h3>
+
+<p><a href="http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow">http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow</a></p>
+
+<p><a href="http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js/">http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js/</a></p>
+
+<p><a href="http://chemzqm.me/v/6">http://chemzqm.me/v/6</a></p>
+
+<p><a href="http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/">http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/</a></p>
+
+<p><a href="http://wkylin.github.io/assets/GruntJsPpt/gruntJs.html#/title">http://wkylin.github.io/assets/GruntJsPpt/gruntJs.html#/title</a></p>
+
+<p><a href="http://www.w3c.com.cn/yeoman-grunt-bower%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/">http://www.w3c.com.cn/yeoman-grunt-bower%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/</a></p>
+
+<p>A Beginner’s Guide To Grunt:</p>
+
+<p><a href="http://mattbailey.io/a-beginners-guide-to-grunt-redux/?utm_source=javascriptweekly&amp;utm_medium=email/">http://mattbailey.io/a-beginners-guide-to-grunt-redux/?utm_source=javascriptweekly&amp;utm_medium=email/</a></p>
+
+<p>PackageJson:</p>
+
+<p><a href="http://mujiang.info/translation/npmjs/files/package.json.html">http://mujiang.info/translation/npmjs/files/package.json.html</a></p>
 
     <div class="published" style="border-top:1px solid #eee;padding:5px 0; margin-top:10px;">
-         <p style="text-align: right; color:#aaa;">Published by wkylin <span>05 September 2011</span></p>
+         <p style="text-align: right; color:#aaa;">Published by wkylin <span>01 December 2013</span></p>
     </div>
     <div class="pagination">
         <ul>
             
-            <li class="prev"><a href="/web%20front/2011/08/06/html5js" title="HTML5 for IE">上一篇【HTML5 for IE】</a></li>
+            <li class="prev"><a href="/web%20front/2012/12/17/serializeFormJs" title="原生js序列化form 表单">上一篇【原生js序列化form 表单】</a></li>
             
             <li><a href="/archive.html">Archive</a></li>
             
-            <li class="next"><a href="/web%20front/2011/10/06/font-face" title="font-face">下一篇【font-face】</a></li>
+            <li class="next"><a href="/web%20front/2013/12/06/bigpipe" title="BigPipe页面优化技术">下一篇【BigPipe页面优化技术】</a></li>
             
         </ul>
     </div>
@@ -444,7 +564,11 @@
 
   
      
-        <li><a href="/tags.html#Css-ref">Css <span>1</span></a></li>
+        <li><a href="/tags.html#yeoman-ref">yeoman <span>2</span></a></li>
+     
+        <li><a href="/tags.html#grunt-ref">grunt <span>2</span></a></li>
+     
+        <li><a href="/tags.html#bower-ref">bower <span>2</span></a></li>
     
   
 
