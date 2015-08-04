@@ -23,13 +23,13 @@ description: |
 
 <http://www.htmlhelp.com/tools/validator/>
 
-<http://achecker.ca/checker/index.php>
+<http://achecker.ca/checker/index.php />
 
 <http://analyze.websiteoptimization.com/>
 
-<http://www.websitepulse.com/help/tools.php>
+<http://www.websitepulse.com/help/tools.php />
 
-<http://internetsupervision.com/scripts/urlcheck/check.aspx>
+<http://internetsupervision.com/scripts/urlcheck/check.aspx />
 
 <http://www.seochat.com/>
 
@@ -42,3 +42,7 @@ description: |
 <http://tools.pingdom.com/fpt/>
 
 <http://loadimpact.com/>
+
+<http://skill.phodal.com/>
+
+<http://www.dungeonsanddevelopers.com/>
