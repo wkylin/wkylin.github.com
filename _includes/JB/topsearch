@@ -63,6 +63,9 @@
                             <input class="ui-input-button"
                                    onclick="window.open('http://www.chinaso.com/search/pagesearch.htm?q='+s.wd.value,'')"
                                    name="chinaso" value="中国搜索" type="button"/>
+                            <input class="ui-input-button"
+                                   onclick="window.open('http://kaopu.so/pan/'+s.wd.value,'')"
+                                   name="kaopuso" value="网盘搜" type="button"/>
                         </div>
                     </li>
                 </ul>
