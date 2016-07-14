@@ -33,7 +33,7 @@ Tomcat 部署文件服务器，解决跨域问题
 ==========
 http://blog.csdn.net/qq_19244423/article/details/48266525
 
-1.调整项目pom.xml文件
+1. 调整项目pom.xml文件
 
     <pre>
         <code>
@@ -55,19 +55,19 @@ http://blog.csdn.net/qq_19244423/article/details/48266525
 
     <pre>
         <code>&lt;!--解决tomcat部署跨域问题  --&gt;
-            &lt;filter&gt;
+        &lt;filter&gt;
             &lt;filter-name>CORS&lt;/filter-name&gt;
             &lt;filter-class>com.thetransactioncompany.cors.CORSFilter&lt;/filter-class&gt;
             &lt;init-param&gt;
-             &lt;param-name>cors.allowOrigin&lt;/param-name&gt;
+                &lt;param-name>cors.allowOrigin&lt;/param-name&gt;
                 &lt;param-value>*&lt;/param-value&gt;
             &lt;/init-param&gt;
             &lt;init-param&gt;
-             &lt;param-name>cors.supportedMethods&lt;/param-name&gt;
+               &lt;param-name>cors.supportedMethods&lt;/param-name&gt;
                 &lt;param-value>GET, POST, HEAD, PUT, DELETE&lt;/param-value&gt;
             &lt;/init-param&gt;
             &lt;init-param&gt;
-             &lt;param-name>cors.supportedHeaders&lt;/param-name&gt;
+                &lt;param-name>cors.supportedHeaders&lt;/param-name&gt;
                 &lt;param-value>Accept, Origin, X-Requested-With, Content-Type, Last-Modified&lt;/param-value&gt;
             &lt;/init-param&gt;
             &lt;init-param&gt;
