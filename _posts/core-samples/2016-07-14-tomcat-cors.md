@@ -9,14 +9,14 @@ description: |
 
 解决前端跨域
 ==========
-1. Chrome 浏览器
+1.Chrome 浏览器
  --disable-web-security
-2. 扩展程序 
+2.扩展程序 
  Allow-Control-Allow-Origin
-3. JSONP (get)
-4. Flash
-5. Iframe
-6. XHR2  Cross-Origin Resource Sharing
+3.JSONP (get)
+4.Flash
+5.Iframe
+6.XHR2  Cross-Origin Resource Sharing
 header('Access-Control-Allow-Origin:*'); 
 header('Access-Control-Allow-Methods:POST,GET'); 
 
