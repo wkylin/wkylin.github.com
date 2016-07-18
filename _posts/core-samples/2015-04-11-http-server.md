@@ -40,3 +40,10 @@ description: |
 
     -c 为 cache-control max-age header 设置Cache time(秒) , e.g. -c10 for 10 seconds (defaults to '3600'). 禁用 caching, 则使用-c-1.
 
+5. AnyWhere
+    
+    npm install anywhere -g
+    
+    anywhere 8888
+    
+    
