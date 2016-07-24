@@ -30,6 +30,8 @@ description: |
 
 --JSONP由两部分组成：回调函数和数据。会掉函数是响应到来时应该在页面中调用的函数。回调函数的名字一般是在请求中指定的。而数据就是传入回调函数中的JSON数据。
 
+--它的原理在于浏览器请求 script 资源不受同源策略限制，并且请求到 script 资源后立即执行。
+
 4.Flash
 
 --crossdomain.xml
@@ -40,13 +42,15 @@ description: |
 
 --window.name
 
-6.CORS -- Cross-Origin Resource Sharing (跨源资源共享)
+6.CORS -- Cross-Origin Resource Sharing (跨域资源共享)
 
 --header('Access-Control-Allow-Origin:*'); 
 
 --header('Access-Control-Allow-Methods:POST,GET'); 
 
 --被认可的跨域解决方案
+--它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。
+--首先来说 CORS 需要浏览器和服务端同时支持的，对于兼容性来说主要是ie10+，其它现代浏览器都是支持的。
 
 --IE8 ---XDomainRequest 
 
@@ -87,10 +91,17 @@ description: |
         </code>
     </pre>
 
+12.CSST (CSS Text Transformation)
+   
+   一种用 CSS 跨域传输文本的方案。
+   
+   优点：相比 JSONP 更为安全，不需要执行跨站脚本。
+   缺点：没有 JSONP 适配广，CSST 依赖支持 CSS3 的浏览器。
+   原理：通过读取 CSS3 content 属性获取传送内容。
+
 
 Tomcat 部署文件服务器，解决跨域问题
 ==========
-
 
 1. 调整项目pom.xml文件
 
@@ -198,3 +209,5 @@ http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html
 1.<http://softwareas.com/cross-domain-communication-with-iframes/>
 
 2.<http://blog.csdn.net/qq_19244423/article/details/48266525/>
+
+3.<http://qiutc.me/post/cross-domain-collections.html>
