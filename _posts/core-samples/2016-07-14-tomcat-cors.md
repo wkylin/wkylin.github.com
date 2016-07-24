@@ -171,13 +171,15 @@ Tomcat 部署文件服务器，解决跨域问题
 
 浏览器同步测试工具: Browsersync
 ===========
-http://www.browsersync.cn/
 
-https://www.browsersync.io/
+<http://www.browsersync.cn/>
+
+<https://www.browsersync.io/>
 
 1.安装
 
 npm install -g browser-sync
+
 2.启动
 
 browser-sync start --proxy "域名"
@@ -199,7 +201,7 @@ browser-sync start --proxy "域名"
 移动端调试：Weinre
 ============
 
-http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html
+<http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html>
 
 1.安装&运行
 
@@ -219,9 +221,13 @@ http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html
 
 ###参考文档
 
-1.<http://softwareas.com/cross-domain-communication-with-iframes/>
+1.CROSS-DOMAIN COMMUNICATION WITH IFRAMES
 
-2.<http://blog.csdn.net/qq_19244423/article/details/48266525/>
+<http://softwareas.com/cross-domain-communication-with-iframes/>
+
+2.tomcat7部署文件服务器，解决跨域问题
+
+<http://blog.csdn.net/qq_19244423/article/details/48266525/>
 
 3.跨域资源共享 CORS
 
