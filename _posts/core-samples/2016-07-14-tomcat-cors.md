@@ -10,12 +10,13 @@ description: |
 跨域--前后端解决方案
 ======
 
-###同源策略(Same origin policy)
+同源策略(Same origin policy)
+====
 
 所谓同源是指域名，协议，端口相同。浏览器执行javascript脚本时，会检查这个脚本属于那个页面，如果不是同源页面，就不会被执行。
 
-###Ajax跨域请求问题
-
+Ajax跨域请求问题
+====
 跨域，指的是浏览器不能执行其他网站的脚本。它是由浏览器的同源策略造成的，是浏览器对javascript施加的安全限制。
 
 1.Chrome浏览器
@@ -199,7 +200,7 @@ browser-sync start --proxy "域名"
 
 
 移动端调试：Weinre
-============
+====
 
 <http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html>
 
@@ -219,8 +220,8 @@ browser-sync start --proxy "域名"
 
  debug client user interface
 
-###参考文档
-
+参考文档
+=====
 1.CROSS-DOMAIN COMMUNICATION WITH IFRAMES
 
 <http://softwareas.com/cross-domain-communication-with-iframes/>
