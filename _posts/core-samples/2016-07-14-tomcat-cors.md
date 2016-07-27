@@ -67,6 +67,8 @@ Ajax跨域请求问题
 
 --通过向http的请求报文和响应报文里面加入相应的标识告诉浏览器它能访问哪些域名的请求
 
+--CORS标准强烈要求 浏览器必须先以 OPTIONS 请求方式发送一个预请求(preflight request)，从而获知服务器端对跨源请求所支持 HTTP 方法。
+
 --jquery.support.cors
 
 --IE8/IE9 ---XDomainRequest
@@ -105,18 +107,21 @@ Ajax跨域请求问题
         </code>
     </pre>
 
-nginx服务器欺骗了浏览器，让它认为这是同源调用，从而解决了浏览器的跨域问题。
+--nginx服务器欺骗了浏览器，让它认为这是同源调用，从而解决了浏览器的跨域问题。
 
-又通过重写url，欺骗了真实的服务器，让它以为这个http请求是直接来自于用户浏览器的。
+--又通过重写url，欺骗了真实的服务器，让它以为这个http请求是直接来自于用户浏览器的。
 
 
 12.CSST (CSS Text Transformation)
    
-   一种用 CSS 跨域传输文本的方案。
+   一种用 CSS 跨域传输文本的方案。相比 JSONP 更为安全，不需要执行跨站脚本。
+   
+   原理：通过读取 CSS3 content 属性获取传送内容。
    
    优点：相比 JSONP 更为安全，不需要执行跨站脚本。
+   
    缺点：没有 JSONP 适配广，CSST 依赖支持 CSS3 的浏览器。
-   原理：通过读取 CSS3 content 属性获取传送内容。
+   
 
 
 Tomcat 部署文件服务器，解决跨域问题
@@ -260,3 +265,7 @@ browser-sync start --proxy "域名"
 9.https://www.w3.org/TR/cors/
 
 <https://www.w3.org/TR/cors/>
+
+10.CSST (CSS Text Transformation)
+
+<https://github.com/zswang/csst>
