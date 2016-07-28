@@ -101,13 +101,14 @@ Ajax跨域请求问题
 
     <pre>
         <code>
-        location / {
-           ...
-           ...   
-           proxy_pass http://127.0.0.1:123/;
-           ...
-           ...
-        }
+            server {
+                  server_name somename.somewhere.com;  # 写上你的虚拟主机域名
+                  location /api/ {
+                        proxy_pass https://service.somewhere.com/context/;  # 写上要转发到的地址，可以是http也可以是https，注意不要遗漏了最后的斜杠
+                        proxy_pass_header Set-Cookie;                           # 带cookie转发
+                        proxy_set_header Host service.somewhere.com;  # 转发的时候模拟成对方的主机
+                  }
+            }
         </code>
     </pre>
 

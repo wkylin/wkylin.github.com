@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="239">
-                <caret line="303" column="37" selection-start-line="303" selection-start-column="37" selection-end-line="303" selection-end-column="37" />
+              <first_editor relative-caret-position="286">
+                <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -662,14 +662,7 @@
       <workItem from="1469440276346" duration="1194000" />
       <workItem from="1469589298991" duration="1589000" />
       <workItem from="1469688074614" duration="2669000" />
-      <workItem from="1469697455389" duration="2783000" />
-    </task>
-    <task id="LOCAL-00230" summary="yo grunt bower">
-      <created>1423305802235</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1423305802235</updated>
+      <workItem from="1469697455389" duration="3869000" />
     </task>
     <task id="LOCAL-00231" summary="yo grunt bower">
       <created>1423325703654</created>
@@ -1007,11 +1000,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469698207567</updated>
     </task>
-    <option name="localTasksCounter" value="279" />
+    <task id="LOCAL-00279" summary="tomcat cors .....">
+      <created>1469700693627</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1469700693628</updated>
+    </task>
+    <option name="localTasksCounter" value="280" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116502000" />
+    <option name="totallyTimeSpent" value="117588000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1480,8 +1480,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="239">
-            <caret line="303" column="37" selection-start-line="303" selection-start-column="37" selection-end-line="303" selection-end-column="37" />
+          <first_editor relative-caret-position="286">
+            <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
