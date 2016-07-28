@@ -127,6 +127,19 @@ Ajax跨域请求问题
    缺点：没有 JSONP 适配广，CSST 依赖支持 CSS3 的浏览器。
    
 
+13.add CORS support to server
+
+--CORS on ExpressJS <http://enable-cors.org/server_expressjs.html>
+
+--CORS on Meteor <http://enable-cors.org/server_meteor.html>
+
+--CORS on Nginx <http://enable-cors.org/server_nginx.html>
+
+--CORS on Tomcat <http://enable-cors.org/server_tomcat.html>
+
+--CORS on Apache <http://enable-cors.org/server_apache.html>
+
+--CORS on App Engine <http://enable-cors.org/server_appengine.html>
 
 Tomcat 部署文件服务器，解决跨域问题
 ==========
@@ -283,8 +296,13 @@ browser-sync start --proxy "域名"
 <http://blog.kbiao.me/2016/05/21/CORS%E5%AE%9E%E7%8E%B0%E8%B7%A8%E5%9F%9F%E6%97%B6%E6%8E%88%E6%9D%83%E9%97%AE%E9%A2%98%EF%BC%88401%E9%94%99%E8%AF%AF%EF%BC%89%E7%9A%84%E8%A7%A3%E5%86%B3/>
 
 13.前后端分离，ajax前端跨域访问后端
+
 <http://blog.csdn.net/u014001866/article/details/50557294/>
 
 14.add CORS support to server
 
 <http://enable-cors.org/server.html/>
+
+15.HTTP访问控制(CORS)
+
+<https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS/>
