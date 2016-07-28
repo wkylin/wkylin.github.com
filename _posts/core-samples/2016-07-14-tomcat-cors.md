@@ -53,11 +53,13 @@ Ajax跨域请求问题
 
 6.CORS -- Cross-Origin Resource Sharing (跨域资源共享)
 
---header('Access-Control-Allow-Origin:*'); 
+--Access-Control-Allow-Origin:* : 表明它允许所有域发起跨域请求
 
---header('Access-Control-Allow-Methods:POST,GET'); 
+--Access-Control-Allow-Methods:POST,GET,PUT,DELETE : 表明它允许GET、POST、PUT、DELETE的外域请求
 
---header('Access-Control-Allow-Headers:x-requested-with,content-type');
+--Access-Control-Allow-Headers:x-requested-with,content-type: 表明它允许跨域请求包含content-type头
+
+--Access-Control-Max-Age: 3628800 : 表明在3628800秒内，不需要再发送预检验请求，可以缓存该结果
 
 --被认可的跨域解决方案
 
@@ -68,6 +70,8 @@ Ajax跨域请求问题
 --通过向http的请求报文和响应报文里面加入相应的标识告诉浏览器它能访问哪些域名的请求
 
 --CORS标准强烈要求 浏览器必须先以 OPTIONS 请求方式发送一个预请求(preflight request)，从而获知服务器端对跨源请求所支持 HTTP 方法。
+
+--x-requested-with用来判断客户端的请求是Ajax请求还是其他请求
 
 --jquery.support.cors
 
@@ -269,3 +273,11 @@ browser-sync start --proxy "域名"
 10.CSST (CSS Text Transformation)
 
 <https://github.com/zswang/csst>
+
+11.Spring通过CORS协议解决跨域问题/
+
+<http://blog.kbiao.me/2016/05/14/Spring%E9%80%9A%E8%BF%87CORS%E5%8D%8F%E8%AE%AE%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98//>
+
+12.CORS实现跨域时授权问题（401错误）的解决
+
+<http://blog.kbiao.me/2016/05/21/CORS%E5%AE%9E%E7%8E%B0%E8%B7%A8%E5%9F%9F%E6%97%B6%E6%8E%88%E6%9D%83%E9%97%AE%E9%A2%98%EF%BC%88401%E9%94%99%E8%AF%AF%EF%BC%89%E7%9A%84%E8%A7%A3%E5%86%B3//>
