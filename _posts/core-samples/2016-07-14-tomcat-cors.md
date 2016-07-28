@@ -290,11 +290,11 @@ browser-sync start --proxy "域名"
 
 11.Spring通过CORS协议解决跨域问题/
 
-<http://blog.kbiao.me/2016/05/14/Spring%E9%80%9A%E8%BF%87CORS%E5%8D%8F%E8%AE%AE%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98//>
+<http://blog.kbiao.me/2016/05/14/Spring通过CORS协议解决跨域问题/>
 
 12.CORS实现跨域时授权问题（401错误）的解决
 
-<http://blog.kbiao.me/2016/05/21/CORS%E5%AE%9E%E7%8E%B0%E8%B7%A8%E5%9F%9F%E6%97%B6%E6%8E%88%E6%9D%83%E9%97%AE%E9%A2%98%EF%BC%88401%E9%94%99%E8%AF%AF%EF%BC%89%E7%9A%84%E8%A7%A3%E5%86%B3/>
+<http://blog.kbiao.me/2016/05/21/CORS实现跨域时授权问题（401错误）的解决/>
 
 13.前后端分离，ajax前端跨域访问后端
 
