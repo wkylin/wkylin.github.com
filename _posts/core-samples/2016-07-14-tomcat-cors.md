@@ -97,16 +97,16 @@ Ajax跨域请求问题
 
 --图像Ping是与服务器进行简单、单项的跨域通信的一种方式
 
-11.服务器代理请求 nginx.conf
+11.Nginx反向代理
 
     <pre>
         <code>
-        http {
-          ......
-          add_header Access-Control-Allow-Origin *;
-          add_header Access-Control-Allow-Headers X-Requested-With;
-          add_header Access-Control-Allow-Methods GET,POST,OPTIONS;
-          ......
+        location / {
+           ...
+           ...   
+           proxy_pass http://127.0.0.1:123/;
+           ...
+           ...
         }
         </code>
     </pre>
@@ -284,3 +284,7 @@ browser-sync start --proxy "域名"
 
 13.前后端分离，ajax前端跨域访问后端
 <http://blog.csdn.net/u014001866/article/details/50557294/>
+
+14.add CORS support to server
+
+<http://enable-cors.org/server.html/>
