@@ -92,7 +92,7 @@ Ajax跨域请求问题
 
 --未被授权系统有权访问某个资源
 
-8.postMessage
+8.[HTML5] postMessage
 
 --跨文档消息传输（Cross Document Messaging）
 
