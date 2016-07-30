@@ -10,6 +10,13 @@ description: |
 跨域--前后端解决方案
 ======
 
+
+URL:统一资源定位符
+====
+
+完整的、带有授权部分的普通统一资源标志符语法：协议://用户名:密码@子域名.域名.顶级域名:端口号/目录/文件名.文件后缀?参数=值#标志
+
+
 同源策略(Same origin policy)
 ====
 
@@ -21,7 +28,9 @@ Ajax跨域请求问题
 
 1.Chrome浏览器
 
- --disable-web-security
+ --allow-file-access-from-files --disable-web-security
+ 
+ "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --disable-web-security
  
 2.Chrome扩展程序 
 
