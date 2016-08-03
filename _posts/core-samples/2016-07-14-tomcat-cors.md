@@ -31,6 +31,8 @@ Ajax跨域请求问题
  --allow-file-access-from-files --disable-web-security
  
  "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --disable-web-security
+
+ "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security -user-data-dir=D:\MyChromeDevUserData
  
 2.Chrome扩展程序 
 
@@ -96,11 +98,21 @@ Ajax跨域请求问题
 
 --跨文档消息传输（Cross Document Messaging）
 
---window.postMessage()
+--postMessage的作用就是传递数据
+
+--onmessage的作用就是接收数据
+
+windowObj: 接受消息的 Window 对象。
+
+message: 在最新的浏览器中可以是对象。
+
+targetOrigin: 目标的源，* 表示任意。
 
 8.document.domain
 
 --相同主域，子域不同的页面交互信息，可以通过设置document.domain的办法来解决。
+
+--前提条件：这两个域名必须属于同一个基础域名!而且所用的协议，端口都要一致。
 
 9.图像Ping
 
@@ -110,13 +122,14 @@ Ajax跨域请求问题
 
     <pre>
         <code>
-            server {
-                  server_name somename.somewhere.com;  # 写上你的虚拟主机域名
-                  location /api/ {
-                        proxy_pass https://service.somewhere.com/context/;  # 写上要转发到的地址，可以是http也可以是https，注意不要遗漏了最后的斜杠
-                        proxy_pass_header Set-Cookie;                           # 带cookie转发
-                        proxy_set_header Host service.somewhere.com;  # 转发的时候模拟成对方的主机
-                  }
+            location ~ ^/fund-app/.*$ {
+                default_type text/plain;
+                proxy_pass http://172.18.11.82:8083$request_uri;
+            }
+    
+            location ~ ^/fund-web-app/.*$ {
+                default_type text/plain;
+                proxy_pass http://172.18.11.82:8080$request_uri;
             }
         </code>
     </pre>
