@@ -328,10 +328,11 @@ input.ui-input-button:focus {
 }
 
 .page-header {
-  background: none repeat scroll 0 0 #0088cc;
-  padding: 10px 0 0 10px;
-  border-radius: 5px 5px 5px 5px;
-  margin: 0 0 18px 0
+  border-left: 3px solid #0e90d2;
+  padding: 5px 0px 5px 10px;
+  font-size: 20px;
+  background: #eee;
+  color:#666;
 }
 
 h2.archive-year, h2.categories-sort, h2.tags-sort {
@@ -548,6 +549,7 @@ pre {
 .post-list .thumb-footer{
   background-color:#eee;
   line-height:30px;
+  padding:0 10px;
 }
 .post-list .thumb-label{
   color:#333;
@@ -559,6 +561,16 @@ pre {
   float:right;
 }
 
+.post-list  .pagination {
+  float:right;
+}
 .pagination ul li{
   list-style: none;
+  float:left;
+  padding:0 10px;
+}
+.published{
+  padding:5px;
+  text-align:right;
+  width:100%;
 }
