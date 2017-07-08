@@ -446,9 +446,6 @@ h2.tags-sort-title {
   color: #ffffff;
 }
 
-.padding-inner {
-  padding: 10px;
-}
 
 h3 {
   margin: 0px 0 10px 0
@@ -572,8 +569,20 @@ pre {
   padding:0 10px;
 }
 .published{
+  margin:10px 0;
   padding:5px;
   text-align:right;
   width:100%;
   background-color:#eee;
+}
+
+.padding-inner{
+  font-size: 16px;
+}
+
+.padding-inner ul{
+  margin-left:35px;
+}
+.padding-inner ul li{
+  list-style: outside decimal;
 }

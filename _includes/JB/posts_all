@@ -16,7 +16,7 @@ Usage:
         => 'post.next.date'
         
 -->{% endcomment %}
-  <div class="post-list">
+  <div class="post-list clearfix">
     {% for post in paginator.posts %}
       <div class="post-item">
         <h4>{{ post.title }}</h4>

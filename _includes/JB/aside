@@ -2,9 +2,26 @@
 <div class="search-box">
      {% include JB/searchbox %}
 </div>
+<div>
+  <a target=blank href=tencent://message/?uin=270917337&Site=wkylin.github.io&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=1:270917337:13 alt="点击这里给我发消息"></a>
+</div>
 <h2 class="tags-sort tags-sort-title">最近发表</h2>
 <ul id="recent_posts" class='recent-posts'>{% for rpost in site.posts limit: 5 %}
     <li class="post" >
         <a href="{{ BASE_PATH }}{{ rpost.url }}">{{ rpost.title }}</a>
     </li>{% endfor %}
 </ul>
+
+<h2 class="tags-sort tags-sort-title">最近关注</h2>
+<div class="padding-inner">
+    <ul>
+        <li><a href="https://vuejs.org/" target="_blank" >VUE</a>
+        <li><a href="https://angular.io/" target="_blank" >Angular</a>
+        <li><a href="http://facebook.github.io/react/" target="_blank" >React</a>
+        <li><a href="http://webpack.github.io/" target="_blank" >Webpack</a>
+        <li><a href="http://polymer-project.org/" target="_blank" >Polymer 2.0</a>
+        <li><a href="https://semver.org/" target="_blank" >Semantic Versioning 2.0.0</a>
+        <li><a href="http://css-tricks.com/modular-future-web-components/" target="_blank" >Web Components</a>
+        <li><a href="http://alistapart.com/article/responsive-web-design/" target="_blank" >Responsive Web Design(RWD)</a>
+    </ul>
+</div>

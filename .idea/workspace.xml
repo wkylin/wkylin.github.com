@@ -7,7 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/post.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/aside" afterPath="$PROJECT_DIR$/_includes/JB/aside" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/posts_all" afterPath="$PROJECT_DIR$/_includes/JB/posts_all" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
     </list>
     <ignored path="wkylin.github.com.iws" />
@@ -39,11 +40,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="577" column="24" lean-forward="false" selection-start-line="577" selection-start-column="24" selection-end-line="577" selection-end-column="24" />
+            <state relative-caret-position="174">
+              <caret line="570" column="11" lean-forward="false" selection-start-line="570" selection-start-column="11" selection-end-line="570" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_all" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/JB/posts_all">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asidebak" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/JB/asidebak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="163" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="163" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aside" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/JB/aside">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="165" lean-forward="false" selection-start-line="5" selection-start-column="165" selection-end-line="5" selection-end-column="165" />
               <folding />
             </state>
           </provider>
@@ -86,19 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ui-content</find>
-      <find>ui-nav</find>
-      <find>t</find>
-      <find>gtm</find>
-      <find>gtm.</find>
-      <find>gtm.js</find>
-      <find>f</find>
-      <find>g</find>
-      <find>goo</find>
-      <find>google-ta</find>
-      <find>google-t</find>
-      <find>google-</find>
-      <find>google</find>
       <find>googlet</find>
       <find>list</find>
       <find>.ui-content .ui-title</find>
@@ -113,9 +131,22 @@
       <find>K</find>
       <find />
       <find>中国</find>
-      <find>published</find>
       <find>class=&quot;published&quot;</find>
       <find>.page-header</find>
+      <find>published</find>
+      <find>list-style</find>
+      <find>padding-inner</find>
+      <find>post-list clearfix</find>
+      <find>post-list clearfi</find>
+      <find>post-list clearf</find>
+      <find>post-list clear</find>
+      <find>post-list clea</find>
+      <find>post-list cle</find>
+      <find>post-list cl</find>
+      <find>post-list c</find>
+      <find>post-list</find>
+      <find>post-list</find>
+      <find>pub</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -168,7 +199,6 @@
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css" />
         <option value="$PROJECT_DIR$/sitemap.md" />
         <option value="$PROJECT_DIR$/pages.html" />
-        <option value="$PROJECT_DIR$/_includes/JB/aside" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/postAll.html" />
         <option value="$PROJECT_DIR$/_includes/JB/tab_list" />
@@ -179,12 +209,13 @@
         <option value="$PROJECT_DIR$/assets/gruntjs/css/img/grunt-logo.svg" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_includes/JB/posts_all" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2015-05-26-http-ngrok.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2015-04-11-http-server.md" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/post.html" />
+        <option value="$PROJECT_DIR$/_includes/JB/aside" />
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
+        <option value="$PROJECT_DIR$/_includes/JB/posts_all" />
       </list>
     </option>
   </component>
@@ -394,24 +425,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core-samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -792,14 +805,7 @@
       <workItem from="1470325791906" duration="662000" />
       <workItem from="1470645849441" duration="221000" />
       <workItem from="1499497712362" duration="794000" />
-      <workItem from="1499500791038" duration="29862000" />
-    </task>
-    <task id="LOCAL-00243" summary="H5 debug weinre">
-      <created>1428507106756</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1428507106774</updated>
+      <workItem from="1499500791038" duration="31790000" />
     </task>
     <task id="LOCAL-00244" summary="H5 debug weinre">
       <created>1428543666136</created>
@@ -1137,11 +1143,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499530415004</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="md...">
+      <created>1499530972369</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1499530972369</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158410000" />
+    <option name="totallyTimeSpent" value="160338000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1167,7 +1180,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26527572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23546945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46245733" sideWeight="0.36942676" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52461797" sideWeight="0.8113069" order="1" side_tool="false" content_ui="tabs" />
@@ -1266,22 +1279,6 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html5link.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3570">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifelink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2273">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8753">
@@ -1422,30 +1419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding>
-            <marker date="1499523667766" expanded="true" signature="29458:30108" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30139:30188" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30244:30275" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30345:30378" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30498:30562" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30588:30652" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30673:30747" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30797:30856" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30906:30965" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="30989:31071" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="31097:31148" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="31175:31227" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="31252:31336" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="31462:31689" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="31705:31743" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="31760:35293" ph="{...}" />
-            <marker date="1499523667766" expanded="false" signature="31890:35125" ph="data" />
-            <marker date="1499523667766" expanded="true" signature="35310:39632" ph="{...}" />
-            <marker date="1499523667766" expanded="false" signature="35440:39463" ph="data" />
-            <marker date="1499523667766" expanded="true" signature="39670:39697" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="39735:39761" ph="{...}" />
-            <marker date="1499523667766" expanded="true" signature="39879:39951" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1477,14 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="672" column="0" lean-forward="true" selection-start-line="672" selection-start-column="0" selection-end-line="672" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/posts_all">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1680,10 +1646,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/JB/asidebak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="163" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/JB/aside">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="165" lean-forward="false" selection-start-line="5" selection-start-column="165" selection-end-line="5" selection-end-column="165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="577" column="24" lean-forward="false" selection-start-line="577" selection-start-column="24" selection-end-line="577" selection-end-column="24" />
+        <state relative-caret-position="174">
+          <caret line="570" column="11" lean-forward="false" selection-start-line="570" selection-start-column="11" selection-end-line="570" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/JB/posts_all">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
