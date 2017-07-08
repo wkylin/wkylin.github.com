@@ -8,22 +8,23 @@ description: |
 ---
 
 跨域--前后端解决方案
-======
+===
 
 
 URL:统一资源定位符
-====
+===
 
 完整的、带有授权部分的普通统一资源标志符语法：协议://用户名:密码@子域名.域名.顶级域名:端口号/目录/文件名.文件后缀?参数=值#标志
 
 
 同源策略(Same origin policy)
-====
+===
 
 所谓同源是指域名，协议，端口相同。浏览器执行javascript脚本时，会检查这个脚本属于那个页面，如果不是同源页面，就不会被执行。
 
 Ajax跨域请求问题
-====
+===
+
 跨域，指的是浏览器不能执行其他网站的脚本。它是由浏览器的同源策略造成的，是浏览器对javascript施加的安全限制。
 
 1.Chrome浏览器
@@ -164,8 +165,8 @@ targetOrigin: 目标的源，* 表示任意。
 
 --CORS on App Engine <http://enable-cors.org/server_appengine.html>
 
-Tomcat 部署文件服务器，解决跨域问题
-==========
+Tomcat部署文件服务器，解决跨域问题
+===
 
 1. 调整项目pom.xml文件
 
@@ -220,8 +221,8 @@ Tomcat 部署文件服务器，解决跨域问题
         </code>
     </pre>
 
-浏览器同步测试工具: Browsersync
-===========
+浏览器同步测试工具:Browsersync
+===
 
 <http://www.browsersync.cn/>
 
@@ -250,7 +251,7 @@ browser-sync start --proxy "域名"
 
 
 移动端调试：Weinre
-====
+===
 
 <http://people.apache.org/~pmuellr/weinre/docs/latest/Home.html>
 
@@ -271,7 +272,7 @@ browser-sync start --proxy "域名"
  debug client user interface
 
 参考文档
-=====
+===
 1.CROSS-DOMAIN COMMUNICATION WITH IFRAMES
 
 <http://softwareas.com/cross-domain-communication-with-iframes/>
