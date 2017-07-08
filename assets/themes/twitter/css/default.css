@@ -332,7 +332,8 @@ input.ui-input-button:focus {
   padding: 5px 0px 5px 10px;
   font-size: 20px;
   background: #eee;
-  color:#666;
+  color:#0e90d2;
+  margin-bottom:5px;
 }
 
 h2.archive-year, h2.categories-sort, h2.tags-sort {
@@ -382,7 +383,8 @@ h3.archive-month {
 }
 
 .page-header h3, .page-header h4 {
-  color: #ffffff
+  color: #ffffff;
+  margin-bottom:0;
 }
 .ui-nav-pills li{
   float:left;
@@ -573,4 +575,5 @@ pre {
   padding:5px;
   text-align:right;
   width:100%;
+  background-color:#eee;
 }
