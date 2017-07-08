@@ -6,37 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/JB/asidebak" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/cssxfire.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/wkylin.github.com.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/aside" afterPath="$PROJECT_DIR$/_includes/JB/aside" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/posts_all" afterPath="$PROJECT_DIR$/_includes/JB/posts_all" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/tab_list" afterPath="$PROJECT_DIR$/_includes/JB/tab_list" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/topsearch" afterPath="$PROJECT_DIR$/_includes/JB/topsearch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/page.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/post.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app.html" afterPath="$PROJECT_DIR$/assets/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/chexiangpai.html" afterPath="$PROJECT_DIR$/assets/chexiangpai.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gruntjs/css/img/grunt-logo.svg" afterPath="$PROJECT_DIR$/assets/gruntjs/css/img/grunt-logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gruntjs/gruntjs.html" afterPath="$PROJECT_DIR$/assets/gruntjs/gruntjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages.html" afterPath="$PROJECT_DIR$/pages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postAll.html" afterPath="$PROJECT_DIR$/postAll.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.md" afterPath="$PROJECT_DIR$/sitemap.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,113 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="atom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atom.xml">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archive.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/ico/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/ico/favicon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1163">
-              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chexiangpai.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/chexiangpai.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1163">
-              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gruntjs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/gruntjs/gruntjs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5460">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="f5-broken.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/gruntjs/css/img/f5-broken.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grunt.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/gruntjs/css/img/grunt.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grunt-logo.svg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/gruntjs/css/img/grunt-logo.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1620">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding>
-                <marker date="1499523667766" expanded="true" signature="29458:30108" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30139:30188" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30244:30275" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30345:30378" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30498:30562" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30588:30652" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30673:30747" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30797:30856" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30906:30965" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="30989:31071" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="31097:31148" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="31175:31227" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="31252:31336" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="31462:31689" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="31705:31743" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="31760:35293" ph="{...}" />
-                <marker date="1499523667766" expanded="false" signature="31890:35125" ph="data" />
-                <marker date="1499523667766" expanded="true" signature="35310:39632" ph="{...}" />
-                <marker date="1499523667766" expanded="false" signature="35440:39463" ph="data" />
-                <marker date="1499523667766" expanded="true" signature="39670:39697" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="39735:39761" ph="{...}" />
-                <marker date="1499523667766" expanded="true" signature="39879:39951" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -220,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/core-samples/2015-03-01-media-types .md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2015-03-01-media-queries .md" />
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/style.css" />
         <option value="$PROJECT_DIR$/_site/archive.html" />
@@ -271,6 +140,7 @@
         <option value="$PROJECT_DIR$/assets/chexiangpai.html" />
         <option value="$PROJECT_DIR$/assets/gruntjs/gruntjs.html" />
         <option value="$PROJECT_DIR$/assets/gruntjs/css/img/grunt-logo.svg" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -650,14 +520,7 @@
       <workItem from="1470325791906" duration="662000" />
       <workItem from="1470645849441" duration="221000" />
       <workItem from="1499497712362" duration="794000" />
-      <workItem from="1499500791038" duration="22664000" />
-    </task>
-    <task id="LOCAL-00236" summary="css3 media query">
-      <created>1426259606056</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1426259606070</updated>
+      <workItem from="1499500791038" duration="23340000" />
     </task>
     <task id="LOCAL-00237" summary="media query">
       <created>1427377156500</created>
@@ -995,11 +858,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470216148927</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="bootstrap 3.3.7...">
+      <created>1499523717121</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1499523717121</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151212000" />
+    <option name="totallyTimeSpent" value="151888000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1023,8 +893,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25186288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25186288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46245733" sideWeight="0.36942676" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52461797" sideWeight="0.8113069" order="1" side_tool="false" content_ui="tabs" />
@@ -1082,7 +953,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="A Beginner's Guide To Grunt" />
     <MESSAGE value="NodeJS Guide" />
     <MESSAGE value="JSHint Options Fans" />
     <MESSAGE value="package.json" />
@@ -1107,7 +977,8 @@
     <MESSAGE value="delete......" />
     <MESSAGE value="百度统计....." />
     <MESSAGE value="tomcat cors ....." />
-    <option name="LAST_COMMIT_MESSAGE" value="tomcat cors ....." />
+    <MESSAGE value="bootstrap 3.3.7..." />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap 3.3.7..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1123,14 +994,6 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/JB/tags_list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/aside">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1144,21 +1007,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1499523639796" expanded="true" signature="19397:21554" ph="..." />
-            <marker date="1499523639796" expanded="true" signature="19432:21065" ph="..." />
-            <marker date="1499523639796" expanded="true" signature="19452:21054" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="19510:19732" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="19850:20466" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="20120:20274" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="20316:20425" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="20496:20710" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="20771:20836" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="20847:20916" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="20934:21046" ph="{...}" />
-            <marker date="1499523639796" expanded="true" signature="21135:21503" ph="..." />
-            <marker date="1499523639796" expanded="true" signature="21263:21305" ph="..." />
-            <marker date="1499523639796" expanded="true" signature="21322:21492" ph="..." />
-            <marker date="1499523639796" expanded="true" signature="21437:21446" ph="..." />
+            <marker date="1499523764507" expanded="true" signature="19397:21554" ph="..." />
+            <marker date="1499523764507" expanded="true" signature="19432:21065" ph="..." />
+            <marker date="1499523764507" expanded="true" signature="19452:21054" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="19510:19732" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="19850:20466" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="20120:20274" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="20316:20425" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="20496:20710" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="20771:20836" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="20847:20916" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="20934:21046" ph="{...}" />
+            <marker date="1499523764507" expanded="true" signature="21135:21503" ph="..." />
+            <marker date="1499523764507" expanded="true" signature="21263:21305" ph="..." />
+            <marker date="1499523764507" expanded="true" signature="21322:21492" ph="..." />
+            <marker date="1499523764507" expanded="true" signature="21437:21446" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1443,22 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/ico/apple-touch-icon-72-precomposed.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1525,8 +1372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/gruntjs/css/img/grunt-logo.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
           <folding>
             <marker date="1499523667766" expanded="true" signature="29458:30108" ph="{...}" />
             <marker date="1499523667766" expanded="true" signature="30139:30188" ph="{...}" />
@@ -1551,6 +1398,30 @@
             <marker date="1499523667766" expanded="true" signature="39735:39761" ph="{...}" />
             <marker date="1499523667766" expanded="true" signature="39879:39951" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
