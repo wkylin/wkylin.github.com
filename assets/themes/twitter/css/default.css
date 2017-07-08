@@ -529,3 +529,29 @@ pre {
 .recent-posts .post{
   list-style-type: decimal;
 }
+.post-list{ }
+.post-item{
+  margin-bottom:20px;
+}
+.post-list h4{
+  border-left:5px solid #0e90d2;
+  padding: 15px 0px 15px 25px;
+  font-size:16px;
+}
+.post-list .thumb p{
+  color: #333333;
+  font-weight: normal;
+  text-indent: 2em;
+  line-height:1.5;
+}
+.post-list .thumb-footer{
+  background-color:#eee;
+  line-height:30px;
+}
+.post-list .thumb-label{
+  color:#333;
+}
+.post-list .thumb-link{
+  color:#0e90d2;
+  display:block;
+}
