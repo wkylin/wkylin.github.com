@@ -8,8 +8,8 @@
     <meta name="description" content="{{ page.description }}">
     {% endif %}
     <meta name="author" content="{{ site.author.name }}">
-    <!--<meta name="baidu-tc-verification" content="611369f102c49d4a3fccfb1d332507d0" />-->
-    <!--<meta name="google-site-verification" content="W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0"/>-->
+    <meta name="baidu-tc-verification" content="611369f102c49d4a3fccfb1d332507d0" />
+    <meta name="google-site-verification" content="W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0"/>
     <!--<script type='text/javascript'>
       window.BWEUM || (BWEUM = {});
       BWEUM.info = {
@@ -28,13 +28,9 @@
     <![endif]-->
     
     <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="http://getbootstrap.com/assets/css/docs.min.css">-->
-    
     <link href="{{ ASSET_PATH }}/twitter/css/base.css" rel="stylesheet" type="text/css" media="all">
-    <!--<link href="{{ ASSET_PATH }}/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
     <link href="{{ ASSET_PATH }}/twitter/css/default.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/twitter/css/ui-tab.css" rel="stylesheet" type="text/css" media="all">
-    
     <link rel="icon" href="{{ ASSET_PATH }}/favicon/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/favicon/favicon.ico" type="image/x-icon"/>
     <script>
@@ -47,23 +43,23 @@
       })();
     </script>
   </head>
-  
   <body>
     <div class="ui-header">
       <div class="container">
         <div class="row">
           <div class="col-md-8" role="main">
-            <div class="ui-meta">
+            <div class="ui-meta clearfix">
               <div class="logo">
-                <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+                <a class="brand" href="{{ HOME_PATH }}">
+                  <img src="{{ ASSET_PATH }}/twitter/bootstrap/img/egghead-practical-git-course.png" width='50' height="50" alt="">
+                  <div>{{ site.title }}</div>
+                </a>
               </div>
               <div class="blessing">
-                <span>#Front-Ender{</span>
-                <span>life:colourful;</span>
-                <span>work:successful;</span>
-                <span>love:sweet;</span>
-                <span>family:healthy;</span>
-                <span>}</span>
+                <div>.front-end {</div>
+                <div class="ml-15">life: colourful; work: successful;</div>
+                <div class="ml-15">love: sweet; family: healthy;</div>
+                <div>}</div>
               </div>
             </div>
           </div>
@@ -120,10 +116,10 @@
         </footer>
       </div>
     </div>
-    
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ ASSET_PATH }}/twitter/js/jquery.min.js"></script>
     <script type="text/javascript" src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <!--{% include JB/analytics %}-->
+    {% include JB/analytics %}
     {% include JB/topsearchjs %}
     <!-- Begin W3Counter Tracking Code -->
     <div class="fn-hide">

@@ -5,6 +5,9 @@ ol, ul {
 
 .ui-tab {
     position: relative;
+    left:50%;
+    transform: translate(-45%);
+    z-index:1000000;
 }
 
 .ui-tab-trigger {

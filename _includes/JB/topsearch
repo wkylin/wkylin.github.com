@@ -1,4 +1,4 @@
-<div class="ui-tab">
+<div class="ui-tab clearfix">
     <div class="ui-tab-trigger">
         <ul id="J_uiTab">
             <li class="ui-tab-trigger-item ui-tab-trigger-item-current">

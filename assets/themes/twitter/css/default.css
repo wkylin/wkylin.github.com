@@ -30,31 +30,43 @@ ul li{
   padding: 20px 0;
 }
 
-
-.ui-header-content .logo {
-  font-size: 36px;
-  padding-top: 10px;
-  color: #333333;
-  -moz-text-shadow: 1px 1px 3px #666666;
-  -webkit-text-shadow: 1px 1px 3px #666666;
-  text-shadow: 1px 1px 3px #666666
+.ui-meta {
+  position: relative;
+  left: 50%;
+  transform: translate(-45%);
 }
 
-.ui-header-content .logo a:hover {
+.ui-meta .logo{
+  float:left;
+  margin-right:20px;
+  font-size:26px;
+  text-align:center;
+}
+.ui-meta .logo a{
+  dispaly:block;
+  width:50px;
+  height:50px;
+  border-radius:30px;
+}
+
+.ui-meta .logo a:hover {
   text-decoration: none
 }
 
-.ui-header-content .blessing {
+.ui-meta .blessing {
   margin-top: 5px;
   color: #0088cc;
+  margin-left: 10px;
+  float: left;
+}
+.ml-15{
+  margin-left: 15px;
 }
 
 .ui-global-search .ui-tab-content {
   background-color: #0782c0;
   padding: 5px 3px 5px 5px;
   height: 30px;
-  _overflow: hidden;
-  _height: 32px
 }
 
 .ui-meta-left {
@@ -251,7 +263,9 @@ input.ui-input-button:focus {
   text-decoration: none;
   font-size: 18px
 }
-
+.navbar-collapse.in .ui-nav-item {
+  /*border-bottom: 1px solid #fff;*/
+}
 .ui-nav .ui-nav-item-hover a, .ui-nav .ui-nav-item-current a {
   background-color: #0782c0;
   border-radius: 2px 2px 2px 2px;
@@ -383,7 +397,7 @@ h3.archive-month {
 }
 
 .page-header h3, .page-header h4 {
-  color: #ffffff;
+  color: #0e90d2;
   margin-bottom:0;
 }
 .ui-nav-pills li{
@@ -412,7 +426,7 @@ h3.archive-month {
 }
 
 .search-box {
-  margin: 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .search-input-text {
@@ -434,7 +448,7 @@ h3.archive-month {
   color:#fff;
 }
 .search-inner{
-  padding:10px 0;
+  padding:0 0 10px 0;
 }
 .dsq-widget {
   margin-top: 10px;
