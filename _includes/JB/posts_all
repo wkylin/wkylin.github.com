@@ -17,31 +17,27 @@ Usage:
         
 -->{% endcomment %}
   <div class="post-list">
-   {% for post in paginator.posts %}
-     <div class="post-item">
-       <h4>{{ post.title }}</h4>
-          <div class="thumb">
-            <p>{{post.description}}</p>
-            <div class="thumb-footer">
-              <span class="thumb-label">{{ post.date | date: "%B %e, %Y" }}</span>
-              <a class="thumb-link" href="{{ BASE_PATH }}{{ post.url }}">阅读全文 &raquo; </a>
-            </div>
-          </div>
-       </div>
-   {% endfor %}
+  {% for post in paginator.posts %}
+    <div class="post-item">
+      <h4>{{ post.title }}</h4>
+      <div class="thumb">
+        <p>{{post.description}}</p>
+        <div class="thumb-footer clearfix">
+          <span class="thumb-label">{{ post.date | date: "%B %e, %Y" }}</span>
+          <a class="thumb-link" href="{{ BASE_PATH }}{{ post.url }}">阅读全文 &raquo; </a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
   </div>
  <div class="pagination">
-   <ul>{% if paginator.previous_page %}
-     <div class="row">
-      <div class="col-md-4">
-        <li class="next"><a href='{% if paginator.previous_page > 1 %}/page{{ paginator.previous_page}}{% else %}/{% endif %}'>&larr; 上一页</a></li>{% endif %}
-      </div>
-      <div class="col-md-4">
-        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">归档</a></li>{% if paginator.next_page %}
-      </div>
-      <div class="col-md-4">
-        <li class="prev"><a href='/page{{ paginator.next_page }}'>下一页 &rarr;</a></li>{% endif %}
-      </div>
-     </div>
+   <ul>
+      {% if paginator.previous_page %}
+        <li class="next"><a href='{% if paginator.previous_page > 1 %}/page{{ paginator.previous_page}}{% else %}/{% endif %}'>&larr; 上一页</a></li>
+      {% endif %}
+        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">归档</a></li>
+        {% if paginator.next_page %}
+          <li class="prev"><a href='/page{{ paginator.next_page }}'>下一页 &rarr;</a></li>
+        {% endif %}
    </ul>
  </div>
