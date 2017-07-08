@@ -11,8 +11,8 @@ a:hover {
   text-decoration: none
 }
 
-.ft-red {
-  color: #d34c4d
+.nav > li > a{
+  padding:10px 5px;
 }
 
 body {
@@ -253,7 +253,9 @@ input.ui-input-button:focus {
   border-radius: 2px 2px 2px 2px;
   color: #ffffff
 }
-
+.navbar-nav .ui-nav-item{
+  margin-top:5px;
+}
 .ui-nav .ui-nav-item a {
   display: block;
   height: 60px;
@@ -278,6 +280,9 @@ input.ui-input-button:focus {
   padding: 5px 0 5px 10px
 }
 
+.ui-content h1{
+  font-size:16px;
+}
 .ui-content h2.all-pages {
   border-bottom: 3px double #dddddd;
   margin-bottom: 10px;
@@ -347,7 +352,7 @@ input.ui-input-button:focus {
   font-size: 20px;
   background: #eee;
   color:#0e90d2;
-  margin-bottom:5px;
+  margin:0 0 5px 0;
 }
 
 h2.archive-year, h2.categories-sort, h2.tags-sort {
