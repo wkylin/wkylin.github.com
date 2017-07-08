@@ -17,19 +17,19 @@ Usage:
         
 -->{% endcomment %}
  {% for post in paginator.posts %}
-       <h4 style="margin-bottom:5px; color:#333333; font-weight: bold;font-size:14px;">{{ post.title }}</h4>
-       <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">{{ post.date | date: "%B %e, %Y" }}</span>
-       <div class="thumbnail" style="background-color: #FFFFFF;">
-       <p style="color:#333333; font-weight: normal; text-indent:2em;">{{post.description}}</p>
-       <div align="right" style="margin:5px 10px; color:#0088CC; font-weight: 200;"><a href="{{ BASE_PATH }}{{ post.url }}">阅读全文 &raquo; </a></div>
-       </div>
-       <hr style="margin-top:10px; margin-bottom:4px;" />
+   <h4 style="margin-bottom:5px; color:#333333; font-weight: bold;font-size:14px;">{{ post.title }}</h4>
+   <span class="label" style="float:right; margin-left:10px; margin-right:5px; background-color:#5bc0de; font-weight: 180;">{{ post.date | date: "%B %e, %Y" }}</span>
+   <div class="thumbnail" style="background-color: #FFFFFF;">
+   <p style="color:#333333; font-weight: normal; text-indent:2em;">{{post.description}}</p>
+   <div align="right" style="margin:5px 10px; color:#0088CC; font-weight: 200;"><a href="{{ BASE_PATH }}{{ post.url }}">阅读全文 &raquo; </a></div>
+   </div>
+   <hr style="margin-top:10px; margin-bottom:4px;" />
    {% endfor %}
 
  <div class="pagination">
-       <ul>{% if paginator.previous_page %}
-         <li class="next"><a href='{% if paginator.previous_page > 1 %}/page{{ paginator.previous_page}}{% else %}/{% endif %}'>&larr; 上一页</a></li>{% endif %}
-         <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">归档</a></li>{% if paginator.next_page %}
-         <li class="prev"><a href='/page{{ paginator.next_page }}'>下一页 &rarr;</a></li>{% endif %}
-       </ul>
+   <ul>{% if paginator.previous_page %}
+     <li class="next"><a href='{% if paginator.previous_page > 1 %}/page{{ paginator.previous_page}}{% else %}/{% endif %}'>&larr; 上一页</a></li>{% endif %}
+     <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">归档</a></li>{% if paginator.next_page %}
+     <li class="prev"><a href='/page{{ paginator.next_page }}'>下一页 &rarr;</a></li>{% endif %}
+   </ul>
  </div>

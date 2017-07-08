@@ -168,6 +168,7 @@
 .firebugResetStyles:before, .firebugResetStyles:after {
     content: "" !important;
 }
+
 /**actual styling to be modified by firebug theme**/
 .firebugCanvas {
     display: none !important;
@@ -227,7 +228,7 @@
     width: auto !important;
 }
 
-.firebugRuler{
+.firebugRuler {
     position: absolute !important;
 }
 

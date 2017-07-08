@@ -1,0 +1,52 @@
+<ul id="J_tab" class="nav nav-pills">
+     {% assign tab_list = site.pages %}
+     {% assign tab = 'tab' %}
+     {% include JB/tab_list %}
+</ul>
+<div class="search-box">
+     {% include JB/searchbox %}
+</div>
+
+<div class="weibo-sina" style="margin-bottom:20px;">
+<iframe width="295" height="120" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=295&height=120&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=1769114241&verifier=8de36448&dpc=1"></iframe>
+</div>
+
+<div class="share fn-clear">
+    {% include custom/sharing %}
+</div>
+
+<div>
+<a target=blank href=tencent://message/?uin=270917337&Site=wkylin.github.io&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=1:270917337:13 alt="点击这里给我发消息"></a>
+{% assign pages_rss = site.pages %}
+{% assign group = 'rss' %}
+{% include JB/pages_rss %}
+</div>
+
+<h2 class="tags-sort tags-sort-title">最近关注</h2>
+<div class="padding-inner">
+    <ul>
+        <li><a href="http://meanjs.org/" target="_blank" >MEAN.JS</a>
+        <li><a href="http://fis.baidu.com/" target="_blank" >F.I.S</a>
+        <li><a href="http://alistapart.com/article/responsive-web-design/" target="_blank" >Responsive Web Design(RWD)</a>
+        <li><a href="http://polymer-project.org/" target="_blank" >Google Polymer</a>
+        <li><a href="http://css-tricks.com/modular-future-web-components/" target="_blank" >Web Components</a>
+        <li><a href="http://ionicframework.com/" target="_blank" >Ionic Framework</a>
+        <li><a href="http://facebook.github.io/react/" target="_blank" >React</a>
+        <li><a href="https://facebook.github.io/react-native/" target="_blank" >React Native</a>
+        <li><a href="http://browserify.org/" target="_blank" >Browserify</a>
+        <li><a href="https://semver.org/" target="_blank" >Semver</a>
+        <li><a href="https://www.meteor.com/" target="_blank" >meteor</a>
+    </ul>
+</div>
+
+<h2 class="tags-sort tags-sort-title">最近发表</h2>
+<ul id="recent_posts" style="margin-left:15px;">{% for rpost in site.posts limit: 20 %}
+    <li class="post" >
+        <a href="{{ BASE_PATH }}{{ rpost.url }}">{{ rpost.title }}</a>
+    </li>{% endfor %}
+</ul>
+
+<div id="recentcomments" class="dsq-widget">
+    <h2 class="dsq-widget-title categories-sort" style="background-color:#0088CC;color:#fff;">Recent Comments</h2>
+    <script type="text/javascript" src="http://wkylin.disqus.com/recent_comments_widget.js?num_items=12&hide_avatars=0&avatar_size=24&excerpt_length=200"></script>
+</div>

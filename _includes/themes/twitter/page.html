@@ -1,16 +1,6 @@
-<div class="ui-main">
-    <!--<div class="page-header">
-        {% if page.info %} <h3>{{ page.info }}</h3>{% endif %}
-
-        <h4>{{ page.title }}
-            {% if page.tagline %}
-            <small>{{ page.tagline }}</small>
-            {% endif %}
-        </h4>
-        {% if page.header %} <h4>{{ page.header }}</h4>{% endif %}
-    </div>-->
+<div class="col-md-8" role="main">
     {{ content }}
 </div>
-<div class="ui-aside">
+<div class="col-md-4" role="complementary">
     {% include JB/aside %}
 </div>

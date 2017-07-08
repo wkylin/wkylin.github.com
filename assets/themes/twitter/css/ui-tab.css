@@ -5,8 +5,6 @@ ol, ul {
 
 .ui-tab {
     position: relative;
-    *zoom: 1;
-    margin-bottom: 15px
 }
 
 .ui-tab-trigger {
@@ -31,9 +29,6 @@ ol, ul {
     float: left
 }
 
-.ui-tab-trigger-item, .ui-tab-trigger-item a, .ui-tab-trigger-item a:visited, .ui-tab-trigger-item span, .ui-tab-trigger-item-current, .ui-tab-trigger-item-current a, .ui-tab-trigger-item-current a:visited, .ui-tab-trigger-item-current span, .ui-tab-trigger-item-hover, .ui-tab-trigger-item-hover a, .ui-tab-trigger-item-hover a:visited, .ui-tab-trigger-item-hover span {
-    background: url("") no-repeat 0 0
-}
 
 .ui-tab-trigger-item {
     position: relative;
@@ -50,7 +45,7 @@ ol, ul {
 }
 
 .ui-tab-trigger-item a, .ui-tab-trigger-item a:visited, .ui-tab-trigger-item span {
-    padding: 0 21px 0 0;
+    padding: 0 0 0 0;
     float: left;
     height: 100%;
     color: #4d4d4d;
@@ -74,7 +69,7 @@ ol, ul {
 
 .ui-tab-trigger-item-current a, .ui-tab-trigger-item-current a:visited, .ui-tab-trigger-item-current span {
     font-weight: 700;
-    padding: 0 19px 0 0;
+    padding: 0 0 0 0;
     background-position: right 0;
     font-family: "\5FAE\8F6F\96C5\9ED1"
 }
