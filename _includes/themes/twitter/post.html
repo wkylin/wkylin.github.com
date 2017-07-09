@@ -7,8 +7,9 @@
         <h3>{{ page.names }}</h3>
         <h4>{{ page.headers }}</h4>
     </div>
-    
-    {{ content }}
+    <div class="posts-main">
+        {{ content }}
+    </div>
     <div class="published">
         <p>Published by {{ site.author.name }} <span>{{ page.date | date_to_long_string }}</span></p>
     </div>

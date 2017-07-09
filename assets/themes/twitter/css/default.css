@@ -218,7 +218,13 @@ input.ui-input-button:focus {
 .ui-global-search .ui-tab-trigger-item-current span {
   color: #ffffff
 }
-
+.posts-main{
+  padding:0 15px;
+  
+}
+.posts-main p{
+  line-height: 1.5;
+}
 .ui-nav-box {
   background-color: #02537e
 }
