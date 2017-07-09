@@ -220,10 +220,14 @@ input.ui-input-button:focus {
 }
 .posts-main{
   padding:0 15px;
-  
+}
+
+.posts-main h1{
+  margin-bottom:10px;
 }
 .posts-main p{
   line-height: 1.5;
+  margin:5px 0;
 }
 .ui-nav-box {
   background-color: #02537e
