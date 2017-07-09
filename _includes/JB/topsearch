@@ -1,6 +1,6 @@
 <div class="ui-tab clearfix">
-    <div class="ui-tab-trigger">
-        <ul id="J_uiTab">
+    <div class="ui-tab-trigger clearfix">
+        <ul id="J_uiTab" class="ui-tabs clearfix">
             <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
                 <span>网页</span>
             </li>
@@ -27,8 +27,8 @@
             </li>
         </ul>
     </div>
-    <div class="ui-tab-content">
-        <form name="s" method="get" action="http://www.baidu.com/s">
+    <div class="ui-tab-content clearfix">
+        <form name="s" class="ui-form clearfix" method="get" action="http://www.baidu.com/s">
             <div class="ui-meta-left">
                 <input id="q" class="ui-input-text" name="wd" type="text"/> <label for="q"></label>
             </div>

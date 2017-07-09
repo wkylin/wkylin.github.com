@@ -3,15 +3,18 @@ ol, ul {
     margin: 0
 }
 
-.ui-tab {
+.ui-form{
+    display:block;
+    float:left;
+}
+.ui-tab,
+.ui-tab-content,
+.ui-tabs,
+.ui-form{
     position: relative;
     left:50%;
-    transform: translate(-45%);
+    transform: translate(-50%);
     z-index:1000000;
-}
-
-.ui-tab-trigger {
-    height: 36px
 }
 
 .ui-tab-title {
@@ -19,7 +22,7 @@ ol, ul {
     font-size: 14px;
     padding: 7px 20px 0 0;
     font-weight: 700;
-    font-family: "\5FAE\8F6F\96C5\9ED1"
+    font-family: "\5FAE\8F6F\96C5\9ED1";
 }
 
 .ui-tab-tool {
@@ -31,8 +34,6 @@ ol, ul {
     height: 100%;
     float: left
 }
-
-
 .ui-tab-trigger-item {
     position: relative;
     bottom: -1px;
@@ -42,9 +43,7 @@ ol, ul {
     height: 100%;
     line-height: 36px;
     margin-right: 5px;
-    padding: 0 0 0 5px;
     overflow: hidden;
-    background-position: 0 -74px
 }
 
 .ui-tab-trigger-item a, .ui-tab-trigger-item a:visited, .ui-tab-trigger-item span {
@@ -54,27 +53,12 @@ ol, ul {
     color: #4d4d4d;
     text-decoration: none;
     background-position: right -74px;
-    font-family: "\5FAE\8F6F\96C5\9ED1"
-}
-
-.ui-tab-trigger-item-hover {
-    background-position: 0 -37px
-}
-
-.ui-tab-trigger-item-hover a, .ui-tab-trigger-item-hover span {
-    background-position: right -37px
-}
-
-.ui-tab-trigger-item-current {
-    padding: 0 0 0 5px;
-    background-position: 0 0
+    font-family: "\5FAE\8F6F\96C5\9ED1";
 }
 
 .ui-tab-trigger-item-current a, .ui-tab-trigger-item-current a:visited, .ui-tab-trigger-item-current span {
     font-weight: 700;
-    padding: 0 0 0 0;
-    background-position: right 0;
-    font-family: "\5FAE\8F6F\96C5\9ED1"
+    font-family: "\5FAE\8F6F\96C5\9ED1";
 }
 
 .ui-tab-content-item {

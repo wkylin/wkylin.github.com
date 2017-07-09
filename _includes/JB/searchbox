@@ -1,5 +1,5 @@
-<form method="get" action="http://www.google.com/search" target="google_window" style="margin-bottom: 0px;">
-   <div class="search-inner">
+<form method="get" action="http://www.google.com/search" target="google_window">
+   <div class="search-inner clearfix">
         <input type="text" value="" name="q" class="search-input-text"/>
         <input type="submit" name=”btnG” id="searchsubmit" value=" 站内搜索 " class="search-input-button" />
     </div>
