@@ -8,10 +8,6 @@
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homelink.html" afterPath="$PROJECT_DIR$/homelink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/techlink.html" afterPath="$PROJECT_DIR$/techlink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uedlink.html" afterPath="$PROJECT_DIR$/uedlink.html" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,57 +28,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state relative-caret-position="399">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#footer#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#4931#4937#0" expanded="true" />
+                <element signature="e#4963#4969#0" expanded="true" />
                 <element signature="n#script#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#noscript#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uedlink.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uedlink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homelink.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homelink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="techlink.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/techlink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="111" column="84" lean-forward="false" selection-start-line="111" selection-start-column="84" selection-end-line="111" selection-end-column="84" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -117,10 +72,10 @@
       <find>GitCafe</find>
       <find>https://progit.org</find>
       <find>http://maker.github.io/</find>
-      <find>.ui-meta .logo a</find>
-      <find>http://www.psd.cn/</find>
       <find>http://www.xinxueqi.com</find>
       <find>http://blog.lamper.cn/</find>
+      <find>http://www.psd.cn/</find>
+      <find>.ui-meta .logo a</find>
     </findStrings>
     <dirStrings>
       <dir>E:\PublicProjects\wkylin.github.com\assets\themes</dir>
@@ -188,11 +143,11 @@
         <option value="$PROJECT_DIR$/html5link.html" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/lifelink.html" />
-        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
         <option value="$PROJECT_DIR$/uedlink.html" />
         <option value="$PROJECT_DIR$/techlink.html" />
         <option value="$PROJECT_DIR$/homelink.html" />
+        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
       </list>
     </option>
   </component>
@@ -354,36 +309,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wkylin.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -685,14 +610,7 @@
       <workItem from="1470645849441" duration="221000" />
       <workItem from="1499497712362" duration="794000" />
       <workItem from="1499500791038" duration="37355000" />
-      <workItem from="1499567203822" duration="17405000" />
-    </task>
-    <task id="LOCAL-00251" summary="test....">
-      <created>1460628447379</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1460628447381</updated>
+      <workItem from="1499567203822" duration="18134000" />
     </task>
     <task id="LOCAL-00252" summary="delete......">
       <created>1460715474063</created>
@@ -1030,11 +948,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499589311043</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="jekyll 3.5">
+      <created>1499593520175</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1499593520175</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183308000" />
+    <option name="totallyTimeSpent" value="184037000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1479,39 +1404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#0;n#footer#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#4931#4937#0" expanded="true" />
-            <element signature="n#script#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#noscript#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3link.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3516">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uedlink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1526,9 +1422,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homelink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="133" column="31" lean-forward="true" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uedlink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <element signature="e#4963#4969#0" expanded="true" />
+            <element signature="n#script#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#noscript#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
