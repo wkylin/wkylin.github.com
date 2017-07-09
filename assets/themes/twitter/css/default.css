@@ -43,6 +43,14 @@ ul li{
   display:block;
   border-radius:30px;
 }
+.title{
+  color: #74b959;
+  background: -webkit-linear-gradient(0deg, #40c1aa, #74b959);
+  background: -moz-linear-gradient(0deg, #40c1aa, #74b959);
+  background: -o-linear-gradient(0deg, #40c1aa, #74b959);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .ui-meta .logo a:hover {
   text-decoration: none
