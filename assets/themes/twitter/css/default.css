@@ -596,6 +596,7 @@ pre {
 
 .post-list  .pagination {
   float:right;
+  margin:0 0 20px 0;
 }
 .pagination ul li{
   list-style: none;
