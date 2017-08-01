@@ -221,7 +221,10 @@ input.ui-input-button:focus {
 .posts-main{
   padding:0 15px;
 }
-
+.posts-main img{
+  width: 100%;
+  max-width: 100%;
+}
 .posts-main h1{
   margin-bottom:10px;
 }
