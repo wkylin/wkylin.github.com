@@ -9,7 +9,7 @@ description: |
 
 ### 1. 最终效果图展示
 
-![linear](http://wkylin.github.io/assets/images/linear.png "linear")
+![linear](//wkylin.github.io/assets/images/linear.png "linear")
 
 ### 2. CSS 样式文件：
 
