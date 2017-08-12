@@ -17,3 +17,22 @@
     color: #08c;
     text-decoration: none;
 }
+
+label.cameraButton {
+    display: block;
+    margin: 1em auto;
+    width: 120px;
+    padding: 0.5em;
+    border: 2px solid #666;
+    border-color: #fec #eca #eca #fec;
+    background-color: #DDD;
+}
+
+/* Look like a clicked/depressed button */
+label.cameraButton:active {
+    border-color: #eca #fec #fec #eca;
+}
+
+label.cameraButton input[accept*="image"] {
+    display: none;
+}

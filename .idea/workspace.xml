@@ -5,13 +5,11 @@
     <bookmark url="file://$PROJECT_DIR$/_includes/themes/twitter/default.html" description="&lt;/div&gt;" line="100" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
+    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="https://addpipe.com/html-media-capture-demo/">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/media-capture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/pages_list" afterPath="$PROJECT_DIR$/_includes/JB/pages_list" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/JB/tab_list" afterPath="$PROJECT_DIR$/_includes/JB/tab_list" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/fn-kill-ie.css" afterPath="$PROJECT_DIR$/assets/css/fn-kill-ie.css" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,94 +29,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
+      <file leaf-file-name="2011-08-06-html5js.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="27">
+                <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-31-css-linear.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-08-12-file-type.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="93">
+                <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn-kill-ie.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="268" column="22" lean-forward="false" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
+            <state relative-caret-position="310">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="37" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1283">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui-tab.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
-              <folding>
-                <element signature="e#5545#5551#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tags.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tags.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab_list" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/tab_list">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tags_list" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/tags_list">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages_list" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/JB/pages_list">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding />
+      <file leaf-file-name="2016-07-14-tomcat-cors.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="128">
+                <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -178,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_site/pages.html" />
-        <option value="$PROJECT_DIR$/_site/sitemap.html" />
         <option value="$PROJECT_DIR$/_site/tags.html" />
         <option value="$PROJECT_DIR$/_site/uedlink.html" />
         <option value="$PROJECT_DIR$/_site/index.html" />
@@ -229,6 +195,8 @@
         <option value="$PROJECT_DIR$/_includes/JB/tab_list" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
+        <option value="$PROJECT_DIR$/assets/css/fn-kill-ie.css" />
+        <option value="$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md" />
       </list>
     </option>
   </component>
@@ -372,12 +340,6 @@
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
               <item name="JB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -396,6 +358,17 @@
             <path>
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="core-samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,7 +381,7 @@
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,16 +407,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\wkylin.github.com\assets\GruntJsPpt\css\img" />
+      <recent name="D:\github\wkylin.github.com\assets\hybrid" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PublicProjects\wkylin.github.com\assets\images" />
       <recent name="E:\PublicProjects\wkylin.github.com\_posts\core-samples" />
       <recent name="E:\PublicProjects\wkylin.github.com\assets\themes\twitter\bootstrap\img" />
       <recent name="E:\PublicProjects\wkylin.github.com\assets\themes\twitter\js" />
       <recent name="E:\PublicProjects\wkylin.github.com\assets\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github\wkylin.github.com\assets\GruntJsPpt\css\img" />
-      <recent name="D:\github\wkylin.github.com\assets\hybrid" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -660,14 +633,7 @@
       <workItem from="1501544631950" duration="2144000" />
       <workItem from="1501682730134" duration="249000" />
       <workItem from="1502462237118" duration="6629000" />
-      <workItem from="1502520593206" duration="6025000" />
-    </task>
-    <task id="LOCAL-00261" summary="tomcat cors .....">
-      <created>1468487610972</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1468487610973</updated>
+      <workItem from="1502520593206" duration="7759000" />
     </task>
     <task id="LOCAL-00262" summary="tomcat cors .....">
       <created>1468490325393</created>
@@ -1005,11 +971,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501546064064</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="Currently v4.0.0-beta">
+      <created>1502526666069</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1502526666074</updated>
+    </task>
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205891000" />
+    <option name="totallyTimeSpent" value="207625000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1103,7 +1076,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="best-practices" />
     <MESSAGE value="follow 2015" />
     <MESSAGE value="Hybrid App" />
     <MESSAGE value="React" />
@@ -1128,7 +1100,8 @@
     <MESSAGE value="jekyll 3.5" />
     <MESSAGE value="linear..." />
     <MESSAGE value="assets path..." />
-    <option name="LAST_COMMIT_MESSAGE" value="assets path..." />
+    <MESSAGE value="Currently v4.0.0-beta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Currently v4.0.0-beta" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1144,20 +1117,6 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_plugins/debug.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/topsearch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1261,29 +1220,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="128">
-            <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/workflows.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="27">
-            <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/asidebak">
@@ -1375,16 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="297">
-            <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/posts_all">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -1453,18 +1382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tags.html">
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/tags_list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1477,10 +1398,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/JB/tags_list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/tab_list">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1495,10 +1432,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="268" column="22" lean-forward="false" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
+        <state relative-caret-position="27">
+          <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1511,19 +1448,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css">
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="137">
+          <caret line="268" column="22" lean-forward="false" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/fn-kill-ie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="310">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="37" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="93">
+            <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
