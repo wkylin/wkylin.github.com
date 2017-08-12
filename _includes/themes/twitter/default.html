@@ -1,138 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta content="width=device-width,initial-scale=1" name="viewport">
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
-    {% endif %}
-    <meta name="author" content="{{ site.author.name }}">
-    <meta name="baidu-tc-verification" content="611369f102c49d4a3fccfb1d332507d0"/>
-    <meta name="google-site-verification" content="W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0"/>
-    <!--<script type='text/javascript'>
-      window.BWEUM || (BWEUM = {});
-      BWEUM.info = {
-        "stand": true,
-        "agentType": "browser",
-        "agent": "bi-collector.oneapm.com/static/js/bw-send-411.4.5.js",
-        "beaconUrl": "bi-collector.oneapm.com/beacon",
-        "licenseKey": "vA~jMvQmAiur7eaf",
-        "applicationID": 2276043
-      };
-    </script>-->
-    <!--<script type="text/javascript" src="http://bi-collector.oneapm.com/static/js/bw-loader-411.4.5.js"></script>-->
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]-->
-    
-    <link rel="stylesheet" href="//getbootstrap.com/dist/css/bootstrap.min.css">
-    <link href="{{ ASSET_PATH }}twitter/css/base.css" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}twitter/css/default.css" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}twitter/css/ui-tab.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="icon" href="{{ ASSET_PATH }}twitter/favicon/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="{{ ASSET_PATH }}twitter/favicon/favicon.ico" type="image/x-icon"/>
-    <script>
-      var _hmt = _hmt || [];
-      (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?6c7f1422fb31ad149ee164df6a4d93e8";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-    </script>
-  </head>
-  <body>
-    <div class="ui-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4" role="main">
-            <div class="ui-meta clearfix">
-              <div class="logo">
-                <a class="brand" href="{{ HOME_PATH }}">
-                  <img src="{{ ASSET_PATH }}/twitter/bootstrap/img/egghead-practical-git-course.png" width='60' height="60" alt="">
-                  <div class="title">{{ site.title }}</div>
-                </a>
-              </div>
-              <div class="blessing">
-                <div class="title">.Front-End {</div>
-                <div class="ml-15 title">Life: Colourful;</div>
-                <div class="ml-15 title">Work: Successful;</div>
-                <div class="ml-15 title">Love: Sweet;</div>
-                <div class="ml-15 title">Family: Healthy;</div>
-                <div class="title">}</div>
-              </div>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <meta content="width=device-width,initial-scale=1" name="viewport">
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% endif %}
+        <meta name="author" content="{{ site.author.name }}">
+        <meta name="baidu-tc-verification" content="611369f102c49d4a3fccfb1d332507d0"/>
+        <meta name="google-site-verification" content="W7Mw6gjhe0M72000lNj59zGJ5fEBA51Gdx6It_f0SM0"/>
+        <!--<script type='text/javascript'>
+          window.BWEUM || (BWEUM = {});
+          BWEUM.info = {
+            "stand": true,
+            "agentType": "browser",
+            "agent": "bi-collector.oneapm.com/static/js/bw-send-411.4.5.js",
+            "beaconUrl": "bi-collector.oneapm.com/beacon",
+            "licenseKey": "vA~jMvQmAiur7eaf",
+            "applicationID": 2276043
+          };
+        </script>-->
+        <!--<script type="text/javascript" src="http://bi-collector.oneapm.com/static/js/bw-loader-411.4.5.js"></script>-->
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="//getbootstrap.com/dist/css/bootstrap.min.css">
+        <link href="{{ ASSET_PATH }}twitter/css/base.css" rel="stylesheet" type="text/css" media="all">
+        <link href="{{ ASSET_PATH }}twitter/css/default.css" rel="stylesheet" type="text/css" media="all">
+        <link href="{{ ASSET_PATH }}twitter/css/ui-tab.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" href="{{ ASSET_PATH }}twitter/favicon/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="{{ ASSET_PATH }}twitter/favicon/favicon.ico" type="image/x-icon"/>
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?6c7f1422fb31ad149ee164df6a4d93e8";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div class="ui-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" role="main">
+                        <div class="ui-meta clearfix">
+                            <div class="logo">
+                                <a class="brand" href="{{ HOME_PATH }}">
+                                    <img src="{{ ASSET_PATH }}/twitter/bootstrap/img/egghead-practical-git-course.png" width='60' height="60" alt="">
+                                    <div class="title">{{ site.title }}</div>
+                                </a>
+                            </div>
+                            <div class="blessing">
+                                <div class="title">.Front-End {</div>
+                                <div class="ml-15 title">Life: Colourful;</div>
+                                <div class="ml-15 title">Work: Successful;</div>
+                                <div class="ml-15 title">Love: Sweet;</div>
+                                <div class="ml-15 title">Family: Healthy;</div>
+                                <div class="title">}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4" role="complementary">
+                        {% include JB/topsearch %}
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4" role="complementary">
-            {% include JB/topsearch %}
-          </div>
         </div>
-      </div>
-    </div>
-    <header class="ui-top-nav navbar navbar-static-top" id="top">
-      <div class="container">
-        <div class="navbar-header">
-          <button aria-controls="bs-navbar" aria-expanded="false"
-                  class="navbar-toggle" data-target="#bs-navbar"
-                  data-toggle="collapse" type="button">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="fn-left">
-            <a class="ui-home-link" href="{{ HOME_PATH }}">Home</a>
-          </div>
-          <ul class="fn-left nav ui-nav-pills">
-            {% assign tab_list = site.pages %}
-            {% assign tab = 'tab' %}
-            {% include JB/tab_list %}
-          </ul>
-        </div>
-        <nav class="navbar-collapse collapse" id="bs-navbar" aria-expanded="false">
-          <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
+        <nav class="ui-top-nav navbar navbar-static-top" id="top">
+            <div class="container">
+                
+                <div class="navbar navbar-light navbar-expand-md">
+                    <button aria-controls="bs-navbar" aria-expanded="false" class="navbar-toggler" data-target="#bs-navbar" data-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="ui-home-link" href="{{ HOME_PATH }}">Home</a>
+                    <ul class="navbar-nav mr-auto">
+                        {% assign tab_list = site.pages %}
+                        {% assign tab = 'tab' %}
+                        {% include JB/tab_list %}
+                    </ul>
+                    <ul class="ui-nav navbar-collapse collapse" id="bs-navbar" aria-expanded="false">
+                        {% assign pages_list = site.pages %}
+                        {% assign group = 'navigation' %}
+                        {% include JB/pages_list %}
+                    </ul>
+
+                </div>
+            </div>
         </nav>
-      </div>
-    </header>
-    <div class="container">
-      <div class="row ui-content">
-        {{ content }}
-      </div>
-    </div>
-    
-    <div class="ui-footer">
-      <div class="container">
-        <footer class="row ">
-          <div class="col-md-8" role="main">
-            Powered by <a href="//github.com/mojombo/jekyll" target="_blank">Jekyll</a> and <a href="//disqus.com" target="_blank">Disqus</a>.
-          </div>
-          <div class="col-md-4" role="complementary">
-            Content & Design by {{ site.author.name }} &copy; 2010-2017
-          </div>
-        </footer>
-      </div>
-    </div>
-    <script type="text/javascript" src="{{ ASSET_PATH }}/twitter/js/jquery.min.js"></script>
-    <script type="text/javascript" src="//getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    {% include JB/analytics %}
-    {% include JB/topsearchjs %}
-    <!-- Begin W3Counter Tracking Code -->
-    <div class="fn-hide">
-      <script type="text/javascript" src="//www.w3counter.com/tracker.js"></script>
-      <script type="text/javascript">
-        w3counter(87820);
-      </script>
-      <noscript>
-        <div><a href="//www.w3counter.com"><img src="//www.w3counter.com/tracker.php?id=87820" style="border: 0" alt="W3Counter"/></a></div>
-      </noscript>
-    </div>
-    <!-- End W3Counter Tracking Code -->
-  </body>
+        <div class="container">
+            <div class="row ui-content">
+                {{ content }}
+            </div>
+        </div>
+        
+        <div class="ui-footer">
+            <div class="container">
+                <footer class="row ">
+                    <div class="col-md-8" role="main">
+                        Powered by <a href="//github.com/mojombo/jekyll" target="_blank">Jekyll</a> and <a href="//disqus.com" target="_blank">Disqus</a>.
+                    </div>
+                    <div class="col-md-4" role="complementary">
+                        Content & Design by {{ site.author.name }} &copy; 2010-2017
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+        {% include JB/analytics %}
+        {% include JB/topsearchjs %}
+        <!-- Begin W3Counter Tracking Code -->
+        <div class="fn-hide">
+            <script type="text/javascript" src="//www.w3counter.com/tracker.js"></script>
+            <script type="text/javascript">
+                w3counter(87820);
+            </script>
+            <noscript>
+                <div><a href="//www.w3counter.com"><img src="//www.w3counter.com/tracker.php?id=87820" style="border: 0" alt="W3Counter"/></a></div>
+            </noscript>
+        </div>
+        <!-- End W3Counter Tracking Code -->
+    </body>
 </html>

@@ -17,7 +17,7 @@ info: 我的标签
 {% for tag in site.tags %} 
   <!--<h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>-->
 <h2 class="tags-sort">{{ tag[0] }}</h2>
-  <ol class="tags-article">
+  <ol class="tags-article clearfix">
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
   </ol>

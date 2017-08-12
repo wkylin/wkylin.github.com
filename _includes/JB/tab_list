@@ -27,9 +27,9 @@ Usage:
     {% if node.title != null %}
       {% if tab == null or tab == node.tab %}
         {% if page.url == node.url %}
-        <li class="active"><a href="{{ BASE_PATH }}{{node.url}}">{{node.tabTitle}}</a></li>
+        <li class="nav-item active"><a  href="{{ BASE_PATH }}{{node.url}}">{{node.tabTitle}}</a></li>
         {% else %}
-        <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.tabTitle}}</a></li>
+        <li class="nav-item"><a href="{{ BASE_PATH }}{{node.url}}">{{node.tabTitle}}</a></li>
         {% endif %}
       {% endif %}
     {% endif %}
