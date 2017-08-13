@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git分布式版本控制系统
-category: Web Front
+category: html5
 tags: [Git, GitLab, GitHub]
 description: |
  Git分布式版本控制系统( Distributed Version Control System，简称 DVCS),任何一处协同工作用的服务器发生故障，事后都可以用任何一个镜像出来的本地仓库恢复。因为每一次的提取操作，实际上都是一次对代码仓库的完整备份。

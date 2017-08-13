@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTML5 Template
-category: HTML5
+category: html5
 tags: [HTML5]
 description: |
   快速创建HTML5 模板文件....

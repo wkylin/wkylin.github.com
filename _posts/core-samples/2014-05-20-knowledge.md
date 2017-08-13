@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 前端知识体系
-category: Web Front
+category: html5
 tags: [HTML5, JS]
 description: |
  前端知识体系,帮助前端工程师开拓眼界、拓宽知识结构，为你的知识技能树提供种子。

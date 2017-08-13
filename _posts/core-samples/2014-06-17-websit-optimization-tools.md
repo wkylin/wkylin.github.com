@@ -1,8 +1,8 @@
 ---
 layout: post
 title: web optimization tool
-category: Web Optimization Tools
-tags: [SEO, optimization]
+category: html5
+tags: [SEO, OPTIMIZATION]
 description: | 
    网站优化在线工具-----免费在线的 Web 网站性能测试工具 
 ---

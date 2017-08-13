@@ -2,7 +2,7 @@
 layout: post
 title: CSS 多彩边框，多彩文字
 category: css3 
-tags: [css3]
+tags: [CSS3]
 description: |
   CSS 多彩边框，多彩文字
 ---

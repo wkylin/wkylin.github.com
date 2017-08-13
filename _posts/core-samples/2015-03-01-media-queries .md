@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS3 Media Query
-category: Web Front
+category: html5
 tags: [Media Queries, Screen Size, DPI]
 description: |
   常用设备的实际CSS宽度和高度, ViewPoint Size, Screen Size,DPI,响应式布局在线测试工具。

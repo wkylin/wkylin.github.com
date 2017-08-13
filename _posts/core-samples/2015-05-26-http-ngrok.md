@@ -1,8 +1,8 @@
 ---
 layout: post
 title: NGROK内网穿透利器
-category: Web Front
-tags: [http,ngrok]
+category: html5
+tags: [HTTP, NETWORK]
 description: |
   NGROK内网穿透利器,让外网能直接访问到本地部署的网站,提供了一个在外网能够安全的访问内网Web主机，还能捕获所有请求的http内容，方便调试，甚至还支持tcp层端口映射，不局限于某一特定的服务。支持Mac OS X，Linux，Windows平台。
 ---

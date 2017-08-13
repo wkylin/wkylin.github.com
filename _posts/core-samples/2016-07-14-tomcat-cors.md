@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tomcat 部署文件服务器，解决跨域问题
-category: Web Front
-tags: [tomcat,cors]
+category: html5
+tags: [TOMCAT, CORS]
 description: |
   CORS定义一种跨域访问的机制，可以让AJAX实现跨域访问。CORS 允许一个域上的网络应用向另一个域提交跨域 AJAX 请求。实现此功能非常简单，只需由服务器发送一个响应标头即可。
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: position-fixed
-category: Css
-tags: [Css]
+category: css3
+tags: [CSS3]
 description: |
   五行代码终极完美解决从IE6到Chrome所有浏览器的position:fixed;以及闪动问题.
 ---

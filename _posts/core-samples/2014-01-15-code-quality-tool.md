@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Code Quality Tool
-category: Code Quality Tool
+category: html5
 tags: [HTML5, JS]
 description: |
   规范开发文档,提高代码质量，不能缺少代码质量控制工具，在这篇文章中简单介绍一下以下几个工具：HTMLHint/JSLint/JSHint/PDM/ReviewBoard
