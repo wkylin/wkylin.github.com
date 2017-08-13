@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2015-04-08-weinre.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <first_editor relative-caret-position="1350">
+                <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -587,14 +587,7 @@
       <workItem from="1501682730134" duration="249000" />
       <workItem from="1502462237118" duration="6629000" />
       <workItem from="1502520593206" duration="11671000" />
-      <workItem from="1502586844422" duration="164000" />
-    </task>
-    <task id="LOCAL-00263" summary="tomcat cors .....">
-      <created>1468490687346</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1468490687346</updated>
+      <workItem from="1502586844422" duration="432000" />
     </task>
     <task id="LOCAL-00264" summary="tomcat cors .....">
       <created>1468490892398</created>
@@ -932,11 +925,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502528433216</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="HTML Media Capture">
+      <created>1502587016392</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1502587016393</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211701000" />
+    <option name="totallyTimeSpent" value="211969000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1445,8 +1445,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2015-04-08-weinre.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <first_editor relative-caret-position="1350">
+            <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
