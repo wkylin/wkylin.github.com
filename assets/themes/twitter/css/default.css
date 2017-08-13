@@ -261,14 +261,16 @@ input.ui-input-button:focus {
 .ui-nav li {
     float: left;
     display: inline;
-    padding:10px 0;
     color: #dcf3ff;
     font-size: 14px;
     cursor: pointer;
-    width:80px;
+    width:60px;
     text-align:center;
 }
 
+.navbar-toggler{
+    padding:0;
+}
 .ui-nav li a{
     display:block;
     padding:10px 0;
@@ -278,7 +280,7 @@ input.ui-input-button:focus {
 }
 .navbar-nav li a{
     display:block;
-    width:80px;
+    width:60px;
     padding:10px 0;
     text-align:center;
 }

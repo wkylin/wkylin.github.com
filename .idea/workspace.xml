@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css" description="margin-top:-1px;" line="659" />
+    <bookmark url="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css" description="margin-top:-1px;" line="661" />
     <bookmark url="file://$PROJECT_DIR$/_includes/themes/twitter/default.html" description="&lt;/div&gt;" line="100" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="HTML Media Capture">
+    <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2011-08-06-html5js.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2011-09-05-position-fixed.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2011-09-05-position-fixed.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2011-10-06-font-face.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2011-10-06-font-face.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2012-12-13-html5-template.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2012-12-17-serializeFormJs.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2012-12-17-serializeFormJs.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-12-01-yeoman-grunt-bower.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-12-06-bigpipe.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-12-06-bigpipe.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-12-30-grunt-js.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-01-15-code-quality-tool.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-02-08-polyfill.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-02-08-polyfill.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-06-17-websit-optimization-tools.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-06-17-websit-optimization-tools.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2014-06-20-git-github.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2014-06-20-git-github.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2015-03-01-media-queries .md" afterPath="$PROJECT_DIR$/_posts/core-samples/2015-03-01-media-queries .md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2015-04-08-weinre.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2015-04-08-weinre.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2015-04-11-http-server.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2015-04-11-http-server.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2015-05-26-http-ngrok.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2015-05-26-http-ngrok.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csserlink.html" afterPath="$PROJECT_DIR$/csserlink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslink.html" afterPath="$PROJECT_DIR$/jslink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifelink.html" afterPath="$PROJECT_DIR$/lifelink.html" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,132 +30,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2014-05-20-knowledge.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-05-20-knowledge.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="81">
-                <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-06-17-websit-optimization-tools.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-06-17-websit-optimization-tools.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-06-20-git-github.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2014-06-20-git-github.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="81">
-                <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="pages_list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/JB/pages_list">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-03-01-media-queries .md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2015-03-01-media-queries .md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="81">
-                <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="csserlink.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csserlink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-04-08-weinre.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2015-04-08-weinre.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="lifelink.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lifelink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-04-11-http-server.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2015-04-11-http-server.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="jslink.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jslink.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2700">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-05-26-http-ngrok.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2015-05-26-http-ngrok.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-07-14-tomcat-cors.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-31-css-linear.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="93">
-                <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-08-12-file-type.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://resource.duapp.com/resource_not_</find>
-      <find>http://resource.duapp.com/res</find>
       <find>http://resource.duapp.com/re</find>
       <find>http://resource.duapp.com/r</find>
       <find>http://resource.duapp.com/</find>
@@ -210,6 +142,8 @@
       <find>.navbar-nav</find>
       <find>.ui-nav</find>
       <find>.navbar-nav li</find>
+      <find>.navbar-toggler</find>
+      <find>csser</find>
     </findStrings>
     <dirStrings>
       <dir>E:\PublicProjects\wkylin.github.com\assets\themes</dir>
@@ -245,10 +179,7 @@
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css" />
         <option value="$PROJECT_DIR$/atom.xml" />
         <option value="$PROJECT_DIR$/css3link.html" />
-        <option value="$PROJECT_DIR$/csserlink.html" />
         <option value="$PROJECT_DIR$/html5link.html" />
-        <option value="$PROJECT_DIR$/jslink.html" />
-        <option value="$PROJECT_DIR$/lifelink.html" />
         <option value="$PROJECT_DIR$/uedlink.html" />
         <option value="$PROJECT_DIR$/techlink.html" />
         <option value="$PROJECT_DIR$/homelink.html" />
@@ -258,7 +189,6 @@
         <option value="$PROJECT_DIR$/_includes/JB/pages_list" />
         <option value="$PROJECT_DIR$/_includes/JB/tab_list" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-        <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
         <option value="$PROJECT_DIR$/assets/css/fn-kill-ie.css" />
         <option value="F:/index.html" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2015-03-01-media-queries .md" />
@@ -282,6 +212,10 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md" />
+        <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
+        <option value="$PROJECT_DIR$/jslink.html" />
+        <option value="$PROJECT_DIR$/csserlink.html" />
+        <option value="$PROJECT_DIR$/lifelink.html" />
       </list>
     </option>
   </component>
@@ -425,18 +359,20 @@
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="JB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="core-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -447,13 +383,22 @@
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -706,14 +651,7 @@
       <workItem from="1501682730134" duration="249000" />
       <workItem from="1502462237118" duration="6629000" />
       <workItem from="1502520593206" duration="11671000" />
-      <workItem from="1502586844422" duration="1336000" />
-    </task>
-    <task id="LOCAL-00266" summary="tomcat cors .....">
-      <created>1468492127863</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1468492127863</updated>
+      <workItem from="1502586844422" duration="2688000" />
     </task>
     <task id="LOCAL-00267" summary="tomcat cors .....">
       <created>1468827049745</created>
@@ -1051,11 +989,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502587387960</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="HTML Media Capture">
+      <created>1502588208176</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1502588208176</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212873000" />
+    <option name="totallyTimeSpent" value="214225000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1079,13 +1024,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26080477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10804769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46245733" sideWeight="0.36942676" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5238908" sideWeight="0.8113069" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6575809" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43781942" sideWeight="0.6305733" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10902896" sideWeight="0.6305733" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1065,6 @@
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5238908" sideWeight="0.8113069" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1189,25 +1135,6 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/images/workflows.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/asidebak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/pages_rss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/JB/aside">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1298,13 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1312,24 +1232,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/JB/pages_list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1354,16 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
-          <folding>
-            <element signature="e#5545#5551#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/ui-tab.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1375,14 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1283">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="268" column="22" lean-forward="false" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1624,11 +1512,75 @@
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <first_editor relative-caret-position="135">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/JB/pages_list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csserlink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifelink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
