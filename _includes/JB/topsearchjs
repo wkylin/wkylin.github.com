@@ -8,7 +8,7 @@
         $(".search-more").append("<div class='ui-arrow'></div>");
         $(".search-menu > li").hover(function () {
                     $(".ui-arrow").addClass("ui-arrow-hover");
-                    $(this).find(".search-more-hd").animate({ opacity:"show", height:"show"}, 300);
+                    $(this).find(".search-more-hd").show();
                     $(this).find(".search-more-hd input").hover(
                             function () {
                                 $(this).addClass("ui-input-button-hover").siblings().removeClass("ui-input-button-hover");
@@ -20,8 +20,8 @@
                 },
                 function () {
                     $(".ui-arrow").removeClass("ui-arrow-hover");
-                    $(".search-more-hd").stop(true, true).hide();
                     $(".search-more").removeClass("navhover");
+                    $(this).find(".search-more-hd").hide();
                 });
         //导航
           $("#J_uiNavUl li").hover(function(){
