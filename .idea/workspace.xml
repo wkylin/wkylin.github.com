@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css" description="margin-top:-1px;" line="661" />
+    <bookmark url="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css" description="margin-top:-1px;" line="662" />
     <bookmark url="file://$PROJECT_DIR$/_includes/themes/twitter/default.html" description="&lt;/div&gt;" line="100" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8d1e7cb-59c1-4cfb-a676-ed54f4dddd34" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/default.css" afterDir="false" />
     </list>
     <ignored path="wkylin.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,20 +39,20 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="298">
+              <caret line="112" column="18" lean-forward="true" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+              <folding>
+                <element signature="e#5572#5578#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="203">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -61,9 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://resource.duapp.com/r</find>
-      <find>http://resource.duapp.com/</find>
-      <find>http://cordova.apache.org/</find>
       <find>cordova</find>
       <find>http://ikeepu.com/</find>
       <find>GitCafe</find>
@@ -91,10 +88,15 @@
       <find>.navbar-toggler</find>
       <find>csser</find>
       <find>最近关注</find>
+      <find>2017</find>
+      <find>201</find>
+      <find>.posts-main p</find>
     </findStrings>
     <dirStrings>
       <dir>E:\PublicProjects\wkylin.github.com\assets\themes</dir>
       <dir>E:\PublicProjects\wkylin.github.com</dir>
+      <dir>E:\WebstormProjects\wkylin.github.com\_site</dir>
+      <dir>E:\WebstormProjects\wkylin.github.com\assets</dir>
     </dirStrings>
   </component>
   <component name="FindManager">
@@ -113,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/chexiangpai.html" />
         <option value="$PROJECT_DIR$/assets/gruntjs/gruntjs.html" />
         <option value="$PROJECT_DIR$/assets/gruntjs/css/img/grunt-logo.svg" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -156,14 +157,15 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2016-07-14-tomcat-cors.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2017-07-31-css-linear.md" />
         <option value="$PROJECT_DIR$/_posts/core-samples/2017-08-12-file-type.md" />
-        <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
         <option value="$PROJECT_DIR$/jslink.html" />
         <option value="$PROJECT_DIR$/csserlink.html" />
         <option value="$PROJECT_DIR$/lifelink.html" />
         <option value="$PROJECT_DIR$/_includes/JB/topsearchjs" />
         <option value="$PROJECT_DIR$/_includes/JB/aside" />
-        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_site/html5/2013/12/06/bigpipe.html" />
+        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
+        <option value="$PROJECT_DIR$/assets/themes/twitter/css/default.css" />
       </list>
     </option>
   </component>
@@ -291,6 +293,50 @@
             <path>
               <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wkylin.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wkylin.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -501,21 +547,7 @@
       <workItem from="1516457420682" duration="1804000" />
       <workItem from="1516509668702" duration="21000" />
       <workItem from="1516514081099" duration="1216000" />
-      <workItem from="1525919255057" duration="602000" />
-    </task>
-    <task id="LOCAL-00271" summary="tomcat cors .....">
-      <created>1469370539178</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1469370539178</updated>
-    </task>
-    <task id="LOCAL-00272" summary="tomcat cors .....">
-      <created>1469371334417</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1469371334417</updated>
+      <workItem from="1525919255057" duration="1245000" />
     </task>
     <task id="LOCAL-00273" summary="tomcat cors .....">
       <created>1469371404532</created>
@@ -846,11 +878,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525919508262</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <task id="LOCAL-00320" summary="1. gem install jekyll&#10;2. gem install jekyll-paginate&#10;3. jekyll server">
+      <created>1525919896975</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1525919896975</updated>
+    </task>
+    <task id="LOCAL-00321" summary="&amp;copy; 2010-2018...">
+      <created>1525920106600</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1525920106600</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219372000" />
+    <option name="totallyTimeSpent" value="220015000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -882,12 +928,13 @@
       <window_info anchor="bottom" id="NativeScript" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.6575809" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.6305733" visible="true" weight="0.36312848" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6305733" visible="true" weight="0.36312848" />
       <window_info anchor="bottom" id="RNConsole" />
       <window_info anchor="right" id="JSON Viewer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.8113069" weight="0.5238908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997195" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -914,7 +961,6 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.328614" />
       <window_info anchor="bottom" id="CheckStyle" order="8" />
       <window_info anchor="bottom" id="ReactNative" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.8113069" weight="0.5238908" />
       <window_info anchor="bottom" id="JRebel Executor" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.3997195" />
       <window_info anchor="right" id="IDEtalk" order="3" />
@@ -951,8 +997,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="app download" />
-    <MESSAGE value="Grunt BrowserSync" />
     <MESSAGE value="Code Quality Tool" />
     <MESSAGE value="yo grunt bower" />
     <MESSAGE value="css3 media query" />
@@ -976,7 +1020,9 @@
     <MESSAGE value="HTML Media Capture" />
     <MESSAGE value="TS..." />
     <MESSAGE value="bootstrap 4.1.1..." />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap 4.1.1..." />
+    <MESSAGE value="1. gem install jekyll&#10;2. gem install jekyll-paginate&#10;3. jekyll server" />
+    <MESSAGE value="&amp;copy; 2010-2018..." />
+    <option name="LAST_COMMIT_MESSAGE" value="&amp;copy; 2010-2018..." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -988,9 +1034,6 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/website.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1284,13 +1327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7101">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1354,20 +1390,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
+    <entry file="file://$PROJECT_DIR$/_site/html5/2013/12/06/bigpipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="-225">
+          <caret line="610" column="26" lean-forward="true" selection-start-line="610" selection-start-column="26" selection-end-line="610" selection-end-column="26" />
+          <folding>
+            <element signature="e#21306#21312#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="203">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="290">
+            <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="112" column="18" lean-forward="true" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+          <folding>
+            <element signature="e#5572#5578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
         </state>
       </provider>
     </entry>

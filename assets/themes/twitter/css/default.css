@@ -240,6 +240,7 @@ input.ui-input-button:focus {
 .posts-main p {
     line-height: 1.5;
     margin: 5px 0;
+    word-wrap: break-word;
 }
 
 .ui-nav-box {
