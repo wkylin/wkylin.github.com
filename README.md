@@ -6,4 +6,7 @@
 
 git: https://github.com/wkylin/wkylin.github.com.git
 
-jekyll server
+###安装：
+1. gem install jekyll
+2. gem install jekyll-paginate
+3. jekyll server
